@@ -256,6 +256,12 @@ $\textrm{df} = (\textrm{number of columns} - 1) \cdot (\textrm{number of rows} -
 
 When you have a two-by-two table, just use the test for difference of two proportions instead. 
 
+### Exact distribution test
+
+The number of successes in $n$ independent cases is binomially distributed.
+
+$P(k \textrm{ successes}) = \binom{n}{x}p^k(1-p)^{n-k}$
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -315,10 +321,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTU5NTc3NywtMTMxNTkzNzI3OCw2Nz
-cwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2
-MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MD
-k5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1
-NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LD
-k2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3Nz
+A1MDQ3MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYw
+LC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOT
+kxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2
+LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOT
+Y1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
