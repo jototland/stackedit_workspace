@@ -226,7 +226,8 @@ Since we rarely know the population parameter $p$:
 
 ### Difference of two proportions
 
-$\textrm{SE}_{\hat p_1 - \hat p_2
+$\textrm{SE}_{\hat p_1 - \hat p_2} 
+	= \sqrt{\textrm{SE}_{\hat p_1}+\textrm{SE}_{\hat p_2}}$
 
 ## Bootstrap methods
 
@@ -284,7 +285,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDA3MDUzNCwtMTA0NTAxMjkzOSwtOD
+eyJoaXN0b3J5IjpbMTAxNzU4MjMzNiwtMTA0NTAxMjkzOSwtOD
 g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
 LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
 I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
