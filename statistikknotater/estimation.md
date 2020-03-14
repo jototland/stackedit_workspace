@@ -88,6 +88,7 @@ Assuming the null hypothesis, calculate the p-value of the observed result. The 
 If the p-value is less than $\alpha$, reject the null-hypothesis, otherwise, assume the null hypotheses is still true. 
 
 ### Decision errors
+
 When doing hypothesis testing, there are four possibilities
 * fail to reject null hypothesis, null hypothesis true => ok 
 * reject null hypothesis, null hypothesis true => type 1 error
@@ -159,6 +160,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjcxMzY0MywtMTQ1OTI0NDgwOSw5Nj
+eyJoaXN0b3J5IjpbLTM0MzQ3OTUyNywtMTQ1OTI0NDgwOSw5Nj
 UxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
