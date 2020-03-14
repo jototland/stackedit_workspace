@@ -197,7 +197,7 @@ Sum of squares total: $\textrm{SST} = \sum_{i=1}^n (x_i-\bar{x})^2$
 Sum of squares between groups: $\textrm{SSG} = \frac{1}{k-1} \sum_{i=1}^k (\bar{x}_i-\bar{x})^2$
 Sum of squares error: $\textrm{SSE} = \textrm{SST} - \textrm{SSG}$
 Degrees of freedom between groups: $\textrm{df}_G = k-1$
-Degrees of freedom total: $\textrm{df}_T = n-k$
+Degrees of freedom total: $\textrm{df}_T = n-1$
 Degrees of freedom error: $
 
 ## Bootstrap methods
@@ -256,9 +256,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMzY2ODEwLC04ODg0Mjg0NjAsLTU4MD
-MzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2
-NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOT
-Q3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAy
-NjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbMTQzNDI3NjExNiwtODg4NDI4NDYwLC01OD
+AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
+NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
+k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
+MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
