@@ -49,10 +49,10 @@ For a 95% confidence interval, or a significance test with $\alpha=0.05$, the pr
 
 If the distribution is a sampling distribution and it is symmetric, the sampling distribution will typically be something that can be apporximated as either a normal distribution or a t-distribution. 
 
-### Critical value or significance levels from theoretical distributions in R
+### Critical value, significance level, confidence level from theoretical distributions in R
 Use the `q`-functions. 
 
-Example: find the critical value for a two-sided hypotheses test or confidence interval, where confidence is 95% or $\alpha=0.05$
+Example: find the critical value for a two-sided hypotheses test or confidence interval, where significance level or confince level  is 95% or $\alpha=0.05$
 
 `qnorm(1-0.05/2)`
 
@@ -153,6 +153,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1Mzk0NjczLDk2NTE3MDI2NywtMjc3OD
-g2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMTc5MzQ0NTgxMiw5NjUxNzAyNjcsLTI3Nz
+g4NjYzNSwxMDk3NDgwNTczXX0=
 -->
