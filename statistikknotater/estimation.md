@@ -232,9 +232,13 @@ $\textrm{SE}_{\hat p_1 - \hat p_2}
 
 ### Goodness of fit using chi-square
 
-Used when: 
+Example of use are when: 
 * given a sample of cases that can be classified into groups, determine if the sample is representative of the population
 * evaluate whether data resemble a particular distribution
+
+Conditions of use are:
+* each case that contributes a count to the table must be independent of all other cases
+* each count must be above 5
 
 The test statistic for each group $i$ is $\Chi^2_i 
 = \frac{(\textrm{observed count}-\textrm{expected count})^2}{\textrm{expected count}}$
@@ -298,7 +302,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4OTgyMDEyLDY3NzA1MDQ3MSw2Njc2NT
+eyJoaXN0b3J5IjpbLTU0NjkxODcwLDY3NzA1MDQ3MSw2Njc2NT
 E3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2Niwx
 MDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyND
 UyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAz
