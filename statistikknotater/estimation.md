@@ -83,6 +83,8 @@ $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 Hypothesis testing tries to determine if an observation could be explained by just the null hypothesis randomness, or if we need to reject the null hypothesis. 
 
+The null hypothesis is usually denoted $H_0$ and the alternative hypothesis $H_A$. The null hypothesis always include an equal sign, e.g. $\bar_{x} = 93$
+
 Before testing, one decides on a significance level, typically 0.95. The value $\alpha = 1 - \textrm{significance level}$.
 
 Assuming the null hypothesis, calculate the p-value of the observed result. 
@@ -108,7 +110,7 @@ Type 2 error is harder to estimate. It depends on which value we observe, and no
 
 #### Hypothesis testing, various setups
 
-* One paramate
+* 
 
 ## Bootstrap methods
 
@@ -166,7 +168,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxODgwNywtMTgyNzc3MjU1NiwtMTM5ND
-c0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2
-NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMTA3MTQxOTUxNiwtMTgyNzc3MjU1NiwtMT
+M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
+MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
