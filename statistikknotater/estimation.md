@@ -124,12 +124,13 @@ Type 2 error is harder to estimate. It depends on which value we observe, and no
 #### Hypothesis testing, various setups
 
 one sample mean
-: $H_0: \bar{x} = a$
+: $H_0: \mu = a$
 
 two independent samples
-: $H_0: \bar{x} - \bar{y} = a$
+: $H_0: \mu_x - \mu_y = a$
 
-
+paired data
+: $H_0: \mu_{x-y} = a$
 
 ## Bootstrap methods
 
@@ -187,8 +188,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzkxMjU4MjIsLTEyMzY0NTI4NjcsLT
-E4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1
-OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNT
-czXX0=
+eyJoaXN0b3J5IjpbMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMT
+gyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5
+MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1Nz
+NdfQ==
 -->
