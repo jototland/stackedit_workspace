@@ -311,8 +311,11 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `library perm`
 `permTS(x, ...)`
 
+### Exact distribution test
+
+The number of successes in $n$ independent cases is binomially distribute
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODcyNzA5NSwtMTMxNTkzNzI3OCw2Nz
+eyJoaXN0b3J5IjpbMTE2NjE0MzYzOCwtMTMxNTkzNzI3OCw2Nz
 cwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2
 MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MD
 k5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1
