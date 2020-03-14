@@ -230,6 +230,10 @@ $\textrm{SE}_{\hat p_1 - \hat p_2}
 	= \sqrt{\textrm{SE}^2_{\hat p_1}+\textrm{SE}^2_{\hat p_2}}
 	= \sqrt{ \frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2} }$
 
+### Goodness of fit using chi-square
+
+Given a sample of cases that can be classified into groups, determine if the sample is representative of the population.
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -286,10 +290,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjI3NjAxLC0xMDQ1MDEyOTM5LC04OD
-g0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwt
-OTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mj
-c3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0
-NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX
-0=
+eyJoaXN0b3J5IjpbLTIxMzg5NTY5NzIsLTEwNDUwMTI5MzksLT
+g4ODQyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0
+LC05OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMT
+gyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5
+MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1Nz
+NdfQ==
 -->
