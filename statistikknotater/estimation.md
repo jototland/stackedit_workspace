@@ -12,7 +12,7 @@ For small samples, and with unknown $\sigma$, use the t-distribution instead of 
 
 ### chi-square distribution
 
-The chi-square distribution with $k$ degrees of freedom is the distribution for the sum of the square of $k$ standard normal distributions. The variance of a normally distributed
+The chi-square distribution with $k$ degrees of freedom is the distribution for the sum of the square of $k$ standard normal distributions. The variance of a normally distributed variable is chi-square distributed. 
 
 ### F-distribution
 
@@ -173,6 +173,9 @@ $df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
 ## ANOVA
 
+ANOVA is used to compare more than one statistic.
+
+
 
 ## Bootstrap methods
 
@@ -230,7 +233,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTc2MTkyOSwtODg4NDI4NDYwLC01OD
+eyJoaXN0b3J5IjpbLTY4MzAyMzU1OCwtODg4NDI4NDYwLC01OD
 AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
 NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
 k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
