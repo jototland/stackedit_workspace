@@ -83,7 +83,7 @@ $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 Hypothesis testing tries to determine if an observation could be explained by just the null hypothesis randomness, or if we need to reject the null hypothesis. 
 
-The null hypothesis is usually denoted $H_0$ and the alternative hypothesis $H_A$. The null hypothesis always include an equal sign, e.g. $\bar_{x} = 93$
+The null hypothesis is usually denoted $H_0$ and the alternative hypothesis $H_A$. The null hypothesis always include an equal sign, e.g. $\bar{x} = 93$, and the alternative hypothesis can be either two-sided: $\bar{x} \ne 93$, or it can be one-sided: $\bar{x} > 93$ or $\bar{x} < 93$. 
 
 Before testing, one decides on a significance level, typically 0.95. The value $\alpha = 1 - \textrm{significance level}$.
 
@@ -168,7 +168,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTQxOTUxNiwtMTgyNzc3MjU1NiwtMT
-M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
-MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbLTE2NzY3NTUwNDAsLTE4Mjc3NzI1NTYsLT
+EzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUx
+NzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
