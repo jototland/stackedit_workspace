@@ -16,8 +16,8 @@ The chi-square distribution with $k$ degrees of freedom is the distribution for 
 
 ### F-distribution
 
-If we take the fraction of two chi-squared distributed variables, the result is F-distributed
-
+If we take the fraction of two chi-squared distributed variables, the result is F-distributed. To calculate the F-statistic
+$F_{n,m} = \frac{\frac{}{}}{\frac{}{}}
 
 ## Parameters and statistics
 A parameter is some value that describes the entire population.
@@ -230,9 +230,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjU5NDQ3NywtODg4NDI4NDYwLC01OD
-AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
-NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
-k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
-MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTIwNTUyNjY4NzMsLTg4ODQyODQ2MCwtNT
+gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYs
+MTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMT
+M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
+MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
