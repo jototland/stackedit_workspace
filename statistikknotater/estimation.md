@@ -188,8 +188,9 @@ $H_A: \exists{x}:\mu_x\ne a$ (at least one of the means differ)
 
 In ANOVA we compare variation within group with variation between groups. Variation is chi-square-distributed. The fraction of variation between groups to within groups is therefore F-distributed. 
 
-$$ F = \frac{\textrm{MSG}}
-Means square between groups $\textrm{MSG}
+$$ F = \frac{\textrm{MSG}}{\textrm{MSE}}$$
+Mean square between groups: $\textrm{MSG} = 1/\textit{df}_g \textrm{SSG}$
+Mean square errwithing groups
 
 ## Bootstrap methods
 
@@ -247,7 +248,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTAwODA2MCwtODg4NDI4NDYwLC01OD
+eyJoaXN0b3J5IjpbMTI5OTc2NzEyMSwtODg4NDI4NDYwLC01OD
 AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
 NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
 k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
