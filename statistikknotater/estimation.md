@@ -36,6 +36,8 @@ The sampling distribution is approximately normal. It helps to have approximatel
 
 *Rule of thumb*-conditions for $\bar{x}$ being nearly normal:
 * The sample observations are independent
+	* when sampling: being from a random sample and consisting of less than 10% of the population
+	* in
 * The sample size is large (> 30)
 * The population is not strongly skewed
 
@@ -126,5 +128,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1NDIwMTcxLDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNDQwMDA0NzgsMTA5NzQ4MDU3M119
 -->
