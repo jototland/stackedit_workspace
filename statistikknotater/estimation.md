@@ -37,7 +37,7 @@ The sampling distribution is approximately normal. It helps to have approximatel
 *Rule of thumb*-conditions for $\bar{x}$ being nearly normal:
 * The sample observations are independent
 	* when sampling: being from a random sample and consisting of less than 10% of the population
-	* in
+	* when experimenting: randomly assigned to each group
 * The sample size is large (> 30)
 * The population is not strongly skewed
 
@@ -45,21 +45,9 @@ The sampling distribution is approximately normal. It helps to have approximatel
 
 For small samples where where the distribution is approximately normal, use the t-distribution instead of the normal distribution when calculating critical values and p-values. The degrees of freedom is the sample size minus one. 
 
-## Confidence interval
-
-A confidence interval is an interval constructed from the sampling distribution, intented to capture the real population parameter. 
-
-A 95% confidence interval will, for 95% of all possible samples, capture the real population parameter. For symmetric distributions, the confidence interval can be estimated as 
-
-$$\textrm{point estimate} \pm \textrm{critical value} \cdot \textrm{SE}$$
-
 ### Critical value
 
 The critical value depends on the shape of sampling distribution. If the sampling distribution is symmetric, typically that will be either be a normal distribution or a t-distribution. 
-
-### Margin of error
-
-$$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 ### Critical value from theoretical distributions in R
 Use the `q`-functions. 
@@ -71,6 +59,21 @@ Example: find the critical value for a two-sided hypotheses test or confidence i
 The same as above but for a t-distribution with 6 degrees of freedom:
 
 `qt(1-0.05/2, df=6)`
+
+## Confidence interval
+
+A confidence interval is an interval constructed from the sampling distribution, intented to capture the real population parameter. 
+
+A 95% confidence interval will, for 95% of all possible samples, capture the real population parameter. For symmetric distributions, the confidence interval can be estimated as 
+
+$$\textrm{point estimate} \pm \textrm{critical value} \cdot \textrm{SE}$$
+
+
+### Margin of error
+
+$$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
+
+
 
 ## Bootstrap methods
 
@@ -128,5 +131,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQwMDA0NzgsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTE3MDE1MTk5OTEsMTA5NzQ4MDU3M119
 -->
