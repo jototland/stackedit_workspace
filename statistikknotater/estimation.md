@@ -123,6 +123,7 @@ Type 2 error is harder to estimate. It depends on which value we observe, and no
 
 #### Hypothesis testing, various setups
 
+
 * $\bar{x} = a$: this is the standard setup
 * $\bar{x} - \bar{y} = a$: same as above, but 
 
@@ -182,7 +183,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MTUyMjcxLC0xODI3NzcyNTU2LC0xMz
-k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
-MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLT
+EzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUx
+NzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
