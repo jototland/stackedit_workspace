@@ -8,7 +8,11 @@ A sum of random variables converge to the normal distribution (see the central l
 
 ### t-distribution
 
-For small samples, and
+For small samples, and with unknown $\sigma$, use the t-distribution instead of the normal distribution
+
+### F-distribution
+
+The F-distribution is a special distribution for the difference between two nora
 
 ## Parameters and statistics
 A parameter is some value that describes the entire population.
@@ -221,9 +225,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTU0Mjc4NSwtNTgwMzM1NjYsMTA5Nj
-I4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1Miwt
-MTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOT
-Q2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2
-NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbLTEyODg1MjkxNDUsLTU4MDMzNTY2LDEwOT
+YyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTIs
+LTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMT
+k0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4
+NjYzNSwxMDk3NDgwNTczXX0=
 -->
