@@ -87,13 +87,13 @@ The null hypothesis is usually denoted $H_0$ and the alternative hypothesis $H_A
 
 Before testing, one decides on a significance level, typically 0.95. The value $\alpha = 1 - \textrm{significance level}$.
 
-To test: Assuming the null hypothesis, calculate the p-value of the observed result. If the $\textrm{p-value} < \alpha$ we reject $H
+To test: Assuming the null hypothesis, calculate the p-value of the observed result. If the $\textrm{p-value} < \alpha$ we reject $H_0$, otherwise we fail to reject $H_0$. 
 
 ### P-value
 
 The p-value is the probability of getting a result as extreme as the observed result, assuming the null hypothesis is true. 
 
-If the p-value is less than $\alpha$, reject the null-hypothesis, otherwise, assume the null hypotheses is still true. 
+### Calculate [-value for known theoretical
 
 ### Decision errors
 
@@ -168,7 +168,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzM0NTg2MywtMTgyNzc3MjU1NiwtMT
+eyJoaXN0b3J5IjpbLTIwMTgzODg2MSwtMTgyNzc3MjU1NiwtMT
 M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
 MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
