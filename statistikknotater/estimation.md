@@ -12,7 +12,7 @@ For small samples, and with unknown $\sigma$, use the t-distribution instead of 
 
 ### chi-square distribution
 
-A
+The chi-square distribution with $k$ degrees of freedom is the distribution for the sum of the square of $k$ standard normal distributions. 
 
 ### F-distribution
 
@@ -229,9 +229,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcxODU4NDksLTU4MDMzNTY2LDEwOT
-YyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTIs
-LTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMT
-k0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4
-NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbLTg4ODQyODQ2MCwtNTgwMzM1NjYsMTA5Nj
+I4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1Miwt
+MTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOT
+Q2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2
+NjM1LDEwOTc0ODA1NzNdfQ==
 -->
