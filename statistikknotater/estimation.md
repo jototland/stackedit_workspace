@@ -49,7 +49,7 @@ For a 95% confidence interval, or a significance test with $\alpha=0.05$, the pr
 
 If the distribution is a sampling distribution and it is symmetric, the sampling distribution will typically be something that can be apporximated as either a normal distribution or a t-distribution. 
 
-### Critical value from theoretical distributions in R
+### Critical value or significance levels from theoretical distributions in R
 Use the `q`-functions. 
 
 Example: find the critical value for a two-sided hypotheses test or confidence interval, where confidence is 95% or $\alpha=0.05$
@@ -90,11 +90,12 @@ When doing hypothesis testing, there are four possibilities
 
 ### Type 1 error
 
-Type 1 error should be smaller than $\alpha$. Commonly, $\alpha=0.5$. 
+Type 1 error should be smaller than the significance level $\alpha$. Commonly, $\alpha=0.5$. 
+
 
 ### Type 2 error
 
-Type 2 error is harder to estimate. It depends on
+Type 2 error is harder to estimate. It depends on which value we observe, and not just sample size.
 
 ## Bootstrap methods
 
@@ -152,6 +153,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2MDMxMDMxLDk2NTE3MDI2NywtMjc3OD
+eyJoaXN0b3J5IjpbNjg1Mzk0NjczLDk2NTE3MDI2NywtMjc3OD
 g2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
