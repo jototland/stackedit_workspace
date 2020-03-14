@@ -16,7 +16,8 @@ The chi-square distribution with $k$ degrees of freedom is the distribution for 
 
 ### F-distribution
 
-The F-distribution is a special distribution for the difference between two nora
+If we take the fraction of two chi-squared distributed variables, the result is F-distributed
+
 
 ## Parameters and statistics
 A parameter is some value that describes the entire population.
@@ -229,9 +230,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODQyODQ2MCwtNTgwMzM1NjYsMTA5Nj
-I4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1Miwt
-MTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOT
-Q2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2
-NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMTA0MjU5NDQ3NywtODg4NDI4NDYwLC01OD
+AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
+NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
+k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
+MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
