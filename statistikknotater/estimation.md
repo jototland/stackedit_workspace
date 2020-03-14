@@ -81,7 +81,7 @@ $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 Hypothesis testing tries to determine if an observation could be explained by just the null hypothesis randomness, or if we need to reject the null hypothesis. 
 
-Before testing, one decides on a significance level, typically 0.95. The values $\alpha = 1 - \textrm{significance level}$.
+Before testing, one decides on a significance level, typically 0.95. The value $\alpha = 1 - \textrm{significance level}$.
 
 Assuming the null hypothesis, calculate the p-value of the observed result. The p-value is the probability of getting a result as extreme as the observed result, assuming the null hypothesis is true. 
 
@@ -96,12 +96,7 @@ When doing hypothesis testing, there are four possibilities
 * fail to reject null hypothesis, null hypothesis false => type 2 error
 * reject null hypothesis, null hypothesis false => ok
 
-### Type 1 error
-
-Type 1 error should be smaller than the significance level $\alpha$. Commonly, $\alpha=0.5$. 
-
-
-### Type 2 error
+Type 1 error should be smaller than the significance level $\alpha$. Thus, the probability of getting a type 1 error is exactly $\alpha$. 
 
 Type 2 error is harder to estimate. It depends on which value we observe, and not just sample size.
 
@@ -161,6 +156,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDIzNTI5MiwtMTQ1OTI0NDgwOSw5Nj
+eyJoaXN0b3J5IjpbMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5Nj
 UxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
