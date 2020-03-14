@@ -190,7 +190,8 @@ In ANOVA we compare variation within group with variation between groups. Variat
 
 $$ F = \frac{\textrm{MSG}}{\textrm{MSE}}$$
 Mean square between groups: $\textrm{MSG} = 1/\textit{df}_g \textrm{SSG}$
-Mean square errwithing groups
+Mean square error (within group): $\textrm{MSE} = 1/\textit{df}_E \textrm{SSG}$
+Sum of squares total: $\textrm{SST} = \sum_{i=1}^
 
 ## Bootstrap methods
 
@@ -248,7 +249,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTc2NzEyMSwtODg4NDI4NDYwLC01OD
+eyJoaXN0b3J5IjpbLTEwOTgxMTg2NCwtODg4NDI4NDYwLC01OD
 AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
 NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
 k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
