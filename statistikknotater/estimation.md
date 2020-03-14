@@ -81,6 +81,8 @@ $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 Hypothesis testing tries to determine if something is true about the underlying distribution, or if the observed result is just a result of randomness. 
 
+To do this, one decides on a significance level. If
+
 ### Decision errors
 When doing hypothesis testing, there are four possibilities
 * fail to reject null hypothesis, null hypothesis true => ok 
@@ -153,6 +155,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNz
-c4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTY0MjkxNzU3MCwtMTQ1OTI0NDgwOSw5Nj
+UxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
