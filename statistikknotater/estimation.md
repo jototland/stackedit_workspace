@@ -127,7 +127,9 @@ one sample mean
 : $H_0: \bar{x} = a$
 
 two independent samples
-: $H_0: \bar{x} - \bar{y} = a$: same as above, but 
+: $H_0: \bar{x} - \bar{y} = a$
+
+
 
 ## Bootstrap methods
 
@@ -185,8 +187,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3MjM4NDU4LC0xMjM2NDUyODY3LC0xOD
-I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
-NDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M1
-19
+eyJoaXN0b3J5IjpbLTE4MzkxMjU4MjIsLTEyMzY0NTI4NjcsLT
+E4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1
+OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNT
+czXX0=
 -->
