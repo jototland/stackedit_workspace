@@ -100,7 +100,9 @@ When doing hypothesis testing, there are four possibilities
 
 Type 1 error should be smaller than the significance level $\alpha$. Thus, the probability of getting a type 1 error is exactly $\alpha$. 
 
-Type 2 error is harder to estimate. It depends on which value we observe, and not just sample size.
+Type 2 error is harder to estimate. It depends on which value we observe, and not just sample size. It is traditionally denoted $\beta$
+
+T
 
 ## Bootstrap methods
 
@@ -158,7 +160,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMT
-k0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4
-NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbLTExMTA0NDM1MzYsLTE4Mjc3NzI1NTYsLT
+EzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUx
+NzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
