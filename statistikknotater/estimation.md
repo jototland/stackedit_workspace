@@ -97,9 +97,10 @@ The p-value is the probability of getting a result as extreme as the observed re
 
 To calculate p-value in R, use the `p`-functions. 
 
-For a one-tailed test: If we know that something is normally distributed, convert to observation to Z-score, select the proper tail, and calculate:
+For a one-tailed test: If we know that something is normally distributed, or t-distributed with 6 degrees of freedom, convert the observation to Z-score, select the proper tail, and calculate:
 
 `pnorm(zscore, lower.tail=...)`
+`pt(zscore, lower.tail=..., df=6)`
 
 For a two-tailed test, the result must be multiplied with two (for symmetric distributions), or calculated on both sides. 
 
@@ -177,7 +178,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM4NzE1NjYsLTE4Mjc3NzI1NTYsLT
-EzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUx
-NzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbMTYxNjQxMDMwNywtMTgyNzc3MjU1NiwtMT
+M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
+MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
