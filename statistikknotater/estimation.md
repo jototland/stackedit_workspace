@@ -104,6 +104,10 @@ For a one-tailed test: If we know that something is normally distributed, or t-d
 
 For a two-tailed test, the result must be multiplied with two (for symmetric distributions), or calculated on both sides. 
 
+### Test statistic
+
+A test statistic is a statistic converted to Z-score for the purpose of hypothesis testing. 
+
 ### Decision errors
 
 When doing hypothesis testing, there are four possibilities
@@ -178,7 +182,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjQxMDMwNywtMTgyNzc3MjU1NiwtMT
-M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
-MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMzc4MTUyMjcxLC0xODI3NzcyNTU2LC0xMz
+k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
+MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
