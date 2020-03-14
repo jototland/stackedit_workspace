@@ -232,7 +232,9 @@ $\textrm{SE}_{\hat p_1 - \hat p_2}
 
 ### Goodness of fit using chi-square
 
-Given a sample of cases that can be classified into groups, determine if the sample is representative of the population.
+Used when: 
+* given a sample of cases that can be classified into groups, determine if the sample is representative of the population
+* evaluate whether data resemble a particular distribution
 
 ## Bootstrap methods
 
@@ -290,10 +292,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg5NTY5NzIsLTEwNDUwMTI5MzksLT
-g4ODQyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0
-LC05OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMT
-gyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5
-MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1Nz
-NdfQ==
+eyJoaXN0b3J5IjpbNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4OD
+QyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05
+OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNz
+c3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0
+ODA5LDk2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ
+==
 -->
