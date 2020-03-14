@@ -251,7 +251,7 @@ To find a p-value and complete the test, just use the R `pchisq(final_test_stati
 
 ### Independence in two-way tables
 
-Just like goodnes of fit, but 
+This test is performed just like goodness of fit-test above, but with degrees of freedom
 $\textrm{df} = (\textrm{number of columns} - 1) \cdot (\textrm{number of rows} - 1)$
 
 ## Bootstrap methods
@@ -310,7 +310,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY3ODIxODUsNjc3MDUwNDcxLDY2Nz
+eyJoaXN0b3J5IjpbLTEzMTU5MzcyNzgsNjc3MDUwNDcxLDY2Nz
 Y1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2
 LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMz
 I0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYz
