@@ -85,7 +85,7 @@ This is the best method, but not explained in the textbook. Use R.
 *bootstrap_distribution*` <- boot(data, statistic=mean, R=10000, sim="ordinary", ...)`
 `boot.ci(boot.out=`*bootstrap_distribution*`, ...)`
 
-### A bootstrap permutation is a permutation of a sample
+### Other bootstrap methods
 
 There are other bootstrap methods besides ordinary bootstrap resample. R lists ordinary, parametric, balanced, permutation, and anthithetic. 
 
@@ -100,5 +100,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTA5OTE5NV19
+eyJoaXN0b3J5IjpbNTk4MDAzMzc5XX0=
 -->
