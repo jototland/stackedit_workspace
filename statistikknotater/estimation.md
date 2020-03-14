@@ -209,6 +209,10 @@ ANOVA can only tell you that one or more of the groups differ. To test which gro
 $\alpha^\star = \alpha / K$, where $K=\textrm{number of comparisons}$
 If there are $k$ groups, $K=k(k-1)/2$
 
+## Proportions
+
+For categorical data, we can th
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -265,7 +269,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY5MDcwNiwtMTA0NTAxMjkzOSwtOD
+eyJoaXN0b3J5IjpbMTk5MjA4MjA1NiwtMTA0NTAxMjkzOSwtOD
 g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
 LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
 I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
