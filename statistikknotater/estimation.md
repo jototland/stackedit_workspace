@@ -262,6 +262,8 @@ The number of successes in $n$ independent cases is binomially distributed.
 
 $P(k \textrm{ successes}) = \binom{n}{x}p^k(1-p)^{n-k}$
 
+We can compute a sum of this formula easily. 
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -321,10 +323,11 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3Nz
-A1MDQ3MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYw
-LC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOT
-kxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2
-LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOT
-Y1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTgyODAzMDY4OCw5MTMyODM5NDcsLTEzMT
+U5MzcyNzgsNjc3MDUwNDcxLDY2NzY1MTcwLC0xMDQ1MDEyOTM5
+LC04ODg0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3Mj
+UwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NTI4Njcs
+LTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMT
+Q1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgw
+NTczXX0=
 -->
