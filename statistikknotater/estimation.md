@@ -249,6 +249,10 @@ And the degrees of freedom is $\textrm{df}=\textrm{number of groups} - 1$
 
 To find a p-value and complete the test, just use the R `pchisq(final_test_statistic, df=df)` 
 
+### Independence in two-way tables
+
+Just like goodnes of fit, but $\textrm{df} = (\textrm{number of columns} - 1) \textrm{number of rows}$
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -305,7 +309,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ4ODE3MDAsNjc3MDUwNDcxLDY2Nz
+eyJoaXN0b3J5IjpbLTEzNTUwMTAyMDYsNjc3MDUwNDcxLDY2Nz
 Y1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2
 LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMz
 I0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYz
