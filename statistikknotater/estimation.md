@@ -125,6 +125,7 @@ Type 2 error is harder to estimate. It depends on which value we observe, and no
 
 one sample mean
 : $H_0: \mu = a$
+$SE_x = 
 
 two independent samples
 : $H_0: \mu_x - \mu_y = a$
@@ -188,8 +189,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMT
-gyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5
-MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1Nz
-NdfQ==
+eyJoaXN0b3J5IjpbLTE3MjI3ODU2ODYsMTY0NDIzMjQ1MiwtMT
+IzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2
+NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2Nj
+M1LDEwOTc0ODA1NzNdfQ==
 -->
