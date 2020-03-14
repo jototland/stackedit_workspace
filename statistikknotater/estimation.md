@@ -86,7 +86,7 @@ $$\textrm{point estimate} \pm \textrm{critical value} \cdot \textrm{SE}$$
 
 $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
-## Hypothesis testing
+## One- or two-sample hypothesis testing
 
 Hypothesis testing tries to determine if an observation could be explained by just the null hypothesis randomness, or if we need to reject the null hypothesis. 
 
@@ -151,6 +151,9 @@ $\textrm{SE}_{\bar{x}-\bar{y}}
 		= \sqrt{\frac{s^2_x}{n_x}+\frac{s^2_y}{n_y}}$
 $df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
+## ANOVA
+
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -207,9 +210,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3Mj
-UwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NTI4Njcs
-LTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMT
-Q1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgw
-NTczXX0=
+eyJoaXN0b3J5IjpbOTgzMzg2NzcwLC01ODAzMzU2NiwxMDk2Mj
+g1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0x
+MjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5ND
+Y3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2
+MzUsMTA5NzQ4MDU3M119
 -->
