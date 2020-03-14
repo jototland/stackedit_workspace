@@ -236,8 +236,10 @@ Used when:
 * given a sample of cases that can be classified into groups, determine if the sample is representative of the population
 * evaluate whether data resemble a particular distribution
 
-The test statistic for each group $i$ is 
-$\Chi^2 = \frac{(\textrm{observed count}-\textrm{expected count})^2}{\textrm{expected count}}$
+The test statistic for each group $i$ is $\Chi^2_i 
+= \frac{(\textrm{observed count}-\textrm{expected count})^2}{\textrm{expected count}}$
+
+
 
 
 
@@ -297,10 +299,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTYyOTgyOSw2NzcwNTA0NzEsNjY3Nj
-UxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYs
-MTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMj
-Q1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMw
-MywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMj
-c3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbLTE2MDYzNTgwNDEsNjc3MDUwNDcxLDY2Nz
+Y1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2
+LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMz
+I0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYz
+MDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLT
+I3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
