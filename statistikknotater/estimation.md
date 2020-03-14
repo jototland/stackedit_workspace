@@ -77,6 +77,7 @@ $$\textrm{point estimate} \pm \textrm{critical value} \cdot \textrm{SE}$$
 
 $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
+## Hypothesis testing
 
 
 ## Bootstrap methods
@@ -135,6 +136,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5Nz
-Q4MDU3M119
+eyJoaXN0b3J5IjpbLTEyMjIyMDc1ODcsOTY1MTcwMjY3LC0yNz
+c4ODY2MzUsMTA5NzQ4MDU3M119
 -->
