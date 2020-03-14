@@ -79,10 +79,12 @@ $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 ## Hypothesis testing
 
+Hypothesis testing tries to determine if something is true about the underlying distri
 When doing hypothesis testing, there are only four possibilities
-* Fail to reject null hypothesis, null hypothesis true
-* Reject null hypothesis, null hypothesis true => type 1 error
-* fail to reject null hypothesis, 
+* fail to reject null hypothesis, null hypothesis true => ok 
+* reject null hypothesis, null hypothesis true => type 1 error
+* fail to reject null hypothesis, null hypothesis false => type 2 error
+* reject null hypothesis, null hypothesis false => ok
 
 ## Bootstrap methods
 
@@ -140,6 +142,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY2NTg5NzksOTY1MTcwMjY3LC0yNz
-c4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTY5NzY4NjIwNiw5NjUxNzAyNjcsLTI3Nz
+g4NjYzNSwxMDk3NDgwNTczXX0=
 -->
