@@ -254,6 +254,8 @@ To find a p-value and complete the test, just use the R `pchisq(final_test_stati
 This test is performed just like goodness of fit-test above, but with degrees of freedom
 $\textrm{df} = (\textrm{number of columns} - 1) \cdot (\textrm{number of rows} - 1)$
 
+When you have a two-by-two table, just use the test for difference of two proportions instead. 
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -310,10 +312,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU5MzcyNzgsNjc3MDUwNDcxLDY2Nz
-Y1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2
-LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMz
-I0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYz
-MDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLT
-I3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbMTQ3ODcyNzA5NSwtMTMxNTkzNzI3OCw2Nz
+cwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2
+MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MD
+k5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1
+NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LD
+k2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
