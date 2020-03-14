@@ -135,7 +135,9 @@ $df=n-1$
 
 two independent samples
 : $H_0: \mu_x - \mu_y = a$
-$\textrm{SE}_{\bar{x}-\bar{y}} = \sqrt{\textrm{SE}^2_x = \textrm{SE}^2_y} = \sqrt{\frac{s^2_x}{n_x}+\frac{s^2_y}{n_y}}$
+$\textrm{SE}_{\bar{x}-\bar{y}} 
+		= \sqrt{\textrm{SE}^2_x = \textrm{SE}^2_y} 
+		= \sqrt{\frac{s^2_x}{n_x}+\frac{s^2_y}{n_y}}$
 $df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
 ## Bootstrap methods
@@ -194,8 +196,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ4NzcwMTIsLTk5NDcwOTkxNiwxNj
-Q0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0
-NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMj
-Y3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0Mj
+MyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2
+MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC
+0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
