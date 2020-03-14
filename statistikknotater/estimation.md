@@ -90,8 +90,9 @@ This is the best method, but not explained in the textbook. Use R.
 There are other bootstrap methods besides ordinary bootstrap resample. R lists ordinary, parametric, balanced, permutation, and anthithetic. 
 
 ### Bootstrap significance test
-Because P-values are calculated acting as if the null hypothesis were true, we
-cannot resample from the observed sample. We must use bootstrap permutation instead. Bootstrap permutations tests are very robust against skew, if in doubt use bootstrap instead of a t-test.
+
+Because P-values are calculated with the assumptions as if the null hypothesis were true, we
+cannot resample from the observed sample. We must use bootstrap permutation instead. Bootstrap permutations tests are very robust against skew, if in doubt use bootstrap instead of a t-test. 
 
 ### Using R
 `install.packages("perm")`
@@ -99,5 +100,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDc4NDc3Ml19
+eyJoaXN0b3J5IjpbLTMzMTA5OTE5NV19
 -->
