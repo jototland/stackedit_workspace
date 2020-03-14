@@ -222,12 +222,12 @@ If the conditions are met, then $SE_{\hat{p}}=\sqrt{\frac{p(1-p)}{n}}$.
 
 Since we rarely know the population parameter $p$:
 * for hypothesis testing, replace $p$ with $p_0$ in the formula above
-* for confidence intervals, replace $p$ with $\hat p$ in the formula above.
+* for confidence intervals, replace $p$ with $\hat p$ in the formula above
 
 ### Difference of two proportions
 
 $\textrm{SE}_{\hat p_1 - \hat p_2} 
-	= \sqrt{\textrm{SE}_{\hat p_1}+\textrm{SE}_{\hat p_2}}
+	= \sqrt{\textrm{SE}^2_{\hat p_1}+\textrm{SE}^2_{\hat p_2}}
 	= \sqrt{ \frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2} }$
 
 ## Bootstrap methods
@@ -286,10 +286,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjc5NTM5NSwtMTA0NTAxMjkzOSwtOD
-g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
-LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
-I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
-NDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M1
-19
+eyJoaXN0b3J5IjpbLTMyMjI3NjAxLC0xMDQ1MDEyOTM5LC04OD
+g0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwt
+OTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mj
+c3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0
+NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX
+0=
 -->
