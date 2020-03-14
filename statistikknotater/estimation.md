@@ -203,6 +203,10 @@ Degrees of freedom total: $\textrm{df}_T = n-1$
 Degrees of freedom between groups: $\textrm{df}_G = k-1$
 Degrees of freedom error: $\textrm{df}_E = n-k$
 
+### Bonferroni correction
+
+ANOVA can only tell you that one or more of the groups differ. To test which group differ, we must compare every group to every other. This increases the chance of a type 1 error. The Bonferroni correction 
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -259,7 +263,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjA0NTg2NywtMTA0NTAxMjkzOSwtOD
+eyJoaXN0b3J5IjpbLTMwMTc2MDYzNywtMTA0NTAxMjkzOSwtOD
 g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
 LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
 I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
