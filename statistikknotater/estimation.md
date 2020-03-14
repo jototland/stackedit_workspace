@@ -66,6 +66,12 @@ The same as above but for a t-distribution with 6 degrees of freedom:
 
 For small samples where where the distribution is approximately normal, use the t-distribution instead of the normal distribution when calculating critical values and p-values. The degrees of freedom is the sample size minus one. 
 
+### Pooled standard deviation
+
+If two populations are similar, we can pool their standard deviation to get a better estimate, and also to increase the degrees of freedom:
+
+$s^2_\textrm{pooled} = s^2_1(n_1-$
+
 ## Confidence interval
 
 A confidence interval is an interval constructed from the sampling distribution, intented to capture the real population parameter. 
@@ -196,8 +202,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0Mj
-MyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2
-MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC
-0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTE3MDgyOTAwNTQsLTExNzI1MDQsLTk5ND
+cwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3Nzcy
+NTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MD
+ksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
