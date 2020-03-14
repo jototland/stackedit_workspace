@@ -128,15 +128,15 @@ one sample mean
 $\textrm{SE}_x = s_x/\sqrt{n}$
 $df = n-1$
 
-two independent samples
-: $H_0: \mu_x - \mu_y = a$
-$\textrm{SE}_{\bar{x}-\bar{y}} = \sqrt{\frac{s_x}{n_x}+\frac{s_y}{n_y}}$
-$df \le \min(n_x, n_y)$, or use statistical software to get a perfect estimate
-
 paired data
 : $H_0: \mu_{x-y} = a$
 $\textrm{SE}_{x-y} = \frac{s_{x-y}}{\sqrt{n}}$
 $df=n-1$
+
+two independent samples
+: $H_0: \mu_x - \mu_y = a$
+$\textrm{SE}_{\bar{x}-\bar{y}} = \sqrt{\frac{s^2_x}{n_x}+\frac{s^2_y}{n_y}}$
+$df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
 ## Bootstrap methods
 
@@ -194,8 +194,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwODYwNDIyLC05OTQ3MDk5MTYsMTY0ND
-IzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0
-NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2Ny
-wtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMTQzMzM1MTMyMywtOTk0NzA5OTE2LDE2ND
+QyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3
+NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNj
+csLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
