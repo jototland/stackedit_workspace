@@ -18,6 +18,8 @@ Less common: IQR, 25% trimmed mean, median
 
 Typical notation uses latin letters, and hat above: $\bar{x}$, $s_x$, $\hat{p}$
 
+A point estimate is unbiased if the sampling distribution is centered at the parameter it estimates. 
+
 ### The plug-in principle
 
 To estimate a a parameter, use the statistic that is the corresponding quantity for the sample. 
@@ -32,7 +34,7 @@ The standard error is the standard deviation of a sampling distribution. It depe
 
 ### The central limit theorem
 
-The sampling distribution (som of statistics) is approximately normal. It helps to have approximately normal data to start with, but as sample size grows to infinity, the sample distribution approaches the normal distribution anyway. d
+The sampling distribution (of unbiased statistics) is approximately normal. It helps to have approximately normal data to start with, but as sample size grows to infinity, the sample distribution approaches the normal distribution anyway. d
 
 *Rule of thumb*-conditions for $\bar{x}$ being nearly normal:
 * The sample observations are independent
@@ -156,7 +158,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTY5NzAzNywxOTQ2NzEzMjA5LC0xND
-U5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMT
+Q1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgw
+NTczXX0=
 -->
