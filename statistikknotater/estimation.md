@@ -211,8 +211,14 @@ If there are $k$ groups, $K=k(k-1)/2$
 
 ## Proportions
 
-For categorical data, we can think of the proportion of "successes" $p$ instead of the mean. The estimator $\hat{p}$ is normally distributed if 
+For categorical data, we can think of the proportion of "successes" $p$ instead of the mean. 
 
+For a sample, the estimator $\hat{p}$ is normally distributed if 
+* the sample observations are independent
+* there are at least 10 successes and 10 failures in the sample (the success-failure condition)
+
+If the conditions are met, then 
+$SE_{\hat{p}}
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -269,10 +275,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDg4NDc3MSwtMTA0NTAxMjkzOSwtOD
-g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
-LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
-I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
-NDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M1
-19
+eyJoaXN0b3J5IjpbMzcxMDQyNjkyLC0xMDQ1MDEyOTM5LC04OD
+g0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwt
+OTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mj
+c3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0
+NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX
+0=
 -->
