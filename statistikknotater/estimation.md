@@ -43,7 +43,9 @@ The sampling distribution is approximately normal. It helps to have approximatel
 
 ### Critical value
 
-The critical value depends on the shape of distribution. It is outermost value If the distribution is a sampling distribution and it is symmetric, typically that will be either be a normal distribution or a t-distribution. 
+The critical value depends on the shape of distribution. It is the line on the distribution graph splitting "normal" 
+
+If the distribution is a sampling distribution and it is symmetric, typically that will be either be a normal distribution or a t-distribution. 
 
 ### Critical value from theoretical distributions in R
 Use the `q`-functions. 
@@ -131,5 +133,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyNDk5NjI1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbNTM5NzA4NzAsMTA5NzQ4MDU3M119
 -->
