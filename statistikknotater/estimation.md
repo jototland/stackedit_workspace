@@ -189,13 +189,15 @@ $H_A: \exists{x}:\mu_x\ne a$ (at least one of the $k$ means differ)
 In ANOVA we compare variation within group with variation between groups. Variation is chi-square-distributed. The fraction of variation between groups to within groups is therefore F-distributed. 
 
 $$ F = \frac{\textrm{MSG}}{\textrm{MSE}}$$
-Mean square between $k$ groups: $\textrm{MSG} = 1/\textrm{df}_g \cdot \textrm{SSG}$
+Assume we have $n$ observations in $k$ groups, each with $n_i$ observations per group. 
+
+Mean square between $k$ groups: $\textrm{MSG} = 1/\textrm{df}_G \cdot \textrm{SSG}$
 Mean square error (within group): $\textrm{MSE} = 1/\textrm{df}_E \cdot \textrm{SSG}$
 Sum of squares total: $\textrm{SST} = \sum_{i=1}^n (x_i-\bar{x})^2$
 Sum of squares between $k$ groups: $\textrm{SSG} = \frac{1}{k-1} \sum_{i=1}^k (\bar{x}_i-\bar{x})^2$
 Sum of squares error: $\textrm{SSE} = \textrm{SST} - \textrm{SSG}$
-Degrees of freedom between groups: $\textrm{df}_g = k-1$
-Degrees of freedom total: $\textrm{df}_E
+Degrees of freedom between groups: $\textrm{df}_G = k-1$
+Degrees of freedom total: $\textrm{df}_E = n-k$
 
 ## Bootstrap methods
 
@@ -253,7 +255,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDMwNzc1LC04ODg0Mjg0NjAsLTU4MD
+eyJoaXN0b3J5IjpbMTk1NjM4OTkxLC04ODg0Mjg0NjAsLTU4MD
 MzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2
 NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOT
 Q3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAy
