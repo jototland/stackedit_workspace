@@ -247,7 +247,8 @@ The final test statistic is the sum  of the test statistic for each group.
 
 And the degrees of freedom is $\textrm{df}=\textrm{number of groups} - 1$
 
-To find a p-value and complete the test, just use the R `pchisq(final_test_statistic, df=df)` 
+To find a p-value and complete the test, just use R 
+`pchisq(final_test_statistic, df=df, lower.tail=F)` 
 
 ### Independence in two-way tables
 
@@ -323,11 +324,11 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODAzMDY4OCw5MTMyODM5NDcsLTEzMT
-U5MzcyNzgsNjc3MDUwNDcxLDY2NzY1MTcwLC0xMDQ1MDEyOTM5
-LC04ODg0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3Mj
-UwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NTI4Njcs
-LTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMT
-Q1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgw
-NTczXX0=
+eyJoaXN0b3J5IjpbMTQ2NTExODU2OSwtODI4MDMwNjg4LDkxMz
+I4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0NzEsNjY3NjUxNzAs
+LTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYsMTA5Nj
+I4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1Miwt
+MTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOT
+Q2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2
+NjM1XX0=
 -->
