@@ -85,7 +85,11 @@ Hypothesis testing tries to determine if an observation could be explained by ju
 
 Before testing, one decides on a significance level, typically 0.95. The value $\alpha = 1 - \textrm{significance level}$.
 
-Assuming the null hypothesis, calculate the p-value of the observed result. The p-value is the probability of getting a result as extreme as the observed result, assuming the null hypothesis is true. 
+Assuming the null hypothesis, calculate the p-value of the observed result. 
+
+### P-value
+
+The p-value is the probability of getting a result as extreme as the observed result, assuming the null hypothesis is true. 
 
 If the p-value is less than $\alpha$, reject the null-hypothesis, otherwise, assume the null hypotheses is still true. 
 
@@ -102,7 +106,9 @@ Type 1 error should be smaller than the significance level $\alpha$. Thus, the p
 
 Type 2 error is harder to estimate. It depends on which value we observe, and not just sample size. It is traditionally denoted $\beta$
 
-T
+#### Hypothesis testing, various setups
+
+* One paramate
 
 ## Bootstrap methods
 
@@ -160,7 +166,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTA0NDM1MzYsLTE4Mjc3NzI1NTYsLT
-EzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUx
-NzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbMzUxODgwNywtMTgyNzc3MjU1NiwtMTM5ND
+c0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2
+NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
