@@ -215,7 +215,7 @@ For categorical data, we can think of the proportion of "successes" $p$ instead 
 
 For a sample, the estimator $\hat{p}$ is normally distributed if 
 * the sample observations are independent
-	* 9when sampling: being from a random sample and consisting of less than 10% of the population
+	* (when sampling: being from a random sample and consisting of less than 10% of the population)
 * there are at least 10 successes and 10 failures in the sample (the success-failure condition)
 
 If the conditions are met, then $SE_{\hat{p}}=\sqrt{\frac{p(1-p)}{n}}$. 
@@ -280,7 +280,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzcwNDA3NiwtMTA0NTAxMjkzOSwtOD
+eyJoaXN0b3J5IjpbLTIyMjU5MDkxNCwtMTA0NTAxMjkzOSwtOD
 g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
 LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
 I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
