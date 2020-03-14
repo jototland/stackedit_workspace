@@ -41,7 +41,7 @@ The sampling distribution is approximately normal. It helps to have approximatel
 
 ### Small samples and the t-distribution
 
-For small samples where we still believe the distribution is approximately normal, use the t-distribution with  the appropropro
+For small samples where where the distribution is approximately normal, use the t-distribution instead of the normal distribution when calculating critical values and p-values. The degrees of freedom is the sample size minus one. 
 
 ## Confidence interval
 
@@ -122,5 +122,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0ODQ5NjMzLDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbLTYzNDMwMTQ4NSwxMDk3NDgwNTczXX0=
 -->
