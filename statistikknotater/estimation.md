@@ -173,9 +173,15 @@ $df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
 ## ANOVA
 
-ANOVA is used to compare more than one statistic.
+ANOVA is used to compare more than two statistic.
 
+$$ H_0: \mu_A = \mu_B = \mu
 
+### Conditions
+
+* observations must be independent within and across groups
+* data within groups must be nearly normal
+* the variability across group is almost the same
 
 ## Bootstrap methods
 
@@ -233,9 +239,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzAyMzU1OCwtODg4NDI4NDYwLC01OD
-AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
-NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
-k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
-MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTE2Mjg0ODAzNDYsLTg4ODQyODQ2MCwtNT
+gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYs
+MTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMT
+M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
+MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
