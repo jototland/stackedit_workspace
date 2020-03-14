@@ -87,7 +87,14 @@ When doing hypothesis testing, there are four possibilities
 * reject null hypothesis, null hypothesis true => type 1 error
 * fail to reject null hypothesis, null hypothesis false => type 2 error
 * reject null hypothesis, null hypothesis false => ok
-###
+
+### Type 1 error
+
+Type 1 error should be smaller than $\alpha$. Commonly, $\alpha=0.5$. 
+
+### Type 2 error
+
+Type 2 error is harder to estimate. It depends on
 
 ## Bootstrap methods
 
@@ -145,6 +152,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTA4MzIxNSw5NjUxNzAyNjcsLTI3Nz
-g4NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbNjk2MDMxMDMxLDk2NTE3MDI2NywtMjc3OD
+g2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
