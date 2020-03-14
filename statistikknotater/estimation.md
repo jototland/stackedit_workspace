@@ -173,7 +173,7 @@ $df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
 ## ANOVA
 
-ANOVA is used to compare three or more statistics (such as means).
+ANOVA is used to compare three or more statistics (such as means). 
 
 $H_0: \mu_A = \mu_B = \mu_C = ... = a$ (all $k$ means are equal)
 $H_A: \exists{x}:\mu_x\ne a$ (at least one of the $k$ means differ)
@@ -182,7 +182,7 @@ $H_A: \exists{x}:\mu_x\ne a$ (at least one of the $k$ means differ)
 
 * observations must be independent within and across groups
 * data within groups must be nearly normal
-* the variability across group is almost the same
+* the variability across group is almost the same (ANOVA uses pooled variance)
 
 ### Description
 
@@ -259,9 +259,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNT
-gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYs
-MTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMT
-M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
-MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMTc0MjA0NTg2NywtMTA0NTAxMjkzOSwtOD
+g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
+LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
+I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
+NDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M1
+19
 -->
