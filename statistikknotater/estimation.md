@@ -58,6 +58,10 @@ Example: find the critical value for a two-sided hypotheses test or confidence i
 
 `qnorm(1-0.05/2)`
 
+The same as above but for a t-distribution with 6 degrees of freedom:
+
+`qt(1-0.05/2, 6)`
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -114,5 +118,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTc5NDAwMSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbMTkyOTI2MzQxNSwxMDk3NDgwNTczXX0=
 -->
