@@ -243,7 +243,11 @@ Conditions of use are:
 The test statistic for each group $i$ is $\Chi^2_i 
 = \frac{(\textrm{observed count}-\textrm{expected count})^2}{\textrm{expected count}}$
 
-and the degrees of freedom is $\textrm{df}=\textrm{number of groups} - 1$
+The final test statistic is the sum  of the test statistic for each group. 
+
+And the degrees of freedom is $\textrm{df}=\textrm{number of groups} - 1$
+
+Now, to find a p-value, just use the R `pchisq()` -function
 
 
 ## Bootstrap methods
@@ -302,10 +306,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjkxODcwLDY3NzA1MDQ3MSw2Njc2NT
-E3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2Niwx
-MDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyND
-UyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAz
-LDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNz
-c4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbMjA4ODEzNDgxOSw2NzcwNTA0NzEsNjY3Nj
+UxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYs
+MTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMj
+Q1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMw
+MywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMj
+c3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
