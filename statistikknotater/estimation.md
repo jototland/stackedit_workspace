@@ -175,8 +175,8 @@ $df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
 ANOVA is used to compare three or more statistics (such as means).
 
-$H_0: \mu_A = \mu_B = \mu_C = ... = a$ (all means are equal)
-$H_A: \exists{x}:\mu_x\ne a$ (at least one of the means differ)
+$H_0: \mu_A = \mu_B = \mu_C = ... = a$ (all $k$ means are equal)
+$H_A: \exists{x}:\mu_x\ne a$ (at least one of the $k$ means differ)
 
 ### Conditions
 
@@ -189,10 +189,11 @@ $H_A: \exists{x}:\mu_x\ne a$ (at least one of the means differ)
 In ANOVA we compare variation within group with variation between groups. Variation is chi-square-distributed. The fraction of variation between groups to within groups is therefore F-distributed. 
 
 $$ F = \frac{\textrm{MSG}}{\textrm{MSE}}$$
-Mean square between groups: $\textrm{MSG} = 1/\textit{df}_g \textrm{SSG}$
+Mean square between $k$ groups: $\textrm{MSG} = 1/\textit{df}_g \textrm{SSG}$
 Mean square error (within group): $\textrm{MSE} = 1/\textit{df}_E \textrm{SSG}$
 Sum of squares total: $\textrm{SST} = \sum_{i=1}^n (x_i-\bar{x})^2$
-Sum of squares between groups: $\textrm{SSG} = \frac{1}{k-1}$
+Sum of squares between $k$ groups: $\textrm{SSG} = \frac{1}{k-1} \sum_{i=1}^k (\bar{x}_i-\bar{x})^2$
+Sum of squares err
 
 ## Bootstrap methods
 
@@ -250,9 +251,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI4NjQ2OTUsLTg4ODQyODQ2MCwtNT
-gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYs
-MTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMT
-M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
-MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbLTg5MzQwODc5NCwtODg4NDI4NDYwLC01OD
+AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
+NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
+k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
+MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
