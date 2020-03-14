@@ -41,13 +41,9 @@ The sampling distribution is approximately normal. It helps to have approximatel
 * The sample size is large (> 30)
 * The population is not strongly skewed
 
-### Small samples and the t-distribution
-
-For small samples where where the distribution is approximately normal, use the t-distribution instead of the normal distribution when calculating critical values and p-values. The degrees of freedom is the sample size minus one. 
-
 ### Critical value
 
-The critical value depends on the shape of sampling distribution. If the sampling distribution is symmetric, typically that will be either be a normal distribution or a t-distribution. 
+The critical value depends on the shape of distribution. It is outermost value If the distribution is a sampling distribution and it is symmetric, typically that will be either be a normal distribution or a t-distribution. 
 
 ### Critical value from theoretical distributions in R
 Use the `q`-functions. 
@@ -59,6 +55,10 @@ Example: find the critical value for a two-sided hypotheses test or confidence i
 The same as above but for a t-distribution with 6 degrees of freedom:
 
 `qt(1-0.05/2, df=6)`
+
+### Small samples and the t-distribution
+
+For small samples where where the distribution is approximately normal, use the t-distribution instead of the normal distribution when calculating critical values and p-values. The degrees of freedom is the sample size minus one. 
 
 ## Confidence interval
 
@@ -131,5 +131,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE1MTk5OTEsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbMzAyNDk5NjI1LDEwOTc0ODA1NzNdfQ==
 -->
