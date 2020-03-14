@@ -81,9 +81,11 @@ $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 Hypothesis testing tries to determine if an observation could be explained by just the null hypothesis randomness, or if we need to reject the null hypothesis. 
 
-To do this, one decides on a significance level, typically .95. The values $\alpha$ is 1 minus the significance level. 
+Before testing, one decides on a significance level, typically 0.95. The values $\alpha$ is 1 minus the significance level. 
 
-Assuming the null hypothesis, calculate the p-value. The p-value is the value of getting a result as extreme 
+Assuming the null hypothesis, calculate the p-value of the observed result. The p-value is the probability of getting a result as extreme as the observed result, assuming the null hypothesis is true. 
+
+If the p-value is less than $\alpha$, reject the null-hypothesis, otherwise, assume the null hypotheses is still true. 
 
 ### Decision errors
 When doing hypothesis testing, there are four possibilities
@@ -157,6 +159,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDE2MTUxOCwtMTQ1OTI0NDgwOSw5Nj
+eyJoaXN0b3J5IjpbMjAzNjcxMzY0MywtMTQ1OTI0NDgwOSw5Nj
 UxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
