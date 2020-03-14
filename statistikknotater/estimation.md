@@ -122,18 +122,12 @@ Type 1 error should be smaller than the significance level $\alpha$. Thus, the p
 Type 2 error is harder to estimate. It depends on which value we observe, and not just sample size. It is traditionally denoted $\beta$
 
 #### Hypothesis testing, various setups
-dog
-: is a dog
-cow
-: is a cow
-or 
-<dl>
-<dt>a
-<dd>b
-</dl>
-  * one sample man: $\bar{x} = a$
-	 this is the standard setup
-* $\bar{x} - \bar{y} = a$: same as above, but 
+
+one sample mean
+: $H_0: \bar{x} = a$
+
+two independent samples
+: $H_0: \bar{x} - \bar{y} = a$: same as above, but 
 
 ## Bootstrap methods
 
@@ -191,8 +185,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg4NTMyNTAsLTEyMzY0NTI4NjcsLT
-E4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1
-OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgwNT
-czXX0=
+eyJoaXN0b3J5IjpbODY3MjM4NDU4LC0xMjM2NDUyODY3LC0xOD
+I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
+NDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M1
+19
 -->
