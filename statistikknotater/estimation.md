@@ -49,7 +49,9 @@ The critical value depends on the shape of sampling distribution. If the samplin
 ### Critical value from theoretical distributions in R
 Use the `q`-functions. 
 
-Example: find the critical value for a two-sided hypotheses test or confidence interval, $\alpha$=
+Example: find the critical value for a two-sided hypotheses test or confidence interval, where confidence is 95% or $\alpha=0.05$
+
+`qnorm(1-0.05/2)`
 
 ## Bootstrap methods
 
@@ -107,5 +109,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4Mzg0MTc1XX0=
+eyJoaXN0b3J5IjpbMTA5NzQ4MDU3M119
 -->
