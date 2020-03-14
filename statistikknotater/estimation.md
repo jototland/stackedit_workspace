@@ -311,16 +311,14 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `library perm`
 `permTS(x, ...)`
 
-### Exact distribution test
 
-The number of successes in $n$ independent cases is binomially distributed.
 
-$P(k \textrm{ successes}) = {\choose$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDA0MDU0LC0xMzE1OTM3Mjc4LDY3Nz
-A1MDQ3MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYw
-LC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOT
-kxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2
-LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOT
-Y1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbMTk4MTU5NTc3NywtMTMxNTkzNzI3OCw2Nz
+cwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2
+MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MD
+k5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1
+NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LD
+k2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
