@@ -34,7 +34,7 @@ The standard error is the standard deviation of a sampling distribution. It depe
 
 ### The central limit theorem
 
-The sampling distribution (of an _unbiased_ statistic) is approximately normal. It helps to have approximately normal data to start with, but as sample size grows to infinity, the sample distribution approaches the normal distribution anyway. d
+The sampling distribution of an _unbiased_ statistic is approximately normal. It helps to have approximately normal data to start with, but as sample size grows to infinity, the sample distribution approaches the normal distribution anyway. d
 
 *Rule of thumb*-conditions for $\bar{x}$ being nearly normal:
 * The sample observations are independent
@@ -158,7 +158,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQxNzM4MjEsLTEzOTQ3NDYzMDMsMT
+eyJoaXN0b3J5IjpbLTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMT
 k0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4
 NjYzNSwxMDk3NDgwNTczXX0=
 -->
