@@ -55,6 +55,10 @@ $$\textrm{point estimate} \pm \textrm{critical value} \cdot \textrm{SE}$$
 
 The critical value depends on the shape of sampling distribution. If the sampling distribution is symmetric, typically that will be either be a normal distribution or a t-distribution. 
 
+### Margin of error
+
+$$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
+
 ### Critical value from theoretical distributions in R
 Use the `q`-functions. 
 
@@ -122,5 +126,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDMwMTQ4NSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbMzg1NDIwMTcxLDEwOTc0ODA1NzNdfQ==
 -->
