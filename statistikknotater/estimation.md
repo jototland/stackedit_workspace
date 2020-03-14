@@ -175,7 +175,8 @@ $df \le \min(n_x, n_y)$, or use statistical software to get a more correct value
 
 ANOVA is used to compare more than two statistic.
 
-$$ H_0: \mu_A = \mu_B = \mu
+$H_0: \mu_A = \mu_B = \mu_C$
+$H_A:$ at least one of the means differ
 
 ### Conditions
 
@@ -239,9 +240,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg0ODAzNDYsLTg4ODQyODQ2MCwtNT
-gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYs
-MTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMT
-M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
-MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbOTEzMDE5MDU0LC04ODg0Mjg0NjAsLTU4MD
+MzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2
+NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOT
+Q3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAy
+NjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
