@@ -1,4 +1,15 @@
 # Estimation
+
+## Common distributions
+
+### Normal distribution
+
+A sum of random variables converge to the normal distribution (see the central limit theorem below)
+
+### t-distribution
+
+For small samples, and
+
 ## Parameters and statistics
 A parameter is some value that describes the entire population.
 
@@ -210,9 +221,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMzg2NzcwLC01ODAzMzU2NiwxMDk2Mj
-g1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0x
-MjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5ND
-Y3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2
-MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbMTY2OTU0Mjc4NSwtNTgwMzM1NjYsMTA5Nj
+I4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1Miwt
+MTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOT
+Q2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2
+NjM1LDEwOTc0ODA1NzNdfQ==
 -->
