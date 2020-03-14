@@ -217,7 +217,12 @@ For a sample, the estimator $\hat{p}$ is normally distributed if
 * the sample observations are independent
 * there are at least 10 successes and 10 failures in the sample (the success-failure condition)
 
-If the conditions are met, then $SE_{\hat{p}}=\sqrt{\frac{p(1-p)}{n}}$. Since we rarely know $p$, for hypothesis testing, replace with $p_0$, and for confidence intervals, replace with 
+If the conditions are met, then $SE_{\hat{p}}=\sqrt{\frac{p(1-p)}{n}}$. 
+
+Since we rarely know $p$:
+* for hypothesis testing, replace $p$ with $p_0$
+* for confidence intervals, replace $p$ with $\hat p$ in the formula above.
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -274,7 +279,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE4ODIzNCwtMTA0NTAxMjkzOSwtOD
+eyJoaXN0b3J5IjpbMTk3NjA5MzI0OSwtMTA0NTAxMjkzOSwtOD
 g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
 LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
 I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
