@@ -239,8 +239,7 @@ Used when:
 The test statistic for each group $i$ is $\Chi^2_i 
 = \frac{(\textrm{observed count}-\textrm{expected count})^2}{\textrm{expected count}}$
 
-
-
+and the degrees of freedom is $\textrm{df}=\textrm{number of groups} - 1$
 
 
 ## Bootstrap methods
@@ -299,10 +298,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYzNTgwNDEsNjc3MDUwNDcxLDY2Nz
-Y1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2
-LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMz
-I0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYz
-MDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLT
-I3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbNDI4OTgyMDEyLDY3NzA1MDQ3MSw2Njc2NT
+E3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2Niwx
+MDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyND
+UyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAz
+LDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNz
+c4ODY2MzUsMTA5NzQ4MDU3M119
 -->
