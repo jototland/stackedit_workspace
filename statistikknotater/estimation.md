@@ -18,7 +18,7 @@ Less common: IQR, 25% trimmed mean, median
 
 Typical notation uses latin letters, and hat above: $\bar{x}$, $s_x$, $\hat{p}$
 
-A point estimate is unbiased if the sampling distribution is centered at the parameter it estimates. 
+A point estimate is _unbiased_ if the sampling distribution is centered at the parameter it estimates. 
 
 ### The plug-in principle
 
@@ -158,7 +158,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMT
-Q1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMDk3NDgw
-NTczXX0=
+eyJoaXN0b3J5IjpbMTczOTcxNzYwMywtMTM5NDc0NjMwMywxOT
+Q2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2
+NjM1LDEwOTc0ODA1NzNdfQ==
 -->
