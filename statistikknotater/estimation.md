@@ -4,15 +4,15 @@
 
 ### Normal distribution
 
-A sum of random variables converge to the normal distribution (see the central limit theorem below)
+A sum of random variables converge to the normal distribution (see the central limit theorem below). The z-score of x is $\frac{x-\mu}{\sigma}$
 
 ### t-distribution
 
-For small samples, and with unknown $\sigma$, use the t-distribution instead of the normal distribution
+For small samples, and with unknown $\sigma$, use the t-distribution instead of the normal distribution. The t-score of x is the same as the z-score. 
 
 ### chi-square distribution
 
-The chi-square distribution with $k$ degrees of freedom is the distribution for the sum of the square of $k$ standard normal distributions. 
+The chi-square distribution with $k$ degrees of freedom is the distribution for the sum of the square of $k$ standard normal distributions. The variance of a normally distributed
 
 ### F-distribution
 
@@ -230,9 +230,9 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTcwMjExLC04ODg0Mjg0NjAsLTU4MD
-MzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2
-NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOT
-Q3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAy
-NjcsLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbLTQ2OTc2MTkyOSwtODg4NDI4NDYwLC01OD
+AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
+NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
+k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
+MjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
 -->
