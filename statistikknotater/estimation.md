@@ -93,11 +93,11 @@ To test: Assuming the null hypothesis, calculate the p-value of the observed res
 
 The p-value is the probability of getting a result as extreme as the observed result, assuming the null hypothesis is true. 
 
-### Calculate [-value for known theoretical distribution in R
+### Calculate p-value for known theoretical distribution in R
 
-Use the `p`-functions. 
+To calculate p-value in R, use the `p`-functions. 
 
-For a one-tailed test: If we know that something is normally distributed, convert to Z-score, select the proper tail, and 
+For a one-tailed test: If we know that something is normally distributed, convert to observation to Z-score, select the proper tail, and calculate:
 
 `pnorm(zscore, lower.tail=...)`
 
@@ -118,7 +118,8 @@ Type 2 error is harder to estimate. It depends on which value we observe, and no
 
 #### Hypothesis testing, various setups
 
-* 
+* $\bar{x} = a$: this is the standard setup
+* $\bar{x}
 
 ## Bootstrap methods
 
@@ -176,7 +177,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDc0ODg1MiwtMTgyNzc3MjU1NiwtMT
+eyJoaXN0b3J5IjpbMTEyMTI2NjkwMSwtMTgyNzc3MjU1NiwtMT
 M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
 MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
