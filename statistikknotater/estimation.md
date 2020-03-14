@@ -70,7 +70,8 @@ For small samples where where the distribution is approximately normal, use the 
 
 If two populations are similar, we can pool their standard deviation to get a better estimate, and also to increase the degrees of freedom:
 
-$s^2_\textrm{pooled} = s^2_1(n_1-$
+$s^2_\textrm{pooled} = \frac{s^2_1(n_1-1)+s^2_2(n_2-1)}{n_1+n_2-2}$
+$df = n_1 + n_2 - 2$
 
 ## Confidence interval
 
@@ -202,8 +203,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgyOTAwNTQsLTExNzI1MDQsLTk5ND
-cwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3Nzcy
-NTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MD
-ksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MD
+k5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1
+NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LD
+k2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
