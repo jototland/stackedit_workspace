@@ -131,7 +131,7 @@ $df = n-1$
 two independent samples
 : $H_0: \mu_x - \mu_y = a$
 $\textrm{SE}_{\bar{x}-\bar{y}} = \sqrt{\frac{s_x}{n_x}+\frac{s_y}{n_y}}$
-$df=\min(n_x, n_y)$
+$df \le \min(n_x, n_y)$, or use statistical software to get a perfect estimate
 
 paired data
 : $H_0: \mu_{x-y} = a$
@@ -194,8 +194,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY2MTgzNTMsLTk5NDcwOTkxNiwxNj
-Q0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0
-NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMj
-Y3LC0yNzc4ODY2MzUsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbNTUwODYwNDIyLC05OTQ3MDk5MTYsMTY0ND
+IzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0
+NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2Ny
+wtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ==
 -->
