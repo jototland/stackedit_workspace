@@ -211,7 +211,7 @@ If there are $k$ groups, $K=k(k-1)/2$
 
 ## Proportions
 
-For categorical data, we can th
+For categorical data, we can think of the proportion of "successes" $p$ instead of the mean. The estimator $\hat{p}$ is normally distributed if 
 
 ## Bootstrap methods
 
@@ -269,7 +269,7 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjA4MjA1NiwtMTA0NTAxMjkzOSwtOD
+eyJoaXN0b3J5IjpbLTU2NDg4NDc3MSwtMTA0NTAxMjkzOSwtOD
 g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQs
 LTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xOD
 I3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTky
