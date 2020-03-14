@@ -79,6 +79,10 @@ $$\textrm{Margin of error} = \textrm{critical value} \cdot \textrm{SE}$$
 
 ## Hypothesis testing
 
+When doing hypothesis testing, there are only four possibilities
+* Fail to reject null hypothesis, null hypothesis true
+* Reject null hypothesis, null hypothesis true => type 1 error
+* fail to reject null hypothesis, 
 
 ## Bootstrap methods
 
@@ -136,6 +140,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIyMDc1ODcsOTY1MTcwMjY3LC0yNz
+eyJoaXN0b3J5IjpbLTEzNzY2NTg5NzksOTY1MTcwMjY3LC0yNz
 c4ODY2MzUsMTA5NzQ4MDU3M119
 -->
