@@ -34,7 +34,7 @@ The standard error is the standard deviation of a sampling distribution. It depe
 
 The sampling distribution is approximately normal. It helps to have approximately normal data to start with, but as sample size grows to infinity, the sample distribution approaches the normal distribution anyway. d
 
-Rules of thumb-conditions for :
+*Rule of thumb*-conditions for $\bar{x}$ being nearly normal:
 * The sample observations are independent
 * The sample size is large (> 30)
 * The population is not strongly skewed
@@ -114,5 +114,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4OTY2MTY2LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMTI3NTc5NDAwMSwxMDk3NDgwNTczXX0=
 -->
