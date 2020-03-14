@@ -129,7 +129,7 @@ $\textrm{SE}_x = s_x/\sqrt{n}$
 
 two independent samples
 : $H_0: \mu_x - \mu_y = a$
-$\te$
+$\textrm{SE}_{x-y} = \sqrt{\frac{s_x}{n_x_$
 
 paired data
 : $H_0: \mu_{x-y} = a$
@@ -190,8 +190,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY1MDA3MDQsMTY0NDIzMjQ1MiwtMT
-IzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2
-NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3MDI2NywtMjc3ODg2Nj
-M1LDEwOTc0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMTkxMjg2MjcyOSwxNjQ0MjMyNDUyLC0xMj
+M2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3
+MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2Mz
+UsMTA5NzQ4MDU3M119
 -->
