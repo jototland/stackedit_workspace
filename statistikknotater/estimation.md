@@ -43,7 +43,8 @@ The sampling distribution is approximately normal. It helps to have approximatel
 
 ### Critical value
 
-The critical value depends on the shape of distribution. It is the line on the distribution graph splitting "normal" 
+The critical value depends on the shape of distribution. It is the line on the distribution graph splitting "normal" values from "unusual" values. The probability of all the  unusual values should be 
+is a point on the test distribution that is compared to the test statistic to determine whether to reject the null hypothesis
 
 If the distribution is a sampling distribution and it is symmetric, typically that will be either be a normal distribution or a t-distribution. 
 
@@ -133,5 +134,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5NzA4NzAsMTA5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbLTI3Nzg4NjYzNSwxMDk3NDgwNTczXX0=
 -->
