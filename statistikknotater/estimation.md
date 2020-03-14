@@ -237,7 +237,9 @@ Used when:
 * evaluate whether data resemble a particular distribution
 
 The test statistic for each group $i$ is 
-$Z_i = \frac{$\textrm{observed count}-\textrm{expected count}}{}$
+$Z_i = \frac{\textrm{observed count}-\textrm{expected count}}{\textrm{SE of observed count}}$
+where $\textrm{SE of observed count} = 
+
 
 ## Bootstrap methods
 
@@ -295,10 +297,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTMxMTA5MSw2Njc2NTE3MCwtMTA0NT
-AxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQs
-LTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2ND
-UyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMy
-MDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMT
-A5NzQ4MDU3M119
+eyJoaXN0b3J5IjpbNjc3MDUwNDcxLDY2NzY1MTcwLC0xMDQ1MD
+EyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwt
+MTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NT
+I4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIw
+OSwtMTQ1OTI0NDgwOSw5NjUxNzAyNjcsLTI3Nzg4NjYzNSwxMD
+k3NDgwNTczXX0=
 -->
