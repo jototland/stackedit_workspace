@@ -47,7 +47,9 @@ $$\textrm{point estimate} \pm \textrm{critical value} \cdot \textrm{SE}$$
 The critical value depends on the shape of sampling distribution. If the sampling distribution is symmetric, typically that will be either be a normal distribution or a t-distribution. 
 
 ### Critical value from theoretical distributions in R
-qnorm(
+Use the `q`-functions. 
+
+Example: find the critical value for a two-sided hypotheses test or confidence interval, $\alpha$=
 
 ## Bootstrap methods
 
@@ -105,5 +107,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2NTY3MjE2XX0=
+eyJoaXN0b3J5IjpbNTI4Mzg0MTc1XX0=
 -->
