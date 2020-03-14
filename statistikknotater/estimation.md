@@ -42,7 +42,12 @@ A 95% confidence interval will, for 95% of all possible samples, capture the rea
 
 $$\textrm{point estimate} \pm \textrm{critical value} \cdot \textrm{SE}$$
 
+### Critical value
+
 The critical value depends on the shape of sampling distribution. If the sampling distribution is symmetric, typically that will be either be a normal distribution or a t-distribution. 
+
+### Critical value from theoretical distributions in R
+qnorm(
 
 ## Bootstrap methods
 
@@ -100,5 +105,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MDAzMzc5XX0=
+eyJoaXN0b3J5IjpbODQ2NTY3MjE2XX0=
 -->
