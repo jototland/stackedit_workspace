@@ -39,6 +39,10 @@ The sampling distribution is approximately normal. It helps to have approximatel
 * The sample size is large (> 30)
 * The population is not strongly skewed
 
+### Small samples and the t-distribution
+
+For small samples where we still believe the distribution is approximately normal, use the t-distribution with  the appropropro
+
 ## Confidence interval
 
 A confidence interval is an interval constructed from the sampling distribution, intented to capture the real population parameter. 
@@ -118,5 +122,5 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDYyMzkzNiwxMDk3NDgwNTczXX0=
+eyJoaXN0b3J5IjpbNzU0ODQ5NjMzLDEwOTc0ODA1NzNdfQ==
 -->
