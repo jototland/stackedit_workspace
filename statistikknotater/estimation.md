@@ -45,6 +45,8 @@ The sampling distribution is approximately normal. It helps to have approximatel
 
 The critical value depends on the shape of distribution. It is the line on the distribution graph splitting "normal" values from "unusual" values. If the value of an experiment is "unusual", we reject the null-hypothesis. 
 
+For a 95% confidence interval, or a significance test with $\alpha=0.05$, the probability of an "unus
+
 If the distribution is a sampling distribution and it is symmetric, typically that will be either be a normal distribution or a t-distribution. 
 
 ### Critical value from theoretical distributions in R
@@ -133,6 +135,6 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzAyOTkxNCwtMjc3ODg2NjM1LDEwOT
-c0ODA1NzNdfQ==
+eyJoaXN0b3J5IjpbMzg0NzU4MzA0LC0yNzc4ODY2MzUsMTA5Nz
+Q4MDU3M119
 -->
