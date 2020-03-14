@@ -236,6 +236,9 @@ Used when:
 * given a sample of cases that can be classified into groups, determine if the sample is representative of the population
 * evaluate whether data resemble a particular distribution
 
+The test statistic for each group $i$ is 
+$Z_i = \frac{$\textrm{observed count}-\textrm{expected count}}{}$
+
 ## Bootstrap methods
 
 A bootstrap resample is a new sample (with replacement) from a given sample of the population. 
@@ -292,10 +295,10 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4OD
-QyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05
-OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNz
-c3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0
-ODA5LDk2NTE3MDI2NywtMjc3ODg2NjM1LDEwOTc0ODA1NzNdfQ
-==
+eyJoaXN0b3J5IjpbMTEzNTMxMTA5MSw2Njc2NTE3MCwtMTA0NT
+AxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQs
+LTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyNDUyLC0xMjM2ND
+UyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2MzAzLDE5NDY3MTMy
+MDksLTE0NTkyNDQ4MDksOTY1MTcwMjY3LC0yNzc4ODY2MzUsMT
+A5NzQ4MDU3M119
 -->
