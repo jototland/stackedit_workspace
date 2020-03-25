@@ -321,16 +321,19 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 # Regression
-Remember, the correlation coeffecient $R$ is:
+Remember, the correlation coefficient $R$ is:
 
 $$R=\frac{1}{n-1}\sum_{i=1}^{n}\frac{(x_i-\bar{x})(y_i-\bar{y})}{s_x s_y}$$
 
 The regression line can be written as
 
-$$\hat{y}\beta_0
-$$b_0$$
+$$\hat{y}=\beta_0+\beta_1 x$$
+
+We can estimate the slope $\beta_1$ with
+
+$$b_0=$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcyMzM0NjIsMTQ2NTExODU2OSwtOD
+eyJoaXN0b3J5IjpbLTE3ODcyMzMxMjMsMTQ2NTExODU2OSwtOD
 I4MDMwNjg4LDkxMzI4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0
 NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNT
 gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYs
