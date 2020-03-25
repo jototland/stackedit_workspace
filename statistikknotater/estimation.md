@@ -360,7 +360,7 @@ $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
 If you are making a confidence or prediction interval for $\hat{y}^\star$, use $\textit{df}=n-k-1$.
 
-Given input $x^\star$, the standard deviation of the point estimate of the mean $\hat{y}^\star$  is
+Given input $x^\star$, the standard erroof the point estimate of the mean $\hat{y}^\star$  is
 
 $$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
@@ -369,11 +369,11 @@ The standard error for a prediction interval is
 $$s_{pred}=\sqrt{s^2+s^2_{y^\star}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA4MTMyNTQsMTczNzM4MDc5OSwyNT
-A0MjEwNTEsLTE2NDg3NzU5NzgsOTI1NzA3NzY4LC04MjIzNzMx
-MDUsMTAwMjg2MDMzOCwtOTMwNjYxNzExLC03MTUxNTU5OTYsMT
-Q2NTExODU2OSwtODI4MDMwNjg4LDkxMzI4Mzk0NywtMTMxNTkz
-NzI3OCw2NzcwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLT
-g4ODQyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0
-XX0=
+eyJoaXN0b3J5IjpbMzI2NDI5NDEzLC0xMDAwODEzMjU0LDE3Mz
+czODA3OTksMjUwNDIxMDUxLC0xNjQ4Nzc1OTc4LDkyNTcwNzc2
+OCwtODIyMzczMTA1LDEwMDI4NjAzMzgsLTkzMDY2MTcxMSwtNz
+E1MTU1OTk2LDE0NjUxMTg1NjksLTgyODAzMDY4OCw5MTMyODM5
+NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcxLDY2NzY1MTcwLC0xMD
+Q1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5
+NF19
 -->
