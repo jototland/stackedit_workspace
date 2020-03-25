@@ -336,17 +336,22 @@ $$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})
 Then, for $n$ observations with $k$ independent variables
 
 $$
-SSE=\sum(y_i-\hat{y}_i)^2 \textrm{ , } \textit{df}=n-k-1\\
-SSR=\sum(\hat{y}_i-\bar{y})^2 \textrm{ , } \textit{df}=k \\
-SST=\sum(y_i-\bar{y})^2 \textrm{ , } \textit{df}=n-1
+SSE=\sum(y_i-\hat{y}_i)^2 \textrm{ , } \textit{df}=n-k-1 \textrm{ , } \\
+SSR=\sum(\hat{y}_i-\bar{y})^2 \textrm{ , } \textit{df}=k \textrm{ , }  \\
+SST=\sum(y_i-\bar{y})^2 \textrm{ , } \textit{df}=n-1 \textrm{ , } MST=\frac{SST}
 $$
 
+Interestingly
+
+$$R^2=\frac{SSR}{SST}$$
+
+The standard error of the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjY4NTQzNSwxNDY1MTE4NTY5LC04Mj
-gwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3
-MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01OD
-AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
-NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
-k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
-MjY3XX0=
+eyJoaXN0b3J5IjpbLTEzMTg3MTM2MDQsMTQ2NTExODU2OSwtOD
+I4MDMwNjg4LDkxMzI4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0
+NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNT
+gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYs
+MTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMT
+M5NDc0NjMwMywxOTQ2NzEzMjA5LC0xNDU5MjQ0ODA5LDk2NTE3
+MDI2N119
 -->
