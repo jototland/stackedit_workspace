@@ -359,14 +359,16 @@ $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
 Given input $x^\star$, the standard deviation of the point estimate of the mean $\hat{y}^\star$  is
 
-$$s_{E(\hat{y}^\star)}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
+$$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
+
+If you are making a confidence interval for $\hat{y}^\star$, use $textit
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzM4MDc5OSwyNTA0MjEwNTEsLTE2ND
-g3NzU5NzgsOTI1NzA3NzY4LC04MjIzNzMxMDUsMTAwMjg2MDMz
-OCwtOTMwNjYxNzExLC03MTUxNTU5OTYsMTQ2NTExODU2OSwtOD
-I4MDMwNjg4LDkxMzI4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0
-NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNT
-gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTZd
-fQ==
+eyJoaXN0b3J5IjpbNzE3OTI2MDkwLDE3MzczODA3OTksMjUwND
+IxMDUxLC0xNjQ4Nzc1OTc4LDkyNTcwNzc2OCwtODIyMzczMTA1
+LDEwMDI4NjAzMzgsLTkzMDY2MTcxMSwtNzE1MTU1OTk2LDE0Nj
+UxMTg1NjksLTgyODAzMDY4OCw5MTMyODM5NDcsLTEzMTU5Mzcy
+NzgsNjc3MDUwNDcxLDY2NzY1MTcwLC0xMDQ1MDEyOTM5LC04OD
+g0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3MjUwNF19
+
 -->
