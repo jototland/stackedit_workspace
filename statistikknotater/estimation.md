@@ -337,10 +337,9 @@ Then, for $n$ observations with $k$ independent variables
 
 $$\begin{aligned}
 \newcommand{\df}{\textit{df}}
-df=\df \\
-SSE=\sum(y_i-\hat{y}_i)^2 &\hspace{2em}\textit{df}_e=n-k-1 &\hspace{2em} MSE=SSE/\textit{df}_e\\
-SSR=\sum(\hat{y}_i-\bar{y})^2 &\hspace{2em} \textit{df}_r=k &\hspace{2em} MSE=SSE/\textit{df}_e\\
-SST=\sum(y_i-\bar{y})^2 &\hspace{2em} \textit{df}_t=n-1 &\hspace{2em} MSE=SSE/\textit{df}_e
+SSE=\sum(y_i-\hat{y}_i)^2 &\hspace{2em}\df_e=n-k-1 &\hspace{2em} MSE=SSE/\df_e\\
+SSR=\sum(\hat{y}_i-\bar{y})^2 &\hspace{2em} \df_r=k &\hspace{2em} MSE=SSE/\df_e\\
+SST=\sum(y_i-\bar{y})^2 &\hspace{2em} \df_t=n-1 &\hspace{2em} MSE=SSE/\df_e
 \end{aligned}$$
 
 Interestingly
@@ -357,11 +356,11 @@ $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwNDg5MTAwLDE0NjUxMTg1NjksLTgyOD
-AzMDY4OCw5MTMyODM5NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcx
-LDY2NzY1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MD
-MzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2
-NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOT
-Q3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAy
-NjddfQ==
+eyJoaXN0b3J5IjpbMTk2ODAwNDU4OSwxNDY1MTE4NTY5LC04Mj
+gwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3
+MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01OD
+AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
+NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
+k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
+MjY3XX0=
 -->
