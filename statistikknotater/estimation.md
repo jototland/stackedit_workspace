@@ -349,7 +349,7 @@ Interestingly
 
 $$R^2=\frac{SSR}{SST}$$
 
-The root mean square error $s$ is
+The root mean square error (or standard error of the estimate), $s$ is
 
 $$s=\sqrt{MSE}$$
 
@@ -362,11 +362,11 @@ Given input $x^\star$, the standard deviation of the point estimate of the mean 
 $$s_{E(\hat{y}^\star)}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE4NzM0MTQsLTE2NDg3NzU5NzgsOT
-I1NzA3NzY4LC04MjIzNzMxMDUsMTAwMjg2MDMzOCwtOTMwNjYx
-NzExLC03MTUxNTU5OTYsMTQ2NTExODU2OSwtODI4MDMwNjg4LD
-kxMzI4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0NzEsNjY3NjUx
-NzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYsMT
-A5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1
-Ml19
+eyJoaXN0b3J5IjpbMjUwNDIxMDUxLC0xNjQ4Nzc1OTc4LDkyNT
+cwNzc2OCwtODIyMzczMTA1LDEwMDI4NjAzMzgsLTkzMDY2MTcx
+MSwtNzE1MTU1OTk2LDE0NjUxMTg1NjksLTgyODAzMDY4OCw5MT
+MyODM5NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcxLDY2NzY1MTcw
+LC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2LDEwOT
+YyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTJd
+fQ==
 -->
