@@ -335,9 +335,10 @@ $$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})
 
 Then
 
-$$SSE=\sum(y_i-\hat{y}_i
+$$SSE=\sum(y_i-\hat{y}_i)^2 \\
+SSR=\sum(\hat{y}_i-\bar{y})^2$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMxMzAxOSwxNDY1MTE4NTY5LC04Mj
+eyJoaXN0b3J5IjpbMTQ4Mzk4MTgxNCwxNDY1MTE4NTY5LC04Mj
 gwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3
 MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01OD
 AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
