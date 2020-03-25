@@ -336,9 +336,9 @@ $$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})
 Then, for $n$ observations with $k$ independent variables
 
 $$
-SSE=\sum(y_i-\hat{y}_i)^2 \textrm{ , } \textit{df}_e=n-k-1 \textrm{ , } MSE=SSE\textit{df}_e\\
-SSR=\sum(\hat{y}_i-\bar{y})^2 \textrm{ , } \textit{df}_r=k \textrm{ , }  MSR=SSR/df\\
-SST=\sum(y_i-\bar{y})^2 \textrm{ , } \textit{df}_t=n-1 \textrm{ , } MST=\frac{SST}{df}
+SSE=\sum(y_i-\hat{y}_i)^2 &\textrm{ , } \textit{df}_e=n-k-1 \textrm{ , } MSE=SSE/\textit{df}_e\\
+SSR=\sum(\hat{y}_i-\bar{y})^2 &\textrm{ , } \textit{df}_r=k \textrm{ , } MSE=SSE/\textit{df}_e\\
+SST=\sum(y_i-\bar{y})^2 &\textrm{ , } \textit{df}_t=n-1 \textrm{ , } MSE=SSE/\textit{df}_e
 $$
 
 Interestingly
@@ -347,7 +347,7 @@ $$R^2=\frac{SSR}{SST}$$
 
 The standard error of the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDYyODQyNSwxNDY1MTE4NTY5LC04Mj
+eyJoaXN0b3J5IjpbLTM2MDQ3ODc5OSwxNDY1MTE4NTY5LC04Mj
 gwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3
 MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01OD
 AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
