@@ -331,13 +331,17 @@ $$\hat{y}=\beta_0+\beta_1 x$$
 
 We can estimate the slope $\beta_1$ with
 
-$$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum}$$
+$$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})^2}$$
+
+Then
+
+$$SSE=\sum(y_i-\hat{y}_i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5OTE2Nzk0LDE0NjUxMTg1NjksLTgyOD
-AzMDY4OCw5MTMyODM5NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcx
-LDY2NzY1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MD
-MzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2
-NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOT
-Q3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0NDgwOSw5NjUxNzAy
-NjddfQ==
+eyJoaXN0b3J5IjpbLTIwNzMxMzAxOSwxNDY1MTE4NTY5LC04Mj
+gwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3
+MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01OD
+AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
+NjQ0MjMyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMz
+k0NzQ2MzAzLDE5NDY3MTMyMDksLTE0NTkyNDQ4MDksOTY1MTcw
+MjY3XX0=
 -->
