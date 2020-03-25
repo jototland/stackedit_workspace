@@ -356,13 +356,16 @@ The standard deviation of the slope $s_{b_1}$ is
 
 $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
+The standard deviation of the prediction $s_{\hat{y}^\star}$ is
+
+$$s_{\hat{y}^\star}=s\sqrt{}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjg2MDMzOCwtOTMwNjYxNzExLC03MT
-UxNTU5OTYsMTQ2NTExODU2OSwtODI4MDMwNjg4LDkxMzI4Mzk0
-NywtMTMxNTkzNzI3OCw2NzcwNTA0NzEsNjY3NjUxNzAsLTEwND
-UwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0
-LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNj
-Q1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEz
-MjA5XX0=
+eyJoaXN0b3J5IjpbLTYxNDk4MDcxMCwxMDAyODYwMzM4LC05Mz
+A2NjE3MTEsLTcxNTE1NTk5NiwxNDY1MTE4NTY5LC04MjgwMzA2
+ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3MSw2Nj
+c2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2
+NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0Mj
+MyNDUyLC0xMjM2NDUyODY3LC0xODI3NzcyNTU2LC0xMzk0NzQ2
+MzAzXX0=
 -->
