@@ -321,10 +321,11 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 `permTS(x, ...)`
 
 # Regression
-Remember $R=
+Remember 
+$R=\frac{1}{n-1}\sum_{i=1}^{n}\frac{(x_i-\bar{x})($
 $$b_0$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODA5NTUzOCwxNDY1MTE4NTY5LC04Mj
+eyJoaXN0b3J5IjpbLTg1NDc4NjMyNCwxNDY1MTE4NTY5LC04Mj
 gwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3
 MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01OD
 AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
