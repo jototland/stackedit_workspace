@@ -360,7 +360,7 @@ $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
 If you are making a confidence or prediction interval for $\hat{y}^\star$, use $\textit{df}=n-k-1$.
 
-Given input $x^\star$, the standard erroof the point estimate of the mean $\hat{y}^\star$  is
+Given input $x^\star$, the standard error of the point estimate of the mean $\hat{y}^\star$  is
 
 $$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
@@ -369,7 +369,7 @@ The standard error for a prediction interval is
 $$s_{pred}=\sqrt{s^2+s^2_{y^\star}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NDI5NDEzLC0xMDAwODEzMjU0LDE3Mz
+eyJoaXN0b3J5IjpbNjIxODcxOTU1LC0xMDAwODEzMjU0LDE3Mz
 czODA3OTksMjUwNDIxMDUxLC0xNjQ4Nzc1OTc4LDkyNTcwNzc2
 OCwtODIyMzczMTA1LDEwMDI4NjAzMzgsLTkzMDY2MTcxMSwtNz
 E1MTU1OTk2LDE0NjUxMTg1NjksLTgyODAzMDY4OCw5MTMyODM5
