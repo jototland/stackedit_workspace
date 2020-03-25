@@ -358,10 +358,10 @@ $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
 The standard deviation of the prediction $s_{\hat{y}^\star}$ is
 
-$$s_{\hat{y}^\star}=s\sqrt{}$$
+$$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDk4MDcxMCwxMDAyODYwMzM4LC05Mz
+eyJoaXN0b3J5IjpbMTI5MTkxMzMxMSwxMDAyODYwMzM4LC05Mz
 A2NjE3MTEsLTcxNTE1NTk5NiwxNDY1MTE4NTY5LC04MjgwMzA2
 ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3MSw2Nj
 c2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2
