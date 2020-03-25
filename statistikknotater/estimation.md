@@ -357,18 +357,23 @@ The standard deviation of the slope $s_{b_1}$ is
 
 $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
+
+If you are making a confidence or prediction interval for $\hat{y}^\star$, use $\textit{df}=n-k-1$.
+
 Given input $x^\star$, the standard deviation of the point estimate of the mean $\hat{y}^\star$  is
 
 $$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
-If you are making a confidence interval for $\hat{y}^\star$, use $\textit{df}=n-k-1$
+The standard error for a prediction interval is
+
+$$s_{pred}=\sqrt{s^2+s}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMjI4NTMzLDE3MzczODA3OTksMjUwND
-IxMDUxLC0xNjQ4Nzc1OTc4LDkyNTcwNzc2OCwtODIyMzczMTA1
-LDEwMDI4NjAzMzgsLTkzMDY2MTcxMSwtNzE1MTU1OTk2LDE0Nj
-UxMTg1NjksLTgyODAzMDY4OCw5MTMyODM5NDcsLTEzMTU5Mzcy
-NzgsNjc3MDUwNDcxLDY2NzY1MTcwLC0xMDQ1MDEyOTM5LC04OD
-g0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3MjUwNF19
-
+eyJoaXN0b3J5IjpbLTM3Njg1ODQ3OCwxNzM3MzgwNzk5LDI1MD
+QyMTA1MSwtMTY0ODc3NTk3OCw5MjU3MDc3NjgsLTgyMjM3MzEw
+NSwxMDAyODYwMzM4LC05MzA2NjE3MTEsLTcxNTE1NTk5NiwxND
+Y1MTE4NTY5LC04MjgwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3
+Mjc4LDY3NzA1MDQ3MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtOD
+g4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDRd
+fQ==
 -->
