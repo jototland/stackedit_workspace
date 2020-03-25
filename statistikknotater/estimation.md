@@ -334,7 +334,8 @@ We can estimate the slope $\beta_1$ with
 $$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})^2}$$
 
 Then, for $n$ observations with $k$ independent variables
-
+$\newcommand{\df}{\textit{df}}
+\newcommand{\sp}{&\hspace{2em}}$
 $$\begin{aligned}
 \newcommand{\df}{\textit{df}}
 \newcommand{\sp}{&\hspace{2em}}
@@ -357,11 +358,11 @@ $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDY2MTcxMSwtNzE1MTU1OTk2LDE0Nj
-UxMTg1NjksLTgyODAzMDY4OCw5MTMyODM5NDcsLTEzMTU5Mzcy
-NzgsNjc3MDUwNDcxLDY2NzY1MTcwLC0xMDQ1MDEyOTM5LC04OD
-g0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwt
-OTk0NzA5OTE2LDE2NDQyMzI0NTIsLTEyMzY0NTI4NjcsLTE4Mj
-c3NzI1NTYsLTEzOTQ3NDYzMDMsMTk0NjcxMzIwOSwtMTQ1OTI0
-NDgwOV19
+eyJoaXN0b3J5IjpbMTAwMjg2MDMzOCwtOTMwNjYxNzExLC03MT
+UxNTU5OTYsMTQ2NTExODU2OSwtODI4MDMwNjg4LDkxMzI4Mzk0
+NywtMTMxNTkzNzI3OCw2NzcwNTA0NzEsNjY3NjUxNzAsLTEwND
+UwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0
+LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNj
+Q1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0NjMwMywxOTQ2NzEz
+MjA5XX0=
 -->
