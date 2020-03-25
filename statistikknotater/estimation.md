@@ -361,10 +361,10 @@ Given input $x^\star$, the standard deviation of the point estimate of the mean 
 
 $$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
-If you are making a confidence interval for $\hat{y}^\star$, use $textit
+If you are making a confidence interval for $\hat{y}^\star$, use $\textit{df}=n-k-1$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3OTI2MDkwLDE3MzczODA3OTksMjUwND
+eyJoaXN0b3J5IjpbNzUxMjI4NTMzLDE3MzczODA3OTksMjUwND
 IxMDUxLC0xNjQ4Nzc1OTc4LDkyNTcwNzc2OCwtODIyMzczMTA1
 LDEwMDI4NjAzMzgsLTkzMDY2MTcxMSwtNzE1MTU1OTk2LDE0Nj
 UxMTg1NjksLTgyODAzMDY4OCw5MTMyODM5NDcsLTEzMTU5Mzcy
