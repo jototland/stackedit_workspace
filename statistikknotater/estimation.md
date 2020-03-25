@@ -345,7 +345,7 @@ SSR=\sum(\hat{y}_i-\bar{y})^2 \sp \df_r=k \sp MSE=SSE/\df_r\\
 SST=\sum(y_i-\bar{y})^2 \sp \df_t=n-1 \sp MSE=SSE/\df_t
 \end{aligned}$$
 
-Interestingly
+Interestingly, the coefficient of determination $R^2$ is
 
 $$R^2=\frac{SSR}{SST}$$
 
@@ -362,11 +362,11 @@ Given input $x^\star$, the standard deviation of the point estimate of the mean 
 $$s_{E(\hat{y}^\star)}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwNDIxMDUxLC0xNjQ4Nzc1OTc4LDkyNT
-cwNzc2OCwtODIyMzczMTA1LDEwMDI4NjAzMzgsLTkzMDY2MTcx
-MSwtNzE1MTU1OTk2LDE0NjUxMTg1NjksLTgyODAzMDY4OCw5MT
-MyODM5NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcxLDY2NzY1MTcw
-LC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2LDEwOT
-YyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMzI0NTJd
+eyJoaXN0b3J5IjpbMTczNzM4MDc5OSwyNTA0MjEwNTEsLTE2ND
+g3NzU5NzgsOTI1NzA3NzY4LC04MjIzNzMxMDUsMTAwMjg2MDMz
+OCwtOTMwNjYxNzExLC03MTUxNTU5OTYsMTQ2NTExODU2OSwtOD
+I4MDMwNjg4LDkxMzI4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0
+NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNT
+gwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTZd
 fQ==
 -->
