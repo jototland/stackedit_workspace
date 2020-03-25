@@ -336,7 +336,8 @@ $$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})
 Then, for $n$ observations with $k$ independent variables
 
 $$\begin{aligned}
-\renewcommand{\df
+\newcommand{\df}{\textit{df}}
+df=\df \\
 SSE=\sum(y_i-\hat{y}_i)^2 &\hspace{2em}\textit{df}_e=n-k-1 &\hspace{2em} MSE=SSE/\textit{df}_e\\
 SSR=\sum(\hat{y}_i-\bar{y})^2 &\hspace{2em} \textit{df}_r=k &\hspace{2em} MSE=SSE/\textit{df}_e\\
 SST=\sum(y_i-\bar{y})^2 &\hspace{2em} \textit{df}_t=n-1 &\hspace{2em} MSE=SSE/\textit{df}_e
@@ -356,7 +357,7 @@ $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MDkzNzY5LDE0NjUxMTg1NjksLTgyOD
+eyJoaXN0b3J5IjpbMjUwNDg5MTAwLDE0NjUxMTg1NjksLTgyOD
 AzMDY4OCw5MTMyODM5NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcx
 LDY2NzY1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MD
 MzNTY2LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2
