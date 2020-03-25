@@ -323,7 +323,8 @@ cannot resample from the observed sample. We must use bootstrap permutation inst
 # Regression
 Remember, the correlation coefficient $R$ is:
 
-$$R=\frac{1}{n-1}\sum_{i=1}^{n}\frac{(x_i-\bar{x})(y_i-\bar{y})}{s_x s_y}$$
+$$R=\frac{1}{n-1}\sum_{i=1}^{n}\frac{(x_i-\bar{x})(y_i-\bar{y})}{s_x s_y}
+=\frac{\sum(x_i-\bar{x})}{}$$
 
 The regression line can be written as
 
@@ -361,11 +362,11 @@ Given input $x^\star$, the standard deviation of the point estimate of the mean 
 $$s_{E(\hat{y}^\star)}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg3NzU5NzgsOTI1NzA3NzY4LC04Mj
-IzNzMxMDUsMTAwMjg2MDMzOCwtOTMwNjYxNzExLC03MTUxNTU5
-OTYsMTQ2NTExODU2OSwtODI4MDMwNjg4LDkxMzI4Mzk0NywtMT
-MxNTkzNzI3OCw2NzcwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5
-MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMT
-cyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2
-N119
+eyJoaXN0b3J5IjpbLTgxOTY3MDMzMywtMTY0ODc3NTk3OCw5Mj
+U3MDc3NjgsLTgyMjM3MzEwNSwxMDAyODYwMzM4LC05MzA2NjE3
+MTEsLTcxNTE1NTk5NiwxNDY1MTE4NTY5LC04MjgwMzA2ODgsOT
+EzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3MSw2Njc2NTE3
+MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2NiwxMD
+k2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwxNjQ0MjMyNDUy
+XX0=
 -->
