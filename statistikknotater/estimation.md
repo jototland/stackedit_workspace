@@ -340,8 +340,8 @@ $$\begin{aligned}
 \newcommand{\df}{\textit{df}}
 \newcommand{\sp}{&\hspace{2em}}
 SSE=\sum(y_i-\hat{y}_i)^2 \sp \df_e=n-k-1 \sp MSE=SSE/\df_e\\
-SSR=\sum(\hat{y}_i-\bar{y})^2 \sp \df_r=k \sp MSE=SSE/\df_e\\
-SST=\sum(y_i-\bar{y})^2 \sp \df_t=n-1 \sp MSE=SSE/\df_e
+SSR=\sum(\hat{y}_i-\bar{y})^2 \sp \df_r=k \sp MSE=SSE/\df_r\\
+SST=\sum(y_i-\bar{y})^2 \sp \df_t=n-1 \sp MSE=SSE/\df_t
 \end{aligned}$$
 
 Interestingly
@@ -361,11 +361,11 @@ Given input $x^\star$, the standard deviation of the point estimate of the mean 
 $$s_{E(\hat{y}^\star)}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NzA3NzY4LC04MjIzNzMxMDUsMTAwMj
-g2MDMzOCwtOTMwNjYxNzExLC03MTUxNTU5OTYsMTQ2NTExODU2
-OSwtODI4MDMwNjg4LDkxMzI4Mzk0NywtMTMxNTkzNzI3OCw2Nz
-cwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2
-MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MD
-k5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1
-Nl19
+eyJoaXN0b3J5IjpbLTE2NDg3NzU5NzgsOTI1NzA3NzY4LC04Mj
+IzNzMxMDUsMTAwMjg2MDMzOCwtOTMwNjYxNzExLC03MTUxNTU5
+OTYsMTQ2NTExODU2OSwtODI4MDMwNjg4LDkxMzI4Mzk0NywtMT
+MxNTkzNzI3OCw2NzcwNTA0NzEsNjY3NjUxNzAsLTEwNDUwMTI5
+MzksLTg4ODQyODQ2MCwtNTgwMzM1NjYsMTA5NjI4NTk0LC0xMT
+cyNTA0LC05OTQ3MDk5MTYsMTY0NDIzMjQ1MiwtMTIzNjQ1Mjg2
+N119
 -->
