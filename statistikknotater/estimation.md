@@ -356,16 +356,16 @@ The standard deviation of the slope $s_{b_1}$ is
 
 $$s_{b_1}=\frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$$
 
-The standard deviation of the point estimateof $y^\star$ given $x^\star$ is
+The standard deviation of the point estimate of the mean $y^\star$ given input $x^\star$ is
 
 $$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{x})^2}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM1MjAyNjMsMTAwMjg2MDMzOCwtOT
-MwNjYxNzExLC03MTUxNTU5OTYsMTQ2NTExODU2OSwtODI4MDMw
-Njg4LDkxMzI4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0NzEsNj
-Y3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1
-NjYsMTA5NjI4NTk0LC0xMTcyNTA0LC05OTQ3MDk5MTYsMTY0ND
-IzMjQ1MiwtMTIzNjQ1Mjg2NywtMTgyNzc3MjU1NiwtMTM5NDc0
-NjMwM119
+eyJoaXN0b3J5IjpbOTE2NzEzMzY1LDEwMDI4NjAzMzgsLTkzMD
+Y2MTcxMSwtNzE1MTU1OTk2LDE0NjUxMTg1NjksLTgyODAzMDY4
+OCw5MTMyODM5NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcxLDY2Nz
+Y1MTcwLC0xMDQ1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2
+LDEwOTYyODU5NCwtMTE3MjUwNCwtOTk0NzA5OTE2LDE2NDQyMz
+I0NTIsLTEyMzY0NTI4NjcsLTE4Mjc3NzI1NTYsLTEzOTQ3NDYz
+MDNdfQ==
 -->
