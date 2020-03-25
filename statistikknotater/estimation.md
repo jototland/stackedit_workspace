@@ -333,15 +333,16 @@ We can estimate the slope $\beta_1$ with
 
 $$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})^2}$$
 
-Then
+Then, for $n$ observations with $k$ independent variables
 
 $$
-SSE=\sum(y_i-\hat{y}_i)^2 \textrm{ , with } \textit{df}=n-k-1\\
-SSR=\sum(\hat{y}_i-\bar{y})^2 \\
-SST=\sum(y_i-\bar{y})^2$$
+SSE=\sum(y_i-\hat{y}_i)^2 \textrm{ , } \textit{df}=n-k-1\\
+SSR=\sum(\hat{y}_i-\bar{y})^2 \textrm{ , } \textit{df}=k \\
+SST=\sum(y_i-\bar{y})^2 \textrm{ , } \textit{df}=n-1
+$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzM3Mzk2OCwxNDY1MTE4NTY5LC04Mj
+eyJoaXN0b3J5IjpbLTQ0MjY4NTQzNSwxNDY1MTE4NTY5LC04Mj
 gwMzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3
 MSw2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01OD
 AzMzU2NiwxMDk2Mjg1OTQsLTExNzI1MDQsLTk5NDcwOTkxNiwx
