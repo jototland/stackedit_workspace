@@ -366,14 +366,14 @@ $$s_{\hat{y}^\star}=s\sqrt{\frac{1}{n}+\frac{(x^\star-\bar{x})^2}{\sum(x_i-\bar{
 
 The standard error for a prediction interval is
 
-$$s_{pred}=\sqrt{s^2+s^2_{y^\star}}$$
+$$s_{pred}=\sqrt{s^2+s^2_{\hat{y}^\star}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxODcxOTU1LC0xMDAwODEzMjU0LDE3Mz
-czODA3OTksMjUwNDIxMDUxLC0xNjQ4Nzc1OTc4LDkyNTcwNzc2
-OCwtODIyMzczMTA1LDEwMDI4NjAzMzgsLTkzMDY2MTcxMSwtNz
-E1MTU1OTk2LDE0NjUxMTg1NjksLTgyODAzMDY4OCw5MTMyODM5
-NDcsLTEzMTU5MzcyNzgsNjc3MDUwNDcxLDY2NzY1MTcwLC0xMD
-Q1MDEyOTM5LC04ODg0Mjg0NjAsLTU4MDMzNTY2LDEwOTYyODU5
-NF19
+eyJoaXN0b3J5IjpbLTM5NTM2NjE4MiwtMTAwMDgxMzI1NCwxNz
+M3MzgwNzk5LDI1MDQyMTA1MSwtMTY0ODc3NTk3OCw5MjU3MDc3
+NjgsLTgyMjM3MzEwNSwxMDAyODYwMzM4LC05MzA2NjE3MTEsLT
+cxNTE1NTk5NiwxNDY1MTE4NTY5LC04MjgwMzA2ODgsOTEzMjgz
+OTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3MSw2Njc2NTE3MCwtMT
+A0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1
+OTRdfQ==
 -->
