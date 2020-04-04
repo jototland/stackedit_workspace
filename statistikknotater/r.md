@@ -21,14 +21,14 @@ all(x==x[order(x)][rank(x)])
 
 #### `dplyr::desc`
 If you were to sort a dataframe in `desc`ending order, how would you transform the input vector?
-The function `dplyr::desc(x)` is the same as `-(rank(
+The function `desc(x)` is the same as `-(rank(
 ```
-dplyr::desc(c("dog", "cat", "sheep", "cow"))
+desc(c("dog", "cat", "sheep", "cow"))
 [1] -3 -1 -4 -2
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODQ0OTAwOCwxNzQ0ODk1NTM2LC0xNj
-k3NTA2MzM1LDE1NTkzOTI2MjcsLTYyODI5MTc5NSwtMTM2MDc1
-NzEzNiwxOTAxMTgzODM5XX0=
+eyJoaXN0b3J5IjpbLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMT
+Y5NzUwNjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3
+NTcxMzYsMTkwMTE4MzgzOV19
 -->
