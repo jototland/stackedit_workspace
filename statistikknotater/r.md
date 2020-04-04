@@ -3,7 +3,7 @@
 > rank(rank(c("dog", "cat", "sheep", "cow"))
 [1] 3 1 4 2
 ``` 
-`order` gives 
+Which element should in you pick? In which `order`  (if you wanted them in `order`?)
 ```
 > order(c("dog", "cat", "sheep", "cow"))
 [1] 2 4 1 3
@@ -14,5 +14,5 @@ dplyr::desc(c("dog", "cat", "sheep", "cow"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDUyNjYxNV19
+eyJoaXN0b3J5IjpbMjA1NDkzMTU0NV19
 -->
