@@ -9,6 +9,7 @@ To get a sorted list: which element should in you pick? In which `order`?
 ```
 > order(c("dog", "cat", "sheep", "cow"))
 [1] 2 4 1 3
+
 ```
 And in general:
 ```
@@ -22,6 +23,6 @@ dplyr::desc(c("dog", "cat", "sheep", "cow"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODI5MTc5NSwtMTM2MDc1NzEzNiwxOT
-AxMTgzODM5XX0=
+eyJoaXN0b3J5IjpbMTUxNzg4MzE1LC02MjgyOTE3OTUsLTEzNj
+A3NTcxMzYsMTkwMTE4MzgzOV19
 -->
