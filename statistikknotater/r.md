@@ -9,10 +9,10 @@ To get a sorted list: which element should in you pick? In which `order`?
 ```
 > order(c("dog", "cat", "sheep", "cow"))
 [1] 2 4 1 3
-
 ```
 And in general:
 ```
+sort(x) == x[order(x)]
 rank(order(x)) == order(rank(x))
 ```
 If you were to sort a dataframe in `desc`ending order, how would you transform the input vector?
@@ -23,6 +23,6 @@ dplyr::desc(c("dog", "cat", "sheep", "cow"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzg4MzE1LC02MjgyOTE3OTUsLTEzNj
-A3NTcxMzYsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbMTU1OTM5MjYyNywtNjI4MjkxNzk1LC0xMz
+YwNzU3MTM2LDE5MDExODM4MzldfQ==
 -->
