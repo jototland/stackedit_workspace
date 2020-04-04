@@ -1,6 +1,6 @@
 #### `rank`
 If you were to sort a list, which `rank` would each element have?
-(The function `rank` returns the index position each element would have in a sorted list. If there are several equal equal elements, `rank` will return the median of the indices).
+(The function `rank` returns the index position each element would have in a sorted list. If there are several equal equal elements, `rank` will return the average of the indices, unless `ties.method` is specified).
 ```
 > rank(rank(c("c", "a", "d", "b"))
 [1] 3 1 4 2
@@ -31,7 +31,8 @@ desc(c("c", "a", "d", "b"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjczNzY4NiwtMTIwODk5Mjg3MCwxNz
-Q0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkzOTI2MjcsLTYyODI5
-MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzODM5XX0=
+eyJoaXN0b3J5IjpbMjczNzE4OTQzLDExOTY3Mzc2ODYsLTEyMD
+g5OTI4NzAsMTc0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5Mzky
+NjI3LC02MjgyOTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV
+19
 -->
