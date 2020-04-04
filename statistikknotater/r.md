@@ -1,9 +1,11 @@
 If you were to sort a list, which `rank` would each element have?
+The function `rank` returns the order of each element
 ```
 > rank(rank(c("dog", "cat", "sheep", "cow"))
 [1] 3 1 4 2
 ``` 
 To get a sorted list: which element should in you pick? In which `order`? 
+The function `order` returns the index each element would have if the list were sorted
 ```
 > order(c("dog", "cat", "sheep", "cow"))
 [1] 2 4 1 3
@@ -15,5 +17,5 @@ dplyr::desc(c("dog", "cat", "sheep", "cow"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzM1NDI1MV19
+eyJoaXN0b3J5IjpbLTEyMjEyMTgwNzldfQ==
 -->
