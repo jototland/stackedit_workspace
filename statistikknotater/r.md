@@ -1,6 +1,6 @@
 #### `rank`
 If you were to sort a list, which `rank` would each element have?
-(The function `rank` returns the order of each element. If there are several equal equal elements, `rank` will return the median).
+(The function `rank` returns the order each element would have in a sorted list. If there are several equal equal elements, `rank` will return the median of the indices).
 ```
 > rank(rank(c("dog", "cat", "sheep", "cow"))
 [1] 3 1 4 2
@@ -8,14 +8,17 @@ If you were to sort a list, which `rank` would each element have?
 
 #### `order`
 To get a sorted list: which element should in you pick? In which `order`? 
-(The function `order` returns the indices you should pick from the list to get it in sorted order).
+(The function `order` returns the indices you should pick from the input list to get it in sorted order).
 ```
+> sort(x) == x[order(x)]
+```
+Example:
 > order(c("dog", "cat", "sheep", "cow"))
 [1] 2 4 1 3
 ```
 And in general:
 ```
-sort(x) == x[order(x)]
+
 all(x==x[order(x)][rank(x)])
 ```
 
@@ -28,7 +31,7 @@ desc(c("dog", "cat", "sheep", "cow"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEwMTcyODksLTEyMDg5OTI4NzAsMT
+eyJoaXN0b3J5IjpbLTIxMDcyMDAwNDcsLTEyMDg5OTI4NzAsMT
 c0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC02Mjgy
 OTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
 -->
