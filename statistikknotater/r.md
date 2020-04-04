@@ -13,25 +13,25 @@ To get a sorted list: which element should in you pick? In which `order`?
 > sort(x) == x[order(x)]
 ```
 Example:
+```
 > order(c("c", "a", "d", "b"))
 [1] 2 4 1 3
 ```
 And in general:
 ```
-
 all(x==x[order(x)][rank(x)])
 ```
 
 #### `dplyr::desc`
 If you were to sort a dataframe in `desc`ending order, how would you transform the input vector?
-The function `desc(x)` is the same as `-(rank(
+The function `desc(x)` is the same as `-(rank(x))`
 ```
 desc(c("c", "a", "d", "b"))
 [1] -3 -1 -4 -2
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc1MDAyMjYsLTEyMDg5OTI4NzAsMT
-c0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC02Mjgy
-OTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbMTE5NjczNzY4NiwtMTIwODk5Mjg3MCwxNz
+Q0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkzOTI2MjcsLTYyODI5
+MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzODM5XX0=
 -->
