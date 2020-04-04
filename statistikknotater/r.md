@@ -12,7 +12,7 @@ To get a sorted list: which element should in you pick? In which `order`?
 ```
 And in general:
 ```
-rank(order(x)) == order(rank(x)) == x
+rank(order(x)) == order(rank(x))
 ```
 If you were to sort a dataframe in `desc`ending order, how would you transform the input vector?
 The function `dplyr::desc(x)` is the same as `-(rank(
@@ -22,6 +22,6 @@ dplyr::desc(c("dog", "cat", "sheep", "cow"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIzNzU1MTcsLTEzNjA3NTcxMzYsMT
-kwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbLTYyODI5MTc5NSwtMTM2MDc1NzEzNiwxOT
+AxMTgzODM5XX0=
 -->
