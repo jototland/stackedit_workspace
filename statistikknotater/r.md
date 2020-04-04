@@ -8,7 +8,7 @@ If you were to sort a list, which `rank` would each element have?
 
 #### `order`
 To get a sorted list: which element should in you pick? In which `order`? 
-(The function `order` returns the index each element would have if the list were sorted).
+(The function `order` returns the indices you should pick from the list to get it in sorted order).
 ```
 > order(c("dog", "cat", "sheep", "cow"))
 [1] 2 4 1 3
@@ -28,7 +28,7 @@ desc(c("dog", "cat", "sheep", "cow"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMT
-Y5NzUwNjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3
-NTcxMzYsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbLTExNTEwMTcyODksLTEyMDg5OTI4NzAsMT
+c0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC02Mjgy
+OTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
 -->
