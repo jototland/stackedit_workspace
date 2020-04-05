@@ -49,12 +49,16 @@ Example:
 > arrange(data.frame(x, stringsAsFactors="F"), desc(x))$x
 [1] "d" "c" "b" "a" "a"
 ```
+#### `nest` and `unnest`
+```
+df %>% nest(data=-c(remaining columns))
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Mjc2NzAyNCwtNzA3MjI3OTAwLC0xND
-A0MjEwMjExLDcyNTE1MDM5NCwtNDM3OTUzNzYwLDEzNTI3OTY1
-NzEsLTkyMzc1ODU0LC0yODg2ODcwODgsMTE5NjczNzY4NiwtMT
-IwODk5Mjg3MCwxNzQ0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkz
-OTI2MjcsLTYyODI5MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzOD
-M5XX0=
+eyJoaXN0b3J5IjpbLTIwMDk5NTM2MTgsMTM0Mjc2NzAyNCwtNz
+A3MjI3OTAwLC0xNDA0MjEwMjExLDcyNTE1MDM5NCwtNDM3OTUz
+NzYwLDEzNTI3OTY1NzEsLTkyMzc1ODU0LC0yODg2ODcwODgsMT
+E5NjczNzY4NiwtMTIwODk5Mjg3MCwxNzQ0ODk1NTM2LC0xNjk3
+NTA2MzM1LDE1NTkzOTI2MjcsLTYyODI5MTc5NSwtMTM2MDc1Nz
+EzNiwxOTAxMTgzODM5XX0=
 -->
