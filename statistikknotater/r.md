@@ -5,8 +5,8 @@ The function `rank` returns the index position each element would have in a sort
 
 * ties.method="min" : the lowest possible index will be used for all equal values
 * ties.method="max": the highest possible index will be used all equal values
-* ties.method="first": indices for equal values will be in same order as occurence
-* ties.method="last": indices for equal values will be in reverse order of occurence
+* ties.method="first": indices for equal values will be in same order as occurence in input
+* ties.method="last": indices for equal values will be in reverse order of occurence in input
 * ties.method="average": indices will be the aveage of "min" and "max" (the default)
 * ties.method="random": indices for equal values will in random order
 ```
@@ -51,9 +51,9 @@ Example:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTU5Mjg3NSw3MjUxNTAzOTQsLTQzNz
-k1Mzc2MCwxMzUyNzk2NTcxLC05MjM3NTg1NCwtMjg4Njg3MDg4
-LDExOTY3Mzc2ODYsLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMT
-Y5NzUwNjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3
-NTcxMzYsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbLTEyMDU2ODMwMTEsNzI1MTUwMzk0LC00Mz
+c5NTM3NjAsMTM1Mjc5NjU3MSwtOTIzNzU4NTQsLTI4ODY4NzA4
+OCwxMTk2NzM3Njg2LC0xMjA4OTkyODcwLDE3NDQ4OTU1MzYsLT
+E2OTc1MDYzMzUsMTU1OTM5MjYyNywtNjI4MjkxNzk1LC0xMzYw
+NzU3MTM2LDE5MDExODM4MzldfQ==
 -->
