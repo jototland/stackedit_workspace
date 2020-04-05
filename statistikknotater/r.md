@@ -24,7 +24,7 @@ To get a sorted list: which element should in you pick? In which `order`?
 The function `order` returns the indices you should pick from the input list to get it in sorted order.
 
 For any input vector `x`, `all(sort(x) == x[order(x)])` will return `TRUE`.
-```
+
 Example:
 ```
 > order(c("c", "a", "d", "b", "a"))
@@ -51,10 +51,10 @@ Example:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNDE4OTcyLC03MDcyMjc5MDAsLTE0MD
-QyMTAyMTEsNzI1MTUwMzk0LC00Mzc5NTM3NjAsMTM1Mjc5NjU3
-MSwtOTIzNzU4NTQsLTI4ODY4NzA4OCwxMTk2NzM3Njg2LC0xMj
-A4OTkyODcwLDE3NDQ4OTU1MzYsLTE2OTc1MDYzMzUsMTU1OTM5
-MjYyNywtNjI4MjkxNzk1LC0xMzYwNzU3MTM2LDE5MDExODM4Mz
-ldfQ==
+eyJoaXN0b3J5IjpbMTM0Mjc2NzAyNCwtNzA3MjI3OTAwLC0xND
+A0MjEwMjExLDcyNTE1MDM5NCwtNDM3OTUzNzYwLDEzNTI3OTY1
+NzEsLTkyMzc1ODU0LC0yODg2ODcwODgsMTE5NjczNzY4NiwtMT
+IwODk5Mjg3MCwxNzQ0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkz
+OTI2MjcsLTYyODI5MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzOD
+M5XX0=
 -->
