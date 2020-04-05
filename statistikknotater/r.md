@@ -6,7 +6,7 @@ all(sort(x)[rank(x)] == x) # non-integer indices will be truncated
 ```
 Example:
 ```
-> rank(rank(c("c", "a", "d", "b"))
+> rank(c("c", "a", "d", "b", "a"))
 [1] 3 1 4 2
 ``` 
 
@@ -34,7 +34,7 @@ desc(c("c", "a", "d", "b"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjA3MzczMSwtMjg4Njg3MDg4LDExOT
+eyJoaXN0b3J5IjpbLTk1MjkxMDA4NiwtMjg4Njg3MDg4LDExOT
 Y3Mzc2ODYsLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMTY5NzUw
 NjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3NTcxMz
 YsMTkwMTE4MzgzOV19
