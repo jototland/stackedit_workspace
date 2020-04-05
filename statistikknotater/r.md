@@ -60,12 +60,19 @@ To perform a function of all nested tibbles, such as a linear regression:
 mutate(result = purrr:map(data, ~ lm(what~ever, .)))
 ```
 
+#### `recode`
+```
+> recode(c('a', 'b', 'c'), a='x', b='y')
+[1] "x" "y" "c"
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDAxMjEzMiwxNTM1MzE3NDI3LDEzND
-I3NjcwMjQsLTcwNzIyNzkwMCwtMTQwNDIxMDIxMSw3MjUxNTAz
-OTQsLTQzNzk1Mzc2MCwxMzUyNzk2NTcxLC05MjM3NTg1NCwtMj
-g4Njg3MDg4LDExOTY3Mzc2ODYsLTEyMDg5OTI4NzAsMTc0NDg5
-NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OT
-UsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbLTMyOTQwOTIzMCwtNDk0MDEyMTMyLDE1Mz
+UzMTc0MjcsMTM0Mjc2NzAyNCwtNzA3MjI3OTAwLC0xNDA0MjEw
+MjExLDcyNTE1MDM5NCwtNDM3OTUzNzYwLDEzNTI3OTY1NzEsLT
+kyMzc1ODU0LC0yODg2ODcwODgsMTE5NjczNzY4NiwtMTIwODk5
+Mjg3MCwxNzQ0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkzOTI2Mj
+csLTYyODI5MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzODM5XX0=
+
 -->
