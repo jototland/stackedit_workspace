@@ -52,13 +52,13 @@ Example:
 #### `nest` and `unnest`
 ```
 df %>% nest(data=-c(remaining columns)) -> dfn
-dfn %>% unnest(
+dfn %>% unnest(cols=data) -> df
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjE5ODc2LDEzNDI3NjcwMjQsLTcwNz
-IyNzkwMCwtMTQwNDIxMDIxMSw3MjUxNTAzOTQsLTQzNzk1Mzc2
-MCwxMzUyNzk2NTcxLC05MjM3NTg1NCwtMjg4Njg3MDg4LDExOT
-Y3Mzc2ODYsLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMTY5NzUw
-NjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3NTcxMz
-YsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbNjMyNjgwMDIsMTM0Mjc2NzAyNCwtNzA3Mj
+I3OTAwLC0xNDA0MjEwMjExLDcyNTE1MDM5NCwtNDM3OTUzNzYw
+LDEzNTI3OTY1NzEsLTkyMzc1ODU0LC0yODg2ODcwODgsMTE5Nj
+czNzY4NiwtMTIwODk5Mjg3MCwxNzQ0ODk1NTM2LC0xNjk3NTA2
+MzM1LDE1NTkzOTI2MjcsLTYyODI5MTc5NSwtMTM2MDc1NzEzNi
+wxOTAxMTgzODM5XX0=
 -->
