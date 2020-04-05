@@ -340,9 +340,9 @@ $\newcommand{\df}{\textit{df}}
 $$\begin{aligned}
 \newcommand{\df}{\textit{df}}
 \newcommand{\sp}{&\hspace{2em}}
-SSE=\sum(y_i-\hat{y}_i)^2 \sp \df_e=n-k-1 \sp MSE=SSE/\df_e\\
-SSR=\sum(\hat{y}_i-\bar{y})^2 \sp \df_r=k \sp MSE=SSE/\df_r\\
-SST=\sum(y_i-\bar{y})^2 \sp \df_t=n-1 \sp MSE=SSE/\df_t
+SSE&=\sum(y_i-\hat{y}_i)^2 \sp \df_e&=n-k-1 \sp MSE&=SSE/\df_e\\
+SSR&=\sum(\hat{y}_i-\bar{y})^2 \sp \df_r&=k \sp MSE&=SSE/\df_r\\
+SST&=\sum(y_i-\bar{y})^2 \sp \df_t&=n-1 \sp MSE&=SSE/\df_t
 \end{aligned}$$
 
 Interestingly, the coefficient of determination $R^2$ is
@@ -369,11 +369,11 @@ The standard error for a prediction interval is
 $$s_{pred}=\sqrt{s^2+s^2_{\hat{y}^\star}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTM2NjE4MiwtMTAwMDgxMzI1NCwxNz
-M3MzgwNzk5LDI1MDQyMTA1MSwtMTY0ODc3NTk3OCw5MjU3MDc3
-NjgsLTgyMjM3MzEwNSwxMDAyODYwMzM4LC05MzA2NjE3MTEsLT
-cxNTE1NTk5NiwxNDY1MTE4NTY5LC04MjgwMzA2ODgsOTEzMjgz
-OTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3MSw2Njc2NTE3MCwtMT
-A0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAzMzU2NiwxMDk2Mjg1
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTExOTgzODE5NjAsLTM5NTM2NjE4MiwtMT
+AwMDgxMzI1NCwxNzM3MzgwNzk5LDI1MDQyMTA1MSwtMTY0ODc3
+NTk3OCw5MjU3MDc3NjgsLTgyMjM3MzEwNSwxMDAyODYwMzM4LC
+05MzA2NjE3MTEsLTcxNTE1NTk5NiwxNDY1MTE4NTY5LC04Mjgw
+MzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3MS
+w2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAz
+MzU2Nl19
 -->
