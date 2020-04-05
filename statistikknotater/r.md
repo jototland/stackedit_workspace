@@ -1,6 +1,10 @@
 #### `rank`
 If you were to sort a list, which `rank` would each element have?
-(The function `rank` returns the index position each element would have in a sorted list. If there are several equal equal elements, `rank` will return the average of the indices, unless `ties.method` is specified as something else).
+
+The function `rank` returns the index position each element would have in a sorted list. If there are several equal equal elements, `rank` will return the average of the indices, unless `ties.method` is specified as something else.
+
+* ties.method="min" : the lowest indes will be used
+* ties.method="max": the highest index will be used
 ```
 all(sort(x)[rank(x)] == x) # non-integer indices will be truncated
 ```
@@ -12,7 +16,8 @@ Example:
 
 #### `order`
 To get a sorted list: which element should in you pick? In which `order`? 
-(The function `order` returns the indices you should pick from the input list to get it in sorted order).
+
+The function `order` returns the indices you should pick from the input list to get it in sorted order.
 ```
 all(sort(x) == x[order(x)])
 ```
@@ -42,9 +47,9 @@ Example:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MTUwMzk0LC00Mzc5NTM3NjAsMTM1Mj
-c5NjU3MSwtOTIzNzU4NTQsLTI4ODY4NzA4OCwxMTk2NzM3Njg2
-LC0xMjA4OTkyODcwLDE3NDQ4OTU1MzYsLTE2OTc1MDYzMzUsMT
-U1OTM5MjYyNywtNjI4MjkxNzk1LC0xMzYwNzU3MTM2LDE5MDEx
-ODM4MzldfQ==
+eyJoaXN0b3J5IjpbMjI2ODY1MDIzLDcyNTE1MDM5NCwtNDM3OT
+UzNzYwLDEzNTI3OTY1NzEsLTkyMzc1ODU0LC0yODg2ODcwODgs
+MTE5NjczNzY4NiwtMTIwODk5Mjg3MCwxNzQ0ODk1NTM2LC0xNj
+k3NTA2MzM1LDE1NTkzOTI2MjcsLTYyODI5MTc5NSwtMTM2MDc1
+NzEzNiwxOTAxMTgzODM5XX0=
 -->
