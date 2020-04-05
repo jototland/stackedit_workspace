@@ -335,8 +335,7 @@ We can estimate the slope $\beta_1$ with
 $$b_1=R\frac{s_y}{s_x} = \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sum(x_i-\bar{x})^2}$$
 
 Then, for $n$ observations with $k$ independent variables
-$\newcommand{\df}{\textit{df}}
-\newcommand{\sp}{&\hspace{2em}}$
+
 $$\begin{aligned}
 \newcommand{\df}{\textit{df}}
 \newcommand{\sp}{&\hspace{2em}}
@@ -369,11 +368,11 @@ The standard error for a prediction interval is
 $$s_{pred}=\sqrt{s^2+s^2_{\hat{y}^\star}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgzODE5NjAsLTM5NTM2NjE4MiwtMT
-AwMDgxMzI1NCwxNzM3MzgwNzk5LDI1MDQyMTA1MSwtMTY0ODc3
-NTk3OCw5MjU3MDc3NjgsLTgyMjM3MzEwNSwxMDAyODYwMzM4LC
-05MzA2NjE3MTEsLTcxNTE1NTk5NiwxNDY1MTE4NTY5LC04Mjgw
-MzA2ODgsOTEzMjgzOTQ3LC0xMzE1OTM3Mjc4LDY3NzA1MDQ3MS
-w2Njc2NTE3MCwtMTA0NTAxMjkzOSwtODg4NDI4NDYwLC01ODAz
-MzU2Nl19
+eyJoaXN0b3J5IjpbNzkwMzQyNTE5LC0zOTUzNjYxODIsLTEwMD
+A4MTMyNTQsMTczNzM4MDc5OSwyNTA0MjEwNTEsLTE2NDg3NzU5
+NzgsOTI1NzA3NzY4LC04MjIzNzMxMDUsMTAwMjg2MDMzOCwtOT
+MwNjYxNzExLC03MTUxNTU5OTYsMTQ2NTExODU2OSwtODI4MDMw
+Njg4LDkxMzI4Mzk0NywtMTMxNTkzNzI3OCw2NzcwNTA0NzEsNj
+Y3NjUxNzAsLTEwNDUwMTI5MzksLTg4ODQyODQ2MCwtNTgwMzM1
+NjZdfQ==
 -->
