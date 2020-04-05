@@ -10,7 +10,7 @@ The function `rank` returns the index position each element would have in a sort
 * ties.method="average": indices will be the average of "min" and "max" (the default)
 * ties.method="random": indices for equal values will in random order
 
-For any input vector `x`, `all(sort(x)[rank(x)] == x)` will return `TRUE`:
+For any input vector `x`, `all(sort(x)[rank(x)] == x)` will return `TRUE`.
 
 Example:
 ```
@@ -23,7 +23,7 @@ To get a sorted list: which element should in you pick? In which `order`?
 
 The function `order` returns the indices you should pick from the input list to get it in sorted order.
 
-For any input vector `x`, `all(sort(x) == x[order(x)])` will return `TRUE`:
+For any input vector `x`, `all(sort(x) == x[order(x)])` will return `TRUE`.
 ```
 Example:
 ```
@@ -51,9 +51,10 @@ Example:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzIyNzkwMCwtMTQwNDIxMDIxMSw3Mj
-UxNTAzOTQsLTQzNzk1Mzc2MCwxMzUyNzk2NTcxLC05MjM3NTg1
-NCwtMjg4Njg3MDg4LDExOTY3Mzc2ODYsLTEyMDg5OTI4NzAsMT
-c0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC02Mjgy
-OTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbNjcwNDE4OTcyLC03MDcyMjc5MDAsLTE0MD
+QyMTAyMTEsNzI1MTUwMzk0LC00Mzc5NTM3NjAsMTM1Mjc5NjU3
+MSwtOTIzNzU4NTQsLTI4ODY4NzA4OCwxMTk2NzM3Njg2LC0xMj
+A4OTkyODcwLDE3NDQ4OTU1MzYsLTE2OTc1MDYzMzUsMTU1OTM5
+MjYyNywtNjI4MjkxNzk1LC0xMzYwNzU3MTM2LDE5MDExODM4Mz
+ldfQ==
 -->
