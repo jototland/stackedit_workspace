@@ -57,7 +57,7 @@ dfn %>% unnest(cols=data) -> df
 To access row `rownumber` use `dfn$data[[rownumber]]`
 To perform a function of all nested tibbles, such as a linear regression: 
 ```
-mutate(result = purrr:map(data, ~ lm(what~ever, .)))
+mutate(result = purrr:map(data, ~ lm(y~x, .)))
 ```
 
 #### `recode`
@@ -68,11 +68,11 @@ mutate(result = purrr:map(data, ~ lm(what~ever, .)))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTQwOTIzMCwtNDk0MDEyMTMyLDE1Mz
-UzMTc0MjcsMTM0Mjc2NzAyNCwtNzA3MjI3OTAwLC0xNDA0MjEw
-MjExLDcyNTE1MDM5NCwtNDM3OTUzNzYwLDEzNTI3OTY1NzEsLT
-kyMzc1ODU0LC0yODg2ODcwODgsMTE5NjczNzY4NiwtMTIwODk5
-Mjg3MCwxNzQ0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkzOTI2Mj
-csLTYyODI5MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzODM5XX0=
-
+eyJoaXN0b3J5IjpbLTI0MjQwNjc3MSwtMzI5NDA5MjMwLC00OT
+QwMTIxMzIsMTUzNTMxNzQyNywxMzQyNzY3MDI0LC03MDcyMjc5
+MDAsLTE0MDQyMTAyMTEsNzI1MTUwMzk0LC00Mzc5NTM3NjAsMT
+M1Mjc5NjU3MSwtOTIzNzU4NTQsLTI4ODY4NzA4OCwxMTk2NzM3
+Njg2LC0xMjA4OTkyODcwLDE3NDQ4OTU1MzYsLTE2OTc1MDYzMz
+UsMTU1OTM5MjYyNywtNjI4MjkxNzk1LC0xMzYwNzU3MTM2LDE5
+MDExODM4MzldfQ==
 -->
