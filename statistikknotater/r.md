@@ -25,7 +25,8 @@ Example:
 #### `dplyr::desc`
 If you were to sort a dataframe in `desc`ending order, how would you transform the input vector?
 ```
-desc2(x) <- function(x) if (class(x) %in% c("integer", "numeric") -x else -rank(x)
+desc2 <- function(x) 
+  if (class(x) %in% c("integer", "numeric") -x else -rank(x, ties.method="min")
 ```
 Example:
 ```
@@ -34,8 +35,8 @@ desc(c("c", "a", "d", "b"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Mjc5NjU3MSwtOTIzNzU4NTQsLTI4OD
-Y4NzA4OCwxMTk2NzM3Njg2LC0xMjA4OTkyODcwLDE3NDQ4OTU1
-MzYsLTE2OTc1MDYzMzUsMTU1OTM5MjYyNywtNjI4MjkxNzk1LC
-0xMzYwNzU3MTM2LDE5MDExODM4MzldfQ==
+eyJoaXN0b3J5IjpbMTAwMjUzMjU5MywxMzUyNzk2NTcxLC05Mj
+M3NTg1NCwtMjg4Njg3MDg4LDExOTY3Mzc2ODYsLTEyMDg5OTI4
+NzAsMTc0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC
+02MjgyOTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
 -->
