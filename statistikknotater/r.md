@@ -37,12 +37,12 @@ Example:
 ```
 > desc(c("c", "a", "d", "b", "a"))
 [1] -4 -1 -5 -3 -1
-> sort(d
+> sort(desc(c("c", "a", "d", "b", "a")))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NDgyMzA4LDEzNTI3OTY1NzEsLTkyMz
-c1ODU0LC0yODg2ODcwODgsMTE5NjczNzY4NiwtMTIwODk5Mjg3
-MCwxNzQ0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkzOTI2MjcsLT
-YyODI5MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzODM5XX0=
+eyJoaXN0b3J5IjpbLTQzNzk1Mzc2MCwxMzUyNzk2NTcxLC05Mj
+M3NTg1NCwtMjg4Njg3MDg4LDExOTY3Mzc2ODYsLTEyMDg5OTI4
+NzAsMTc0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC
+02MjgyOTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
 -->
