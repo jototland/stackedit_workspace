@@ -18,8 +18,9 @@ all(sort(x) == x[order(x)])
 ```
 Example:
 ```
-> order(c("c", "a", "d", "b"))
-[1] 2 4 1 3
+> order(c("c", "a", "d", "b", "a
+> ))
+[1] 2 5 4 1 3
 ```
 
 #### `dplyr::desc`
@@ -40,9 +41,8 @@ desc(c("c", "a", "d", "b"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk3MDQxNDIsMTM1Mjc5NjU3MSwtOT
-IzNzU4NTQsLTI4ODY4NzA4OCwxMTk2NzM3Njg2LC0xMjA4OTky
-ODcwLDE3NDQ4OTU1MzYsLTE2OTc1MDYzMzUsMTU1OTM5MjYyNy
-wtNjI4MjkxNzk1LC0xMzYwNzU3MTM2LDE5MDExODM4MzldfQ==
-
+eyJoaXN0b3J5IjpbMTY2ODk4OTk0LDEzNTI3OTY1NzEsLTkyMz
+c1ODU0LC0yODg2ODcwODgsMTE5NjczNzY4NiwtMTIwODk5Mjg3
+MCwxNzQ0ODk1NTM2LC0xNjk3NTA2MzM1LDE1NTkzOTI2MjcsLT
+YyODI5MTc5NSwtMTM2MDc1NzEzNiwxOTAxMTgzODM5XX0=
 -->
