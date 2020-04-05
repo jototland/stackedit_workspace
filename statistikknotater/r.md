@@ -7,6 +7,10 @@ Example:
 > rank(rank(c("c", "a", "d", "b"))
 [1] 3 1 4 2
 ``` 
+And in general:
+```
+all(sort(x)[rank(x)] == x)
+```
 
 #### `order`
 To get a sorted list: which element should in you pick? In which `order`? 
@@ -36,8 +40,8 @@ desc(c("c", "a", "d", "b"))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODY4NzA4OCwxMTk2NzM3Njg2LC0xMj
-A4OTkyODcwLDE3NDQ4OTU1MzYsLTE2OTc1MDYzMzUsMTU1OTM5
-MjYyNywtNjI4MjkxNzk1LC0xMzYwNzU3MTM2LDE5MDExODM4Mz
-ldfQ==
+eyJoaXN0b3J5IjpbLTY4OTMxMTU5OCwtMjg4Njg3MDg4LDExOT
+Y3Mzc2ODYsLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMTY5NzUw
+NjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3NTcxMz
+YsMTkwMTE4MzgzOV19
 -->
