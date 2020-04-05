@@ -51,14 +51,14 @@ Example:
 ```
 #### `nest` and `unnest`
 ```
-df %>% nest(data=-c(remaining columns))
-
+df %>% nest(data=-c(remaining columns)) -> dfn
+dfn %>% unnest(
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk5NTM2MTgsMTM0Mjc2NzAyNCwtNz
-A3MjI3OTAwLC0xNDA0MjEwMjExLDcyNTE1MDM5NCwtNDM3OTUz
-NzYwLDEzNTI3OTY1NzEsLTkyMzc1ODU0LC0yODg2ODcwODgsMT
-E5NjczNzY4NiwtMTIwODk5Mjg3MCwxNzQ0ODk1NTM2LC0xNjk3
-NTA2MzM1LDE1NTkzOTI2MjcsLTYyODI5MTc5NSwtMTM2MDc1Nz
-EzNiwxOTAxMTgzODM5XX0=
+eyJoaXN0b3J5IjpbLTU3NjE5ODc2LDEzNDI3NjcwMjQsLTcwNz
+IyNzkwMCwtMTQwNDIxMDIxMSw3MjUxNTAzOTQsLTQzNzk1Mzc2
+MCwxMzUyNzk2NTcxLC05MjM3NTg1NCwtMjg4Njg3MDg4LDExOT
+Y3Mzc2ODYsLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMTY5NzUw
+NjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3NTcxMz
+YsMTkwMTE4MzgzOV19
 -->
