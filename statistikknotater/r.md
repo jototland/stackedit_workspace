@@ -55,8 +55,9 @@ df %>% nest(data=-c(remaining columns)) -> dfn
 dfn %>% unnest(cols=data) -> df
 dfn$data[[rownumber]]
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODMwNjExNywxMzQyNzY3MDI0LC03MD
+eyJoaXN0b3J5IjpbMTUzNTMxNzQyNywxMzQyNzY3MDI0LC03MD
 cyMjc5MDAsLTE0MDQyMTAyMTEsNzI1MTUwMzk0LC00Mzc5NTM3
 NjAsMTM1Mjc5NjU3MSwtOTIzNzU4NTQsLTI4ODY4NzA4OCwxMT
 k2NzM3Njg2LC0xMjA4OTkyODcwLDE3NDQ4OTU1MzYsLTE2OTc1
