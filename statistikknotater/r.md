@@ -37,12 +37,14 @@ Example:
 ```
 > desc(c("c", "a", "d", "b", "a"))
 [1] -4 -1 -5 -3 -1
-> sort(desc(c("c", "a", "d", "b", "a")))
+> arrange(data.frame(x, stringsAsFactors="F"), desc(x))$x
+[1] "d" "c" "b" "a" "a"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzk1Mzc2MCwxMzUyNzk2NTcxLC05Mj
-M3NTg1NCwtMjg4Njg3MDg4LDExOTY3Mzc2ODYsLTEyMDg5OTI4
-NzAsMTc0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC
-02MjgyOTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
+eyJoaXN0b3J5IjpbNzI1MTUwMzk0LC00Mzc5NTM3NjAsMTM1Mj
+c5NjU3MSwtOTIzNzU4NTQsLTI4ODY4NzA4OCwxMTk2NzM3Njg2
+LC0xMjA4OTkyODcwLDE3NDQ4OTU1MzYsLTE2OTc1MDYzMzUsMT
+U1OTM5MjYyNywtNjI4MjkxNzk1LC0xMzYwNzU3MTM2LDE5MDEx
+ODM4MzldfQ==
 -->
