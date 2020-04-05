@@ -9,9 +9,9 @@ The function `rank` returns the index position each element would have in a sort
 * ties.method="last": indices for equal values will be in reverse order of occurrence in input
 * ties.method="average": indices will be the average of "min" and "max" (the default)
 * ties.method="random": indices for equal values will in random order
-```
-all(sort(x)[rank(x)] == x) # non-integer indices will be truncated
-```
+
+For any input vector `x`, `all(sort(x)[rank(x)] == x)` will return `TRUE`:
+
 Example:
 ```
 > rank(c("c", "a", "d", "b", "a"))
@@ -22,8 +22,8 @@ Example:
 To get a sorted list: which element should in you pick? In which `order`? 
 
 The function `order` returns the indices you should pick from the input list to get it in sorted order.
-```
-all(sort(x) == x[order(x)])
+
+For any input vector `x`, `all(sort(x) == x[order(x)])` will return `TRUE`:
 ```
 Example:
 ```
@@ -51,9 +51,9 @@ Example:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQyMTAyMTEsNzI1MTUwMzk0LC00Mz
-c5NTM3NjAsMTM1Mjc5NjU3MSwtOTIzNzU4NTQsLTI4ODY4NzA4
-OCwxMTk2NzM3Njg2LC0xMjA4OTkyODcwLDE3NDQ4OTU1MzYsLT
-E2OTc1MDYzMzUsMTU1OTM5MjYyNywtNjI4MjkxNzk1LC0xMzYw
-NzU3MTM2LDE5MDExODM4MzldfQ==
+eyJoaXN0b3J5IjpbLTcwNzIyNzkwMCwtMTQwNDIxMDIxMSw3Mj
+UxNTAzOTQsLTQzNzk1Mzc2MCwxMzUyNzk2NTcxLC05MjM3NTg1
+NCwtMjg4Njg3MDg4LDExOTY3Mzc2ODYsLTEyMDg5OTI4NzAsMT
+c0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC02Mjgy
+OTE3OTUsLTEzNjA3NTcxMzYsMTkwMTE4MzgzOV19
 -->
