@@ -7,7 +7,8 @@ The function `rank` returns the index position each element would have in a sort
 * ties.method="max": the highest possible index will be used all equal values
 * ties.method="first": indices for equal values will be in same order as occurence
 * ties.method="last": indices for equal values will be in reverse order of occurence
-* ties.method="average": (the default)
+* ties.method="average": indices will be the aveage of "min" and "max" (the default)
+* ties.method="random": indices for equal values will in random order
 ```
 all(sort(x)[rank(x)] == x) # non-integer indices will be truncated
 ```
@@ -50,7 +51,7 @@ Example:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjQ5Njk2Nyw3MjUxNTAzOTQsLTQzNz
+eyJoaXN0b3J5IjpbMTIwMTU5Mjg3NSw3MjUxNTAzOTQsLTQzNz
 k1Mzc2MCwxMzUyNzk2NTcxLC05MjM3NTg1NCwtMjg4Njg3MDg4
 LDExOTY3Mzc2ODYsLTEyMDg5OTI4NzAsMTc0NDg5NTUzNiwtMT
 Y5NzUwNjMzNSwxNTU5MzkyNjI3LC02MjgyOTE3OTUsLTEzNjA3
