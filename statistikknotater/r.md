@@ -65,14 +65,14 @@ mutate(result = purrr:map(data, ~ lm(y~x, .)))
 > recode(c('a', 'b', 'c'), a='x', b='y')
 [1] "x" "y" "c"
 ```
-$a\overset{a}{b}\stackrel{a}{b}a\stackrel{\text{iid}}{\sim}\overset{\text{iid}}{\sim}$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU2MjIwNzUsLTI0MjQwNjc3MSwtMz
-I5NDA5MjMwLC00OTQwMTIxMzIsMTUzNTMxNzQyNywxMzQyNzY3
-MDI0LC03MDcyMjc5MDAsLTE0MDQyMTAyMTEsNzI1MTUwMzk0LC
-00Mzc5NTM3NjAsMTM1Mjc5NjU3MSwtOTIzNzU4NTQsLTI4ODY4
-NzA4OCwxMTk2NzM3Njg2LC0xMjA4OTkyODcwLDE3NDQ4OTU1Mz
-YsLTE2OTc1MDYzMzUsMTU1OTM5MjYyNywtNjI4MjkxNzk1LC0x
-MzYwNzU3MTM2XX0=
+eyJoaXN0b3J5IjpbLTI0MjQwNjc3MSwtMTA1NTYyMjA3NSwtMj
+QyNDA2NzcxLC0zMjk0MDkyMzAsLTQ5NDAxMjEzMiwxNTM1MzE3
+NDI3LDEzNDI3NjcwMjQsLTcwNzIyNzkwMCwtMTQwNDIxMDIxMS
+w3MjUxNTAzOTQsLTQzNzk1Mzc2MCwxMzUyNzk2NTcxLC05MjM3
+NTg1NCwtMjg4Njg3MDg4LDExOTY3Mzc2ODYsLTEyMDg5OTI4Nz
+AsMTc0NDg5NTUzNiwtMTY5NzUwNjMzNSwxNTU5MzkyNjI3LC02
+MjgyOTE3OTVdfQ==
 -->
