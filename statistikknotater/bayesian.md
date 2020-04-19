@@ -20,8 +20,10 @@ Typically $A_i$ will be our hypothesis and $x$ will be the data from an experime
 * $P(A_i|x)$ is our *posterior* probability, updated because we now know $x$. 
 * $P(x|A_j)$ is the *likelihood* of x assuming $A_j$. (Note that the sum of all the likelihoods is not $1$).
 
-In the continuous case, we no longer have a finite partition of $S$. Instead we have a
+In the continuous case, we no longer have a finite partition of $S$ into discrete events. 
+
+Instead we have a continuous probability function $p$ depending upon a paramater $\theta$, or $p(\theta)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjA0NDU0N119
+eyJoaXN0b3J5IjpbNjAwMTgyMjUxXX0=
 -->
