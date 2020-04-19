@@ -39,7 +39,7 @@ $$ p(x) = P(X=x) = \sum_{i} P(X=x \land Y=y_i) $$
 
 The continuous marginal distribution is
 
-$$ p(x) =\int_{-∞} $$
+$$ p(x) =\int_{-∞}^∞ p(x,y)\,dy$$
 
 ## Bayes rule
 
@@ -212,11 +212,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI5MzkyMzAsMTI2NDYxMzIxNiwtMT
-kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
-MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
-wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
-NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MT
-U2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFd
-fQ==
+eyJoaXN0b3J5IjpbMTg4NjQzNDEzMSwxMjY0NjEzMjE2LC0xOT
+I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
+MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
+IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
+MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNT
+YwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
+
 -->
