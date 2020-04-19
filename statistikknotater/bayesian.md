@@ -149,9 +149,9 @@ The odds of something happening is the probability of it happening divided by th
 
 $$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o=\frac{p}{1-p}$$
 
-The odds ratio is the ratio of two odds
+The odds of two events
 
-$$ O(A:B) = \frac{O(A)}{O(B)}  =  \frac{p_A/(1-p_a)}{p_b/(1-p_B)} = \frac{p_A(1-p_B)}{p_B(1-p_A)}$$
+$$ O(A:B) = \frac{P(A)}{P(B)} $$
 
 ## Conjugate families
 
@@ -257,11 +257,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MD
-AyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0
-NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNT
-IwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkz
-NzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LD
-EwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0
-NjEwMjYyMjRdfQ==
+eyJoaXN0b3J5IjpbMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MT
+U0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1
+MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOT
+I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
+MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
+IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
+MDM4MTIyMl19
 -->
