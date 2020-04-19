@@ -19,7 +19,7 @@ The *pdf* for the t-distribution is
 
 $$ t(x; μ, σ, ν) = 
 \frac {Γ(\frac{ν+1}{2})} {Γ(\frac{ν}{2})σ\sqrt{πν}}
-\left(1+\frac{1}{ν} \left( \frac{x-μ}{σ}\right)^2\right) ^ {-\frac{ν+1}{2}}
+\left(1+\frac{1}{ν} \left( \frac{x-μ}{σ}\right)^2 \right) ^ {-\frac{ν+1}{2}}
 $$
 
 and the standardized t-distribution ($μ=0$, $σ=1$) is
@@ -30,13 +30,17 @@ $$
 
 ### Joint and marginal distribution
 
-Two random variables $X$ and $Y$ can have a joint distribution
+Two discrete random variables $X$ and $Y$ can have a joint distribution
 
 $$ p(x,y) = P(X=x \land Y=y) $$
 
 The discrete marginal distribution is
 
 $$ p(x) = P(X=x) = \sum_{i} P(X=x \land Y=y_i) $$
+
+Two continuos random variables $X$ and $Y$ can have a joint distribution
+
+$$ p(x,y) = P(x_1 < X _2 \land Y=y) $$
 
 The continuous marginal distribution is
 
@@ -213,11 +217,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNDIxNzk3LDEyNjQ2MTMyMTYsLTE5Mj
-QyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0MzMw
-ODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMj
-AwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQw
-MzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1Nj
-AsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTg2ODgwNTQ5NCwxMjY0NjEzMjE2LC0xOT
+I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
+MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
+IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
+MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNT
+YwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
 
 -->
