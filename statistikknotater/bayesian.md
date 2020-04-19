@@ -56,7 +56,7 @@ Which means that we can write Bayes theorem as
 $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)} 
 = \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|x_i)p_X(x_i)} $$
 
-### Bayes theorem with continuos variables
+### Bayes theorem with continuous random variables
 
 If $X$ and $Y$ are continuous random variables, we have a joint pdf
 
@@ -70,6 +70,9 @@ But Bayes theorem remains very similar to the discrete case
 
 $$ f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty}f_{Y|X}(y|u)f_X(u)du} $$
 
+It is common to be a bit sloppy, and simply write
+
+$$ f(x|y)=\frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty}f_{Y|X}(y|u)f_X(u)du} $$
 
 
 
@@ -148,8 +151,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MjQ0MDQxLDEyNDY4OTE1MTUsMjAwOD
-Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
-MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
-EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbNDM5MjM1MzMsMTI0Njg5MTUxNSwyMDA4Nj
+Y5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEy
+MjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMT
+MxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
