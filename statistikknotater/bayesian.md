@@ -1,6 +1,14 @@
 
 # Bayesian statistics
 
+## Some math
+
+### The gamma function
+
+The gamma function is
+
+$$ Γ(x) \  $$
+
 ## Bayes rule
 
 ### Bayes rule for events, discrete version
@@ -172,10 +180,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNT
-IwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkz
-NzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LD
-EwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0
-NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1Mz
-Q4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbLTEyNTk2NTkwNzcsMTI2NDYxMzIxNiwtMT
+kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
+MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
+wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
+NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MT
+U2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFd
+fQ==
 -->
