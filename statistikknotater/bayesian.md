@@ -84,7 +84,7 @@ Or, since the denumerator is a constant, just as a proportionality
 
 $$ f(x|y) \propto f(y|x)f(x) $$
 
-Since $f(x|y)$ is the posterior probability we can write that as $f^{*}$, and since $f(y|x)$ (the likelihood) can be written as $\mathcal{L}(x|y). Then Bayes rule can be written
+Since $f(x|y)$ is the posterior probability we can write that as $f^{*}$, and since $f(y|x)$ (the likelihood) can be written as $\mathcal{L}(x|y)$. Then Bayes rule can be written
 
 $$ f^{*}(x) \propto \mathcal{L}(x|y)f(x) $$
 
@@ -172,7 +172,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODAxNDM2MiwtMTkyNDIzODE2NCwxNT
+eyJoaXN0b3J5IjpbMTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNT
 IwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkz
 NzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LD
 EwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0
