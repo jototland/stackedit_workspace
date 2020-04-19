@@ -221,8 +221,10 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 $$
 \begin{aligned}
-L_{0,i}(g) &= \begin{cases}
-0 , & \text{if }g=x_i  \\
+L_{0,i}(g) &= 
+\begin{cases}
+0 , & \text{if }g=x_i  
+&}\\
 1 ,& \text{otherwise}
 \end{cases}  \\
 L_1(g) &= ∑_i |x_i-g| \\
@@ -231,11 +233,11 @@ L_2(g) &= ∑_i(x_-g)^2
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwMDE0NTUxLC0xNzY2OTY1NTM5LDM0Mj
-kxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2
-NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLT
-gxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5
-NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMj
-IsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMx
-MjM1MzQ4NF19
+eyJoaXN0b3J5IjpbLTExMTUzOTQ0MTQsLTE3NjY5NjU1MzksMz
+QyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0MjM4
+MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMzMDg3Mi
+wtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2
+Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MT
+IyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0x
+MzEyMzUzNDg0XX0=
 -->
