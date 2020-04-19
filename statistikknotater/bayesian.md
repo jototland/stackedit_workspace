@@ -110,10 +110,10 @@ $$ \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{
 
 The Beta distribution has *pmf*
 
-$$ \frac}\Gamma(\alpha+\beta) $$
+$$ \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{β-1} $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjA0MjY0Niw3NTk4NTYyMTIsMTI0Nj
+eyJoaXN0b3J5IjpbMTA4NDI2MTg3Niw3NTk4NTYyMTIsMTI0Nj
 g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
 OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
 c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
