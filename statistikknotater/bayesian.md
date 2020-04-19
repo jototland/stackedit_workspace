@@ -13,6 +13,12 @@ $$ Γ(x) = \int_{0}^{\infty} u^{x-1}e^{-u}du $$
 
 $$ Γ(n) = (n-1)! $$
 
+## # T-distribution
+
+The t-distribution is
+
+$$ \text{studentt}(x, μ, σ $$
+
 ## Bayes rule
 
 ### Bayes rule for events, discrete version
@@ -184,11 +190,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzMTkxMTksMTI2NDYxMzIxNiwtMTkyND
-IzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4
-NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMD
-A4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAz
-ODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MC
-wtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbMTcyMzg2NjM0LDEyNjQ2MTMyMTYsLTE5Mj
+QyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0MzMw
+ODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMj
+AwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQw
+MzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1Nj
+AsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
 
 -->
