@@ -106,11 +106,12 @@ If our prior is that $X\sim\text{Binomial}(p)$, and we do not know $p$, but assu
 
 The binomial distribution has *pmf*
 
-$$ \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
+$$ f(x)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
 
 The Beta distribution has *pmf*
 
-$$ \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
+$$ \text{Gamma}(p) = 
+\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
@@ -118,10 +119,13 @@ Given $n$ new samples with $x$ successes, our new posterior is
 
 $$ Γ^*(α^*,β^*) \text{ with } α^*=α+x \text{ and } β^* = β + n - x $$
 
+### Gamma poisson conjugate pair
+
+The Poisson distribution has
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NDgzNTc1LC04MTM5Mzc2MzUsNzU5OD
-U2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2
-LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC
-0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3Njgy
-NTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTE1MTkwODk1NjIsLTgxMzkzNzYzNSw3NT
+k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
+ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
+QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
+ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
