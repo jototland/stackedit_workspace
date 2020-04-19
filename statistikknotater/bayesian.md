@@ -151,10 +151,15 @@ $$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o_A=\frac{p_A}{1-p_A}$$
 
 Bayes rule actually becomes very easy with odds. We define the posterior odds, after updating on $x$
 
-$$ \text{PO}(A) = \frac{P(A|x)}{P(\neg A|x)} 
+$$ \begin{aligned}
+\text{PO}(A) &= \frac{P(A|x)}{P(\neg A|x)} 
 = \frac {\frac{P(x|A)(P(A)}{P(x)}} {\frac{P(x|A\neg )(P(\neg A)}{P(x)}}
-= \frac{P(x|A)}{P(x|\neg A)} · \frac{P(A)}{P(\neg A)}
+= \frac{P(x|A)}{P(x|\neg A)} · \frac{P(A)}{P(\neg A)} \\
+&= \frac{P(x|A)}{P(x|\neg A)} · O(A)
+\end{aligned}
 $$
+
+The ratio
 
 ## Conjugate families
 
@@ -260,11 +265,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjQ5NTg2OSwyMTI3NDQ2Mzk0LC0yNj
-QwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1
-NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNj
-Q2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5
-NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLD
-EyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1
-ODI2OTkyXX0=
+eyJoaXN0b3J5IjpbLTgxMzUyNTIyLDIxMjc0NDYzOTQsLTI2ND
+AzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3
+LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2ND
+YxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2
+MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMT
+I0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4
+MjY5OTJdfQ==
 -->
