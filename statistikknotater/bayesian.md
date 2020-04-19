@@ -133,13 +133,13 @@ $$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
 
 but can also be written as
 
-$$ \text{gamma}(p;k,θ)=\frac{Γ(k)}p^{α-1}e^{-βp} \\
-\text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
+$$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
+\text{with } μ=kθ \text{ and } σ= $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjI0NzAwMiwtMTcxNDMzMDg3MiwtOD
-EzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2
-NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMi
-wtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEy
-MzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTEyMzU2OTQwNTUsLTE3MTQzMzA4NzIsLT
+gxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5
+NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMj
+IsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMx
+MjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
