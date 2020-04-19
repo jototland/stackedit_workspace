@@ -1,6 +1,7 @@
 
 # Bayesian statistics
 ## Bayes theorem
+### Bayes theorem: discrete version
 Assume $S$ is a sample space partitioned into independent events $A_1, A_2, \ldots, A_n$. 
 
 Bayes theorem says that, given data $x$
@@ -20,16 +21,17 @@ Typically $A_i$ will be our hypothesis and $x$ will be the data from an experime
 * $P(A_i|x)$ is our *posterior* probability, updated because we now know $x$. 
 * $P(x|A_j)$ is the *likelihood* of x assuming $A_j$. (Note that the sum of all the likelihoods is not $1$).
 
+### Bayes theorem: continous version
+
 In the continuous case, we no longer have a finite partition of $S$ into discrete events. 
 
 Instead we have a continuous probability density function $p$ depending on one or more parameters $\theta$. To calculate probabilities, we need to integrate: $F(x) = \int_{-\infty}^{x}p(\theta)d\theta$. Then we can calculate $P(a<x<b) = F(b)-F(a)$
 
-To get anything done, we usually assume that the probability distribution family of $p$ is known, but the parameter(s) $\theta$ is unknown. Our goal is to find  the distribution $p(\theta)$, where $\theta$ is a parameter. 
-
 Since we can no longer use the discrete law of total probability, the denominator becomes
 
-$$ \int_0^1P(x|p) $$
+$$ \int_0^1P(x|p) = $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbNjY3NjQwNTkwLC0xNzY4MjU1ODAsMTYzOT
+U0NTM2MV19
 -->
