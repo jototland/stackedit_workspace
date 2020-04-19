@@ -149,7 +149,9 @@ The odds of something happening is the probability of it happening divided by th
 
 $$ O(A) = \frac{P(A)}{P(\neg A)} $$
 
-The odds ratio is the
+The odds ratio is the ratio of two odds
+
+$$ O(A:B) = \frac{O(A)}{O(B)} $$
 
 ## Conjugate families
 
@@ -255,7 +257,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNTIxMTEzLC00MDAyOTAyNDUsMTU5Mz
+eyJoaXN0b3J5IjpbNDQ2NzgwNTU0LC00MDAyOTAyNDUsMTU5Mz
 IxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcs
 MTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMT
 g0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYy
