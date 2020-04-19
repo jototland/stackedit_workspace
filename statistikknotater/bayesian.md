@@ -163,7 +163,9 @@ The ratio $\frac{P(x|A)}{P(x|\neg A)}$ is known as the *Bayes factor*.
 
 For a continuous distribution, the Bayes factor is
 
-$$ \frac{\int P(x|θ,A)dθ}{\int P(x|θ,\neg A)dθ} \text{ where θ is the set of all model parameters}$$
+$$ \frac{\int P(x|θ,A)dθ}{\int P(x|θ,\neg A)dθ} $$
+
+where θ is the set of all model parameters
 
 ## Conjugate families
 
@@ -269,7 +271,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU3ODU1NTYsMjEyNzQ0NjM5NCwtMj
+eyJoaXN0b3J5IjpbLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMj
 Y0MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1
 NTcsLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMj
 Y0NjEzMjE2LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5
