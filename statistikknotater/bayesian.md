@@ -15,10 +15,16 @@ $$ Γ(n) = (n-1)! $$
 
 ## # T-distribution
 
-The t-distribution is
+The *pdf* for the t-distribution is
 
-$$ \text{student\_t}(x; μ, σ, ν) = 
-\frac{Γ\frac{ν+1}{2}}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{1}{ν}\left( \frac{x-μ}{σ}\right)^2\right)^{-\frac{ν+1}{2}} $$
+$$ t(x; μ, σ, ν) = 
+\frac{Γ\frac{ν+1}{2}}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{1}{ν}\left( \frac{x-μ}{σ}\right)^2\right)^{-\frac{ν+1}{2}}
+$$
+
+and the standardized t-distribution is
+
+$$ p(t=
+$$
 
 ## Bayes rule
 
@@ -191,7 +197,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMyMzkxOTIsMTI2NDYxMzIxNiwtMT
+eyJoaXN0b3J5IjpbLTEwNDQyMTI3OTYsMTI2NDYxMzIxNiwtMT
 kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
 MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
 wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
