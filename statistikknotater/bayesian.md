@@ -235,13 +235,13 @@ L_1(g) &= ∑_i |x_i-g| & \text{(median)}
 L_2(g) &= ∑_i(x_-g)^2 & \text{(mean)}
 \end{aligned}
 $$
-
+But we can use any possible loss function. For example, we might want to avoid risk, and give a higher penalty for a wrong negative than for a wrong positive. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3Nj
-Y5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2
-LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMT
-cxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkx
-NTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5Mi
-wtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3
-NDcxNTYwXX0=
+eyJoaXN0b3J5IjpbLTU5OTMxNTQxOCwtNDAwMjkwMjQ1LDE1OT
+MyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3
+LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMT
+E4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2
+MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC
+0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0x
+MzEyMzc5NV19
 -->
