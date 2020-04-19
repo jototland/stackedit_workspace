@@ -30,7 +30,7 @@ $$
 
 The Cauchy distribution is the t-distribution with degrees of freedom $ν=1$
 
-$$  p(t) = \frac{1}{σπ(1+\frac{x-μ}{σ}}$$
+$$  p(t) = \frac{1}{σπ \left( 1+\frac{x-μ}{σ} \right)}$$
 
 ### Joint and marginal distribution
 
@@ -221,7 +221,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU0MTA0MDUsMzQyOTE3ODQ3LDM0Mj
+eyJoaXN0b3J5IjpbLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0Mj
 kxNzg0NywxMjY0NjEzMjE2LC0xOTI0MjM4MTY0LDE1MjA5NDIy
 MDQsMTExODQ5OTYyMiwtMTcxNDMzMDg3MiwtODEzOTM3NjM1LD
 c1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2
