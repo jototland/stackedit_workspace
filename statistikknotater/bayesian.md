@@ -22,7 +22,7 @@ Typically $A_i$ will be our hypothesis and $x$ will be the data from an experime
 
 In the continuous case, we no longer have a finite partition of $S$ into discrete events. 
 
-Instead we have a continuous probability density function $p$. 
+Instead we have a continuous probability density function $p$ dep
 
 To get anything done, we usually assume that the probability distribution family of $p$ is known, but the parameter(s) $\theta$ is unknown. Our goal is to find  the distribution $p(\theta)$, where $\theta$ is a parameter. 
 
@@ -31,5 +31,5 @@ Since we can no longer use the discrete law of total probability, the denominato
 $$ \int_0^1P(x|p) $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbMjU4MTEzNjE0LDE2Mzk1NDUzNjFdfQ==
 -->
