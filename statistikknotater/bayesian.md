@@ -159,12 +159,16 @@ $$
 τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}
 $$
 
+## Predictive inference
+
+You want to make an inferene on random variable $X$ with *pdf* $f(x,θ)$. The prior distribution of $θ$ is $π(θ)$. T
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNz
-E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
-MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
-0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
-NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1Mz
-YxXX0=
+eyJoaXN0b3J5IjpbMjA2MTkzNDQ3LDE1MjA5NDIyMDQsMTExOD
+Q5OTYyMiwtMTcxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIx
+MiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMT
+Y2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMx
+MjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1OD
+AsMTYzOTU0NTM2MV19
 -->
