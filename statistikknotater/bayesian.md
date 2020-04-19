@@ -142,14 +142,17 @@ Given $n$ time periods with $k_i$ successes in each period, our new posterior is
 
 $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 \text{with } α^*=α+\sum_{i=0}^{n}k_i \text{ and } β^*=β+n \\
-\text{or } k^*=k+\sum_{i=0}^{n}
-$$
+\text{or } k^*=k+\sum_{i=0}^{n}k_i \text{ and } θ^*=\frac{θ}{nθ+1} $$
+
+### Normal normal conjugate pair
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTY0MDk0OCwtMTcxNDMzMDg3MiwtOD
-EzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2
-NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMi
-wtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEy
-MzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTE1Nzg2MDM0NjMsLTE3MTQzMzA4NzIsLT
+gxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5
+NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMj
+IsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMx
+MjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
