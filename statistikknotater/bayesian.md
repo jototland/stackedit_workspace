@@ -148,16 +148,16 @@ $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 
 The normal distribution has *pdf*
 
-$$ \text{normal}(x;μ,σ) = \frac{1}{σ\sqrt{2π}}e^{-{\frac{(x-θ)^2}{2σ^2}}} $$
+$$ \text{normal}(x;μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
 
 The normal normal conjugate pair can only be used when $σ$ is known. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMDMzNDM5LDExMTg0OTk2MjIsLTE3MT
-QzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUx
-NSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLT
-E5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3
-MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNj
-FdfQ==
+eyJoaXN0b3J5IjpbLTE4NjMwNzI4OCwxMTE4NDk5NjIyLC0xNz
+E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
+MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
+0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
+NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1Mz
+YxXX0=
 -->
