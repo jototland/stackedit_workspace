@@ -40,7 +40,7 @@ $$ p(x) = P(X=x) = ∑_{i} P(X=x ∧ Y=y_i) $$
 
 Two continuous random variables $X$ and $Y$ can have a joint distribution
 
-$$ p(x,y) = \lim_{δ→0,ε→0}P(x ≤ X ≤ x+δ ∧ y ≤ Y ≤ y+ε) $$
+$$ p(x,y) = \lim_{{δ→0}\\{ε→0}}P(x ≤ X ≤ x+δ ∧ y ≤ Y ≤ y+ε) $$
 
 The continuous marginal distribution is
 
@@ -217,11 +217,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyOTE3ODQ3LDEyNjQ2MTMyMTYsLTE5Mj
-QyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0MzMw
-ODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMj
-AwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQw
-MzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1Nj
-AsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
-
+eyJoaXN0b3J5IjpbODE1Mzc5NywzNDI5MTc4NDcsMTI2NDYxMz
+IxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIs
+LTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Nj
+g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
+OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
+c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
+NDUzNjFdfQ==
 -->
