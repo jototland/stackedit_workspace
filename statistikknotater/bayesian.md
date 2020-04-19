@@ -96,11 +96,19 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 ## Conjugate families
 
-The main problem in using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an anal
+The main (historical) problem with using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an analytic solution for. 
+
+But there are exceptions
+
+### Binomial Beta
+
+Prior
+| asdf
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzgyNTc4OSw3NTk4NTYyMTIsMTI0Nj
-g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
-OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
-c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
-NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbMjU2ODQ5Nzc5LDc1OTg1NjIxMiwxMjQ2OD
+kxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5
+MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNz
+Q3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0
+NTM2MV19
 -->
