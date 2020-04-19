@@ -36,11 +36,11 @@ $$ p(x,y) = P(X=x ∧ Y=y) $$
 
 The discrete marginal distribution is
 
-$$ p(x) = P(X=x) = \sum_{i} P(X=x ∧ Y=y_i) $$
+$$ p(x) = P(X=x) = ∑_{i} P(X=x ∧ Y=y_i) $$
 
-Two continuos random variables $X$ and $Y$ can have a joint distribution
+Two continuous random variables $X$ and $Y$ can have a joint distribution
 
-$$ p(x,y) = P(x ≤ X ≤ x+δ ∧ y ≤ Y < y) $$
+$$ p(x,y) = \lim_{x→0,y→}P(x ≤ X ≤ x+δ ∧ y ≤ Y < y) $$
 
 The continuous marginal distribution is
 
@@ -217,11 +217,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTE1ODc2NCwxMjY0NjEzMjE2LC0xOT
-I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
-MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
-IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
-MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNT
-YwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
-
+eyJoaXN0b3J5IjpbLTIwNzY1NDI0MjksMTI2NDYxMzIxNiwtMT
+kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
+MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
+wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
+NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MT
+U2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFd
+fQ==
 -->
