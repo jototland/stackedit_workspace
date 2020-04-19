@@ -221,22 +221,27 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 $$
 \begin{aligned}
-L_{0,i}(g) &= 
+L_{0}(g) &= ∑_i
 \begin{cases}
-0 , & \text{if }g=x_i  \\
+0  
+& \text{if }g=x_i  
+\\
 1 ,& \text{otherwise}
-\end{cases}  & \text{(mode)}\\
+\end{cases}  
+& \text{(mode)}
+\\
 L_1(g) &= ∑_i |x_i-g| & \text{(median)}\\
-L_2(g) &= ∑_i(x_-g)^2 & \text{(mean)}
+L_2(g) &= ∑_i(x_-g)^2 
+& \text{(mean)}
 \end{aligned}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODkxMTQ4NSwtMTc2Njk2NTUzOSwzND
-I5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYsLTE5MjQyMzgx
-NjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0MzMwODcyLC
-04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMjAwODY2
-OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgxMj
-IyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLTEz
-MTIzNTM0ODRdfQ==
+eyJoaXN0b3J5IjpbMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0Mj
+kxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2
+NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLT
+gxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5
+NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMj
+IsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMx
+MjM1MzQ4NF19
 -->
