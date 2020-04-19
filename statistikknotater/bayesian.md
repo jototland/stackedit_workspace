@@ -112,12 +112,12 @@ The Beta distribution has *pmf*
 
 $$ \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
-\sigma=\sqrt{\frac{\alpha\beta}{}}$$
+\sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2+}}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Nj
-g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
-OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
-c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
-NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbMTUxMzgzNDIwOCwtODEzOTM3NjM1LDc1OT
+g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
+NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
+wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
+MjU1ODAsMTYzOTU0NTM2MV19
 -->
