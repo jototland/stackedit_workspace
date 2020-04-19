@@ -146,13 +146,17 @@ $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 
 ### Normal normal conjugate pair
 
+The normal distribution has *pdf*
 
+$$  $$
+
+The normal normal conjugate pair can only be used when $σ$ is known. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzg2MDM0NjMsLTE3MTQzMzA4NzIsLT
-gxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5
-NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMj
-IsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMx
-MjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbMTExODQ5OTYyMiwtMTcxNDMzMDg3MiwtOD
+EzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2
+NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMi
+wtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEy
+MzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
 -->
