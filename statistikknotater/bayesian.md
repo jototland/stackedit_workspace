@@ -150,14 +150,14 @@ The normal distribution has *pdf*
 
 $$ \text{normal}(x;μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
 
-The normal normal conjugate pair can only be used when $σ$ is known. $μ$ on the other hand is unkonwn, and our prior is that 
+The normal normal conjugate pair can only be used when $σ$ is known. $μ$ on the other hand is unknown, and is what we want to estimate. Our prior is that $μ \sim \text{Normal}(ν,τ)$.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQyMjg2NDksMTExODQ5OTYyMiwtMT
-cxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkx
-NTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5Mi
-wtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3
-NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NT
-M2MV19
+eyJoaXN0b3J5IjpbMTc4MzY3MDE5NywxMTE4NDk5NjIyLC0xNz
+E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
+MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
+0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
+NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1Mz
+YxXX0=
 -->
