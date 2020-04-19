@@ -85,14 +85,15 @@ Since $f(x|y)$ is the posterior probability we can write that as $f^{*}$, and si
 
 $$ f^{*}(x) \propto \mathcal{L}(x|y)f(x) $$
 
-### Examples
+### Bayes rule continuous version, notation example
 
 If $X \sim \text{Binomial}(p)$ then we might want to update on $p$ given new evidence $x$. Our prior for $p$ is $\pi(p)$. 
 
-$$ \pi^{*}(p) = \pi(p|x) = \frac{P(x|p)\pi(p)}{\int_0^1P(x|p)\pi(p)dp} $$
+$$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5ODU2MjEyLDEyNDY4OTE1MTUsMjAwOD
-Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
-MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
-EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTExMjE5MzMzODIsNzU5ODU2MjEyLDEyND
+Y4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2
+OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NS
+w3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5
+NTQ1MzYxXX0=
 -->
