@@ -239,15 +239,19 @@ But we can use any possible loss function. For example, we might want to avoid r
 
 $$
 \begin{aligned}
-L(T^+) = \begin{cases}0,&\text{if wrong}\\1000,&\text{if right}
+L(T^+) &= \begin{cases}0,&\text{if wrong}\\1000,&\text{if right}\end{cases} 
+\\
+L(T^-) &= \begin{cases}0,&\text{if wrong}\\1,&\text{if right}\end{cases}
 \end{aligned}
 $$
+
+Then we can try to m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzYwMzE3LC00MDAyOTAyNDUsMTU5Mz
-IxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcs
-MTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMT
-g0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYy
-MTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLT
-E2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEz
-MTIzNzk1XX0=
+eyJoaXN0b3J5IjpbMTQ2MzQ4NTE1MCwtNDAwMjkwMjQ1LDE1OT
+MyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3
+LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMT
+E4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2
+MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC
+0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0x
+MzEyMzc5NV19
 -->
