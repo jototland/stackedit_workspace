@@ -27,11 +27,14 @@ In the continuous case, we no longer have a finite partition of $S$ into discret
 
 Instead we have a continuous probability density function $p$ depending on one or more parameters $\theta$. To calculate probabilities, we need to integrate: $F(x) = \int_{-\infty}^{x}p(\theta)d\theta$. Then we can calculate $P(a<x<b) = F(b)-F(a)$
 
-Since we can no longer use the discrete law of total probability, the denominator in Bayes theorem becomes
+Since we can no longer use the discrete law of total probability to partition $p(x), the denominator in Bayes theorem becomes
 
-$$ p(x) = \int_{-\infty}^{\infty}p(x|p) = $$
+$$ p(x) = \int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta $$
 
+The continuous version of Bayes theorem is
+
+$$  $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDEzNjM2MiwtMTc2ODI1NTgwLDE2Mz
+eyJoaXN0b3J5IjpbMTUwNDEzMDIyMSwtMTc2ODI1NTgwLDE2Mz
 k1NDUzNjFdfQ==
 -->
