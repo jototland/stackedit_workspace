@@ -143,6 +143,10 @@ If $X \sim \text{Binomial}(p)$ then we might want to update on $p$ given new evi
 
 $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
+### Bayes rule, formulated with odds
+
+The odds of something happening is the ratio of it happening div
+
 ## Conjugate families
 
 The main (historical) problem with using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an analytic solution for. 
@@ -245,9 +249,9 @@ L(T^-) &= \begin{cases}0,&\text{if wrong}\\1,&\text{if right}\end{cases}
 \end{aligned}
 $$
 
-Then we can try to m
+Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzQ4NTE1MCwtNDAwMjkwMjQ1LDE1OT
+eyJoaXN0b3J5IjpbMTc0NTI5ODM5NiwtNDAwMjkwMjQ1LDE1OT
 MyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3
 LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMT
 E4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2
