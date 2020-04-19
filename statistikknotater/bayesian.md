@@ -85,49 +85,7 @@ Since $f(x|y)$ is the posterior probability we can write that as $f^{*}$, and si
 
 $$ f^{*}(x) \propto \mathcal{L}(x|y)f(x) $$
 
-### Bayes th
-
-
-
-
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-asdfasdfasdf
-
-
-
-
-
-
-
-
-
-
-
+### A more Bayesian way of writing Bayes rule
 ### Bayes theorem with continuous random variables
 
 If $X$ and $Y$ are continuous random variables, we have a joint pdf
@@ -163,8 +121,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4OTU2NzYzLDEyNDY4OTE1MTUsMjAwOD
-Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
-MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
-EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbMTI4MDM2NzE3OSwxMjQ2ODkxNTE1LDIwMD
+g2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4
+MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC
+0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
 -->
