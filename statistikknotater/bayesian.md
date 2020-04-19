@@ -23,6 +23,7 @@ Typically $A_i$ will be our hypothesis and $B$ will be the data from an experime
 Each time we receive new data we can update our probability of an event, based on the new data. 
 
 * $P(A_i)$ is our *prior* probability, before the experiment started.
+* $B$ is the *evidence*.
 * $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
 * $P(B|A_i)$ is the *likelihood* of $B$ assuming $A_i$. (Note that the likelihood is not a *pmf* or *pdf*, the sum of all the likelihoods of $B given all possible $A_i$ is not $1$).
 * $\sum_{j=1}^nP(B|A_j)P(A_j)$ is a normalization constant, ensuring that $P(A_i|B)$ is between $0$ and $1$.
@@ -75,7 +76,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDUxMzY5NiwtMTY2NTgyNjk5MiwtMT
+eyJoaXN0b3J5IjpbMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMT
 k0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcx
 NTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV
 19
