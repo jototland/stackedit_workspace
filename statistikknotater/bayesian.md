@@ -219,17 +219,15 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 ## Loss functions
 
-When making point estimates, they are rarely correct. A loss function is needed to help select among the alternatives. Then 
+When making point estimates, they are rarely correct. A loss function is needed to help select among the alternatives. In the point estimate, we select the value that minimizes the loss function.
 
-If we are to minimize our loss when making inferences, we need a loss function. Here are three common choices, and to the right in parentheses, it is indicated what you get when yo
+Here are three common choices, and to the right in parentheses, it is indicated what minimizing that loss function results in. 
+
 $$
-\begin{aligned}
-L_{0}(g) &= ∑_i
-\begin{cases}
-0  
-& \text{if }g=x_i  
-\\
-1 ,& \text{otherwise}
+\begin{aligned} 
+	L_{0}(g) &= ∑_i \begin{cases}
+		0  & \text{if }g=x_i  \\
+		1 ,& \text{otherwise}
 \end{cases}  
 & \text{(mode)}
 \\
@@ -240,11 +238,11 @@ L_2(g) &= ∑_i(x_-g)^2
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU2NTQ2MjEsMTU5MzIxNTU3LC0xNz
-Y2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIx
-NiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLT
-E3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5
-MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OT
-IsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0
-NzQ3MTU2MF19
+eyJoaXN0b3J5IjpbOTc4Mzg0OTYzLDE1OTMyMTU1NywtMTc2Nj
+k2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYs
+LTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNz
+E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
+MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
+0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
+NzE1NjBdfQ==
 -->
