@@ -40,7 +40,7 @@ $$ p(x) = P(X=x) = \sum_{i} P(X=x \land Y=y_i) $$
 
 Two continuos random variables $X$ and $Y$ can have a joint distribution
 
-$$ p(x,y) = P(x_1 < X _2 \land Y=y) $$
+$$ p(x,y) = P(x ≤ X ≤ x+δ  y ≤ Y < y) $$
 
 The continuous marginal distribution is
 
@@ -217,7 +217,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODgwNTQ5NCwxMjY0NjEzMjE2LC0xOT
+eyJoaXN0b3J5IjpbLTkzODA2NjQyNSwxMjY0NjEzMjE2LC0xOT
 I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
 MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
 IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
