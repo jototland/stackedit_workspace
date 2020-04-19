@@ -1,10 +1,10 @@
 
 # Bayesian statistics
-## Bayes theorem
-### Bayes theorem, for events, discrete version
+## Bayes rule
+### Bayes rule for events, discrete version
 Assume $S$ is a sample space partitioned into independent events $A_1, A_2, \ldots, A_n$. 
 
-Bayes theorem says that, given data or event $B$
+Bayes rule says that, given data or event $B$
 
 $$ P(A_i|B) = \frac{P(B|A_i)P(A_i)}{P(B)}  $$
 
@@ -16,7 +16,7 @@ Thus
 
 $$ P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\sum_{j=1}^nP(B|A_j)P(A_j)} $$ 
 
-### Bayes theorem, Bayesian epistemological interpretaion
+### Bayesian epistemological interpretation of Bayes rule
 
 Typically $A_i$ will be our hypothesis and $B$ will be the data from an experiment. 
 
@@ -32,13 +32,13 @@ Sometimes the numerator is dropped, and we are only interested in that
 
 $$ P(A|B) \propto P(B|A)P(A) $$
 
-### Bayes theorem in medicine
+### Application of Bayes rule in medicine
 
 * Sensitivity: $P(\text{diagnosis}|\text{disease})$
 * Specificity: $P(\neg\text{diagnosis}|\neg\text{disease})$
 * Base rate: $P(\text{disease})$
 
-### Bayes theorem with discrete random variables
+### Bayes rule with discrete random variables
 
 If $X$ and $Y$ are discrete random variables and $p$ is a joint distribution (a *pmf*), we use the following notation
 
@@ -51,7 +51,7 @@ p_X(x)&=\sum_{j}p_{X|Y}(x|y)p_Y(i)
 \end{aligned}
 $$
 
-Which means that we can write Bayes theorem as
+Which means that we can write Bayes rule as
 
 $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)} 
 = \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|x_i)p_X(x_i)} $$
@@ -159,7 +159,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTc2NjYwLDEyNDY4OTE1MTUsMjAwOD
+eyJoaXN0b3J5IjpbOTc4MzkyODEyLDEyNDY4OTE1MTUsMjAwOD
 Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
 MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
 EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
