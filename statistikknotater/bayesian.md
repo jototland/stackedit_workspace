@@ -22,7 +22,7 @@ Typically $A_i$ will be our hypothesis and $x$ will be the data from an experime
 
 In the continuous case, we no longer have a finite partition of $S$ into discrete events. 
 
-Instead we have a continuous probability density function $p$ depending on one or more parameters $\theta$. To calculate probabilities, we need to integrate: $F(x) = \int_{-\inf}^\inf p(\theta)d\theta$
+Instead we have a continuous probability density function $p$ depending on one or more parameters $\theta$. To calculate probabilities, we need to integrate: $F(x) = \int_{-\infty}^{x}p(\theta)d\theta$. Then we can calculate $P(a<x<b) = F(b)-F(a)$
 
 To get anything done, we usually assume that the probability distribution family of $p$ is known, but the parameter(s) $\theta$ is unknown. Our goal is to find  the distribution $p(\theta)$, where $\theta$ is a parameter. 
 
@@ -31,5 +31,5 @@ Since we can no longer use the discrete law of total probability, the denominato
 $$ \int_0^1P(x|p) $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk4MTkyNTQsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
 -->
