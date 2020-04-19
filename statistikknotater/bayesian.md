@@ -243,7 +243,10 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 A credible interval is the Bayesian counterpart to a confidence interval. As opposed to frequentist confidence intervals, with credible intervals we can actually say that the probability that a parameter is within the interval is 95%. 
 
-If we want to find a 95% credible interval for the parameter $p$, that is any interval $[L,U]$ where $P(L ≤ p ≤ U)=0.95$. But
+If we want to find a 95% credible interval for the parameter $p$, that is any interval $[L,U]$ 
+where $P(L ≤ p ≤ U)=0.95$. 
+
+But we can do better. The 
 
 
 ## Loss functions
@@ -276,11 +279,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNTQxNDg4LC0xNDIxNjAzNTAzLDIxMj
-c0NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAy
-NDUsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzND
-I5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQy
-MjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNS
-w3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4
-NjI2ODZdfQ==
+eyJoaXN0b3J5IjpbMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMT
+I3NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkw
+MjQ1LDE1OTMyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMz
+QyOTE3ODQ3LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0
+MjIwNCwxMTE4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2Mz
+UsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYx
+ODYyNjg2XX0=
 -->
