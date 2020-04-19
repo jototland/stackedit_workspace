@@ -27,11 +27,11 @@ In the continuous case, we no longer have a finite partition of $S$ into discret
 
 Instead we have a continuous probability density function $p$ depending on one or more parameters $\theta$. To calculate probabilities, we need to integrate: $F(x) = \int_{-\infty}^{x}p(\theta)d\theta$. Then we can calculate $P(a<x<b) = F(b)-F(a)$
 
-Since we can no longer use the discrete law of total probability, the denominator in Bayses theorem becomes
+Since we can no longer use the discrete law of total probability, the denominator in Bayes theorem becomes
 
-$$ \int_0^1P(x|p) = $$
+$$ p(x) = \int_{-\infty}^{\infty}p(x|p) = $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzgyNDcxNSwtMTc2ODI1NTgwLDE2Mz
+eyJoaXN0b3J5IjpbMTE4NDEzNjM2MiwtMTc2ODI1NTgwLDE2Mz
 k1NDUzNjFdfQ==
 -->
