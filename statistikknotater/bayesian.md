@@ -138,15 +138,16 @@ $$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
 
 Which means that $k=α$ and $θ=\frac{1}{β}$.
 
-Given $n$ time periods with $k$ successes, our new posterior is
+Given $n$ time periods with $k_i$ successes in each period, our new posterior is
 
 $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
-\text{with } α^*=α+\sum_{i=0}^
+\text{with } α^*=α+\sum_{i=0}^{n}k_i \text{ and } β^*=β+n \\
+\text{or } k^*=k+\sum_{i=0}^{n}
 $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDcxNTg0MCwtMTcxNDMzMDg3MiwtOD
+eyJoaXN0b3J5IjpbLTkxMTY0MDk0OCwtMTcxNDMzMDg3MiwtOD
 EzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2
 NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMi
 wtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEy
