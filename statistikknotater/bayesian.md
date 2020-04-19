@@ -251,8 +251,6 @@ where $P(L ≤ p ≤ U)=0.95$.
 
 But we can do better. The *highest posterior density* (HPD) interval is the shortest credible interval.
 
-To find the HPD interval, in the analytic case where you have a function, it can be solved with plotting and quantiles.
-
 ## Loss functions
 
 When making point estimates, they are rarely correct. A loss function is needed to help select among the alternatives. In the point estimate, we select the value that minimizes the loss function.
@@ -283,11 +281,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0Mj
-E2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0OTcz
-NzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1MzksMz
-QyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0MjM4
-MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMzMDg3Mi
-wtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2
-Njk2NDRdfQ==
+eyJoaXN0b3J5IjpbMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMD
+Y0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUz
+MjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMT
+c2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMy
+MTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC
+0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4
+OTE1MTVdfQ==
 -->
