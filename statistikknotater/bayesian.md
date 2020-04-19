@@ -81,6 +81,10 @@ Or, since the denumerator is a constant, just as a proportionality
 
 $$ f(x|y) \propto f(y|x)f(x) $$
 
+Since $f(x|y)$ is the posterior probability, and $f(y|x)$ the likelihood, another option is
+
+$$ f^{| $$
+
 ### Bayes th
 
 
@@ -159,9 +163,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk2NTY5MjgsMTI0Njg5MTUxNSwyMD
-A4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAz
-ODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MC
-wtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
-
+eyJoaXN0b3J5IjpbMTM0MzY4NTU3NiwxMjQ2ODkxNTE1LDIwMD
+g2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4
+MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC
+0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
 -->
