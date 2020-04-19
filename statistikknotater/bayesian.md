@@ -147,7 +147,7 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 The odds of something happening is the probability of it happening divided by the propability of it not happening.
 
-$$ O(A) = \frac{P(A)}{P(\neg A)} $$
+$$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o=\frac{p}{1-p}$$
 
 The odds ratio is the ratio of two odds
 
@@ -257,11 +257,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NzgwNTU0LC00MDAyOTAyNDUsMTU5Mz
-IxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcs
-MTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMT
-g0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYy
-MTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLT
-E2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEz
-MTIzNzk1XX0=
+eyJoaXN0b3J5IjpbLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OT
+MyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3
+LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMT
+E4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2
+MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC
+0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0x
+MzEyMzc5NV19
 -->
