@@ -5,9 +5,9 @@
 
 ### The gamma function
 
-The gamma function is
+The gamma function
 
-$$ Γ(x) \  $$
+$$ Γ(x) = \int_{0}^{\infty} u^{x-1}e^{-u}du $$
 
 ## Bayes rule
 
@@ -180,7 +180,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk2NTkwNzcsMTI2NDYxMzIxNiwtMT
+eyJoaXN0b3J5IjpbLTE1NzcwNzY2NzcsMTI2NDYxMzIxNiwtMT
 kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
 MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
 wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
