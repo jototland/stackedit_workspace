@@ -17,7 +17,8 @@ $$ Γ(n) = (n-1)! $$
 
 The t-distribution is
 
-$$ \text{studentt}(x, μ, σ $$
+$$ \text{student\_t}(x; μ, σ, v) = 
+\frac{Γ\frac{v+1}{2}}{σ} $$
 
 ## Bayes rule
 
@@ -190,11 +191,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzg2NjM0LDEyNjQ2MTMyMTYsLTE5Mj
-QyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0MzMw
-ODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMj
-AwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQw
-MzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1Nj
-AsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTE1NzMyODU1NCwxMjY0NjEzMjE2LC0xOT
+I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
+MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
+IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
+MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNT
+YwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
 
 -->
