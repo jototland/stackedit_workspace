@@ -22,8 +22,8 @@ Typically $A_i$ will be our hypothesis and $x$ will be the data from an experime
 
 In the continuous case, we no longer have a finite partition of $S$ into discrete events. 
 
-Instead we have a continuous probability function $p$ depending upon a paramater $\theta$, or $p(\theta)$
+Instead we have a continuous probability function $p(\theta)$, where $\theta$ is a parameter. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwMTgyMjUxXX0=
+eyJoaXN0b3J5IjpbMTQ1NjgyMzA2OV19
 -->
