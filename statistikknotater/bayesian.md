@@ -68,7 +68,7 @@ $$ P(x_1<X<X_2, y_1<Y<y_2)  = \int_{x_1}^{x_2}\int_{y_1}^{y_2}f_{X,Y}(x,y)dy\,dx
 
 But Bayes theorem remains very similar to the discrete case
 
-$$ f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty}f_{Y|X}(y|x)f_} $$
+$$ f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty}f_{Y|X}(y|u)f_X(u)du} $$
 
 
 
@@ -148,9 +148,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjczNTQzMzUsMTI0Njg5MTUxNSwyMD
-A4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAz
-ODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MC
-wtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
-
+eyJoaXN0b3J5IjpbNzA4MjQ0MDQxLDEyNDY4OTE1MTUsMjAwOD
+Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
+MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
+EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
 -->
