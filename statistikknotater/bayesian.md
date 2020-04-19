@@ -41,11 +41,12 @@ If $X$ and $Y$ are discrete random variables and $p$ is a joint distribution, th
 $$
 P(X=x,Y=y)=p_{X,Y}(x,y) \\
 P(X=x|Y=y)=p_{X|Y}(x|y) \\
-P(X=x)=\sum_{j}P(X=x|Y=y_i)P(Y=y_i)=p_{X|Y}(x|y)p_Y(i)
+P(X=x)=\sum_{j}P(X=x|Y=y_i)P(Y=y_i) \\ 
+p_X(x)=\sp_{X|Y}(x|y)p_Y(i)
 $$
 
 $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)} 
-= \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|i)p_X(i)} $$
+= \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|x_i)p_X(x_i)} $$
 
 ### Bayes theorem with continuous random variables
 
@@ -82,7 +83,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDMyOTcxMSwyMDA4NjY5NjQ0LDEwNj
+eyJoaXN0b3J5IjpbMTQzOTY2NDg0OCwyMDA4NjY5NjQ0LDEwNj
 E4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEw
 MjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NC
 wtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
