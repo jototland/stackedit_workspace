@@ -134,10 +134,13 @@ $$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
 but can also be written as
 
 $$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
-\text{with } μ=kθ \text{ and } σ= $$
+\text{with } μ=kθ \text{ and } σ=θ\sqrt{k} \\
+\text{which means that } α=k \text{ and } $$
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU2OTQwNTUsLTE3MTQzMzA4NzIsLT
+eyJoaXN0b3J5IjpbLTE5Mjc3OTg1MjgsLTE3MTQzMzA4NzIsLT
 gxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5
 NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMj
 IsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMx
