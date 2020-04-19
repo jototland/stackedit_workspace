@@ -28,7 +28,7 @@ Each time we receive new data we can update our probability of an event, based o
 
 ### Bayes theorem with discrete random variables
 
-If $X$ and $Y$ are discrete random variables
+If $X$ and $Y$ are discrete random variables and $p$ is a joint distribution, then
 
 $$ p(_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)} 
 = \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|i)p_X(i)} $$
@@ -68,7 +68,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTQzNjcxLC0xNDYxMDI2MjI0LC0xMz
-EyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4
-MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLT
+EzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1
+NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
