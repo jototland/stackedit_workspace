@@ -29,13 +29,17 @@ $$
 
 ### Joint and marginal distribution
 
-Two discrete random variables $X$ and $Y$ can have a joint distribution
+Two random variables $X$ and $Y$ can have a joint distribution
 
 $$ p(x,y) = P(X=x \land Y=y) $$
 
-The marginal distribution is
+The discrete marginal distribution is
 
-$$ p(x) = P(X=x) = \sum_{i} P(X=x, Y=y_i) $$
+$$ p(x) = P(X=x) = \sum_{i} P(X=x \land Y=y_i) $$
+
+The continuous marginal distribution is
+
+$$ p(x) =\int_{-∞} $$
 
 ## Bayes rule
 
@@ -208,7 +212,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI4MzIwMTMsMTI2NDYxMzIxNiwtMT
+eyJoaXN0b3J5IjpbLTEzMDI5MzkyMzAsMTI2NDYxMzIxNiwtMT
 kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
 MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
 wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
