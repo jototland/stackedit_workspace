@@ -1,7 +1,10 @@
 
 # Bayesian statistics
+
 ## Bayes rule
+
 ### Bayes rule for events, discrete version
+
 Assume $S$ is a sample space partitioned into independent events $A_1, A_2, \ldots, A_n$. 
 
 Bayes rule says that, given data or event $B$
@@ -90,8 +93,10 @@ $$ f^{*}(x) \propto \mathcal{L}(x|y)f(x) $$
 If $X \sim \text{Binomial}(p)$ then we might want to update on $p$ given new evidence $x$. Our prior for $p$ is $\pi(p)$. 
 
 $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
+
+## Conjugate families
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE5MzMzODIsNzU5ODU2MjEyLDEyND
+eyJoaXN0b3J5IjpbLTEyOTgwNzk2NzgsNzU5ODU2MjEyLDEyND
 Y4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2
 OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NS
 w3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5
