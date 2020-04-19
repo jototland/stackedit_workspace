@@ -138,7 +138,7 @@ $$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
 
 Which means that $k=α$ and $θ=\frac{1}{β}$.
 
-If our prior belief is that $K \sim \text{poisson}(λ)$, and we don't know $λthat $λ \sim \text{gamma}(α,β)$ then given $n$ time periods with $k_i$ successes in each period, our new posterior is
+If our prior belief is that $K \sim \text{Poisson}(λ)$, and we don't know $λ$ but assume  $λ \sim \text{Gamma}(α,β)$ then given $n$ time periods with $k_i$ successes in each period, our new posterior is
 
 $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 \text{with } α^*=α+\sum_{i=0}^{n}k_i \text{ and } β^*=β+n \\
@@ -150,11 +150,11 @@ The normal distribution has *pdf*
 
 $$ \text{normal}(x;μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
 
-The normal normal conjugate pair can only be used when $σ$ is known. Our prior is that μ is also randoml
+The normal normal conjugate pair can only be used when $σ$ is known. $μ$ on the other hand is unkonwn, and our prior is that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ2MjY2MDcsMTExODQ5OTYyMiwtMT
+eyJoaXN0b3J5IjpbLTE5NzQyMjg2NDksMTExODQ5OTYyMiwtMT
 cxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkx
 NTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5Mi
 wtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3
