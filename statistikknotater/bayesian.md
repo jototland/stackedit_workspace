@@ -140,12 +140,12 @@ Which means that $k=α$ and $θ=\frac{1}{β}$.
 
 Given $n$ time periods with $k$ successes, our new posterior is
 
-$$ \text{gamma}^*
+$$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*)
 $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjE4NjAyMywtMTcxNDMzMDg3MiwtOD
+eyJoaXN0b3J5IjpbMTExNDE4NTcxOSwtMTcxNDMzMDg3MiwtOD
 EzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2
 NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMi
 wtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEy
