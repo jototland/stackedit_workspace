@@ -235,7 +235,9 @@ $$
 
 ## Predictive inference
 
-You want to make an inference on random variable $X$ with *pdf* $f(x,θ)$. The prior distribution of $θ$ is $π(θ)$. To solve this, you need to integrate
+We want to make an inference on random variable $X$ with *pdf* $f(x,θ)$. 
+
+The prior distribution of $θ$ is $π(θ)$. To solve
 
 $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ 
 = \int_{-∞}^∞\int_{-∞}^x f(s|θ)\,ds\,p(θ)\,θ$$
@@ -281,11 +283,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDUyNzUwMSwxNDIwNjQ2MTY2LC0xND
-IxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3
-Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LD
-M0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIz
-ODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4Nz
-IsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4
-NjY5NjQ0XX0=
+eyJoaXN0b3J5IjpbOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0Mj
+E2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0OTcz
+NzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1MzksMz
+QyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0MjM4
+MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMzMDg3Mi
+wtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2
+Njk2NDRdfQ==
 -->
