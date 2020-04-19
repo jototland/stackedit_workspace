@@ -226,7 +226,7 @@ Here are three common choices, and to the right in parentheses, it is indicated 
 $$
 \begin{aligned} 
 	L_{0}(g) &= ∑_i \begin{cases}
-		0  & \text{if }g=x_i  \\
+		0,  & \text{if }g=x_i  \\
 		1 ,& \text{otherwise}
 	\end{cases}  & \text{(mode)}
 \\
@@ -237,7 +237,7 @@ L_2(g) &= ∑_i(x_-g)^2 & \text{(mean)}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTQxOTk2NSwxNTkzMjE1NTcsLTE3Nj
+eyJoaXN0b3J5IjpbLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3Nj
 Y5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2
 LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMT
 cxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkx
