@@ -100,7 +100,7 @@ The main (historical) problem with using Bayes rule in the continuous case is th
 
 But there are exceptions
 
-### Binomial Beta conjuagate pair
+### Binomial Beta conjugate pair
 
 If our prior is that $X\sim\text{Binomial}(p)$, and we do not know $p$, but assume $p\sim\text{Beta}(\alpha,\beta)$, then even after we update our belief about $p$ to $p^{*}$, $X\sim\text{Binomial}(p^{*})$
 
@@ -112,10 +112,13 @@ The Beta distribution has *pmf*
 
 $$ \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
-\sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2+}}$$
+\sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
+Given $n$ new samples with $x$ successes
+
+$$  $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzgzNDIwOCwtODEzOTM3NjM1LDc1OT
+eyJoaXN0b3J5IjpbLTg2NDIxODUwMSwtODEzOTM3NjM1LDc1OT
 g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
 NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
 wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
