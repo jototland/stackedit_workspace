@@ -236,8 +236,14 @@ L_2(g) &= ∑_i(x_-g)^2 & \text{(mean)}
 \end{aligned}
 $$
 But we can use any possible loss function. For example, we might want to avoid risk, and give a higher penalty for a wrong negative than for a wrong positive. 
+
+$$
+\begin{aligned}
+Loss(positive)
+\end[aligned}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTMxNTQxOCwtNDAwMjkwMjQ1LDE1OT
+eyJoaXN0b3J5IjpbLTEwMDc5MzQ5MywtNDAwMjkwMjQ1LDE1OT
 MyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3
 LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMT
 E4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2
