@@ -58,6 +58,27 @@ $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)}
 
 ### Bayes theorem with continuos variables
 
+If $X$ and $Y$ are continuous random variables, we have a joint pdf
+
+$$ f_{X, Y}(x,y) = f_{Y|X}(y|x)f_{X}(x) = f_{X|Y}(x|y)f_{Y}(y)$$
+
+
+
+
+
+
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+
+
+
+
+
+
+
+
+
 
 
 ### Bayes theorem with continuous random variables
@@ -95,7 +116,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjA3NDA0MywxMjQ2ODkxNTE1LDIwMD
+eyJoaXN0b3J5IjpbLTQxNjE2ODE1MiwxMjQ2ODkxNTE1LDIwMD
 g2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4
 MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC
 0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
