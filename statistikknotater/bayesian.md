@@ -128,9 +128,10 @@ $$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
 
 The Gamma distribution has *pdf*
 
-$$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} $$
+$$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
+\text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDk0MDQ1OCwtODEzOTM3NjM1LDc1OT
+eyJoaXN0b3J5IjpbLTQ3Njc3MTgzOCwtODEzOTM3NjM1LDc1OT
 g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
 NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
 wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
