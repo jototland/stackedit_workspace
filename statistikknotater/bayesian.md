@@ -128,11 +128,11 @@ $$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
 
 The Gamma distribution has *pdf*
 
-$$ \text{gamma}(k
+$$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEzMzY3NTAsLTgxMzkzNzYzNSw3NT
-k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
-ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
-QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
-ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbMTA2NDkwMTc4MywtODEzOTM3NjM1LDc1OT
+g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
+NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
+wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
+MjU1ODAsMTYzOTU0NTM2MV19
 -->
