@@ -241,6 +241,8 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 ## Credible interval
 
+A credible interval is the Bayesian counterpart to a confidence interval. With credible intervals we can actually say that the probability that a parameter is within the interval is
+
 ## Loss functions
 
 When making point estimates, they are rarely correct. A loss function is needed to help select among the alternatives. In the point estimate, we select the value that minimizes the loss function.
@@ -271,11 +273,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMj
-Y0MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1
-NTcsLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMj
-Y0NjEzMjE2LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5
-OTYyMiwtMTcxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMi
-wxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2
-NTgyNjk5Ml19
+eyJoaXN0b3J5IjpbLTE0NzYyMTAxNDMsLTE0MjE2MDM1MDMsMj
+EyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5
+MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1MzksMzQyOTE3ODQ3LD
+M0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0MjM4MTY0LDE1MjA5
+NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMzMDg3MiwtODEzOTM3Nj
+M1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2
+MTg2MjY4Nl19
 -->
