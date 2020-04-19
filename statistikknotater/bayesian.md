@@ -83,7 +83,9 @@ $$ f(x|y) \propto f(y|x)f(x) $$
 
 Since $f(x|y)$ is the posterior probability, and $f(y|x)$ the likelihood, another option is
 
-$$ f^{*}(x) \propto \mathcal{L}(y)f(x) \text{, where }\mathcal{L}(y|x)=f_Y(x)$$
+$$ f^{*}(x) \propto \mathcal{L}(y)f(x) \\
+\text{(where }\mathcal{L}(y|x)=f_Y(x)=P(X=x|Y=y)
+$$
 
 ### Bayes th
 
@@ -163,7 +165,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5NDcxNjU3LDEyNDY4OTE1MTUsMjAwOD
+eyJoaXN0b3J5IjpbNzY3NjIxNTk5LDEyNDY4OTE1MTUsMjAwOD
 Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
 MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
 EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
