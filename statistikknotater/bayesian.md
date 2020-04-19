@@ -227,12 +227,12 @@ L_{0,i}(g) &=
 1 ,& \text{otherwise}
 \end{cases}  & \text{(mode)}\\
 L_1(g) &= ∑_i |x_i-g| & \text{(median)}\\
-L_2(g) &= ∑_i(x_-g)^2
+L_2(g) &= ∑_i(x_-g)^2 & \text{(mean)}
 \end{aligned}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjIyNzIzOCwtMTc2Njk2NTUzOSwzND
+eyJoaXN0b3J5IjpbLTMwODkxMTQ4NSwtMTc2Njk2NTUzOSwzND
 I5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYsLTE5MjQyMzgx
 NjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0MzMwODcyLC
 04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMjAwODY2
