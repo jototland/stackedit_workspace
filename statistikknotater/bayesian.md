@@ -13,7 +13,7 @@ $$ Γ(x) = \int_{0}^{\infty} u^{x-1}e^{-u}du $$
 
 $$ Γ(n) = (n-1)! $$
 
-## # T-distribution
+### T-distribution
 
 The *pdf* for the t-distribution is
 
@@ -26,6 +26,10 @@ and the standardized t-distribution ($μ=0$, $σ=1$) is
 $$ p(t;ν)=
 \frac{Γ(\frac{ν+1}{2})}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{t^2}{ν}\right)^{-\frac{ν+1}{2}}
 $$
+
+### Joint and marginal distribution
+
+T
 
 ## Bayes rule
 
@@ -198,11 +202,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODY1MjIwMCwxMjY0NjEzMjE2LC0xOT
-I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
-MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
-IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
-MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNT
-YwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
-
+eyJoaXN0b3J5IjpbLTEwMjk2NTQzNzcsMTI2NDYxMzIxNiwtMT
+kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
+MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
+wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
+NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MT
+U2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFd
+fQ==
 -->
