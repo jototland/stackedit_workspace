@@ -4,22 +4,22 @@
 ### Bayes theorem: discrete version
 Assume $S$ is a sample space partitioned into independent events $A_1, A_2, \ldots, A_n$. 
 
-Bayes theorem says that, given data $x$
+Bayes theorem says that, given data or event $B$
 
-$$ P(A_i|x) = \frac{P(x|A_i)P(A_i)}{P(x)}  $$
+$$ P(A_i|B) = \frac{P(B|A_i)P(A_i)}{P(B)}  $$
 
 By the law of total probability
 
-$$ P(x) = \sum_{j=1}^nP(x|A_j)P(A_j) $$
+$$ P(b) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
 Thus
-$$ P(A_i|x) = \frac{P(x|A_i)P(A_i)}{\sum_{j=1}^nP(x|A_j)P(A_j)} $$ 
+$$ P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\sum_{j=1}^nP(B|A_j)P(A_j)} $$ 
 
-Typically $A_i$ will be our hypothesis and $x$ will be the data from an experiment. 
+Typically $A_i$ will be our hypothesis and $b$ will be the data from an experiment. 
 
 * $P(A_i)$ is our *prior* probability, before the experiment started.
-* $P(A_i|x)$ is our *posterior* probability, updated because we now know $x$. 
-* $P(x|A_j)$ is the *likelihood* of x assuming $A_j$. (Note that the sum of all the likelihoods is not $1$).
+* $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
+* $P(B|A_j)$ is the *likelihood* of x assuming $A_j$. (Note that the sum of all the likelihoods is not $1$).
 
 ### Bayes theorem: continous version
 
@@ -35,6 +35,6 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNj
-M5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTEwNTE3OTU2NjcsLTEzMTIzNTM0ODQsLT
+E3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
 -->
