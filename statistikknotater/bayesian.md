@@ -21,9 +21,13 @@ Typically $A_i$ will be our hypothesis and $b$ will be the data from an experime
 * $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
 * $P(B|A_j)$ is the *likelihood* of x assuming $A_j$. (Note that the sum of all the likelihoods is not $1$).
 
-### Bayes theorem with random variables
+### Bayes theorem with discrete random variables
 
-If $X$ and $Y$ are continuos random variables, we have a joint pdf
+If $X$ and $Y$ are discrete random variables
+
+### Bayes theorem with continuous random variables
+
+If $X$ and $Y$ are continuous random variables, we have a joint pdf
 
 $$ f_{X, Y}(x,y) = f_{Y|X}(y|x)f_{X}(x) = f_{X|Y}(x|y)f_{Y}(y)$$
 
@@ -56,7 +60,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0Nz
-Q3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUz
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTU4MzY0Njg2LC0xNDYxMDI2MjI0LC0xMz
+EyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4
+MCwxNjM5NTQ1MzYxXX0=
 -->
