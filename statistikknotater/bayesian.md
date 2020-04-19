@@ -219,6 +219,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 ## Loss functions
 
+If we are to minimize our loss when makin inferences, we need a loss function. Here are three common choices, and to the right in parentheses, it is indicated what you get when you
 $$
 \begin{aligned}
 L_{0}(g) &= ∑_i
@@ -237,11 +238,11 @@ L_2(g) &= ∑_i(x_-g)^2
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0Mj
-kxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2
-NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLT
-gxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5
-NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMj
-IsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMx
-MjM1MzQ4NF19
+eyJoaXN0b3J5IjpbLTM4NjA2Mzc4NywxNTkzMjE1NTcsLTE3Nj
+Y5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2
+LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMT
+cxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkx
+NTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5Mi
+wtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3
+NDcxNTYwXX0=
 -->
