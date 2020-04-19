@@ -28,9 +28,9 @@ Each time we receive new data we can update our probability of an event, based o
 * $P(B|A_i)$ is the *likelihood* of $B$ assuming $A_i$. (Note that the likelihood is not a *pmf* or *pdf*, the sum of all the likelihoods of $B given all possible $A_i$ is not $1$).
 * $\sum_{j=1}^nP(B|A_j)P(A_j)$ is a normalization constant, ensuring that $P(A_i|B)$ is between $0$ and $1$.
 
-Often we are only interested in the fact that
+Sometimes the numerator is dropped, and we are only interested in that
 
-$$  $$
+$$ P(A|B) \propto P(B|A)P(A) $$
 
 ### Bayes theorem in medicine
 
@@ -91,8 +91,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDcxOTU2MTUsMjAwODY2OTY0NCwxMD
-YxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYx
-MDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0OD
-QsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNj
+E4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEw
+MjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NC
+wtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
