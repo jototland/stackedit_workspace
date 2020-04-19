@@ -9,6 +9,10 @@ The gamma function
 
 $$ Γ(x) = \int_{0}^{\infty} u^{x-1}e^{-u}du $$
 
+ is an extension to the factorial function
+
+$$ Γ(n) = (n-1)! $$
+
 ## Bayes rule
 
 ### Bayes rule for events, discrete version
@@ -180,11 +184,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzcwNzY2NzcsMTI2NDYxMzIxNiwtMT
-kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
-MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
-wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
-NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MT
-U2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFd
-fQ==
+eyJoaXN0b3J5IjpbNzAzMTkxMTksMTI2NDYxMzIxNiwtMTkyND
+IzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQzMzA4
+NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMD
+A4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAz
+ODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MC
+wtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+
 -->
