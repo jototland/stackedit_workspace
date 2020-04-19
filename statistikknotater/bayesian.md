@@ -110,14 +110,14 @@ $$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ 
 
 The Beta distribution has *pdf*
 
-$$ \text{gamma}(p;\alpha,\beta) = 
+$$ \text{beta}(p;\alpha,\beta) = 
 \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
 Given $n$ new samples with $k$ successes, our new posterior is
 
-$$ \text{gamma}^*(α^*,β^*) \text{ with } α^*=α+k \text{ and } β^* = β + n - k $$
+$$ \text{beta}^*(p;α^*,β^*) \text{ with } α^*=α+k \text{ and } β^* = β + n - k $$
 
 ### Gamma poisson conjugate pair
 
@@ -140,14 +140,14 @@ Which means that $k=α$ and $θ=\frac{1}{β}$.
 
 Given $n$ time periods with $k$ successes, our new posterior is
 
-$$ 
+$$ \text{gamma}^*
 $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NjA5MjIsLTE3MTQzMzA4NzIsLTgxMz
-kzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0
-LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLT
-E0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1
-MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbLTY2NjE4NjAyMywtMTcxNDMzMDg3MiwtOD
+EzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2
+NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMi
+wtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEy
+MzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
 -->
