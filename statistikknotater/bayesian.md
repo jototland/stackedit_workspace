@@ -161,14 +161,16 @@ $$
 
 ## Predictive inference
 
-You want to make an inferene on random variable $X$ with *pdf* $f(x,θ)$. The prior distribution of $θ$ is $π(θ)$. T
+You want to make an inferene on random variable $X$ with *pdf* $f(x,θ)$. The prior distribution of $θ$ is $π(θ)$. To solve this, you need to integrate
+
+$$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTkzNDQ3LDE1MjA5NDIyMDQsMTExOD
-Q5OTYyMiwtMTcxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIx
-MiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMT
-Y2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMx
-MjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1OD
-AsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTQ1OTQyMDgwMSwxNTIwOTQyMjA0LDExMT
+g0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYy
+MTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLT
+E2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEz
+MTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NT
+gwLDE2Mzk1NDUzNjFdfQ==
 -->
