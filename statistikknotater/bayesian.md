@@ -56,7 +56,7 @@ Which means that we can write Bayes rule as
 $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)} 
 = \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|x_i)p_X(x_i)} $$
 
-### Bayes theorem with continuous random variables
+### Bayes rule with continuous random variables
 
 If $X$ and $Y$ are continuous random variables, we have a joint pdf
 
@@ -159,7 +159,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MzkyODEyLDEyNDY4OTE1MTUsMjAwOD
+eyJoaXN0b3J5IjpbOTA0MjM1Mzc2LDEyNDY4OTE1MTUsMjAwOD
 Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
 MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
 EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
