@@ -138,7 +138,7 @@ $$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
 
 Which means that $k=α$ and $θ=\frac{1}{β}$.
 
-Given $n$ time periods with $k_i$ successes in each period, our new posterior is
+If our prior belief is that $K \sim \text{poisson}(λ)$, and we assume that $λ \sim then given $n$ time periods with $k_i$ successes in each period, our new posterior is
 
 $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 \text{with } α^*=α+\sum_{i=0}^{n}k_i \text{ and } β^*=β+n \\
@@ -154,7 +154,7 @@ The normal normal conjugate pair can only be used when $σ$ is known. Our prior 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTc5NzQ1NSwxMTE4NDk5NjIyLC0xNz
+eyJoaXN0b3J5IjpbLTk2MTQ5NDA1NywxMTE4NDk5NjIyLC0xNz
 E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
 MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
 0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
