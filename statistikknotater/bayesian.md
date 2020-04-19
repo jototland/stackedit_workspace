@@ -207,21 +207,21 @@ $$
 
 ## Predictive inference
 
-You want to make an inferene on random variable $X$ with *pdf* $f(x,θ)$. The prior distribution of $θ$ is $π(θ)$. To solve this, you need to integrate
+You want to make an inference on random variable $X$ with *pdf* $f(x,θ)$. The prior distribution of $θ$ is $π(θ)$. To solve this, you need to integrate
 
 $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
-## Credible inteval
+## Credible interval
 
 ## Loss functions
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0Nj
-EzMjE2LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYy
-MiwtMTcxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMj
-Q2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgy
-Njk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OT
-UsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYz
-OTU0NTM2MV19
+eyJoaXN0b3J5IjpbNzgzOTA0NzQ0LDM0MjkxNzg0NywzNDI5MT
+c4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0
+LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NT
+k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
+ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
+QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
+ODI1NTgwXX0=
 -->
