@@ -24,7 +24,8 @@ Each time we receive new data we can update our probability of an event, based o
 
 * $P(A_i)$ is our *prior* probability, before the experiment started.
 * $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
-* $P(B|A_j)$ is the *likelihood* of x assuming $A_j$. (Note that the sum of all the likelihoods is not $1$).
+* $P(B|A_i)$ is the *likelihood* of $B$ assuming $A_i$. (Note that the sum of all the likelihoods is not $1$).
+* $\sum_{j=1}^nP(B|A_j)P(A_j)$ is a normalization constant, ensuring that $P(A_i|B)$ is between $0$ and $1$.
 
 ### Bayes theorem with discrete random variables
 
@@ -68,7 +69,7 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLT
-EzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1
-NTgwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbMjY0MzI2NjEyLC0xOTQwMzgxMjIyLC0xND
+YxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0
+ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
 -->
