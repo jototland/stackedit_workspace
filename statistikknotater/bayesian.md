@@ -17,8 +17,8 @@ $$ Γ(n) = (n-1)! $$
 
 The t-distribution is
 
-$$ \text{student\_t}(x; μ, σ, v) = 
-\frac{Γ\frac{v+1}{2}}{Γ(\frac{v}{2})σ\sqrt{πv}}\left(1+\frac{1}{v}\left( \frac{x-μ}{σ}\right)\right) $$
+$$ \text{student\_t}(x; μ, σ, ν) = 
+\frac{Γ\frac{ν+1}{2}}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{1}{ν}\left( \frac{x-μ}{σ}\right)^2\right)^{-\frac{ν+1}{2}} $$
 
 ## Bayes rule
 
@@ -191,7 +191,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU3Njk0ODcsMTI2NDYxMzIxNiwtMT
+eyJoaXN0b3J5IjpbLTE3MzMyMzkxOTIsMTI2NDYxMzIxNiwtMT
 kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
 MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
 wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
