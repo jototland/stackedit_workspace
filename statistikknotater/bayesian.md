@@ -28,7 +28,9 @@ $$ p(t;ν)=
 \frac{Γ(\frac{ν+1}{2})}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{t^2}{ν}\right)^{-\frac{ν+1}{2}}
 $$
 
-The Cauchy distribution is the t-distribution with degrees of freedom %ν
+The Cauchy distribution is the t-distribution with degrees of freedom $ν=1$
+
+$$  p(t) = \frac{1}{σπ(1+\frac{x-μ}{σ}}$$
 
 ### Joint and marginal distribution
 
@@ -219,11 +221,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTM0MDM1OCwzNDI5MTc4NDcsMzQyOT
-E3ODQ3LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIw
-NCwxMTE4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNz
-U5ODU2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYy
-Njg2LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2Mj
-I0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3
-NjgyNTU4MF19
+eyJoaXN0b3J5IjpbLTE4MzU0MTA0MDUsMzQyOTE3ODQ3LDM0Mj
+kxNzg0NywxMjY0NjEzMjE2LC0xOTI0MjM4MTY0LDE1MjA5NDIy
+MDQsMTExODQ5OTYyMiwtMTcxNDMzMDg3MiwtODEzOTM3NjM1LD
+c1OTg1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2
+MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNj
+IyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0x
+NzY4MjU1ODBdfQ==
 -->
