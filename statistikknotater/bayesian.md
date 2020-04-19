@@ -104,10 +104,12 @@ But there are exceptions
 
 If our prior is that $X\sim\text{Binomial}(p)$, and we do not know $p$, but assume $p\sim\text{Beta}(\alpha,\beta)$, then even after we update our belief about $p$ to $p^{*}$, $X\sim\text{Binomial}(p^{*})$
 
-Re
+The binomial distribution has *pmf*
+
+$$ \binom{n}{x}p^{x}(1-p)^{n-x} \text{ with } \mu= $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTQ2MzY0OCw3NTk4NTYyMTIsMTI0Nj
+eyJoaXN0b3J5IjpbMjA5NDA1NTI4MSw3NTk4NTYyMTIsMTI0Nj
 g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
 OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
 c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
