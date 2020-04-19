@@ -150,11 +150,11 @@ The normal distribution has *pdf*
 
 $$ \text{normal}(x;μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
 
-The normal normal conjugate pair can only be used when $σ$ is known. 
+The normal normal conjugate pair can only be used when $σ$ is known. Our prior is that μ is also randoml
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMwNzI4OCwxMTE4NDk5NjIyLC0xNz
+eyJoaXN0b3J5IjpbMTM2NTc5NzQ1NSwxMTE4NDk5NjIyLC0xNz
 E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
 MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
 0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
