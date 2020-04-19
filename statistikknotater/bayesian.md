@@ -115,20 +115,21 @@ $$ \text{gamma}(p;\alpha,\beta) =
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
-Given $n$ new samples with $x$ successes, our new posterior is
+Given $n$ new samples with $k$ successes, our new posterior is
 
-$$ Γ^*(α^*,β^*) \text{ with } α^*=α+x \text{ and } β^* = β + n - x $$
+$$ Γ^*(α^*,β^*) \text{ with } α^*=α+k \text{ and } β^* = β + n - k $$
 
 ### Gamma poisson conjugate pair
 
 The Poisson distribution has *pmf*
 
-$$ \text{poisson}(x;λ) = \frac{λ^x}{x!}
+$$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
+\text{with } \mu = λ
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0MTQ5NDA2LC04MTM5Mzc2MzUsNzU5OD
-U2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2
-LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC
-0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3Njgy
-NTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTE3OTMzMTE0NTgsLTgxMzkzNzYzNSw3NT
+k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
+ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
+QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
+ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
