@@ -149,9 +149,11 @@ The odds of something happening is the probability of it happening divided by th
 
 $$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o_A=\frac{p_A}{1-p_A}$$
 
-Bayes rule actually becomes very easy with odds. We define the posterior odss
+Bayes rule actually becomes very easy with odds. We define the posterior odds, after updating on $x$
 
-$$ \text{PO}(A) = \frac{P(A|x}{P(\neg A|x}$$
+$$ \text{PO}(A) = \frac{P(A|x)}{P(\neg A|x)} 
+= \frac{P(x|A}{}
+$$
 
 ## Conjugate families
 
@@ -257,7 +259,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDY0NDk2MiwyMTI3NDQ2Mzk0LC0yNj
+eyJoaXN0b3J5IjpbMTIwOTQyMDAwOCwyMTI3NDQ2Mzk0LC0yNj
 QwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1
 NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNj
 Q2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5
