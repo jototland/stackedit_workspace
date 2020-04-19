@@ -31,7 +31,7 @@ Each time we receive new data we can update our probability of an event, based o
 
 * Sensitivity: $P(\text{diagnosis}|\text{disease})$
 * Specificity: $P(\neg\text{diagnosis}|\neg\text{disease})$
-* Base ra
+* Base rate: $P(\text{disease})$
 
 ### Bayes theorem with discrete random variables
 
@@ -75,8 +75,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY5MDI1NTUsLTE2NjU4MjY5OTIsLT
-E5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3
-MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNj
-FdfQ==
+eyJoaXN0b3J5IjpbMTk5MDUxMzY5NiwtMTY2NTgyNjk5MiwtMT
+k0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcx
+NTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV
+19
 -->
