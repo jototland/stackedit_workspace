@@ -106,11 +106,11 @@ If our prior is that $X\sim\text{Binomial}(p)$, and we do not know $p$, but assu
 
 The binomial distribution has *pmf*
 
-$$ f(x)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
+$$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
 
 The Beta distribution has *pmf*
 
-$$ \text{Gamma}(p) = 
+$$ \text{gamma}(p;\alpha,\beta) = 
 \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
@@ -123,9 +123,9 @@ $$ Γ^*(α^*,β^*) \text{ with } α^*=α+x \text{ and } β^* = β + n - x $$
 
 The Poisson distribution has
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkwODk1NjIsLTgxMzkzNzYzNSw3NT
-k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
-ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
-QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
-ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbMTM5MjE1Nzg5NiwtODEzOTM3NjM1LDc1OT
+g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
+NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
+wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
+MjU1ODAsMTYzOTU0NTM2MV19
 -->
