@@ -31,11 +31,11 @@ $$
 
 Two discrete random variables $X$ and $Y$ can have a joint distribution
 
-$$ p(x,y) = P(X=x, Y=y) $$
+$$ p(x,y) = P(X=x \land Y=y) $$
 
 The marginal distribution is
 
-$$ p(x) = P(X=x) = \sum_
+$$ p(x) = P(X=x) = \sum_{i} P(X=x, Y=y_i) $$
 
 ## Bayes rule
 
@@ -208,7 +208,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYzNzI3MTAsMTI2NDYxMzIxNiwtMT
+eyJoaXN0b3J5IjpbLTIxMzI4MzIwMTMsMTI2NDYxMzIxNiwtMT
 kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
 MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
 wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
