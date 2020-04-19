@@ -106,12 +106,12 @@ If our prior is that $X\sim\text{Binomial}(p)$, and we do not know $p$, but assu
 
 The binomial distribution has *pmf*
 
-$$ \binom{n}{x}p^{x}(1-p)^{n-x} \text{ with } \mu= $$
+$$ \binom{n}{x}p^{x}(1-p)^{n-x} \text{ with } \mu=np \text{ and } \sigma=\sqrt{} $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDA1NTI4MSw3NTk4NTYyMTIsMTI0Nj
-g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
-OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
-c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
-NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbLTE4MTc0OTM2NzUsNzU5ODU2MjEyLDEyND
+Y4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2
+OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NS
+w3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5
+NTQ1MzYxXX0=
 -->
