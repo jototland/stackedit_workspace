@@ -100,15 +100,16 @@ The main (historical) problem with using Bayes rule in the continuous case is th
 
 But there are exceptions
 
-### Binomial Beta
+### Binomial Beta conjuagate pair
 
+If our prior is that $X\sim\text{Binomial(p)$
 Prior
-| asdf
+: asdf
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2ODQ5Nzc5LDc1OTg1NjIxMiwxMjQ2OD
-kxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5
-MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNz
-Q3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0
-NTM2MV19
+eyJoaXN0b3J5IjpbMTA5NDI2MjY0Nyw3NTk4NTYyMTIsMTI0Nj
+g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
+OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
+c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
+NDUzNjFdfQ==
 -->
