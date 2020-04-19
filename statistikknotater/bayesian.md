@@ -108,7 +108,7 @@ The binomial distribution has *pmf*
 
 $$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
 
-The Beta distribution has *pmf*
+The Beta distribution has *pdf*
 
 $$ \text{gamma}(p;\alpha,\beta) = 
 \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
@@ -121,11 +121,14 @@ $$ Γ^*(α^*,β^*) \text{ with } α^*=α+x \text{ and } β^* = β + n - x $$
 
 ### Gamma poisson conjugate pair
 
-The Poisson distribution has
+The Poisson distribution has *pmf*
+
+$$ \text{poisson}(x;λ) = \frac{λ^x}{x!}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjE1Nzg5NiwtODEzOTM3NjM1LDc1OT
-g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
-NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
-wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
-MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbNjc0MTQ5NDA2LC04MTM5Mzc2MzUsNzU5OD
+U2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2
+LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC
+0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3Njgy
+NTU4MCwxNjM5NTQ1MzYxXX0=
 -->
