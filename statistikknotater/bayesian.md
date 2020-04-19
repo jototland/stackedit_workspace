@@ -116,11 +116,11 @@ $$ \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\b
 
 Given $n$ new samples with $x$ successes
 
-$$  $$
+$$ α^*=α+x \text{ and } β $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDIxODUwMSwtODEzOTM3NjM1LDc1OT
-g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
-NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
-wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
-MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbNTI0NDEzMjI3LC04MTM5Mzc2MzUsNzU5OD
+U2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2
+LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC
+0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3Njgy
+NTU4MCwxNjM5NTQ1MzYxXX0=
 -->
