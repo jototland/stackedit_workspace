@@ -117,7 +117,7 @@ $$ \text{gamma}(p;\alpha,\beta) =
 
 Given $n$ new samples with $k$ successes, our new posterior is
 
-$$ Γ^*(α^*,β^*) \text{ with } α^*=α+k \text{ and } β^* = β + n - k $$
+$$ \text{gamma}^*(α^*,β^*) \text{ with } α^*=α+k \text{ and } β^* = β + n - k $$
 
 ### Gamma poisson conjugate pair
 
@@ -136,14 +136,18 @@ but can also be written as
 $$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
 \text{with } μ=kθ \text{ and } σ=θ\sqrt{k} $$
 
-Which means that $k=α$ and $θ=\frac{1}{β}$$
+Which means that $k=α$ and $θ=\frac{1}{β}$.
 
+Given $n$ time periods with $k$ successes, our new posterior is
+
+$$ 
+$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NDE3MDEyLC0xNzE0MzMwODcyLC04MT
-M5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0
-NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC
-0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIz
-NTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbNjA3NjA5MjIsLTE3MTQzMzA4NzIsLTgxMz
+kzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0
+LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLT
+E0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1
+MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
