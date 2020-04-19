@@ -219,7 +219,9 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 ## Loss functions
 
-If we are to minimize our loss when makin inferences, we need a loss function. Here are three common choices, and to the right in parentheses, it is indicated what you get when you
+When making point estimates, they are rarely correct. A loss function is needed to help select among the alternatives. Then 
+
+If we are to minimize our loss when making inferences, we need a loss function. Here are three common choices, and to the right in parentheses, it is indicated what you get when yo
 $$
 \begin{aligned}
 L_{0}(g) &= ∑_i
@@ -238,11 +240,11 @@ L_2(g) &= ∑_i(x_-g)^2
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjA2Mzc4NywxNTkzMjE1NTcsLTE3Nj
-Y5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2
-LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMT
-cxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkx
-NTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5Mi
-wtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3
-NDcxNTYwXX0=
+eyJoaXN0b3J5IjpbLTE2ODU2NTQ2MjEsMTU5MzIxNTU3LC0xNz
+Y2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIx
+NiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLT
+E3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5
+MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OT
+IsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0
+NzQ3MTU2MF19
 -->
