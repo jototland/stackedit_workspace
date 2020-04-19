@@ -16,12 +16,12 @@ $$ P(A_i|x) = \frac{P(x|A_i)P(A_i)}{\sum_{j=1}^nP(x|A_j)P(A_j)} $$
 
 Typically $A_i$ will be our hypothesis and $x$ will be the data from an experiment. 
 
-* $P(A_i)$ is our *prior* probability.
-* $P(A_i|x)$ is our *posterior* probability. 
-* $P(x|A_j)$ is the *likelihood* of x. (Note that the sum of all the likelihoods is not $1$).
+* $P(A_i)$ is our *prior* probability, before the experiment started.
+* $P(A_i|x)$ is our *posterior* probability, updated because we now know $x$. 
+* $P(x|A_j)$ is the *likelihood* of x assuming $A_j$. (Note that the sum of all the likelihoods is not $1$).
 
-In the continuous case, we no longer have a finite partition of $S$. 
+In the continuous case, we no longer have a finite partition of $S$. Instead we have a
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ3MDYyNDFdfQ==
+eyJoaXN0b3J5IjpbLTM0NjA0NDU0N119
 -->
