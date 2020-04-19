@@ -130,10 +130,16 @@ The Gamma distribution has *pdf*
 
 $$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
 \text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
+
+but can also be written as
+
+$$ \text{gamma}(p;k,γ)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
+\text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Njc3MTgzOCwtODEzOTM3NjM1LDc1OT
-g1NjIxMiwxMjQ2ODkxNTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4
-NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNC
-wtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC0xNzY4
-MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NT
+k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
+ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
+QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
+ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
 -->
