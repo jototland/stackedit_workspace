@@ -68,16 +68,20 @@ $$ P(x_1<X<X_2, y_1<Y<y_2)  = \int_{x_1}^{x_2}\int_{y_1}^{y_2}f_{X,Y}(x,y)dy\,dx
 
 But Bayes theorem remains very similar to the discrete case
 
-$$ f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x)f_X(x)}{f} = \frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty}f_{Y|X}(y|u)f_X(u)du} $$
+$$ 
+f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x)f_X(x)}{f_Y(y)} 
+= \frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty}f_{Y|X}(y|u)f_X(u)du}
+$$
 
 Or, a bit more sloppily written
 
 $$ f(x|y)=\frac{f(y|x)f(x)}{\int_{-\infty}^{\infty}f(y|x)f(x)dx} $$
 
-Or just as a proportionality
+Or, since the denumerator is a constant, just as a proportionality
 
 $$ f(x|y) \propto f(y|x)f(x) $$
 
+### Bayes th
 
 
 
@@ -155,8 +159,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDc4NTgzMSwxMjQ2ODkxNTE1LDIwMD
-g2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4
-MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC
-0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTI3OTc2NjYwLDEyNDY4OTE1MTUsMjAwOD
+Y2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgx
+MjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLT
+EzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
 -->
