@@ -95,10 +95,12 @@ If $X \sim \text{Binomial}(p)$ then we might want to update on $p$ given new evi
 $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 ## Conjugate families
+
+The main problem in using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an anal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgwNzk2NzgsNzU5ODU2MjEyLDEyND
-Y4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2
-OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NS
-w3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5
-NTQ1MzYxXX0=
+eyJoaXN0b3J5IjpbLTk5MzgyNTc4OSw3NTk4NTYyMTIsMTI0Nj
+g5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5
+OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LD
+c0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1
+NDUzNjFdfQ==
 -->
