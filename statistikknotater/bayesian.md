@@ -238,7 +238,7 @@ $$
 You want to make an inference on random variable $X$ with *pdf* $f(x,θ)$. The prior distribution of $θ$ is $π(θ)$. To solve this, you need to integrate
 
 $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ 
-= \int_{-∞}^∞\int_{-∞}^x f(s|θ)\,ds\,p(θ)\,d8θ$$
+= \int_{-∞}^∞\int_{-∞}^x f(s|θ)\,ds\,p(θ)\,θ$$
 
 ## Credible interval
 
@@ -281,7 +281,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDQ3MDM2NywxNDIwNjQ2MTY2LC0xND
+eyJoaXN0b3J5IjpbMTA3NDUyNzUwMSwxNDIwNjQ2MTY2LC0xND
 IxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3
 Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LD
 M0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIz
