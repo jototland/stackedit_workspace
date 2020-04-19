@@ -165,12 +165,16 @@ You want to make an inferene on random variable $X$ with *pdf* $f(x,θ)$. The pr
 
 $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
+## Credible inteval
+
+## Loss functions
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTQyMDgwMSwxNTIwOTQyMjA0LDExMT
-g0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYy
-MTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLT
-E2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMjQsLTEz
-MTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2ODI1NT
-gwLDE2Mzk1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbLTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMT
+E4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2
+MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC
+0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0x
+MzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNT
+U4MCwxNjM5NTQ1MzYxXX0=
 -->
