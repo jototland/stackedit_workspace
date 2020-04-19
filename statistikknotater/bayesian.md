@@ -33,8 +33,8 @@ $$ p(x) = \int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta $$
 
 The continuous version of Bayes theorem is
 
-$$  $$
+$$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDEzMDIyMSwtMTc2ODI1NTgwLDE2Mz
-k1NDUzNjFdfQ==
+eyJoaXN0b3J5IjpbLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNj
+M5NTQ1MzYxXX0=
 -->
