@@ -228,21 +228,20 @@ $$
 	L_{0}(g) &= ∑_i \begin{cases}
 		0  & \text{if }g=x_i  \\
 		1 ,& \text{otherwise}
-\end{cases}  
-& \text{(mode)}
+	\end{cases}  & \text{(mode)}
 \\
-L_1(g) &= ∑_i |x_i-g| & \text{(median)}\\
-L_2(g) &= ∑_i(x_-g)^2 
-& \text{(mean)}
+L_1(g) &= ∑_i |x_i-g| & \text{(median)}
+\\
+L_2(g) &= ∑_i(x_-g)^2 & \text{(mean)}
 \end{aligned}
 $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4Mzg0OTYzLDE1OTMyMTU1NywtMTc2Nj
-k2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYs
-LTE5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNz
-E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
-MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
-0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
-NzE1NjBdfQ==
+eyJoaXN0b3J5IjpbMTAyOTQxOTk2NSwxNTkzMjE1NTcsLTE3Nj
+Y5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2
+LC0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMT
+cxNDMzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkx
+NTE1LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5Mi
+wtMTk0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3
+NDcxNTYwXX0=
 -->
