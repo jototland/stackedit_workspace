@@ -28,6 +28,10 @@ Each time we receive new data we can update our probability of an event, based o
 * $P(B|A_i)$ is the *likelihood* of $B$ assuming $A_i$. (Note that the likelihood is not a *pmf* or *pdf*, the sum of all the likelihoods of $B given all possible $A_i$ is not $1$).
 * $\sum_{j=1}^nP(B|A_j)P(A_j)$ is a normalization constant, ensuring that $P(A_i|B)$ is between $0$ and $1$.
 
+Often we are only interested in the fact that
+
+$$  $$
+
 ### Bayes theorem in medicine
 
 * Sensitivity: $P(\text{diagnosis}|\text{disease})$
@@ -36,7 +40,7 @@ Each time we receive new data we can update our probability of an event, based o
 
 ### Bayes theorem with discrete random variables
 
-If $X$ and $Y$ are discrete random variables and $p$ is a joint distribution (a *pmf*), then
+If $X$ and $Y$ are discrete random variables and $p$ is a joint distribution (a *pmf*), we use the following notation
 
 $$
 \begin{aligned}
@@ -87,8 +91,8 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNDU0NDU3LDIwMDg2Njk2NDQsMTA2MT
-g2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4MTIyMiwtMTQ2MTAy
-NjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC0xMzEyMzUzNDg0LC
-0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTExNDcxOTU2MTUsMjAwODY2OTY0NCwxMD
+YxODYyNjg2LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYx
+MDI2MjI0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0OD
+QsLTE3NjgyNTU4MCwxNjM5NTQ1MzYxXX0=
 -->
