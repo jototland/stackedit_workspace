@@ -156,15 +156,15 @@ Our prior is that $μ \sim \text{Normal}(ν,τ)$. Given $n$ new observations wit
 
 $$ 
 ν^* = \frac{νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}  \\
-τ^* = \sqrt{\frac{σ^2}{}}
+τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}
 $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2MDI2ODIsMTExODQ5OTYyMiwtMTcxND
-MzMDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1
-LDIwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMT
-k0MDM4MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcx
-NTYwLC0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV
-19
+eyJoaXN0b3J5IjpbMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNz
+E0MzMwODcyLC04MTM5Mzc2MzUsNzU5ODU2MjEyLDEyNDY4OTE1
+MTUsMjAwODY2OTY0NCwxMDYxODYyNjg2LC0xNjY1ODI2OTkyLC
+0xOTQwMzgxMjIyLC0xNDYxMDI2MjI0LC0xMzEyMzc5NSw3NDc0
+NzE1NjAsLTEzMTIzNTM0ODQsLTE3NjgyNTU4MCwxNjM5NTQ1Mz
+YxXX0=
 -->
