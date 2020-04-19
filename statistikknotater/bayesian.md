@@ -18,12 +18,13 @@ $$ Γ(n) = (n-1)! $$
 The *pdf* for the t-distribution is
 
 $$ t(x; μ, σ, ν) = 
-\frac{Γ\frac{ν+1}{2}}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{1}{ν}\left( \frac{x-μ}{σ}\right)^2\right)^{-\frac{ν+1}{2}}
+\frac{Γ(\frac{ν+1}{2})}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{1}{ν}\left( \frac{x-μ}{σ}\right)^2\right)^{-\frac{ν+1}{2}}
 $$
 
-and the standardized t-distribution is
+and the standardized t-distribution ($μ=0$, $σ=1$) is
 
-$$ p(t=
+$$ p(t;ν)=
+\frac{Γ(\frac{ν+1}{2}}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{1}{ν}\left( \frac{x-μ}{σ}\right)^2\right)^{-\frac{ν+1}{2}}
 $$
 
 ## Bayes rule
@@ -197,7 +198,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQyMTI3OTYsMTI2NDYxMzIxNiwtMT
+eyJoaXN0b3J5IjpbLTIwOTAxOTE0MTQsMTI2NDYxMzIxNiwtMT
 kyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0OTk2MjIsLTE3MTQz
 MzA4NzIsLTgxMzkzNzYzNSw3NTk4NTYyMTIsMTI0Njg5MTUxNS
 wyMDA4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5
