@@ -124,10 +124,13 @@ $$ Γ^*(α^*,β^*) \text{ with } α^*=α+k \text{ and } β^* = β + n - k $$
 The Poisson distribution has *pmf*
 
 $$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
-\text{with } \mu = λ
-$$
+\text{with } \mu = λ \text{ and } σ=\sqrt{λ} $$
+
+The Gamma distribution has *pdf*
+
+$$ \text{gamma}(k
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTMzMTE0NTgsLTgxMzkzNzYzNSw3NT
+eyJoaXN0b3J5IjpbLTE5NTEzMzY3NTAsLTgxMzkzNzYzNSw3NT
 k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
 ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
 QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
