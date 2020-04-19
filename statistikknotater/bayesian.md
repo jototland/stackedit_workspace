@@ -28,6 +28,8 @@ $$ p(t;ν)=
 \frac{Γ(\frac{ν+1}{2})}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{t^2}{ν}\right)^{-\frac{ν+1}{2}}
 $$
 
+The Cauchy distribution is the t-distribution with degrees of freedom %ν
+
 ### Joint and marginal distribution
 
 Two discrete random variables $X$ and $Y$ can have a joint distribution
@@ -217,11 +219,11 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzOTA0NzQ0LDM0MjkxNzg0NywzNDI5MT
-c4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0
-LDExMTg0OTk2MjIsLTE3MTQzMzA4NzIsLTgxMzkzNzYzNSw3NT
-k4NTYyMTIsMTI0Njg5MTUxNSwyMDA4NjY5NjQ0LDEwNjE4NjI2
-ODYsLTE2NjU4MjY5OTIsLTE5NDAzODEyMjIsLTE0NjEwMjYyMj
-QsLTEzMTIzNzk1LDc0NzQ3MTU2MCwtMTMxMjM1MzQ4NCwtMTc2
-ODI1NTgwXX0=
+eyJoaXN0b3J5IjpbMTEyMTM0MDM1OCwzNDI5MTc4NDcsMzQyOT
+E3ODQ3LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIw
+NCwxMTE4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNz
+U5ODU2MjEyLDEyNDY4OTE1MTUsMjAwODY2OTY0NCwxMDYxODYy
+Njg2LC0xNjY1ODI2OTkyLC0xOTQwMzgxMjIyLC0xNDYxMDI2Mj
+I0LC0xMzEyMzc5NSw3NDc0NzE1NjAsLTEzMTIzNTM0ODQsLTE3
+NjgyNTU4MF19
 -->
