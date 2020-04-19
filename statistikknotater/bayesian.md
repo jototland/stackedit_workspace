@@ -7,7 +7,7 @@
 
 The gamma function
 
-$$ Γ(x) = \int_{0}^{\infty} u^{x-1}e^{-u}du $$
+$$ Γ(x) = \int_{0}^{∞} u^{x-1}e^{-u}du $$
 
  is an extension to the factorial function
 
@@ -212,7 +212,7 @@ $$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjQzNDEzMSwxMjY0NjEzMjE2LC0xOT
+eyJoaXN0b3J5IjpbMTU3MTQ3MjQxMSwxMjY0NjEzMjE2LC0xOT
 I0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMz
 MDg3MiwtODEzOTM3NjM1LDc1OTg1NjIxMiwxMjQ2ODkxNTE1LD
 IwMDg2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0
