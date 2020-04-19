@@ -62,11 +62,37 @@ If $X$ and $Y$ are continuous random variables, we have a joint pdf
 
 $$ f_{X, Y}(x,y) = f_{Y|X}(y|x)f_{X}(x) = f_{X|Y}(x|y)f_{Y}(y)$$
 
+Any actual probability P(x_1<X<X
 
 
 
 
 
+
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasdfasdf
 asdfasdfasdf
 asdfasdfasdf
 asdfasdfasdf
@@ -116,8 +142,9 @@ The continuous version of Bayes theorem is
 
 $$ p(\theta|x)=\frac{p(x|\theta)p(\theta)}{\int_{-\infty}^{\infty}p(x|\theta)p(\theta)d\theta} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjE2ODE1MiwxMjQ2ODkxNTE1LDIwMD
-g2Njk2NDQsMTA2MTg2MjY4NiwtMTY2NTgyNjk5MiwtMTk0MDM4
-MTIyMiwtMTQ2MTAyNjIyNCwtMTMxMjM3OTUsNzQ3NDcxNTYwLC
-0xMzEyMzUzNDg0LC0xNzY4MjU1ODAsMTYzOTU0NTM2MV19
+eyJoaXN0b3J5IjpbLTEwODI1MjM1MzMsMTI0Njg5MTUxNSwyMD
+A4NjY5NjQ0LDEwNjE4NjI2ODYsLTE2NjU4MjY5OTIsLTE5NDAz
+ODEyMjIsLTE0NjEwMjYyMjQsLTEzMTIzNzk1LDc0NzQ3MTU2MC
+wtMTMxMjM1MzQ4NCwtMTc2ODI1NTgwLDE2Mzk1NDUzNjFdfQ==
+
 -->
