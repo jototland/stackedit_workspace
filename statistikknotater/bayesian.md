@@ -46,7 +46,7 @@ Two continuous random variables $X$ and $Y$ can have a joint distribution
 
 $$ p(x,y) = \lim_{δ→0,ε→0} \frac {P(x ≤ X ≤ x+δ ∧ y ≤ Y ≤ y+ε)}{δε} $$
 
-The continuous marginal distribution is
+The continuous marginal distribution is $\substack{a}{\\b}$
 
 $$ p(x) =\int_{-∞}^∞ p(x,y)\,dy$$
 
@@ -281,11 +281,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5Mj
-kyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2
-Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LD
-E1OTMyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3
-ODQ3LDEyNjQ2MTMyMTYsLTE5MjQyMzgxNjQsMTUyMDk0MjIwNC
-wxMTE4NDk5NjIyLC0xNzE0MzMwODcyLC04MTM5Mzc2MzUsNzU5
-ODU2MjEyXX0=
+eyJoaXN0b3J5IjpbODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMj
+k1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2MDM1
+MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0OTczNzQsLT
+QwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1MzksMzQyOTE3
+ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0MjM4MTY0LD
+E1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcxNDMzMDg3MiwtODEz
+OTM3NjM1XX0=
 -->
