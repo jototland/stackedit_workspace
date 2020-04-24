@@ -161,7 +161,7 @@ $$
 
 The ratio $\frac{P(x|A)}{P(x|\neg A)}$ is known as the *Bayes factor*. 
 
-For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal distributions
+For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
 
 $$ \frac{\int P(x|\Theta,A)d\Theta}{\int P(x|\Theta,\neg A)d\Theta} $$
 
@@ -281,11 +281,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNT
-IwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2
-NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMjIsLT
-UxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2Njk2
-NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYsLT
-E5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0
-MzMwODcyXX0=
+eyJoaXN0b3J5IjpbLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOT
+I3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4
+OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLT
+I2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIx
+NTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcsMT
+I2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0
+OTk2MjJdfQ==
 -->
