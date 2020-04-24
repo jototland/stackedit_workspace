@@ -161,11 +161,11 @@ $$
 
 The ratio $\frac{P(x|A)}{P(x|\neg A)}$ is known as the *Bayes factor*. 
 
-For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over all parameters $\Theta$ to get the ratio of the marginal distributions
+For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal distributions
 
 $$ \frac{\int P(x|\Theta,A)d\Theta}{\int P(x|\Theta,\neg A)d\Theta} $$
 
-where θ is the set of all model parameters
+where $\Theta$ is the set of all model parameters
 
 ## Conjugate families
 
@@ -281,11 +281,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTYwMTI2MjksODA5Mjc0MjM2LC0yMD
-UyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYx
-NjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC
-01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5
-NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC
-0xOTI0MjM4MTY0LDE1MjA5NDIyMDQsMTExODQ5OTYyMiwtMTcx
-NDMzMDg3Ml19
+eyJoaXN0b3J5IjpbLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNT
+IwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2
+NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMjIsLT
+UxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2Njk2
+NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYsLT
+E5MjQyMzgxNjQsMTUyMDk0MjIwNCwxMTE4NDk5NjIyLC0xNzE0
+MzMwODcyXX0=
 -->
