@@ -193,7 +193,7 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 | 6 to 10 | Strong | 
 | > 10 | Very strong
 
-(note: Wikipedia disagrees with textbook about these tables, they are most likely attributed to the wrong author, and both seem similar to Kass).
+(note: Wikipedia disagrees with textbook about these tables, both seem similar to Kass & Raftery, although not identical).
 
 ## Conjugate families
 
@@ -309,11 +309,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDg1OTM3NSwtODA4ODc0NzIwLC0yMT
-M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
-MzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMT
-QyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQw
-MzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1Ny
-wtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2
-MTMyMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjY3MDIyODYsLTgwODg3NDcyMCwtMj
+EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
+MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
+E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
+MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NT
+csLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0
+NjEzMjE2XX0=
 -->
