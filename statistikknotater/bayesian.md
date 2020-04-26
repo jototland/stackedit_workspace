@@ -173,6 +173,8 @@ where $\Theta$ is the set of all model parameters
 
 #### Interpretation of Bayes factor
 
+The following interpretation of Bays factors is called Jeffreys' scale:
+
 | BF[$H_1$:$H_2$] | Evidence against $H_2$ |
 | :- | :- |
 | 1 to 3 | Not worth a bare mention
@@ -181,6 +183,8 @@ where $\Theta$ is the set of all model parameters
 | > 150 | Very strong | 
 
 $$ BF[H_2:H_1] = \frac{1}{BF[H_1:H_2]} $$
+
+An
 
 ## Conjugate families
 
@@ -296,7 +300,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjI1NjQ0MSwtMjEzNzUwNjIyOSwtND
+eyJoaXN0b3J5IjpbLTkyMDI0Njk3MiwtMjEzNzUwNjIyOSwtND
 cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
 OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
 E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
