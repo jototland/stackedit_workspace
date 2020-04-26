@@ -120,6 +120,7 @@ p(x) &= \int_{-\infty}^{\infty}p(x|\theta)\,f(\theta)\,d\theta
 
 Which means that we can write Bayes rule as
 
+$$ p(x|\theta)\,d\theta = \frac {p(x} {} $$
 
 ### Bayes rule with continuous random variables
 
@@ -345,11 +346,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4NjczMDg0LDE2NDI2NjAxMjEsLTE1MD
-E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
-NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLD
-ExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2
-MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0OTczNz
-QsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1MzksMzQy
-OTE3ODQ3XX0=
+eyJoaXN0b3J5IjpbMTE0MjQ1MTY0NiwxNjQyNjYwMTIxLC0xNT
+AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
+NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2My
+wxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIx
+NjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3Mz
+c0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0
+MjkxNzg0N119
 -->
