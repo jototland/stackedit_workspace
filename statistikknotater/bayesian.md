@@ -115,7 +115,7 @@ If $X$ is a random variable with *pmf* $p(x;\theta)$, where $\theta$ is a contin
 $$\begin{aligned}
 P(X=x|\theta) &=p_{X| \theta}(x,y) \\
 P(X=x) &= \int_{-\infty}^{\infty}P(X=x|\theta)\,P(\theta)\,d\theta \\
-P_X(x) &= \int_{-infty}^{
+P_X(x) &= \int_{-\infty}^{\infty}p_{X|\theta}(x|\theta)p
 \end{aligned} $$
 
 ### Bayes rule with continuous random variables
@@ -342,11 +342,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMzg4NDI2LDE2NDI2NjAxMjEsLTE1MD
-E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
-NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLD
-ExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2
-MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0OTczNz
-QsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1MzksMzQy
-OTE3ODQ3XX0=
+eyJoaXN0b3J5IjpbMTcyMjcxNzI5MywxNjQyNjYwMTIxLC0xNT
+AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
+NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2My
+wxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIx
+NjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3Mz
+c0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0
+MjkxNzg0N119
 -->
