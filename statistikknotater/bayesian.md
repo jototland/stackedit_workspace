@@ -173,7 +173,7 @@ where $\Theta$ is the set of all model parameters
 
 #### Interpretation of Bayes factor
 
-The following interpretation of Bays factors is called Jeffreys' scale:
+The following interpretation of Bays factors is (in the textbook) called Jeffreys' scale:
 
 | BF[$H_1$:$H_2$] | Evidence against $H_2$ |
 | :- | :- |
@@ -193,7 +193,7 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 | 6 to 10 | Strong | 
 | > 10 | Very strong
 
-(note: Wikipedia disagrees with textbook about these tables, both seem similar to Kass & Raftery, although not identical).
+(note: Wikipedia disagrees with textbook about these tables, both seem similar to Kass & Raftery, although not identical, Jeffreys scale is very different).
 
 ## Conjugate families
 
@@ -309,7 +309,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY3MDIyODYsLTgwODg3NDcyMCwtMj
+eyJoaXN0b3J5IjpbLTExMjMwODYzMjQsLTgwODg3NDcyMCwtMj
 EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
 MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
 E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
