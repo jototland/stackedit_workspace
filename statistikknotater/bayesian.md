@@ -174,7 +174,12 @@ where $\Theta$ is the set of all model parameters
 #### Interpretation of Bayes factor
 
 | $BF[H_1:H_2] | Evidence against $H_2$ |
+| :---------------- | :---------------- |
 
+| :---------------- | :-----------------|
+| :---------------- | :-----------------|
+| :---------------- | :-----------------|
+| dog food | cat food|
 
 ## Conjugate families
 
@@ -290,7 +295,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg1NjgzMTYsLTIxMzc1MDYyMjksLT
+eyJoaXN0b3J5IjpbLTIwNTcyNTQ5NDksLTIxMzc1MDYyMjksLT
 Q3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5
 NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC
 0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1
