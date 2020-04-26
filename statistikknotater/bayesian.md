@@ -184,7 +184,9 @@ The following interpretation of Bays factors is called Jeffreys' scale:
 
 $$ BF[H_2:H_1] = \frac{1}{BF[H_1:H_2]} $$
 
-An
+Another alternative is Kass & Raftery's interpretation of the natural logarithm of the Bayes factor
+
+| ln(BF[H_1:H_2]) | 
 
 ## Conjugate families
 
@@ -300,7 +302,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDI0Njk3MiwtMjEzNzUwNjIyOSwtND
+eyJoaXN0b3J5IjpbLTE2OTMyOTI0MywtMjEzNzUwNjIyOSwtND
 cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
 OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
 E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
