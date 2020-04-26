@@ -272,11 +272,11 @@ $$
 
 ### Normal gamma conjugate pair
 
-We already know theConditional prior
+We already know the normal normal conjugate pair with fixed $\sigma$ and conditional prior
 
 $$ \mu | \sigma^2 \sim N(m_0, \sigma^2/n_0) $$
 
-Precision
+We introduce *precision* $\phi$ as
 
 $$ \phi = 1/\sigma^2 $$
 
@@ -332,7 +332,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTI0MzM1LC0xNTAxNzI4MTc5LC04MD
+eyJoaXN0b3J5IjpbMjQyMjM0ODE1LC0xNTAxNzI4MTc5LC04MD
 g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
 MTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LD
 kyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0
