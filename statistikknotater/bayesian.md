@@ -171,6 +171,11 @@ $$ \frac{\int P(x|\Theta,H_1)d\Theta}{\int P(x|\Theta,H_2)d\Theta} $$
 
 where $\Theta$ is the set of all model parameters
 
+#### Interpretation of Bayes factor
+
+| $BF[H_1:H_2] | Evidence against $H_2$ |
+
+
 ## Conjugate families
 
 The main (historical) problem with using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an analytic solution for. 
@@ -285,11 +290,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0NzAwMDk0LC0yMTM3NTA2MjI5LC00Nz
-I3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5
-NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2NiwtMT
-QyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5
-NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2Njk2NTUzOS
-wzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYsLTE5MjQy
-MzgxNjRdfQ==
+eyJoaXN0b3J5IjpbLTEwNDg1NjgzMTYsLTIxMzc1MDYyMjksLT
+Q3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5
+NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC
+0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1
+NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NT
+M5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTky
+NDIzODE2NF19
 -->
