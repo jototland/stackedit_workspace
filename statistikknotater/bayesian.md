@@ -272,7 +272,7 @@ $$
 
 ### Normal gamma conjugate pair
 
-Conditional prior
+We already know theConditional prior
 
 $$ \mu | \sigma^2 \sim N(m_0, \sigma^2/n_0) $$
 
@@ -332,11 +332,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMj
-EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
-MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
-E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
-MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NT
-csLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0
-NjEzMjE2XX0=
+eyJoaXN0b3J5IjpbMTEwMTI0MzM1LC0xNTAxNzI4MTc5LC04MD
+g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
+MTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LD
+kyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0
+NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyND
+UsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5
+MTc4NDddfQ==
 -->
