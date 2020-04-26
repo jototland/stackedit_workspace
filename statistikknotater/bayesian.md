@@ -60,9 +60,9 @@ $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
 ### Discrete case, with random variables
 
-Assume $\{X, \Theta\}$ are discrete random variables with a joint *pmf* $p(x, \theta)$, then
+Assume $\{X, \Theta\}$ are discrete random variables with a joint *pmf* $p(x, \theta)$, and $\Theta$ can take on the values $\theta_1\ldots\theta_n$then
 
-
+$$ p(x)=\sum_{i=1}^{n} $$
 
 ## Bayes rule
 
@@ -382,11 +382,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjYyNDYzNCw3OTg0Mjk1MjUsMTY0Mj
-Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
-MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
-IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
-NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMj
-IsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2
-Njk2NTUzOV19
+eyJoaXN0b3J5IjpbLTEyOTE5Mzg4OTYsNzk4NDI5NTI1LDE2ND
+I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
+NjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC
+0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2
+NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1Mz
+IyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3
+NjY5NjU1MzldfQ==
 -->
