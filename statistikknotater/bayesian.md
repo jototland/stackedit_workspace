@@ -66,9 +66,15 @@ $$ p(x)=\sum_{i=1}^{n}p(x,\theta) $$
 
 ### Law of total probability with discrete marginal and continuous random parameter
 
-Assume $X$ is a discrete random variable and $\Theta$ is a continuous random variable, with a joint pmf $p(x,\theta)$, then the marginal distribution $p(x)$ is
+Assume $X$ is a discrete random variable and $\Theta$ is a continuous random variable, with a joint pdf $p(x,\theta)$, then the marginal distribution $p(x)$ is
 
-$$ p(x) = \int_{-\infty} $$
+$$ p(x) = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta $$
+
+### Law of total probability with continuous random variables
+
+Assume $\{X, \Theta\}$ are continuous random variables with a joint *pmf* $p(x, \theta)$, and $\Theta$ can take on the values $\theta_1\ldots\theta_n$, then the marginal distribution $p(x)$ is
+
+$$ p(x) = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta $$
 
 ## Bayes rule
 
@@ -388,7 +394,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ4OTIyMTUsNzk4NDI5NTI1LDE2ND
+eyJoaXN0b3J5IjpbLTEyNDM0NDc3NzYsNzk4NDI5NTI1LDE2ND
 I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
 NjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC
 0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2
