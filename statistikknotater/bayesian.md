@@ -136,6 +136,12 @@ $$ p(\theta|x)
 = \frac {p(x|\theta)f(\theta)} 
 {\int_{-\infty}^{\infty}p(x|\theta)f(\theta)\,d\theta} $$
 
+Here 
+
+* $f(\theta)$ is the prior
+* $p(x|\theta)$ is the likelihood
+* 
+
 ### Bayes rule with continuous random variables
 
 If $X$ and $Y$ are continuous random variables, we have a joint pdf
@@ -360,11 +366,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0NTIzMjk4LDc5ODQyOTUyNSwxNjQyNj
-YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
-MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
-A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
-MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMi
-wtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2
-OTY1NTM5XX0=
+eyJoaXN0b3J5IjpbLTE3Mzc5NzI3MTIsNzk4NDI5NTI1LDE2ND
+I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
+NjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC
+0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2
+NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1Mz
+IyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3
+NjY5NjU1MzldfQ==
 -->
