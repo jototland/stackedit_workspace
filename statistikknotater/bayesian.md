@@ -272,7 +272,7 @@ $$
 
 ### Normal gamma conjugate pair
 
-For the noWe already know the normal normal conjugate pair with fixed $\sigma$ and conditional prior
+For the normal distribution, we already know the normal normal normal conjugate pair with fixed $\sigma$ and conditional prior
 
 $$ \mu | \sigma^2 \sim N(m_0, \sigma^2/n_0) $$
 
@@ -332,7 +332,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTY4ODQ3NCwtMTUwMTcyODE3OSwtOD
+eyJoaXN0b3J5IjpbMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtOD
 A4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5
 MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNi
 w5MjkyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3
