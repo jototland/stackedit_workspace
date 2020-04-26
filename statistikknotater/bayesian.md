@@ -113,7 +113,9 @@ $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)}
 If $X$ is a random variable with *pmf* $p(x;\theta)$, given $\theta) as a continuous parameter, then
 
 $$\begin{aligned}
-P(X=x|\theta)=p_{X, \theta
+P(X=x|\theta)&=p_{X| \theta}(x,y)
+P(X=x)=\int_-\infty}^{
+\end{aligned} $$
 
 ### Bayes rule with continuous random variables
 
@@ -339,7 +341,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDIyMjUxNywxNjQyNjYwMTIxLC0xNT
+eyJoaXN0b3J5IjpbLTQzMDk4MjI4NywxNjQyNjYwMTIxLC0xNT
 AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
 NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2My
 wxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIx
