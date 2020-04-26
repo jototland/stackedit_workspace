@@ -110,7 +110,11 @@ $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)}
 
 ### Bayes rule with discrete values, but continuous parameters
 
-If $X$ is a discrete random variable with *pmf* $p(x;\theta)$, and $\Theta$ is a continuous random variable having *pdf* $f(\theta)$, then
+Let $X$ be a discrete random variable with *pmf* $p(x|\theta)$, and $\Theta$ is a continuous random variable having *pdf* $f(\theta)$ 
+
+(Note that we could just as well have written that $\{X, \Theta\}$ has a joint *pdf* $p(x,\theta) = p(x;\theta)$)
+
+then
 
 $$\begin{aligned}
 P(X=x|\theta) &=p(x|\theta) \\
@@ -118,7 +122,7 @@ P(X=x) &= \int_{-\infty}^{\infty}P(X=x|\theta)\,P(\theta)\,d\theta \\
 p(x) &= \int_{-\infty}^{\infty}p(x|\theta)\,f(\theta)\,d\theta
 \end{aligned} $$
 
-(Note that we could just as well have written that $X, \Theta$ has a joint *pdf* $p(x,\theta) = p(x;\theta)$)
+
 
 Which means that we can write Bayes rule as
 
@@ -356,11 +360,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTg3NTgwMyw3OTg0Mjk1MjUsMTY0Mj
-Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
-MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
-IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
-NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMj
-IsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2
-Njk2NTUzOV19
+eyJoaXN0b3J5IjpbLTE2NDEyMTMyODksNzk4NDI5NTI1LDE2ND
+I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
+NjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC
+0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2
+NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1Mz
+IyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3
+NjY5NjU1MzldfQ==
 -->
