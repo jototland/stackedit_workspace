@@ -222,9 +222,10 @@ $$ \text{beta}(p;\alpha,\beta) =
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
-Given $n$ new samples with $k$ successes, our new posterior is
+Given $n$ new samples with $k$ successes, our new posterior is $\text{beta}^*(p;α^*,β^*)$ with
 
-$$ \text{beta}^*(p;α^*,β^*) \text{ with } α^*=α+k \text{ and } β^* = β + n - k $$
+$$ \begin{aligned}
+α^*=α+k \\ β^* = β + n - k $$
 
 ### Gamma poisson conjugate pair
 
@@ -317,7 +318,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDMzMzQ5OSwtODA4ODc0NzIwLC0yMT
+eyJoaXN0b3J5IjpbMTA5MDUzMDM1NSwtODA4ODc0NzIwLC0yMT
 M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
 MzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMT
 QyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQw
