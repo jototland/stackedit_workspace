@@ -159,15 +159,15 @@ $$ \begin{aligned}
 \text{PO}(H_1) &= \frac{P(H_1|x)}{P(H_2|x)} 
 = \frac {\frac{P(x|H_1)(P(H_1)}{P(x)}} {\frac{P(x|H_2)(P(H_2)}{P(x)}}\\
 &= \frac{P(x|H_1)}{P(x|H_2)} · \frac{P(H_1)}{P(H_2)} \\
-&= BF[H_1 · O[H_1:H_2]
+&= BF[H_1:H_2] · O[H_1:H_2]
 \end{aligned}
 $$
 
-The ratio $\frac{P(x|A)}{P(x|\neg A)}$ is known as the *Bayes factor*. 
+The ratio $BF[H_1:H_2]=\frac{P(x|H_1)}{P(x|H_2)}$ is known as the *Bayes factor*. 
 
 For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
 
-$$ \frac{\int P(x|\Theta,A)d\Theta}{\int P(x|\Theta,\neg A)d\Theta} $$
+$$ \frac{\int P(x|\Theta,H_1)d\Theta}{\int P(x|\Theta,H_2)d\Theta} $$
 
 where $\Theta$ is the set of all model parameters
 
@@ -285,11 +285,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzM1NzEzMCwtMjEzNzUwNjIyOSwtND
-cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
-OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
-E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
-OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1Mz
-ksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0
-MjM4MTY0XX0=
+eyJoaXN0b3J5IjpbNjc0NzAwMDk0LC0yMTM3NTA2MjI5LC00Nz
+I3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5
+NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2NiwtMT
+QyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5
+NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2Njk2NTUzOS
+wzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2MTMyMTYsLTE5MjQy
+MzgxNjRdfQ==
 -->
