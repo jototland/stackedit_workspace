@@ -143,6 +143,10 @@ If $X \sim \text{Binomial}(p)$ then we might want to update on $p$ given new evi
 
 $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
+### Hyperparameters
+
+In the notation example above, we introduced a new probability distribution $\pi$ for the parameter
+
 ### Bayes rule, formulated with odds
 
 The odds of something happening is the probability of it happening divided by the propability of it not happening.
@@ -311,7 +315,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NDI3MDg3LC04MDg4NzQ3MjAsLTIxMz
+eyJoaXN0b3J5IjpbMjAyNTYyNjU4LC04MDg4NzQ3MjAsLTIxMz
 c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
 NiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxND
 IwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAz
