@@ -147,7 +147,7 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
-In general, if $X\sim f(\theta)$, where $f$ is a probability distribution, such as the binomial, and $\theta$ is the set of all all paramaters to Quux, then we can describe the distribution of $\theta$ with another probability distribution
+In general, if $X\sim f(\theta)$, where $f$ is a probability distribution, such as the binomial with pdf $f(x;\theta)$ and parameters $\theta$, then we can describe the distribution of $\theta$ with another probability distribution function $g(\theta; \Theta)$. In other words: $\theta
 
 ### Bayes rule, formulated with odds
 
@@ -317,11 +317,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYzOTQ2NTgsLTgwODg3NDcyMCwtMj
-EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
-MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
-E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
-MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NT
-csLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0
-NjEzMjE2XX0=
+eyJoaXN0b3J5IjpbMTE5NjcwNDU1NywtODA4ODc0NzIwLC0yMT
+M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
+MzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMT
+QyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQw
+MzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1Ny
+wtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2
+MTMyMTZdfQ==
 -->
