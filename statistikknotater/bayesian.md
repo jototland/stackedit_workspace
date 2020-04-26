@@ -110,10 +110,10 @@ $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)}
 
 ### Bayes rule with discrete values, but continuous parameters
 
-If $X$ is a random variable with *pmf* $p(x;\theta)$, where $\theta$ is a continuous parameter, then
+If $X$ is a random variable with *pmf* $p(x;\theta)$, where $\theta$ is a continuous parameter, itself having *pdf* $f(\theta)$, then
 
 $$\begin{aligned}
-P(X=x|\theta) &=p_{X| \theta}(x,y) \\
+P(X=x|\theta) &=p(x;y) \\
 P(X=x) &= \int_{-\infty}^{\infty}P(X=x|\theta)\,P(\theta)\,d\theta \\
 P_X(x) &= \int_{-\infty}^{\infty}p_{X|\theta}(x|\theta)p
 \end{aligned} $$
@@ -342,7 +342,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjcxNzI5MywxNjQyNjYwMTIxLC0xNT
+eyJoaXN0b3J5IjpbMjA5MzcyMTMzOCwxNjQyNjYwMTIxLC0xNT
 AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
 NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2My
 wxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIx
