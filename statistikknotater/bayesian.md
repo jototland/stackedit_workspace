@@ -280,7 +280,9 @@ Precision
 
 $$ \phi = 1/\sigma^2 $$
 
-A conjugate prior
+A conjugate prior for $\phi$ is a Gamma distribution
+
+$$ \phi \sim \text{Gamma}(v_0/2, s_0^2v_0/2) $$
 
 ## Predictive inference
 
@@ -330,11 +332,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDQzMTA1MiwtODA4ODc0NzIwLC0yMT
-M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
-MzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMT
-QyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQw
-MzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1Ny
-wtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2
-MTMyMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMj
+EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
+MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
+E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
+MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NT
+csLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0
+NjEzMjE2XX0=
 -->
