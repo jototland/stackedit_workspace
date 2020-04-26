@@ -147,7 +147,7 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
-In general, if $X\sim \text{Quux}(\o Theta)$, where Quux is a probability distribution family, such as the binomial family, and $\Theta$ is the set of all all paramaters to
+In general, if $X\sim \text{Quux}(\theta)$, where Quux is a probability distribution family, such as the binomial family, and $\Theta$ is the set of all all paramaters to
 
 ### Bayes rule, formulated with odds
 
@@ -317,7 +317,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ2MTA1NzcsLTgwODg3NDcyMCwtMj
+eyJoaXN0b3J5IjpbLTEzNDk2MTEyMDAsLTgwODg3NDcyMCwtMj
 EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
 MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
 E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
