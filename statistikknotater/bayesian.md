@@ -193,6 +193,8 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 | 6 to 10 | Strong | 
 | > 10 | Very strong
 
+(note: Wikipedia disagrees with textbook about these tables, they are probably attributed to the wrong author).
+
 ## Conjugate families
 
 The main (historical) problem with using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an analytic solution for. 
@@ -307,11 +309,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtND
-cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
-OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
-E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
-OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1Mz
-ksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0
-MjM4MTY0XX0=
+eyJoaXN0b3J5IjpbLTE5ODg5NTQ1OTUsLTgwODg3NDcyMCwtMj
+EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
+MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
+E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
+MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NT
+csLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0
+NjEzMjE2XX0=
 -->
