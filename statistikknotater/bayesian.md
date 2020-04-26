@@ -173,18 +173,12 @@ where $\Theta$ is the set of all model parameters
 
 #### Interpretation of Bayes factor
 
-| $BF[H_1:H_2] | Evidence against $H_2$ |
+| BF[$H_1$:$H_2$] | Evidence against $H_2$ |
 | :- | :- |
-| 0 to 1 | 
-|                   |                   |
-|                   |                   |
-
-| :---------------- | :---------------- |
-
-| :---------------- | :-----------------|
-| :---------------- | :-----------------|
-| :---------------- | :-----------------|
-| dog food | cat food|
+| 1 to 3 | Not worth a bare mention
+| 3 to 20 | Positive |
+| 20 to 150 | Strong | 
+| > 150 | Very strong | 
 
 ## Conjugate families
 
@@ -300,11 +294,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTMzOTY4NzUsLTIxMzc1MDYyMjksLT
-Q3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5
-NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC
-0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1
-NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NT
-M5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTky
-NDIzODE2NF19
+eyJoaXN0b3J5IjpbMTIyMjU3ODkxNywtMjEzNzUwNjIyOSwtND
+cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
+OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
+E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
+OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1Mz
+ksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0
+MjM4MTY0XX0=
 -->
