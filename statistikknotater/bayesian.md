@@ -60,7 +60,9 @@ $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
 ### Discrete case, with random variables
 
-Assume $\Theta$ is a discrete random variable, and 
+Assume $\{X, \Theta\}$ are discrete random variables with a joint *pmf* $p(x, \theta)$, then
+
+
 
 ## Bayes rule
 
@@ -380,7 +382,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTQzNTEzNSw3OTg0Mjk1MjUsMTY0Mj
+eyJoaXN0b3J5IjpbLTYyNjYyNDYzNCw3OTg0Mjk1MjUsMTY0Mj
 Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
 MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
 IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
