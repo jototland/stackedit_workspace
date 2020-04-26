@@ -118,6 +118,7 @@ P(X=x) &= \int_{-\infty}^{\infty}P(X=x|\theta)\,P(\theta)\,d\theta \\
 p(x) &= \int_{-\infty}^{\infty}p(x|\theta)\,f(\theta)\,d\theta
 \end{aligned} $$
 
+Note that we could just as well have written that 
 Which means that we can write Bayes rule as
 
 $$ p(\theta|x)\,d\theta 
@@ -354,7 +355,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTcyODAxODEsNzk4NDI5NTI1LDE2ND
+eyJoaXN0b3J5IjpbLTE3NzI1MzQwMzMsNzk4NDI5NTI1LDE2ND
 I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
 NjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC
 0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2
