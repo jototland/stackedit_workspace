@@ -156,10 +156,10 @@ $$ O[H_1:H_2] = \frac{P(H_1)}{P(H_2)} $$
 Bayes rule actually becomes very easy with odds. We define the posterior odds, after updating on $x$
 
 $$ \begin{aligned}
-\text{PO}(A) &= \frac{P(A|x)}{P(\neg A|x)} 
-= \frac {\frac{P(x|A)(P(A)}{P(x)}} {\frac{P(x|A\neg )(P(\neg A)}{P(x)}}
-= \frac{P(x|A)}{P(x|\neg A)} · \frac{P(A)}{P(\neg A)} \\
-&= \frac{P(x|A)}{P(x|\neg A)} · O(A)
+\text{PO}(H_1) &= \frac{P(H_1|x)}{P(H_2|x)} 
+= \frac {\frac{P(x|H_1)(P(H_1)}{P(x)}} {\frac{P(x|H_2)(P(H_2)}{P(x)}}
+= \frac{P(x|H_1)}{P(x|H_2)} · \frac{P(H_1)}{P(H_2)} \\
+&= \frac{P(x|A)}{P(x|\neg A)} · O(H_1)
 \end{aligned}
 $$
 
@@ -285,11 +285,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzAwODI5MCwtMjEzNzUwNjIyOSwtND
-cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
-OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
-E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
-OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1Mz
-ksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0
-MjM4MTY0XX0=
+eyJoaXN0b3J5IjpbLTExMzIzMDAxMjMsLTIxMzc1MDYyMjksLT
+Q3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5
+NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC
+0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1
+NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NT
+M5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTky
+NDIzODE2NF19
 -->
