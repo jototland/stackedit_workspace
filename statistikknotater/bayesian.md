@@ -52,11 +52,15 @@ $$ p(x) =\int_{-∞}^∞ p(x,y)\,dy$$
 
 ## The law of total probability
 
-### Discrete case
+### Discrete case, with events
 
-Assume the sample space $S$ is partitioned into disjoint events $A_i$ 
+Assume the sample space $S$ is partitioned into mutually disjoint events $A_i$, and $B$ is an event, then
 
 $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
+
+### Discrete case, with random variables
+
+Assume $\Theta$ is a discrete random variable, and 
 
 ## Bayes rule
 
@@ -376,7 +380,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODEwNzQ5MCw3OTg0Mjk1MjUsMTY0Mj
+eyJoaXN0b3J5IjpbMTY2NTQzNTEzNSw3OTg0Mjk1MjUsMTY0Mj
 Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
 MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
 IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
