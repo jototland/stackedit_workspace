@@ -222,7 +222,7 @@ $$ \text{beta}(p;\alpha,\beta) =
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
-Given $n$ new samples with $k$ successes, our new posterior is $\text{beta}^*(p;α^*,β^*)$ with
+Given $n$ new samples with $k$ successes, our new posterior is $\text{beta}^*(p;α^*,β^*)$ with hyperparameters
 
 $$ \begin{aligned}
 α^*&=α+k \\
@@ -320,11 +320,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2Mjg3NjgwLC04MDg4NzQ3MjAsLTIxMz
-c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
-NiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxND
-IwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAz
-NTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC
-0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYx
-MzIxNl19
+eyJoaXN0b3J5IjpbMTMzOTE0MTQ1MCwtODA4ODc0NzIwLC0yMT
+M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
+MzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMT
+QyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQw
+MzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1Ny
+wtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQyOTE3ODQ3LDEyNjQ2
+MTMyMTZdfQ==
 -->
