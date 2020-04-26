@@ -50,6 +50,14 @@ The continuous marginal distribution is $\substack{a}{\\b}$
 
 $$ p(x) =\int_{-∞}^∞ p(x,y)\,dy$$
 
+## The law of total probability
+
+### Discrete case
+
+Assume the sample sp 
+
+$$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
+
 ## Bayes rule
 
 ### Bayes rule for events, discrete version
@@ -368,11 +376,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODE4ODE4LDc5ODQyOTUyNSwxNjQyNj
-YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
-MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
-A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
-MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMi
-wtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2
-OTY1NTM5XX0=
+eyJoaXN0b3J5IjpbLTIzMjM1NjAzNyw3OTg0Mjk1MjUsMTY0Mj
+Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
+MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
+IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
+NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMj
+IsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2
+Njk2NTUzOV19
 -->
