@@ -180,6 +180,8 @@ where $\Theta$ is the set of all model parameters
 | 20 to 150 | Strong | 
 | > 150 | Very strong | 
 
+$$ BF[H_2:H_1] = \frac{1}{BF[H_1:H_2]} $$
+
 ## Conjugate families
 
 The main (historical) problem with using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an analytic solution for. 
@@ -294,7 +296,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjU3ODkxNywtMjEzNzUwNjIyOSwtND
+eyJoaXN0b3J5IjpbMTE5MjI1NjQ0MSwtMjEzNzUwNjIyOSwtND
 cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
 OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
 E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
