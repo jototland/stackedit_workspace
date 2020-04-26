@@ -32,7 +32,7 @@ The Cauchy distribution is the t-distribution with degrees of freedom $ν=1$
 
 $$  p(t) = \frac{1}{σπ \left( 1+\frac{x-μ}{σ} \right)}$$
 
-### Joint and marginal distribution
+## Joint and marginal distributions
 
 Two discrete random variables $X$ and $Y$ can have a joint distribution
 
@@ -46,7 +46,7 @@ Two continuous random variables $X$ and $Y$ can have a joint distribution
 
 $$ p(x,y) = \lim_{δ→0,ε→0} \frac {P(x ≤ X ≤ x+δ ∧ y ≤ Y ≤ y+ε)}{δε} $$
 
-The continuous marginal distribution is $\substack{a}{\\b}$
+The continuous marginal distribution is
 
 $$ p(x) =\int_{-∞}^∞ p(x,y)\,dy$$
 
@@ -398,7 +398,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTU2MTA3Nyw3OTg0Mjk1MjUsMTY0Mj
+eyJoaXN0b3J5IjpbMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
 Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
 MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
 IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
