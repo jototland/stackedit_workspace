@@ -261,6 +261,8 @@ $$ \begin{aligned}
 \end{aligned}
 $$
 
+### Normal gamma conjugate pair
+
 ## Predictive inference
 
 We want to make an inference on random variable $X$ with *pdf* $f(x,θ)$. 
@@ -309,11 +311,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMwODYzMjQsLTgwODg3NDcyMCwtMj
-EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
-MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LD
-E0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0
-MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NT
-csLTE3NjY5NjU1MzksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0
-NjEzMjE2XX0=
+eyJoaXN0b3J5IjpbNDE2NDI3MDg3LC04MDg4NzQ3MjAsLTIxMz
+c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
+NiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxND
+IwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAz
+NTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC
+0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYx
+MzIxNl19
 -->
