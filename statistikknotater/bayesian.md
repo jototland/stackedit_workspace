@@ -76,9 +76,9 @@ Each time we receive new data we can update our probability of an event, based o
 
 * $P(A_i)$ is our *prior* probability, before the experiment started.
 * $B$ is the *evidence*.
-* $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
 * $P(B|A_i)$ is the *likelihood* of $B$ assuming $A_i$. (Note that the likelihood is not a *pmf* or *pdf*, the sum of all the likelihoods of $B given all possible $A_i$ is not $1$).
 * $\sum_{j=1}^nP(B|A_j)P(A_j)$ is a normalization constant, ensuring that $P(A_i|B)$ is between $0$ and $1$.
+* $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
 
 Sometimes the numerator is dropped, and we are only interested in that
 
@@ -139,6 +139,7 @@ $$ p(\theta|x)
 Here 
 
 * $f(\theta)$ is the prior
+* $x$ is the evidence
 * $p(x|\theta)$ is the likelihood
 * $p(\theta|x)$ is the posterior
 
@@ -366,7 +367,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDI5MTA0OSw3OTg0Mjk1MjUsMTY0Mj
+eyJoaXN0b3J5IjpbMTM3MTE5NDY0Nyw3OTg0Mjk1MjUsMTY0Mj
 Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
 MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
 IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
