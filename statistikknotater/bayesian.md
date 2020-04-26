@@ -108,6 +108,10 @@ Which means that we can write Bayes rule as
 $$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)} 
 = \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|x_i)p_X(x_i)} $$
 
+### Bayes rule with discrete values, but continuous parameters
+
+If $X$ is a random variable, 
+
 ### Bayes rule with continuous random variables
 
 If $X$ and $Y$ are continuous random variables, we have a joint pdf
@@ -332,11 +336,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtOD
-A4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5
-MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNi
-w5MjkyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3
-NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMj
-Q1LDE1OTMyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQy
-OTE3ODQ3XX0=
+eyJoaXN0b3J5IjpbLTE0NjgyMjUyNTAsMTY0MjY2MDEyMSwtMT
+UwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3
+NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5Nj
+MsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2NiwtMTQy
+MTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5Nz
+M3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2Njk2NTUzOSwz
+NDI5MTc4NDddfQ==
 -->
