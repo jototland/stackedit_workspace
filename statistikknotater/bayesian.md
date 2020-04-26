@@ -272,7 +272,7 @@ $$
 
 ### Normal gamma conjugate pair
 
-We already know the normal normal conjugate pair with fixed $\sigma$ and conditional prior
+For the noWe already know the normal normal conjugate pair with fixed $\sigma$ and conditional prior
 
 $$ \mu | \sigma^2 \sim N(m_0, \sigma^2/n_0) $$
 
@@ -332,11 +332,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMjM0ODE1LC0xNTAxNzI4MTc5LC04MD
-g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
-MTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LD
-kyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0
-NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyND
-UsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5
-MTc4NDddfQ==
+eyJoaXN0b3J5IjpbLTEzMTY4ODQ3NCwtMTUwMTcyODE3OSwtOD
+A4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5
+MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNi
+w5MjkyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3
+NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMj
+Q1LDE1OTMyMTU1NywtMTc2Njk2NTUzOSwzNDI5MTc4NDcsMzQy
+OTE3ODQ3XX0=
 -->
