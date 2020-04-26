@@ -186,7 +186,12 @@ $$ BF[H_2:H_1] = \frac{1}{BF[H_1:H_2]} $$
 
 Another alternative is Kass & Raftery's interpretation of the natural logarithm of the Bayes factor
 
-| ln(BF[H_1:H_2]) | 
+| ln(BF[$H_1$:$H_2$]) | Evidence against $H_2 |
+| :- | :-
+| 0 to 2 | Not worth a bare mention |
+| 2 to 6 | Positive |
+| 6 to 10 | Strong | 
+| > 10 | Very strong
 
 ## Conjugate families
 
@@ -302,11 +307,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMyOTI0MywtMjEzNzUwNjIyOSwtND
-cyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1
-OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLT
-E0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0
-OTczNzQsLTQwMDI5MDI0NSwxNTkzMjE1NTcsLTE3NjY5NjU1Mz
-ksMzQyOTE3ODQ3LDM0MjkxNzg0NywxMjY0NjEzMjE2LC0xOTI0
-MjM4MTY0XX0=
+eyJoaXN0b3J5IjpbLTE1MTQwNjY0ODIsLTIxMzc1MDYyMjksLT
+Q3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5
+NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC
+0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1
+NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NT
+M5LDM0MjkxNzg0NywzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTky
+NDIzODE2NF19
 -->
