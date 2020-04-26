@@ -54,7 +54,7 @@ $$ p(x) =\int_{-∞}^∞ p(x,y)\,dy$$
 
 ### Discrete case
 
-Assume the sample sp 
+Assume the sample space $S$ is partitioned into disjoint events $A_i$ 
 
 $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
@@ -376,7 +376,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjM1NjAzNyw3OTg0Mjk1MjUsMTY0Mj
+eyJoaXN0b3J5IjpbLTE1ODEwNzQ5MCw3OTg0Mjk1MjUsMTY0Mj
 Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
 MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
 IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
