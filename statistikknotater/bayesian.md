@@ -149,6 +149,10 @@ The odds of something happening is the probability of it happening divided by th
 
 $$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o_A=\frac{p_A}{1-p_A}$$
 
+We can also have odds between two events: $A_1$ and $A_2)
+
+$$ O[A_1:A_2] = P(A_1)
+
 Bayes rule actually becomes very easy with odds. We define the posterior odds, after updating on $x$
 
 $$ \begin{aligned}
@@ -281,11 +285,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOT
-I3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4
-OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLT
-I2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5MzIx
-NTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0NywzNDI5MTc4NDcsMT
-I2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIwOTQyMjA0LDExMTg0
-OTk2MjJdfQ==
+eyJoaXN0b3J5IjpbLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtND
+Y4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3
+NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLD
+IxMjc0NDYzOTQsLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAy
+OTAyNDUsMTU5MzIxNTU3LC0xNzY2OTY1NTM5LDM0MjkxNzg0Ny
+wzNDI5MTc4NDcsMTI2NDYxMzIxNiwtMTkyNDIzODE2NCwxNTIw
+OTQyMjA0XX0=
 -->
