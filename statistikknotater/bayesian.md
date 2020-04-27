@@ -168,6 +168,8 @@ Bayes factor tells us how much our belief in a hypothesis increases of decreases
 
 ### Interpretation of Bayes factor
 
+If the Bayes factor is greater than 1 it supports $H_1$, otherwise it supports $H_2$. 
+
 The following interpretation of Bays factors is (in the textbook) called Jeffreys' scale:
 
 | BF[$H_1$:$H_2$] | Evidence against $H_2$ |
@@ -406,11 +408,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDY5MjExMCwtMjc1ODg0ODM1LDE3ND
-AzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2
-NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMj
-QzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUy
-NSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLT
-IxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3
-NDIzNl19
+eyJoaXN0b3J5IjpbLTE5NDE4MjEyMTYsLTI3NTg4NDgzNSwxNz
+QwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAy
+NjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLD
+I0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1
+MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC
+0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDky
+NzQyMzZdfQ==
 -->
