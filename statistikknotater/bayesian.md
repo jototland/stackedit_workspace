@@ -45,7 +45,7 @@ For discrete random variables
 $$\begin{aligned}
 p(x) &= P(X=x) \\
 p(x,y) &= P(X=x\land Y=y) \\
-p(x\,|\,y) &= P(X=x\,|Y=y)
+p(x\,|\,y) &= P(X=x\,|\,Y=y)
 \end{aligned}$$
 
 And for continuous random variables
@@ -194,7 +194,7 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 
 
-If $X$ is a random variable with *pmf* or *pdf* $f(x;\theta)$, where $\theta$ is itself the value of a random variable $\Theta$ having *pmf* or *pdf* $g(\theta)$, then
+If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is itself the value of a random variable $\Theta$ having *pmf* or *pdf* $g(\theta)$, then
 
 $$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
 
@@ -441,11 +441,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMzY0NjA1LC0yNjQwNDcxOTksMTMwMj
-UxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3
-OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4OD
-c0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1
-NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5Mj
-kyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2
-Mzk0XX0=
+eyJoaXN0b3J5IjpbLTkwNDYwNjMyMSwtMjY0MDQ3MTk5LDEzMD
+I1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAs
+Nzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwOD
+g3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIx
+NTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOT
+I5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0
+NjM5NF19
 -->
