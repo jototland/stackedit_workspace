@@ -114,7 +114,10 @@ $$ P(A|B) \propto P(B|A)P(A) $$
 
 ### Bayes rule with discrete random variables
 
-If $X$ and $Y$ are discrete random variables and $p$ is a joint distribution (a *pmf*), we use the following notation
+If $X$ and $\Theta$ are discrete random variables and $p$ is the *joint pmf*, we use the following notation
+
+$$\begin{aligned}
+\end{aligned}
 
 $$
 \begin{aligned}
@@ -390,11 +393,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDk5NjA3NywxNDI5ODc4MzEwLDc5OD
-QyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3
-MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LD
-gwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIz
-OTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOT
-QsLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5
-MzIxNTU3XX0=
+eyJoaXN0b3J5IjpbLTE0OTU5OTE0NDYsMTQyOTg3ODMxMCw3OT
+g0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0
+NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NS
+w4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5Mjky
+MzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mz
+k0LC0yNjQwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1
+OTMyMTU1N119
 -->
