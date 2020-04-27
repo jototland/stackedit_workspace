@@ -222,19 +222,20 @@ Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ i
 
 $$ f(\theta|x)\,d\theta = 
 \frac {p(x|\theta)f(\theta)\,d\theta}
-{\int_{\infty}^{\infty}p(x|\theta_i)f(\theta_i)\,d\theta} $$
+{\int_{-\infty}^{\infty}p(x|\theta_i)f(\theta_i)\,d\theta} $$
 
 or simply
 
 $$ f(\theta|x) = 
 \frac {p(x|\theta)f(\theta)} 
-{\int_{\infty}^{\infty}p(x|\theta_i)f(\theta_i)\,d\theta} $$
+{\int_{-\infty}^{\infty}p(x|\theta_i)f(\theta_i)\,d\theta} $$
 
 ### Bayes rule with continuous/discrete random variables
 
-Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
+Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
 
-$$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
+$$ f(\theta|x) = 
+\frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
 
 ### Bayes rule with continuous random variables
 
@@ -485,11 +486,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2Nj
-M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
-MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
-YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
-MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
-A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
-MTY2XX0=
+eyJoaXN0b3J5IjpbLTIyNDU1ODAwNywtNjYyODQ1MDcwLC02Nj
+UwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2
+MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4ND
+I5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcy
+MCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsOD
+A5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5
+Mzg5XX0=
 -->
