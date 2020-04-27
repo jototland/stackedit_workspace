@@ -36,24 +36,25 @@ $$  p(t) = \frac{1}{σπ \left( 1+\frac{x-μ}{σ} \right)}$$
 
 Big letters
 : Event $A$, probability function $P(A)$
+
 Small Letters
-: value $x$, pmf or pdf $f(x)$
+: Value $x$, pmf or pdf $f(x)$
 
 For discrete random variables
 
-$$ 
-P(X=x) = p(x) \\
-P(X=x\land Y=y) = p(x,y) \\
-P(X=x|Y=y) = p(x|y)
-$$
+$$\begin{aligned}
+P(X=x) &= p(x) \\
+P(X=x\land Y=y) &= p(x,y) \\
+P(X=x|Y=y) &= p(x|y)
+\end{aligned}$$
 
 And for continuous random variables
 
-$$
-\lim_{\delta\to o}P(x\le X\le x+\delta) = p(x) \\
-\lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) = p(x,y) \\
-\lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta|y\le Y\le y+\epsilon) = p(x|y)
-$$
+$$\begin{aligned}
+\lim_{\delta\to o}P(x\le X\le x+\delta) &= p(x) \\
+\lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) &= p(x,y) \\
+\lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta|y\le Y\le y+\epsilon) &= p(x|y)
+\end{aligned}$$
 
 ## The law of total probability, joint an marginal distributions
 
@@ -435,11 +436,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwODc2MjIsMTMwMjUxNTYxLDI0MzU0NT
-MxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0
-MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NT
-A2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYs
-LTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMD
-Y0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUz
-MjJdfQ==
+eyJoaXN0b3J5IjpbLTE0NTA1Njk4MCwxMzAyNTE1NjEsMjQzNT
+Q1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwx
+NjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMz
+c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
+NiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxND
+IwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAz
+NTMyMl19
 -->
