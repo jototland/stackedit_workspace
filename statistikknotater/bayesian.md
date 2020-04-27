@@ -198,8 +198,9 @@ Often we are interested in determining $\theta$. In that case
 
 * $f(\theta)$ is the *prior*
 * $x$ is the evidence
-* $f(\theta|x)$ is the *posterior*. 
-* Sometimes $f(\theta|x)$ is written as $f^*(\theta)$
+* $p(x|\theta)$ is the *likelihood**
+* $f(\theta|x)$ is the *posterior*
+(Sometimes $f(\theta|x)$ is written as $f^*(\theta)$)
 
 If $\Theta$ is having *pmf* or *pdf* $f(\theta;\beta)$, then we call $\beta$ a *hyperparameter*.
 
@@ -457,11 +458,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjExMzQzMTMsLTY2NTAyNjQ3LC0xNj
-YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
-LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
-Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
-MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
-IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
-NjE2Nl19
+eyJoaXN0b3J5IjpbNDY4ODQ0MTc4LC02NjUwMjY0NywtMTY2Mz
+Q4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwx
+NTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2Nj
+AxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIy
+OSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMD
+UyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYx
+NjZdfQ==
 -->
