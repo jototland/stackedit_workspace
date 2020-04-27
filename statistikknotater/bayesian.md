@@ -161,14 +161,12 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 (note: Wikipedia disagrees with textbook about these tables, both seem similar to Kass & Raftery, although not identical, Jeffreys scale is very different).
 
-### Bayes rule for odds with continuous distributions
+### Bayes rule with random variables: Hyperparameters
 
-For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
 
-$$ \frac{\int P(x|\Theta,H_1)d\Theta}{\int P(x|\Theta,H_2)d\Theta} $$
+In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
-where $\Theta$ is the set of all model parameters
-
+In general, if $X\sim f(\theta)$, where $f$ is a probability distribution, such as the binomial with pdf $f(x;\theta)$ and parameters $\theta$, then we can describe the distribution of $\theta$ with another probability distribution function $g(\theta; \Theta)$. In other words: $\theta\sim g(\Theta)$. We call $\Theta$ the set of hyperparameters of $\theta$.
 
 ### Bayes rule with discrete random variables
 
@@ -269,11 +267,13 @@ If $X \sim \text{Binomial}(p)$ then we might want to update on $p$ given new evi
 
 $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
-### Hyperparameters
+### Bayes rule for odds with continuous distributions
 
-In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
+For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
 
-In general, if $X\sim f(\theta)$, where $f$ is a probability distribution, such as the binomial with pdf $f(x;\theta)$ and parameters $\theta$, then we can describe the distribution of $\theta$ with another probability distribution function $g(\theta; \Theta)$. In other words: $\theta\sim g(\Theta)$. We call $\Theta$ the set of hyperparameters of $\theta$.
+$$ \frac{\int P(x|\Theta,H_1)d\Theta}{\int P(x|\Theta,H_2)d\Theta} $$
+
+where $\Theta$ is the set of all model parameters
 
 
 ## Conjugate families
@@ -407,7 +407,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA5NDg2OTIsMTMwMjUxNTYxLDI0Mz
+eyJoaXN0b3J5IjpbLTE0ODkyMDAwMDIsMTMwMjUxNTYxLDI0Mz
 U0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUs
 MTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMT
 M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
