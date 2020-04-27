@@ -235,7 +235,8 @@ $$ f(\theta|x) =
 Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
 
 $$ f(\theta|x) = 
-\frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
+\frac {p(x|\theta)f(\theta)}
+{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
 
 ### Bayes rule with continuous random variables
 
@@ -486,11 +487,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDU1ODAwNywtNjYyODQ1MDcwLC02Nj
-UwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2
-MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4ND
-I5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcy
-MCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsOD
-A5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5
-Mzg5XX0=
+eyJoaXN0b3J5IjpbLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNj
+Y1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1
+NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5OD
+QyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3
+MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LD
+gwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIz
+OTM4OV19
 -->
