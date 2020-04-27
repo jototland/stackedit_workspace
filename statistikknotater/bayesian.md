@@ -264,14 +264,13 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$.
 
-Let the two competin hypotheses $H_1$ and $H_2$ be that the *pdf* of $\Theta$ is $p_{H_1}(
- with *pdf*  $f(\theta)$, and let $H_1$, $H_2$ be two compething hypotheses. 
+Let the two competing hypotheses $H_1$ and $H_2$ be that the *pdf* of $\Theta$ is either $p_{1}(\theta)$ or $p_{2}(\theta)$
 
 The Bayes factor $\textit{BF}[H_1:H_2]$ is given by
 
 $$ \textit{BF}[H_2:H_2] = 
-\frac{\int p(x|\theta,H_1)d\theta}
-{\int p(x|\theta,H_2)d\theta} $$
+\frac{\int p_1(x|\theta)d\theta}
+{\int p_2(x|\theta)d\theta} $$
 
 where $\Theta$ is the set of all model parameters
 
@@ -407,11 +406,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM2MzIwNjIsLTI3NTg4NDgzNSwxNz
-QwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAy
-NjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLD
-I0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1
-MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC
-0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDky
-NzQyMzZdfQ==
+eyJoaXN0b3J5IjpbMTY5NDY5MjExMCwtMjc1ODg0ODM1LDE3ND
+AzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2
+NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMj
+QzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUy
+NSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLT
+IxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3
+NDIzNl19
 -->
