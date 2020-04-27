@@ -192,9 +192,9 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 ### Bayes rule with random variables: Hyperparameters
 
-If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$, itself having *pmf* or *pdf* $f(\theta;\xi)$, then we call $\xi$ a *hyperparameter*
+Let $X$ be a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$, itself having *pmf* or *pdf* $f(\theta;\xi)$, then we call $\xi$ a *hyperparameter*
 
-Often we are interested in determining $\theta$. In that case $f(\theta)$ is the *prior*, $x$ is the evidence, and $f(\theta|x)$ is the *posterior*. Sometimes $f(\theta|x)$ is written as f^*(x
+Often we are interested in determining $\theta$. In that case $f(\theta)$ is the *prior*, $x$ is the evidence, and $f(\theta|x)$ is the *posterior*. Sometimes $f(\theta|x)$ is written as $f^*(\theta)$
 
 ### Bayes rule with discrete random variables
 
@@ -447,7 +447,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODExMTU1OSwtNjY1MDI2NDcsLTE2Nj
+eyJoaXN0b3J5IjpbLTU2MDM0MzEwMSwtNjY1MDI2NDcsLTE2Nj
 M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
 MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
 YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
