@@ -238,9 +238,9 @@ $$ f(\theta|x) =
 
 ### Bayes rule with continuous random variables
 
-Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
+Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$. 
 
-$$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
+$$ f(\theta|x)\,d\theta = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
 
 In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
@@ -485,11 +485,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODExNjg5MCwtMjEzNTg5MDM0MSwtNj
-YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
-MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mj
-k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
-NzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC
-00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1
-Njc3MzZdfQ==
+eyJoaXN0b3J5IjpbNTI4OTA3MTI4LC0yMTM1ODkwMzQxLC02Nj
+I4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcx
+OTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOT
+g3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3
+OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLT
+Q2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2
+NzczNl19
 -->
