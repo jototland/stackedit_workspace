@@ -70,6 +70,10 @@ Assume $X$ is a discrete random variable and $\Theta$ is a continuous random var
 
 $$ p(x) = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta $$
 
+### Law of total probability with continuous marginal and discrete parameter
+
+Assume $X$ is a continuous random variable and $\Theta$ is a discrete random variable, with a joint pdf $p(x
+
 ### Law of total probability with continuous random variables
 
 Assume $\{X, \Theta\}$ are continuous random variables with a joint *pdf* $p(x, \theta)$, then the marginal distribution $p(x)$ is given by
@@ -398,11 +402,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
-Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
-MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
-IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
-NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMj
-IsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1OTMyMTU1NywtMTc2
-Njk2NTUzOV19
+eyJoaXN0b3J5IjpbMzM4NDE1NTIwLDE0Mjk4NzgzMTAsNzk4ND
+I5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcy
+MCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsOD
+A5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5
+Mzg5LDE0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NC
+wtMjY0MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkz
+MjE1NTddfQ==
 -->
