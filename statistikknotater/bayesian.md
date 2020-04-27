@@ -244,12 +244,17 @@ $$ f(\theta|x)\,d\theta =
 \frac {p(x|\theta)f(\theta)\,d\theta}
 {\int_{-\infty}^{\infty}p(x|\theta)f(\theta)} $$
 
-O
-Or, since the denumerator is a constant, just as a proportionality
+Or simply 
+
+$$ f(\theta|x) = 
+\frac {p(x|\theta)f(\theta)}
+{\int_{-\infty}^{\infty}p(x|\theta)f(\theta)} $$
+
+Or since the denumerator is a constant, as a proportionality
 
 $$ f(\theta|x) \propto p(x|\theta)f(\theta) $$
 
-Since $f(x|y)$ is the posterior probability we can write that as $f^{*}$, and since $f(y|x)$ (the likelihood) can be written as $\mathcal{L}(x|y)$. Then Bayes rule can be written
+Writing the posterior probability  as $f^{*}$, and the likelihood as $\mathcal{L}(x|y)$
 
 $$ f^{*}(x) \propto \mathcal{L}(x|y)f(x) $$
 
@@ -399,11 +404,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk1MjYxLDE3NDAzNzg4OTksLTIxMz
-U4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2
-MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxOD
-IyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIx
-LC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLT
-Q3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5
-NTk2M119
+eyJoaXN0b3J5IjpbMTU1OTI0NTc4NiwxNzQwMzc4ODk5LC0yMT
+M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
+NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
+gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
+MSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC
+00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIw
+OTU5NjNdfQ==
 -->
