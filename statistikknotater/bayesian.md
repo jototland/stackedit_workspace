@@ -69,7 +69,7 @@ $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
 ### Law of total probability with discrete random variables
 
-Assume $\{X, Y}$ are discrete random variables with a *joint pmf* $p(x, y)$, and $Y$ can take on the values $y_1\ldots y_n$, then the *marginal pmf* $p(x)$ is
+Assume $\{X, Y\}$ are discrete random variables with a *joint pmf* $p(x, y)$, and $Y$ can take on the values $y_1\ldots y_n$, then the *marginal pmf* $p(x)$ is
 
 $$ p(x)=\sum_{i=1}^{n}p(x,y_i) $$
 
@@ -81,19 +81,19 @@ $$ p(x) = \int_{-\infty}^{\infty}p(x, y)\,dy $$
 
 ### Law of total probability with continuous/discrete random variables
 
-Assume $X$ is a continuous random variable and $\Theta$ is a discrete random variable, $\Theta$ can take on the values $\theta_1\ldots\theta_n$, having a *joint pdf* $p(x, \theta)$, then the *marginal pdf* $p(x)$ is
+Assume $X$ is a continuous random variable and $Y$ is a discrete random variable, $Y$ can take on the values $y_1\ldotsy_n$, having a *joint pdf* $p(x, y)$, then the *marginal pdf* $p(x)$ is
 
-$$ p(x)\,dx = \sum_{i=1}^{n}p(x,\theta_i)\,dx $$
+$$ p(x)\,dx = \sum_{i=1}^{n}p(x,y_i)\,dx $$
 
 or simply
 
-$$ p(x) = \sum_{i=1}^{n}p(x,\theta_i) $$
+$$ p(x) = \sum_{i=1}^{n}p(x,y_i) $$
 
 ### Law of total probability with continuous random variables
 
-Assume $\{X, \Theta\}$ are continuous random variables with a *joint pdf* $p(x, \theta)$, then the *marginal pdf* $p(x)$ is given by
+Assume $\{X, Y\}$ are continuous random variables with a *joint pdf* $p(x, y)$, then the *marginal pdf* $p(x)$ is given by
 
-$$ p(x)\,dx = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta\,dx $$
+$$ p(x)\,dx = \int_{-\infty}^{\infty}p(x, y)\,dy\,dx $$
 
 or simply
 
@@ -487,11 +487,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDc4MTc2MywtMjEzNTg5MDM0MSwtNj
-YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
-MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mj
-k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
-NzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC
-00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1
-Njc3MzZdfQ==
+eyJoaXN0b3J5IjpbMjk3MjY3MzQwLC0yMTM1ODkwMzQxLC02Nj
+I4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcx
+OTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOT
+g3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3
+OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLT
+Q2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2
+NzczNl19
 -->
