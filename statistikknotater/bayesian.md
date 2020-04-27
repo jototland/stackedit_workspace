@@ -64,13 +64,13 @@ Assume $\{X, \Theta\}$ are discrete random variables with a joint *pmf* $p(x, \t
 
 $$ p(x)=\sum_{i=1}^{n}p(x,\theta) $$
 
-### Law of total probability with discrete continuous random parameter
+### Law of total probability with discrete/continuous random variables
 
 Assume $X$ is a discrete random variable and $\Theta$ is a continuous random variable, with a joint pdf $p(x,\theta)$, then the marginal pmf $p(x)$ is
 
 $$ p(x) = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta $$
 
-### Law of total probability with continuous marginal and discrete parameter
+### Law of total probability with continuous/discrete random variables
 
 Assume $X$ is a continuous random variable and $\Theta$ is a discrete random variable, and $\Theta$ can take on the values $\theta_1\ldots\theta_n$, having a joint pdf $p(x, \theta)$, then the marginal pdf $p(x)$ is
 
@@ -408,7 +408,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzg2ODIwMywxNDI5ODc4MzEwLDc5OD
+eyJoaXN0b3J5IjpbLTg3NjMyNTkzMiwxNDI5ODc4MzEwLDc5OD
 QyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3
 MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LD
 gwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIz
