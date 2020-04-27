@@ -210,13 +210,10 @@ In sequential Bayesian updating, one can write $\beta_0$, $\beta_1$, and so on.
 
 ### Bayes rule with discrete random variables
 
-$$ f(\theta|x) = \frac {p(x|\theta)}{} $$
+Let $X$ be a discrete random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$ with *pmf* of *pdf* $f(\theta)$. 
 
-$$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
+$$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
 
-$$  $$
-
-$$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
 
 In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
@@ -461,7 +458,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjc5NzQ4MywtNjY1MDI2NDcsLTE2Nj
+eyJoaXN0b3J5IjpbLTQwNzI3MzAyNiwtNjY1MDI2NDcsLTE2Nj
 M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
 MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
 YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
