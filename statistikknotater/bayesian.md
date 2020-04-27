@@ -170,6 +170,8 @@ Bayes factor tells us how much our belief in a hypothesis increases of decreases
 
 If the Bayes factor is greater than 1 it supports $H_1$, otherwise it supports $H_2$. 
 
+$$ \textit{BF}[H_2:H_1] = \frac{1}{\textit{BF}[H_1:H_2]} $$
+
 The following interpretation of Bays factors is (in the textbook) called Jeffreys' scale:
 
 | BF[$H_1$:$H_2$] | Evidence against $H_2$ |
@@ -179,7 +181,6 @@ The following interpretation of Bays factors is (in the textbook) called Jeffrey
 | 20 to 150 | Strong | 
 | > 150 | Very strong | 
 
-$$ \textit{BF}[H_2:H_1] = \frac{1}{\textit{BF}[H_1:H_2]} $$
 
 Another alternative is Kass & Raftery's interpretation of the natural logarithm of the Bayes factor
 
@@ -408,11 +409,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE4MjEyMTYsLTI3NTg4NDgzNSwxNz
-QwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAy
-NjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLD
-I0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1
-MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC
-0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDky
-NzQyMzZdfQ==
+eyJoaXN0b3J5IjpbNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MD
+M3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0
+NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyND
+M1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1
+LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMj
+EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
+MjM2XX0=
 -->
