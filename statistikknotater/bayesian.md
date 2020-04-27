@@ -275,7 +275,6 @@ $$ \textit{BF}[H_2:H_2] =
 \frac{\int p_1(x|\theta)d\theta}
 {\int p_2(x|\theta)d\theta} $$
 
-where $\Theta$ is the set of all model parameters
 
 
 ## Conjugate families
@@ -409,11 +408,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MD
-M3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0
-NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyND
-M1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1
-LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMj
-EzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0
-MjM2XX0=
+eyJoaXN0b3J5IjpbLTU2MzE1MTU3Nyw1NTQwMzU5ODIsLTI3NT
+g4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUw
+NzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMT
+MwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMx
+MCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtOD
+A4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5
+MjE1NV19
 -->
