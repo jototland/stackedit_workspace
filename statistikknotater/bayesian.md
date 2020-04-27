@@ -69,15 +69,15 @@ $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
 ### Law of total probability with discrete random variables
 
-Assume $\{X, \Theta\}$ are discrete random variables with a *joint pmf* $p(x, \theta)$, and $\Theta$ can take on the values $\theta_1\ldots\theta_n$, then the *marginal pmf* $p(x)$ is
+Assume $\{X, Y}$ are discrete random variables with a *joint pmf* $p(x, y)$, and $Y$ can take on the values $y_1\ldots y_n$, then the *marginal pmf* $p(x)$ is
 
-$$ p(x)=\sum_{i=1}^{n}p(x,\theta_i) $$
+$$ p(x)=\sum_{i=1}^{n}p(x,y_i) $$
 
 ### Law of total probability with discrete/continuous random variables
 
-Assume $X$ is a discrete random variable and $\Theta$ is a continuous random variable, with a *joint pdf* $p(x,\theta)$, then the *marginal pmf* $p(x)$ is
+Assume $X$ is a discrete random variable and $Y$ is a continuous random variable, with a *joint pdf* $p(x,y)$, then the *marginal pmf* $p(x)$ is
 
-$$ p(x) = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta $$
+$$ p(x) = \int_{-\infty}^{\infty}p(x, y)\,dy $$
 
 ### Law of total probability with continuous/discrete random variables
 
@@ -487,7 +487,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDg2MzAzNSwtMjEzNTg5MDM0MSwtNj
+eyJoaXN0b3J5IjpbLTkyNDc4MTc2MywtMjEzNTg5MDM0MSwtNj
 YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
 MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mj
 k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
