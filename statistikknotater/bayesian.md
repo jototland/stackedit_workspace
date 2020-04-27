@@ -220,13 +220,13 @@ Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ i
 
 $$ f(\theta|x)\,d\theta = 
 \frac {p(x|\theta)f(\theta)\,d\theta}
-{\int_{-\infty}^{\infty}p(x|\theta_i)f(\theta_i)\,d\theta} $$
+{\int_{-\infty}^{\infty}p(x|\theta)f(\theta)\,d\theta} $$
 
 or simply
 
 $$ f(\theta|x) = 
 \frac {p(x|\theta)f(\theta)} 
-{\int_{-\infty}^{\infty}p(x|\theta_i)f(\theta_i)\,d\theta} $$
+{\int_{-\infty}^{\infty}p(x|\theta)f(\theta)\,d\theta} $$
 
 ### Bayes rule with continuous/discrete random variables
 
@@ -241,8 +241,8 @@ $$ f(\theta|x) =
 Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$. 
 
 $$ f(\theta|x)\,d\theta = 
-\frac {p(x|\theta)f(\theta)}
-{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
+\frac {p(x|\theta)f(\theta)\,d\theta}
+{\int_{-\infty}^{\infty}p(x|\theta)f(\theta)} $$
 
 In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
@@ -487,11 +487,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNj
-YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
-MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mj
-k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
-NzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC
-00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1
-Njc3MzZdfQ==
+eyJoaXN0b3J5IjpbLTc2NzY4MTI4MSwxNzQwMzc4ODk5LC0yMT
+M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
+NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
+gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
+MSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC
+00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIw
+OTU5NjNdfQ==
 -->
