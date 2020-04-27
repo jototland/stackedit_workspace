@@ -49,7 +49,7 @@ p(x|y) &= P(X=x|Y=y)
 \end{aligned}$$
 
 And for continuous random variables
-$$\begin{array}{cc}1 2 3 4\end{array}$$
+$$\begin{array}{cid}1 2 3 4 \\ 4 5 6 7\\3\end{array}$$
 
 $$\begin{aligned}
 p(x) &= \lim_{\delta\to o}P(x\le X\le x+\delta) \\
@@ -439,11 +439,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI0OTU2NTUsLTI2NDA0NzE5OSwxMz
-AyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEw
-LDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MD
-g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
-MTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LD
-kyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0
-NDYzOTRdfQ==
+eyJoaXN0b3J5IjpbODY3Mjg5NjI2LC0yNjQwNDcxOTksMTMwMj
+UxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3
+OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4OD
+c0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1
+NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5Mj
+kyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2
+Mzk0XX0=
 -->
