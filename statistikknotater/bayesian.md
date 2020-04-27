@@ -230,7 +230,7 @@ $$ f(\theta|x) =
 
 ### Bayes rule with continuous/discrete random variables
 
-Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
+Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. The posterior _pmf_ is given by
 
 $$ f(\theta|x) = 
 \frac {p(x|\theta)f(\theta)}
@@ -238,7 +238,7 @@ $$ f(\theta|x) =
 
 ### Bayes rule with continuous random variables
 
-Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$. 
+Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$. The posterior _pdf_ is given by
 
 $$ f(\theta|x)\,d\theta = 
 \frac {p(x|\theta)f(\theta)\,d\theta}
@@ -262,7 +262,7 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 ### Bayes rule with continuous random variables, with odds
 
-If X is a random variable
+If X is a random variable given by *pdf* $p(x;\theta)$ and 
 
 For a continuous distribution, the Bayes factor is the same as in the discrete case, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
 
@@ -402,11 +402,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTYxOTEyOCwtMjc1ODg0ODM1LDE3ND
-AzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2
-NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMj
-QzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUy
-NSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLT
-IxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3
-NDIzNl19
+eyJoaXN0b3J5IjpbLTE4NTc5MDA1MjAsLTI3NTg4NDgzNSwxNz
+QwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAy
+NjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLD
+I0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1
+MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC
+0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDky
+NzQyMzZdfQ==
 -->
