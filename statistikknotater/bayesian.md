@@ -90,7 +90,13 @@ Thus
 
 $$ P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\sum_{j=1}^nP(B|A_j)P(A_j)} $$ 
 
-### Bayesian epistemological interpretation of Bayes rule
+### Application of Bayes rule in medicine
+
+* Sensitivity: $P(\text{diagnosis}|\text{disease})$
+* Specificity: $P(\neg\text{diagnosis}|\neg\text{disease})$
+* Base rate: $P(\text{disease})$
+
+### Epistemological interpretation of Bayes rule (Bayesianism)
 
 Typically $A_i$ will be our hypothesis and $B$ will be the data from an experiment. 
 
@@ -105,12 +111,6 @@ Each time we receive new data we can update our probability of an event, based o
 Sometimes the numerator is dropped, and we are only interested in that
 
 $$ P(A|B) \propto P(B|A)P(A) $$
-
-### Application of Bayes rule in medicine
-
-* Sensitivity: $P(\text{diagnosis}|\text{disease})$
-* Specificity: $P(\neg\text{diagnosis}|\neg\text{disease})$
-* Base rate: $P(\text{disease})$
 
 ### Bayes rule with discrete random variables
 
@@ -217,57 +217,6 @@ In the notation example above, we introduced a new probability distribution $\pi
 
 In general, if $X\sim f(\theta)$, where $f$ is a probability distribution, such as the binomial with pdf $f(x;\theta)$ and parameters $\theta$, then we can describe the distribution of $\theta$ with another probability distribution function $g(\theta; \Theta)$. In other words: $\theta\sim g(\Theta)$. We call $\Theta$ the set of hyperparameters of $\theta$.
 
-### Bayes rule, formulated with odds
-
-The odds of something happening is the probability of it happening divided by the propability of it not happening.
-
-$$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o_A=\frac{p_A}{1-p_A}$$
-
-We can also have odds between two events (or hypotheses): $H_1$ and $H_2)
-
-$$ O[H_1:H_2] = \frac{P(H_1)}{P(H_2)} $$
-
-Bayes rule actually becomes very easy with odds. We define the posterior odds, after updating on $x$
-
-$$ \begin{aligned}
-\text{PO}(H_1) &= \frac{P(H_1|x)}{P(H_2|x)} 
-= \frac {\frac{P(x|H_1)(P(H_1)}{P(x)}} {\frac{P(x|H_2)(P(H_2)}{P(x)}}\\
-&= \frac{P(x|H_1)}{P(x|H_2)} · \frac{P(H_1)}{P(H_2)} \\
-&= BF[H_1:H_2] · O[H_1:H_2]
-\end{aligned}
-$$
-
-The ratio $BF[H_1:H_2]=\frac{P(x|H_1)}{P(x|H_2)}$ is known as the *Bayes factor*. 
-
-For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
-
-$$ \frac{\int P(x|\Theta,H_1)d\Theta}{\int P(x|\Theta,H_2)d\Theta} $$
-
-where $\Theta$ is the set of all model parameters
-
-#### Interpretation of Bayes factor
-
-The following interpretation of Bays factors is (in the textbook) called Jeffreys' scale:
-
-| BF[$H_1$:$H_2$] | Evidence against $H_2$ |
-| :- | :- |
-| 1 to 3 | Not worth a bare mention
-| 3 to 20 | Positive |
-| 20 to 150 | Strong | 
-| > 150 | Very strong | 
-
-$$ BF[H_2:H_1] = \frac{1}{BF[H_1:H_2]} $$
-
-Another alternative is Kass & Raftery's interpretation of the natural logarithm of the Bayes factor
-
-| 2 ln(BF[$H_1$:$H_2$]) | Evidence against $H_2 |
-| :- | :-
-| 0 to 2 | Not worth a bare mention |
-| 2 to 6 | Positive |
-| 6 to 10 | Strong | 
-| > 10 | Very strong
-
-(note: Wikipedia disagrees with textbook about these tables, both seem similar to Kass & Raftery, although not identical, Jeffreys scale is very different).
 
 ## Conjugate families
 
@@ -400,11 +349,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjUxNTYxLDI0MzU0NTMxLDEzMDI1MT
-U2MSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2
-NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNz
-UwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2
-LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0Mj
-A2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1
-MzIyXX0=
+eyJoaXN0b3J5IjpbLTM1NjI1MDMxMywxMzAyNTE1NjEsMjQzNT
+Q1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwx
+NjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMz
+c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
+NiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxND
+IwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAz
+NTMyMl19
 -->
