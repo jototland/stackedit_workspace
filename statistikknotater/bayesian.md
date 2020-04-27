@@ -64,7 +64,7 @@ Assume $\{X, \Theta\}$ are discrete random variables with a joint *pmf* $p(x, \t
 
 $$ p(x)=\sum_{i=1}^{n}p(x,\theta) $$
 
-### Law of total probability with discrete marginal and continuous random parameter
+### Law of total probability with discrete continuous random parameter
 
 Assume $X$ is a discrete random variable and $\Theta$ is a continuous random variable, with a joint pdf $p(x,\theta)$, then the marginal pmf $p(x)$ is
 
@@ -78,7 +78,7 @@ $$ p(x)\,dx = \sum_{i=1}^{n}p(x,\theta_i)\,dx $$
 
 or simply
 
-$$ p(x)\,dx = \sum_{i=1}^{n}p(x,\theta_i)\,dx $$
+$$ p(x) = \sum_{i=1}^{n}p(x,\theta_i) $$
 
 ### Law of total probability with continuous random variables
 
@@ -408,11 +408,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg1MzU4NzMsMTQyOTg3ODMxMCw3OT
-g0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0
-NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NS
-w4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5Mjky
-MzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mz
-k0LC0yNjQwMzUzMjIsLTUxNTQ5NzM3NCwtNDAwMjkwMjQ1LDE1
-OTMyMTU1N119
+eyJoaXN0b3J5IjpbLTQzMzg2ODIwMywxNDI5ODc4MzEwLDc5OD
+QyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3
+MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LD
+gwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIz
+OTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOT
+QsLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5
+MzIxNTU3XX0=
 -->
