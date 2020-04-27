@@ -283,7 +283,12 @@ But there are exceptions
 
 ### The beta distribution is a conjugate prior for the binomial distribution
 
-If our prior is that $X\sim\text{Binomial}(p)$, and take as our prior that $p\sim\text{Beta}(\alpha,\beta)$, then even after we update our belief about $p$ to $p^{*}$, $X\sim\text{Binomial}(p^{*})$
+If our prior is that 
+
+* $X\sim\text{Binomial}(p)$, and 
+* $p\sim\text{Beta}(\alpha,\beta)$, 
+
+then even after we update our belief about $\alpha$ and $\beta$ to $p^{*}$, $X\sim\text{Binomial}(p^{*})$
 
 The binomial distribution has *pmf*
 
@@ -406,11 +411,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NT
-g4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUw
-NzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMT
-MwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMx
-MCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtOD
-A4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5
-MjE1NV19
+eyJoaXN0b3J5IjpbNjc4OTQ1Mjc5LC01NjExMjQxMzYsNTU0MD
+M1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0
+MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMj
+Y0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkw
+LDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MD
+E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
+NTgzXX0=
 -->
