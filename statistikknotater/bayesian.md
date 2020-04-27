@@ -163,7 +163,9 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 ### Bayes rule with random variables: Hyperparameters
 
-If the random variable $X\sim\mathscr{D}$
+If $X$ is a random variable with *pmf* or *pdf* f(x)
+
+$$ f(x|y)=\frac{f(y|x)f(x)}{\int_{-\infty}^{\infty}f(y|x)f(x)dx} $$
 
 In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
@@ -408,11 +410,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTY5OTc5OCwxMzAyNTE1NjEsMjQzNT
-Q1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwx
-NjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMz
-c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
-NiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxND
-IwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAz
-NTMyMl19
+eyJoaXN0b3J5IjpbNTcxNDY4ODM2LDEzMDI1MTU2MSwyNDM1ND
+UzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2
+NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNz
+UwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2
+LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0Mj
+A2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1
+MzIyXX0=
 -->
