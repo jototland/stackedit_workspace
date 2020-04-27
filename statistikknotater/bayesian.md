@@ -196,7 +196,9 @@ Let $X$ be a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ i
 
 Often we are interested in determining $\theta$. In that case $f(\theta)$ is the *prior*, $x$ is the evidence, and $f(\theta|x)$ is the *posterior*. Sometimes $f(\theta|x)$ is written as $f^*(\theta)$
 
-If $\Theta$ is having *pmf* or *pdf* $f(\theta;\xi)$, then we call $\xi$ a *hyperparameter*
+If $\Theta$ is having *pmf* or *pdf* $f(\theta;\beta)$, then we call $\beta$ a *hyperparameter*.
+
+Sometimes the *prior* hyperparameter
 
 
 ### Bayes rule with discrete random variables
@@ -450,11 +452,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkzNDU0NCwtNjY1MDI2NDcsLTE2Nj
-M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
-MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
-YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
-MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
-A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
-MTY2XX0=
+eyJoaXN0b3J5IjpbLTE5OTEyODU3ODIsLTY2NTAyNjQ3LC0xNj
+YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
+LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
+Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
+MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
+IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
+NjE2Nl19
 -->
