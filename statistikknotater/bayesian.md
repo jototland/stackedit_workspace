@@ -293,6 +293,11 @@ then even after we update our belief with new data
 * $X\sim\text{Binomial}(p^*)$, and 
 * $p^*\sim\text{Beta}(\alpha^*,\beta^*)$, 
 
+with
+
+* $\alpha^*=\alpha+k$, and
+* $\beta^* = \beta + n - k$
+
 The binomial distribution has *pmf*
 
 $$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
@@ -306,10 +311,6 @@ $$ \text{beta}(p;\alpha,\beta) =
 
 Given $n$ new samples with $k$ successes, our new posterior is $\text{beta}(α^*,β^*)$ with hyperparameters
 
-$$ \begin{aligned}
-α^*&=α+k \\
-β^* &= β + n - k 
-\end{aligned} $$
 
 ### Gamma poisson conjugate pair
 
@@ -414,11 +415,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyODM5NDA5LC01NjExMjQxMzYsNTU0MD
-M1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0
-MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMj
-Y0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkw
-LDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MD
-E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
-NTgzXX0=
+eyJoaXN0b3J5IjpbLTE2MTgzNzE4NjgsLTU2MTEyNDEzNiw1NT
+QwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkw
+MzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC
+0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5
+OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMT
+UwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3
+NDQ1ODNdfQ==
 -->
