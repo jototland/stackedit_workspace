@@ -71,7 +71,7 @@ $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
 Assume $\{X, \Theta\}$ are discrete random variables with a *joint pmf* $p(x, \theta)$, and $\Theta$ can take on the values $\theta_1\ldots\theta_n$, then the *marginal pmf* $p(x)$ is
 
-$$ p(x)=\sum_{i=1}^{n}p(x,\theta) $$
+$$ p(x)=\sum_{i=1}^{n}p(x,\theta_i) $$
 
 ### Law of total probability with discrete/continuous random variables
 
@@ -487,11 +487,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNj
-Y1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1
-NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5OD
-QyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3
-MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LD
-gwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIz
-OTM4OV19
+eyJoaXN0b3J5IjpbLTgwMDg2MzAzNSwtMjEzNTg5MDM0MSwtNj
+YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
+MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mj
+k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
+NzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC
+00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1
+Njc3MzZdfQ==
 -->
