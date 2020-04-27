@@ -90,6 +90,29 @@ Thus
 
 $$ P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\sum_{j=1}^nP(B|A_j)P(A_j)} $$ 
 
+### Application of Bayes rule in medicine
+
+* Sensitivity: $P(\text{diagnosis}|\text{disease})$
+* Specificity: $P(\neg\text{diagnosis}|\neg\text{disease})$
+* Base rate: $P(\text{disease})$
+
+### Epistemological interpretation of Bayes rule (Bayesianism)
+
+Typically $A_i$ will be our hypothesis and $B$ will be the data from an experiment. 
+
+Each time we receive new data we can update our probability of an event, based on the new data. 
+
+* $P(A_i)$ is our *prior* probability, before the experiment started.
+* $B$ is the *evidence*.
+* $P(B|A_i)$ is the *likelihood* of $B$ assuming $A_i$. (Note that the likelihood is not a *pmf* or *pdf*, the sum of all the likelihoods of $B given all possible $A_i$ is not $1$).
+* $\sum_{j=1}^nP(B|A_j)P(A_j)$ is a normalization constant, ensuring that $P(A_i|B)$ is between $0$ and $1$.
+* $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
+
+Sometimes the numerator is dropped, and we are only interested in that
+
+$$ P(A|B) \propto P(B|A)P(A) $$
+
+
 ### Bayes rule, for events, with odds
 
 The odds of something happening is the probability of it happening divided by the propability of it not happening.
@@ -137,31 +160,6 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 | > 10 | Very strong
 
 (note: Wikipedia disagrees with textbook about these tables, both seem similar to Kass & Raftery, although not identical, Jeffreys scale is very different).
-
-
-
-### Application of Bayes rule in medicine
-
-* Sensitivity: $P(\text{diagnosis}|\text{disease})$
-* Specificity: $P(\neg\text{diagnosis}|\neg\text{disease})$
-* Base rate: $P(\text{disease})$
-
-### Epistemological interpretation of Bayes rule (Bayesianism)
-
-Typically $A_i$ will be our hypothesis and $B$ will be the data from an experiment. 
-
-Each time we receive new data we can update our probability of an event, based on the new data. 
-
-* $P(A_i)$ is our *prior* probability, before the experiment started.
-* $B$ is the *evidence*.
-* $P(B|A_i)$ is the *likelihood* of $B$ assuming $A_i$. (Note that the likelihood is not a *pmf* or *pdf*, the sum of all the likelihoods of $B given all possible $A_i$ is not $1$).
-* $\sum_{j=1}^nP(B|A_j)P(A_j)$ is a normalization constant, ensuring that $P(A_i|B)$ is between $0$ and $1$.
-* $P(A_i|B)$ is our *posterior* probability, updated because we now know $B$. 
-
-Sometimes the numerator is dropped, and we are only interested in that
-
-$$ P(A|B) \propto P(B|A)P(A) $$
-
 
 ### Bayes rule for odds with continuous distributions
 
@@ -409,7 +407,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA0OTc0NTgsMTMwMjUxNTYxLDI0Mz
+eyJoaXN0b3J5IjpbLTEzNjA5NDg2OTIsMTMwMjUxNTYxLDI0Mz
 U0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUs
 MTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMT
 M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
