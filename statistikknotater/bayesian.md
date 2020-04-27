@@ -254,15 +254,17 @@ Or since the denumerator is a constant, as a proportionality
 
 $$ f^*(\theta) \propto p(x|\theta)f(\theta) $$
 
-### Bayes rule continuous version, notation example
+### Bayes rule with continuous random variables, notation example
 
 If $X \sim \text{Binomial}(p)$ then we might want to update on $p$ given new evidence $x$. Our prior for $p$ is $\pi(p)$. 
 
 $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
-### Bayes rule for odds with continuous distributions
+### Bayes rule with continuous random variables, with odds
 
-For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
+If X is a random variable
+
+For a continuous distribution, the Bayes factor is the same as in the discrete case, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
 
 $$ \frac{\int P(x|\Theta,H_1)d\Theta}{\int P(x|\Theta,H_2)d\Theta} $$
 
@@ -400,11 +402,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMT
-M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
-NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
-gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
-MSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC
-00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIw
-OTU5NjNdfQ==
+eyJoaXN0b3J5IjpbMTk5OTYxOTEyOCwtMjc1ODg0ODM1LDE3ND
+AzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2
+NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMj
+QzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUy
+NSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLT
+IxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3
+NDIzNl19
 -->
