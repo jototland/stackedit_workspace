@@ -194,6 +194,8 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$, itself having *pmf* or *pdf* $f(\theta;\xi)$, then we call $\xi$ a *hyperparameter*
 
+Often we are interested in determining $\theta$. $p(\
+
 ### Bayes rule with discrete random variables
 
 $$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
@@ -445,7 +447,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDk4MzIwMSwtMTY2MzQ4MDYzNSwtMj
+eyJoaXN0b3J5IjpbMTEwMzcwMDU5MSwtMTY2MzQ4MDYzNSwtMj
 Y0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkw
 LDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MD
 E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
