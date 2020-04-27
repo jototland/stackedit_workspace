@@ -164,7 +164,7 @@ $$
 
 The ratio $\textit{BF}[H_1:H_2]=\frac{P(x|H_1)}{P(x|H_2)}$ is known as *Bayes factor*.
 
-Bayes factor tells us how much our confidence in the hypothesis increases of decreases based on new data. 
+Bayes factor tells us how much our belief in the hypothesis increases of decreases when given new evidenc. 
 
 ### Interpretation of Bayes factor
 
@@ -487,11 +487,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY1MDQxMzYsLTIxMzU4OTAzNDEsLT
-Y2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0
-NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxND
-I5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4
-MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4My
-wtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5
-NTY3NzM2XX0=
+eyJoaXN0b3J5IjpbNDAwNjM3MTI2LC0yMTM1ODkwMzQxLC02Nj
+I4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcx
+OTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOT
+g3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3
+OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLT
+Q2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2
+NzczNl19
 -->
