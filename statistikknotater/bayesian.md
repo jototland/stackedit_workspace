@@ -39,10 +39,17 @@ Big letters
 Small Letters
 : value $x$, pmf or pdf $f(x)$
 
+For discrete random variables
+
 $$ 
 P(X=x) = p(x) \\
 P(X=x|Y=y) = p(x|y) \\
-P(x\le X\le X+
+$$
+
+And for continuous random variables
+
+$$
+\lim_{\delta\to o}P(x\le X\le x+\delta) = p(x)
 $$
 
 ## The law of total probability, joint an marginal distributions
@@ -425,11 +432,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjUwMzQ5LDEzMDI1MTU2MSwyNDM1ND
-UzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2
-NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNz
-UwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2
-LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0Mj
-A2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1
-MzIyXX0=
+eyJoaXN0b3J5IjpbLTExMTkzNTAwMTIsMTMwMjUxNTYxLDI0Mz
+U0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUs
+MTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMT
+M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
+MzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMT
+QyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQw
+MzUzMjJdfQ==
 -->
