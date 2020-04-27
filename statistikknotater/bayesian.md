@@ -265,17 +265,15 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 ### Bayes rule with continuous random variables, with odds
 
-Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$.
+Let $X$ be a continuous random variable. Let the two competing hypotheses $H_1$ and $H_2$ be that the *pdf* of $X$ is either $p_{1}(\theta)$ or $p_{2}(\theta)$
 
-Let the two competing hypotheses $H_1$ and $H_2$ be that the *pdf* of $\Theta$ is either $p_{1}(\theta)$ or $p_{2}(\theta)$
+
 
 The Bayes factor $\textit{BF}[H_1:H_2]$ is given by
 
 $$ \textit{BF}[H_2:H_2] = 
 \frac{\int p_1(x|\theta)d\theta}
 {\int p_2(x|\theta)d\theta} $$
-
-
 
 ## Conjugate families
 
@@ -408,11 +406,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzE1MTU3Nyw1NTQwMzU5ODIsLTI3NT
-g4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUw
-NzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMT
-MwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMx
-MCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtOD
-A4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5
-MjE1NV19
+eyJoaXN0b3J5IjpbLTE3NDI1NTM3MjcsNTU0MDM1OTgyLC0yNz
+U4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1
+MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LD
+EzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4Nzgz
+MTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLT
+gwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00Njgz
+OTIxNTVdfQ==
 -->
