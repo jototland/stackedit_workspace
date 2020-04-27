@@ -51,7 +51,7 @@ p(x|y) &= P(X=x|Y=y)
 And for continuous random variables
 $$\begin{array}{rl}1 2 &3 4 \\ 4 5 6 &7\\3\end{array}$$
 $$\sum^n_{\stackrel{0<i<n}{j\subseteq i}}$$
-$$ p(x,y) = \lim_{\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}} 
+$$ p(x,y) = \lim_{\small\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}} 
 P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) $$
 $$ p(x,y) = \lim_{\stackrel{\delta\to 0}{\epsilon\to 0}} 
 P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) $$
@@ -446,7 +446,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIwMzk4NTUsLTI2NDA0NzE5OSwxMz
+eyJoaXN0b3J5IjpbLTE2OTEzNTM5MTQsLTI2NDA0NzE5OSwxMz
 AyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEw
 LDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MD
 g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
