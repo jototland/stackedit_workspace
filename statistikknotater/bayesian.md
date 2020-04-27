@@ -181,7 +181,7 @@ $$ \textit{BF}[H_2:H_1] = \frac{1}{\textit{BF}[H_1:H_2]} $$
 
 Another alternative is Kass & Raftery's interpretation of the natural logarithm of the Bayes factor
 
-| 2 ln(BF[$H_1$:$H_2$]) | Evidence against $H_2 |
+| 2 ln(BF[$H_1$:$H_2$]) | Evidence against $H_2$ |
 | :- | :-
 | 0 to 2 | Not worth a bare mention |
 | 2 to 6 | Positive |
@@ -447,11 +447,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDg5MjEyMywtNjY1MDI2NDcsLTE2Nj
-M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
-MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
-YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
-MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
-A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
-MTY2XX0=
+eyJoaXN0b3J5IjpbNzk3Njc2NjE5LC02NjUwMjY0NywtMTY2Mz
+Q4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwx
+NTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2Nj
+AxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIy
+OSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMD
+UyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYx
+NjZdfQ==
 -->
