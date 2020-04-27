@@ -51,7 +51,8 @@ p(x|y) &= P(X=x|Y=y)
 And for continuous random variables
 
 $$\begin{aligned}
-p(x) &= \lim_{\delta\to o}P(x\le X\le x+\delta) \\
+p(x) &= \lim_{\delta\to o}
+P(x\le X\le x+\delta) \\
 p(x,y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
 P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) \\
 p(x|y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
@@ -440,11 +441,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTA3NTQ3OSwtMjY0MDQ3MTk5LDEzMD
-I1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAs
-Nzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwOD
-g3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIx
-NTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOT
-I5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0
-NjM5NF19
+eyJoaXN0b3J5IjpbLTExOTE5MjUwNTEsLTI2NDA0NzE5OSwxMz
+AyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEw
+LDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MD
+g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
+MTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LD
+kyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0
+NDYzOTRdfQ==
 -->
