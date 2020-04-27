@@ -291,10 +291,7 @@ If our prior is that
 then even after we update our belief with new data 
 
 * $X\sim\text{Binomial}(p^*)$, and 
-* $p\sim\text{Beta}(\alpha^(,\beta)$, 
-
-about $\alpha$ and $\beta$ to $\alpha^{*}$ and $\beta^*, $, 
-X\sim\text{Binomial}(p^{*})$
+* $p^*\sim\text{Beta}(\alpha^*,\beta^*)$, 
 
 The binomial distribution has *pmf*
 
@@ -307,7 +304,7 @@ $$ \text{beta}(p;\alpha,\beta) =
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
-Given $n$ new samples with $k$ successes, our new posterior is $\text{beta}^*(p;α^*,β^*)$ with hyperparameters
+Given $n$ new samples with $k$ successes, our new posterior is $\text{beta}(α^*,β^*)$ with hyperparameters
 
 $$ \begin{aligned}
 α^*&=α+k \\
@@ -417,11 +414,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTk0NDg5MCwtNTYxMTI0MTM2LDU1ND
-AzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAz
-NDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLT
-I2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5
-MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNT
-AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
-NDU4M119
+eyJoaXN0b3J5IjpbNDYyODM5NDA5LC01NjExMjQxMzYsNTU0MD
+M1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0
+MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMj
+Y0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkw
+LDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MD
+E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
+NTgzXX0=
 -->
