@@ -116,6 +116,7 @@ $$ P(A|B) \propto P(B|A)P(A) $$
 
 If $X$ and $\Theta$ are discrete random variables and $p$ is the *joint pmf*, then
 
+$$ p(x|y) =  $$
 
 , we use the following notation
 
@@ -399,11 +400,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMjE0MzM1LDE1MTgyMjk5OTAsMTQyOT
-g3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3
-OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLT
-Q2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2
-NzczNiw5MjkyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMy
-wyMTI3NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5NzM3NCwtNDAw
-MjkwMjQ1XX0=
+eyJoaXN0b3J5IjpbMTM4MzY1MjEyOCwxNTE4MjI5OTkwLDE0Mj
+k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
+NzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC
+00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1
+Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2MDM1MD
+MsMjEyNzQ0NjM5NCwtMjY0MDM1MzIyLC01MTU0OTczNzQsLTQw
+MDI5MDI0NV19
 -->
