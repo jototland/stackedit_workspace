@@ -204,9 +204,7 @@ Often we are interested in determining the distribution of $\theta$. In that cas
 
 If $\Theta$ is having *pmf* or *pdf* $f(\theta;\beta)$, then we call $\beta$ a *hyperparameter*.
 
-Sometimes the *prior* hyperparameter is written as $\beta$ and the *posterior* as $\beta^*$. 
-
-In sequential Bayesian updating, one can write $\beta_0$, $\beta_1$, and so on.
+Sometimes the *prior* hyperparameter is written as $\beta$ and the *posterior* as $\beta^*$. In sequential Bayesian updating, one can write $\beta_0$, $\beta_1$, and so on.
 
 ### Bayes rule with discrete random variables
 
@@ -487,11 +485,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg1NDYyMzgsLTIxMzU4OTAzNDEsLT
-Y2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0
-NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxND
-I5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4
-MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4My
-wtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5
-NTY3NzM2XX0=
+eyJoaXN0b3J5IjpbLTIyODExNjg5MCwtMjEzNTg5MDM0MSwtNj
+YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
+MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mj
+k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
+NzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC
+00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1
+Njc3MzZdfQ==
 -->
