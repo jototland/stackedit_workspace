@@ -117,7 +117,9 @@ $$ P(A|B) \propto P(B|A)P(A) $$
 If $X$ and $\Theta$ are discrete random variables and $p$ is the *joint pmf*, we use the following notation
 
 $$\begin{aligned}
-\end{aligned}
+p(x,\theta) &= P(X=x,\Theta=\theta)
+p(x) = \sum_{i}
+\end{aligned}$$
 
 $$
 \begin{aligned}
@@ -393,7 +395,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU5OTE0NDYsMTQyOTg3ODMxMCw3OT
+eyJoaXN0b3J5IjpbLTE4Njc5NjExMTAsMTQyOTg3ODMxMCw3OT
 g0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0
 NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NS
 w4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5Mjky
