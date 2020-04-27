@@ -314,9 +314,10 @@ $$ \text{beta}(p;\alpha,\beta) =
 If our prior is that 
 
 * $X\sim\text{Poisson}(\lambda)$, and 
-* $p\sim\text{Beta}(\alpha,\beta)$, 
+* $\lambda\sim\text{Beta}(\alpha,\beta)$, or
+* $\lambda\sim\text{Beta}(k,\theta)$, or
 
-then after we update our belief with new data ($k$ successes in $n$ trials), our posterior will be
+then after we update our belief with new data ($k_i$ successes in each of $n$ time periods), our posterior will be
 
 * $X\sim\text{Poisson}(\lambda^*)$, and 
 * $p^*\sim\text{Beta}(\alpha^*,\beta^*)$, 
@@ -427,11 +428,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcyMDI2MjMsLTU2MTEyNDEzNiw1NT
-QwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkw
-MzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC
-0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5
-OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMT
-UwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3
-NDQ1ODNdfQ==
+eyJoaXN0b3J5IjpbMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1ND
+AzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAz
+NDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLT
+I2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5
+MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNT
+AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
+NDU4M119
 -->
