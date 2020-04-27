@@ -52,8 +52,8 @@ And for continuous random variables
 
 $$\begin{aligned}
 p(x) &= \lim_{\delta\to o}P(x\le X\le x+\delta) \\
- &= \lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta\land y\le Y\le y+\epsilon)p(x,y) \\
-\lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta|y\le Y\le y+\epsilon) &= p(x|y)
+p(x,y) &= \lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) \\
+p(x|y) &= \lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta|y\le Y\le y+\epsilon)
 \end{aligned}$$
 
 ## The law of total probability, joint an marginal distributions
@@ -438,11 +438,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAyMzAwNDksMTMwMjUxNTYxLDI0Mz
-U0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUs
-MTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMT
-M3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQy
-MzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMT
-QyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQw
-MzUzMjJdfQ==
+eyJoaXN0b3J5IjpbLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNT
+Q1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwx
+NjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMz
+c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
+NiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxND
+IwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOTQsLTI2NDAz
+NTMyMl19
 -->
