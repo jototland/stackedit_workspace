@@ -262,7 +262,10 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 ### Bayes rule with continuous random variables, with odds
 
-Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$, and let $H_1$, $H_2$ be two compething hypotheses. 
+Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$.
+
+Let the two competin hypotheses $H_1$ and $H_2$ be that the *pdf* of $\Theta$ is $p_{H_1}(
+ with *pdf*  $f(\theta)$, and let $H_1$, $H_2$ be two compething hypotheses. 
 
 The Bayes factor $\textit{BF}[H_1:H_2]$ is given by
 
@@ -404,7 +407,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDMyNjk4OTAsLTI3NTg4NDgzNSwxNz
+eyJoaXN0b3J5IjpbLTExMTM2MzIwNjIsLTI3NTg4NDgzNSwxNz
 QwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAy
 NjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLD
 I0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1
