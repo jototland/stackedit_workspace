@@ -262,11 +262,13 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 ### Bayes rule with continuous random variables, with odds
 
-Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$, and $H_1$, $H_2$ be two compething hypotheses. The Bayes factor $\textit{BF}[H_1:H_2]$ is given by
+Let $X$ be a continuous random variable with *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$, and let $H_1$, $H_2$ be two compething hypotheses. 
+
+The Bayes factor $\textit{BF}[H_1:H_2]$ is given by
 
 $$ \textit{BF}[H_2:H_2] = 
-\frac{\int P(x|\Theta,H_1)d\Theta}
-{\int P(x|\Theta,H_2)d\Theta} $$
+\frac{\int p(x|\theta,H_1)d\theta}
+{\int p(x|\theta,H_2)d\theta} $$
 
 where $\Theta$ is the set of all model parameters
 
@@ -402,11 +404,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTI3MDQ5NywtMjc1ODg0ODM1LDE3ND
-AzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2
-NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMj
-QzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUy
-NSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLT
-IxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3
-NDIzNl19
+eyJoaXN0b3J5IjpbLTE3NDMyNjk4OTAsLTI3NTg4NDgzNSwxNz
+QwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAy
+NjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLD
+I0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1
+MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC
+0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDky
+NzQyMzZdfQ==
 -->
