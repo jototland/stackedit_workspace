@@ -252,11 +252,7 @@ $$ f(\theta|x) =
 
 Or since the denumerator is a constant, as a proportionality
 
-$$ f(\theta|x) \propto p(x|\theta)f(\theta) $$
-
-Writing the posterior probability  as $f^{*}$, and the likelihood as $\mathcal{L}(x|y)$
-
-$$ f^{*}(x) \propto \mathcal{L}(x|y)f(x) $$
+$$ f^*(\theta) \propto p(x|\theta)f(\theta) $$
 
 ### Bayes rule continuous version, notation example
 
@@ -404,7 +400,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTI0NTc4NiwxNzQwMzc4ODk5LC0yMT
+eyJoaXN0b3J5IjpbLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMT
 M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
 NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
 gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
