@@ -74,7 +74,7 @@ $$ p(x) = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta $$
 
 ## Bayes rule
 
-### Bayes rule for events, probabilities
+### Bayes rule, for events, probabilities
 
 Assume $S$ is a sample space partitioned into independent events $A_1, A_2, \ldots, A_n$. 
 
@@ -89,6 +89,31 @@ $$ P(b) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 Thus
 
 $$ P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\sum_{j=1}^nP(B|A_j)P(A_j)} $$ 
+
+### Bayes rule, for events, with odds
+
+The odds of something happening is the probability of it happening divided by the propability of it not happening.
+
+$$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o_A=\frac{p_A}{1-p_A}$$
+
+To be more precise, we can also have odds between two events (or hypotheses): $H_1$ and $H_2)
+
+$$ O[H_1:H_2] = \frac{P(H_1)}{P(H_2)} $$
+
+Bayes rule actually becomes very easy with odds. We define the posterior odds, after updating on $x$
+
+$$ \begin{aligned}
+\text{PO}[H_1] &= \frac{P(H_1|x)}{P(H_2|x)} 
+= \frac {\frac{P(x|H_1)(P(H_1)}{P(x)}} {\frac{P(x|H_2)(P(H_2)}{P(x)}}\\
+&= \frac{P(x|H_1)}{P(x|H_2)} · \frac{P(H_1)}{P(H_2)} \\
+&= BF[H_1:H_2] · O[H_1:H_2]
+\end{aligned}
+$$
+
+### Bayes factor
+
+The ratio $BF[H_1:H_2]=\frac{P(x|H_1)}{P(x|H_2)}$ is known as the *Bayes factor*. 
+
 
 ### Application of Bayes rule in medicine
 
@@ -112,29 +137,8 @@ Sometimes the numerator is dropped, and we are only interested in that
 
 $$ P(A|B) \propto P(B|A)P(A) $$
 
-### Bayes rule, for events, with odds
 
-The odds of something happening is the probability of it happening divided by the propability of it not happening.
-
-$$ O(A) = \frac{P(A)}{P(\neg A)} \hspace{2em} o_A=\frac{p_A}{1-p_A}$$
-
-To be more precise, we can also have odds between two events (or hypotheses): $H_1$ and $H_2)
-
-$$ O[H_1:H_2] = \frac{P(H_1)}{P(H_2)} $$
-
-Bayes rule actually becomes very easy with odds. We define the posterior odds, after updating on $x$
-
-$$ \begin{aligned}
-\text{PO}[H_1] &= \frac{P(H_1|x)}{P(H_2|x)} 
-= \frac {\frac{P(x|H_1)(P(H_1)}{P(x)}} {\frac{P(x|H_2)(P(H_2)}{P(x)}}\\
-&= \frac{P(x|H_1)}{P(x|H_2)} · \frac{P(H_1)}{P(H_2)} \\
-&= BF[H_1:H_2] · O[H_1:H_2]
-\end{aligned}
-$$
-
-The ratio $BF[H_1:H_2]=\frac{P(x|H_1)}{P(x|H_2)}$ is known as the *Bayes factor*. 
-
-### Bayes rule for odds wit
+### Bayes rule for odds with continuous distributions
 
 For a continuous distribution, the Bayes factor is the same as above, but we need to integrate over the set of all parameters $\Theta$ to get the ratio of the marginal likelihoods
 
@@ -142,29 +146,6 @@ $$ \frac{\int P(x|\Theta,H_1)d\Theta}{\int P(x|\Theta,H_2)d\Theta} $$
 
 where $\Theta$ is the set of all model parameters
 
-### Interpretation of Bayes factor
-
-The following interpretation of Bays factors is (in the textbook) called Jeffreys' scale:
-
-| BF[$H_1$:$H_2$] | Evidence against $H_2$ |
-| :- | :- |
-| 1 to 3 | Not worth a bare mention
-| 3 to 20 | Positive |
-| 20 to 150 | Strong | 
-| > 150 | Very strong | 
-
-$$ BF[H_2:H_1] = \frac{1}{BF[H_1:H_2]} $$
-
-Another alternative is Kass & Raftery's interpretation of the natural logarithm of the Bayes factor
-
-| 2 ln(BF[$H_1$:$H_2$]) | Evidence against $H_2 |
-| :- | :-
-| 0 to 2 | Not worth a bare mention |
-| 2 to 6 | Positive |
-| 6 to 10 | Strong | 
-| > 10 | Very strong
-
-(note: Wikipedia disagrees with textbook about these tables, both seem similar to Kass & Raftery, although not identical, Jeffreys scale is very different).
 
 ### Bayes rule with discrete random variables
 
@@ -403,7 +384,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTYxNzU5NiwxMzAyNTE1NjEsMjQzNT
+eyJoaXN0b3J5IjpbLTYzNTA2MTgyMywxMzAyNTE1NjEsMjQzNT
 Q1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwx
 NjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMz
 c1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIz
