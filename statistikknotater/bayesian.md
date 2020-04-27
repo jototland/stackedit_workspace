@@ -194,7 +194,7 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$, itself having *pmf* or *pdf* $f(\theta;\xi)$, then we call $\xi$ a *hyperparameter*
 
-Often we are interested in determining $\theta$. In that case $f(\theta)$ is the *prior* and $f(\theta|x)$ is the *posterior*.
+Often we are interested in determining $\theta$. In that case $f(\theta)$ is the *prior*, $x$ is the evidence, and $f(\theta|x)$ is the *posterior*.
 
 ### Bayes rule with discrete random variables
 
@@ -447,11 +447,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjAwMTUyNSwtMTY2MzQ4MDYzNSwtMj
-Y0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkw
-LDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MD
-E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
-NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLD
-ExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2
-MDM1MDNdfQ==
+eyJoaXN0b3J5IjpbLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNj
+QwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAs
+MTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMT
+cyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1
+ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMT
+EyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYw
+MzUwM119
 -->
