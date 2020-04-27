@@ -216,6 +216,21 @@ $$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\thet
 
 ### Bayes rule with discrete/continuous random variables
 
+Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$. 
+
+$$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
+
+### Bayes rule with continuous/discrete random variables
+
+Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
+
+$$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
+
+### Bayes rule with continuous random variables
+
+Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
+
+$$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
 
 In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
 
@@ -460,11 +475,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Njk5OTIyOSwtNjY1MDI2NDcsLTE2Nj
-M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
-MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
-YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
-MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
-A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
-MTY2XX0=
+eyJoaXN0b3J5IjpbLTE2NTAyMDY1MDcsLTY2NTAyNjQ3LC0xNj
+YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
+LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
+Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
+MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
+IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
+NjE2Nl19
 -->
