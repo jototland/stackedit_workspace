@@ -32,7 +32,7 @@ The Cauchy distribution is the t-distribution with degrees of freedom $ν=1$
 
 $$  p(t) = \frac{1}{σπ \left( 1+\frac{x-μ}{σ} \right)}$$
 
-## The law of total probability, joint and marginal distributions
+## The law of total probability, joint an marginal distributions
 
 ### Law of total probability with events
 
@@ -400,11 +400,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNTQ1MzEsMTMwMjUxNTYxLDE1MTgyMj
-k5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwt
-MTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00Nz
-I3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5
-NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2NiwtMT
-QyMTYwMzUwMywyMTI3NDQ2Mzk0LC0yNjQwMzUzMjIsLTUxNTQ5
-NzM3NF19
+eyJoaXN0b3J5IjpbMTMwMjUxNTYxLDI0MzU0NTMxLDEzMDI1MT
+U2MSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2
+NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNz
+UwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2
+LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0Mj
+A2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NCwtMjY0MDM1
+MzIyXX0=
 -->
