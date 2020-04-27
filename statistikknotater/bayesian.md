@@ -204,7 +204,7 @@ Often we are interested in determining $\theta$. In that case
 
 If $\Theta$ is having *pmf* or *pdf* $f(\theta;\beta)$, then we call $\beta$ a *hyperparameter*.
 
-Sometimes we write the *prior* hyperparameter as $\beta$ and the *posterior* as $\beta^*$.
+Sometimes the *prior* hyperparameter is written as $\beta$ and the *posterior* as $\beta^*$. In sequential Bayesian updating, 
 
 
 ### Bayes rule with discrete random variables
@@ -458,7 +458,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4ODQ0MTc4LC02NjUwMjY0NywtMTY2Mz
+eyJoaXN0b3J5IjpbLTUzNjU3OTMwLC02NjUwMjY0NywtMTY2Mz
 Q4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwx
 NTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2Nj
 AxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIy
