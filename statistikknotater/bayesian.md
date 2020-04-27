@@ -55,7 +55,7 @@ $$ p(x,y) = \lim_{\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
 P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) $$
 $$ p(x,y) = \lim_{\stackrel{\delta\to 0}{\epsilon\to 0}} 
 P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) $$
-$$\sum_{\substack{i=1\\j=1}}^{m}x_{i}y_{j}.$$
+$$\sum_{i=1\newline j=1}}^{m}x_{i}y_{j}.$$
 
 $$\begin{aligned}
 p(x) &= \lim_{\delta\to o}P(x\le X\le x+\delta) \\
@@ -445,11 +445,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0OTU3ODM1LC0yNjQwNDcxOTksMTMwMj
-UxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3
-OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtODA4OD
-c0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1
-NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2NzczNiw5Mj
-kyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYwMzUwMywyMTI3NDQ2
-Mzk0XX0=
+eyJoaXN0b3J5IjpbLTExODk5MTg3NDgsLTI2NDA0NzE5OSwxMz
+AyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEw
+LDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MD
+g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
+MTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LD
+kyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0
+NDYzOTRdfQ==
 -->
