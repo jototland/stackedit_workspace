@@ -164,7 +164,7 @@ $$
 
 The ratio $\textit{BF}[H_1:H_2]=\frac{P(x|H_1)}{P(x|H_2)}$ is known as *Bayes factor*.
 
-Bayes factor tells us how much our belief in the hypothesis increases of decreases when given new evidenc. 
+Bayes factor tells us how much our belief in a hypothesis increases of decreases when given new evidence. 
 
 ### Interpretation of Bayes factor
 
@@ -487,11 +487,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNjM3MTI2LC0yMTM1ODkwMzQxLC02Nj
-I4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcx
-OTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOT
-g3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3
-OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLT
-Q2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMTEyOTU2
-NzczNl19
+eyJoaXN0b3J5IjpbMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNj
+YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
+MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mj
+k4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3Mjgx
+NzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC
+00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1
+Njc3MzZdfQ==
 -->
