@@ -60,19 +60,19 @@ $$ P(B) = \sum_{j=1}^nP(B|A_j)P(A_j) $$
 
 ### Law of total probability with discrete random variables
 
-Assume $\{X, \Theta\}$ are discrete random variables with a joint *pmf* $p(x, \theta)$, and $\Theta$ can take on the values $\theta_1\ldots\theta_n$, then the marginal *pmf* $p(x)$ is
+Assume $\{X, \Theta\}$ are discrete random variables with a *joint pmf* $p(x, \theta)$, and $\Theta$ can take on the values $\theta_1\ldots\theta_n$, then the *marginal pmf* $p(x)$ is
 
 $$ p(x)=\sum_{i=1}^{n}p(x,\theta) $$
 
 ### Law of total probability with discrete/continuous random variables
 
-Assume $X$ is a discrete random variable and $\Theta$ is a continuous random variable, with a joint pdf $p(x,\theta)$, then the marginal pmf $p(x)$ is
+Assume $X$ is a discrete random variable and $\Theta$ is a continuous random variable, with a *joint pdf* $p(x,\theta)$, then the *marginal pmf* $p(x)$ is
 
 $$ p(x) = \int_{-\infty}^{\infty}p(x, \theta)\,d\theta $$
 
 ### Law of total probability with continuous/discrete random variables
 
-Assume $X$ is a continuous random variable and $\Theta$ is a discrete random variable, $\Theta$ can take on the values $\theta_1\ldots\theta_n$, having a joint pdf $p(x, \theta)$, then the marginal pdf $p(x)$ is
+Assume $X$ is a continuous random variable and $\Theta$ is a discrete random variable, $\Theta$ can take on the values $\theta_1\ldots\theta_n$, having a joint *pdf* $p(x, \theta)$, then the *marginal pdf* $p(x)$ is
 
 $$ p(x)\,dx = \sum_{i=1}^{n}p(x,\theta_i)\,dx $$
 
@@ -408,11 +408,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDEwOTI3MSwxNDI5ODc4MzEwLDc5OD
-QyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3
-MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LD
-gwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIz
-OTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0NDYzOT
-QsLTI2NDAzNTMyMiwtNTE1NDk3Mzc0LC00MDAyOTAyNDUsMTU5
-MzIxNTU3XX0=
+eyJoaXN0b3J5IjpbNTMyNzAxNjQxLDE0Mjk4NzgzMTAsNzk4ND
+I5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcy
+MCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsOD
+A5Mjc0MjM2LC0yMDUyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5
+Mzg5LDE0MjA2NDYxNjYsLTE0MjE2MDM1MDMsMjEyNzQ0NjM5NC
+wtMjY0MDM1MzIyLC01MTU0OTczNzQsLTQwMDI5MDI0NSwxNTkz
+MjE1NTddfQ==
 -->
