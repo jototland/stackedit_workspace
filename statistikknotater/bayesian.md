@@ -265,23 +265,23 @@ $$ \pi^{*}(p) = \pi(p|x) = \frac{P(X=x|p)\pi(p)}{\int_0^1P(X=x|p)\pi(p)dp} $$
 
 ### Bayes rule with continuous random variables, with odds
 
-Let $X$ be a continuous random variable. Let the two competing hypotheses $H_1$ and $H_2$ be that the *pdf* of $X$ is either $p_{1}(x;\theta)$ or $p_{2}(x;\theta)$
+Let $X$ be a continuous random variable. Let the two competing hypotheses $H_1$ and $H_2$ be that the *pdf* of $X$ is either $p_{1}(x;\theta_1)$ or $p_{2}(x;\theta_2)$
 
 
 
 The Bayes factor $\textit{BF}[H_1:H_2]$ is given by
 
 $$ \textit{BF}[H_2:H_2] = 
-\frac{\int p_1(x|\theta)d\theta}
-{\int p_2(x|\theta)d\theta} $$
+\frac{\int p_1(x|\theta_1)d\theta_1}
+{\int p_2(x|\theta_2)d\theta_2} $$
 
-## Conjugate families
+## Conjugate prior
 
 The main (historical) problem with using Bayes rule in the continuous case is that the denumerator is an integral, which it is not (in general) possible to find an analytic solution for. 
 
 But there are exceptions
 
-### Binomial Beta conjugate pair
+### The beta distribution is a conjugate prior for the binomial distribution
 
 If our prior is that $X\sim\text{Binomial}(p)$, and we do not know $p$, but assume $p\sim\text{Beta}(\alpha,\beta)$, then even after we update our belief about $p$ to $p^{*}$, $X\sim\text{Binomial}(p^{*})$
 
@@ -406,11 +406,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODM0NTE1Nyw1NTQwMzU5ODIsLTI3NT
-g4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUw
-NzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMT
-MwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMTQyOTg3ODMx
-MCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcyODE3OSwtOD
-A4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1ODMsLTQ2ODM5
-MjE1NV19
+eyJoaXN0b3J5IjpbNjA0NDIyODIwLDU1NDAzNTk4MiwtMjc1OD
+g0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3
+MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMz
+AyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEw
+LDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MD
+g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
+MTU1XX0=
 -->
