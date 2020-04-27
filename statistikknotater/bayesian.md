@@ -56,10 +56,8 @@ P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) $$
 
 $$\begin{aligned}
 p(x) &= \lim_{\delta\to o}P(x\le X\le x+\delta) \\
-p(x,y) &= \lim_{\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
-P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) \\
-p(x|y) &= \lim_{\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
-P(x\le X\le x+\delta|y\le Y\le y+\epsilon)
+p(x,y) &= \lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) \\
+p(x|y) &= \lim_{\delta\to 0, \epsilon\to 0} P(x\le X\le x+\delta|y\le Y\le y+\epsilon)
 \end{aligned}$$
 
 ## The law of total probability, joint an marginal distributions
@@ -444,7 +442,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjM2Njg1MiwtMjY0MDQ3MTk5LDEzMD
+eyJoaXN0b3J5IjpbLTE0MTEwMTU4NiwtMjY0MDQ3MTk5LDEzMD
 I1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAs
 Nzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwOD
 g3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0NTgzLC00NjgzOTIx
