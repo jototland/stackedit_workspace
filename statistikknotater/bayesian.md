@@ -244,10 +244,6 @@ $$ f(\theta|x)\,d\theta =
 \frac {p(x|\theta)f(\theta)\,d\theta}
 {\int_{-\infty}^{\infty}p(x|\theta)f(\theta)} $$
 
-In the notation example above, we introduced a new probability distribution $\pi$ for the parameter $p$ of the binomial distribution.
-
-In general, if $X\sim f(\theta)$, where $f$ is a probability distribution, such as the binomial with pdf $f(x;\theta)$ and parameters $\theta$, then we can describe the distribution of $\theta$ with another probability distribution function $g(\theta; \Theta)$. In other words: $\theta\sim g(\Theta)$. We call $\Theta$ the set of hyperparameters of $\theta$.
-
 ### Bayes rule with discrete random variables
 
 If $X$ and $\Theta$ are discrete random variables and $p$ is the *joint pmf*, then
@@ -487,11 +483,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzY4MTI4MSwxNzQwMzc4ODk5LC0yMT
-M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
-NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
-gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
-MSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC
-00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIw
-OTU5NjNdfQ==
+eyJoaXN0b3J5IjpbNDk3NTczMzg0LDE3NDAzNzg4OTksLTIxMz
+U4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2
+MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxOD
+IyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIx
+LC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLT
+Q3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5
+NTk2M119
 -->
