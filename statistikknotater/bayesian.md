@@ -194,7 +194,7 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 
 
-If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is itself the value of a random variable $\Theta$ having *pmf* or *pdf* $f(\theta;)$, then
+If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$, itself having *pmf* or *pdf* $f(\theta;,)$, then
 
 $$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
 
@@ -441,11 +441,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMz
-AyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEw
-LDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4MTc5LC04MD
-g4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0NDU4MywtNDY4Mzky
-MTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2MywxMTI5NTY3NzM2LD
-kyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIxNjAzNTAzLDIxMjc0
-NDYzOTRdfQ==
+eyJoaXN0b3J5IjpbMTk4ODkyNTE0NiwtMTY2MzQ4MDYzNSwtMj
+Y0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkw
+LDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MD
+E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
+NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLD
+ExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2
+MDM1MDNdfQ==
 -->
