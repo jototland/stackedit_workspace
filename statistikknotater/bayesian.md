@@ -244,94 +244,10 @@ $$ f(\theta|x)\,d\theta =
 \frac {p(x|\theta)f(\theta)\,d\theta}
 {\int_{-\infty}^{\infty}p(x|\theta)f(\theta)} $$
 
-### Bayes rule with discrete random variables
-
-If $X$ and $\Theta$ are discrete random variables and $p$ is the *joint pmf*, then
-
-$$ p(\theta|x) = \frac {p(x|\theta)p(} {p(x)} $$
-
-, we use the following notation
-
-$$\begin{aligned}
-p(x,\theta) &= P(X=x,\Theta=\theta) \\
-p(x) &= \sum_{i}p(x, \theta_i) \\
-p(\theta) &= \sum_[j]p(x_i, \theta)
-\end{aligned}$$
-
-$$
-\begin{aligned}
-P(X=x,Y=y)&=p_{X,Y}(x,y) \\
-P(X=x|Y=y)&=p_{X|Y}(x|y) \\
-P(X=x)&=\sum_{j}P(X=x|Y=y_i)P(Y=y_i) \\ 
-p_X(x)&=\sum_{j}p_{X|Y}(x|y)p_Y(i)
-\end{aligned}
-$$
-
-Which means that we can write Bayes rule as
-
-$$ p_{X|Y}(x|y) = \frac{p_{Y|X}(y|x)p_X(x)}{p_Y(y)} 
-= \frac{p_{Y|X}(y|x)p_X(x)}{\sum_{i}p_{Y|X}(y|x_i)p_X(x_i)} $$
-
-### Bayes rule with discrete values, but continuous parameters
-
-Let $X$ be a discrete random variable with *pmf* $p(x|\theta)$, and $\Theta$ is a continuous random variable having *pdf* $f(\theta)$ 
-
-(Note that we could just as well have written that $\{X, \Theta\}$ has a joint *pdf* $\pi(x,\theta) = p(x|\theta)f(\theta)$)
-
-then
-
-$$\begin{aligned}
-P(X=x|\theta) &=p(x|\theta) \\
-P(X=x) &= \int_{-\infty}^{\infty}P(X=x|\theta)\,P(\theta)\,d\theta \\
-p(x) &= \int_{-\infty}^{\infty}p(x|\theta)\,f(\theta)\,d\theta
-\end{aligned} $$
-
-
-
-Which means that we can write Bayes rule as
-
-$$ p(\theta|x)\,d\theta 
-= \frac {p(x|\theta)f(\theta)\,d\theta} 
-{\int_{-\infty}^{\infty}p(x|\theta)f(\theta)\,d\theta} $$
-
-or simply
-
-$$ p(\theta|x) 
-= \frac {p(x|\theta)f(\theta)} 
-{\int_{-\infty}^{\infty}p(x|\theta)f(\theta)\,d\theta} $$
-
-Here 
-
-* $f(\theta)$ is the prior
-* $x$ is the evidence
-* $p(x|\theta)$ is the likelihood
-* $\int_{-\infty}^{\infty}p(x|\theta)f(\theta)\,d\theta$ is a normalization constant
-* $p(\theta|x)$ is the posterior
-
-### Bayes rule with continuous random variables
-
-If $X$ and $Y$ are continuous random variables, we have a joint pdf
-
-$$ f_{X, Y}(x,y) = f_{Y|X}(y|x)f_{X}(x) = f_{X|Y}(x|y)f_{Y}(y)$$
-
-Any actual probability is the result of integration
-
-$$ P(x_1<X<X_2, y_1<Y<y_2)  = \int_{x_1}^{x_2}\int_{y_1}^{y_2}f_{X,Y}(x,y)dy\,dx$$
-
-Bayes rule for continuous random variables looks very similar to the discrete case
-
-$$ 
-f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x)f_X(x)}{f_Y(y)} 
-= \frac{f_{Y|X}(y|x)f_X(x)}{\int_{-\infty}^{\infty}f_{Y|X}(y|u)f_X(u)du}
-$$
-
-Or, a bit more sloppily written
-
-$$ f(x|y)=\frac{f(y|x)f(x)}{\int_{-\infty}^{\infty}f(y|x)f(x)dx} $$
-
+O
 Or, since the denumerator is a constant, just as a proportionality
 
-$$ f(x|y) \propto f(y|x)f(x) $$
+$$ f(\theta|x) \propto p(x|\theta)f(\theta) $$
 
 Since $f(x|y)$ is the posterior probability we can write that as $f^{*}$, and since $f(y|x)$ (the likelihood) can be written as $\mathcal{L}(x|y)$. Then Bayes rule can be written
 
@@ -483,7 +399,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3NTczMzg0LDE3NDAzNzg4OTksLTIxMz
+eyJoaXN0b3J5IjpbLTEwNzk1MjYxLDE3NDAzNzg4OTksLTIxMz
 U4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2
 MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxOD
 IyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIx
