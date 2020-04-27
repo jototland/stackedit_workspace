@@ -177,7 +177,7 @@ The following interpretation of Bays factors is (in the textbook) called Jeffrey
 | 20 to 150 | Strong | 
 | > 150 | Very strong | 
 
-$$ BF[H_2:H_1] = \frac{1}{BF[H_1:H_2]} $$
+$$ \textit{BF}[H_2:H_1] = \frac{1}{\textit{BF}[H_1:H_2]} $$
 
 Another alternative is Kass & Raftery's interpretation of the natural logarithm of the Bayes factor
 
@@ -447,11 +447,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNj
-QwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAs
-MTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMT
-cyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2MjI5LC00NzI3NDQ1
-ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLTIwNTIwOTU5NjMsMT
-EyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0NjE2NiwtMTQyMTYw
-MzUwM119
+eyJoaXN0b3J5IjpbLTIxNDg5MjEyMywtNjY1MDI2NDcsLTE2Nj
+M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
+MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
+YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
+MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
+A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
+MTY2XX0=
 -->
