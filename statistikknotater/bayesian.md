@@ -210,7 +210,7 @@ In sequential Bayesian updating, one can write $\beta_0$, $\beta_1$, and so on.
 
 ### Bayes rule with discrete random variables
 
-Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. 
+Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the discrete random variable $\Theta$ with *pmf*  $f(\theta)$. The posterior *pmf* is given by
 
 $$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
 
@@ -218,7 +218,7 @@ $$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\thet
 
 Let $X$ be a discrete random variable with *pmf* $p(x;\theta)$, where $\theta$ is a parameter given by the continuous random variable $\Theta$ with *pdf*  $f(\theta)$. 
 
-$$ f(\theta|x) = \frac {p(x|\theta)f(\theta)}{\sum_{i=1}^{n}p(x|\theta_i)f(\theta_i)} $$
+$$ f(\theta|x)\,d\theta = \frac {p(x|\theta)f(\theta)\,d\theta}{\int_{\infty}^{\infty}p(x|\theta_i)f(\theta_i)\,d\theta} $$
 
 ### Bayes rule with continuous/discrete random variables
 
@@ -475,11 +475,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAyMDY1MDcsLTY2NTAyNjQ3LC0xNj
-YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
-LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
-Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
-MjI5LC00NzI3NDQ1ODMsLTQ2ODM5MjE1NSw4MDkyNzQyMzYsLT
-IwNTIwOTU5NjMsMTEyOTU2NzczNiw5MjkyMzkzODksMTQyMDY0
-NjE2Nl19
+eyJoaXN0b3J5IjpbODc3NDgxMTg1LC02NjUwMjY0NywtMTY2Mz
+Q4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwx
+NTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2Nj
+AxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIy
+OSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMD
+UyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYx
+NjZdfQ==
 -->
