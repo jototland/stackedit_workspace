@@ -194,7 +194,7 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 Let $X$ be a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$ with *pmf* of *pdf* $f(\theta)$. 
 
-Often we are interested in determining $\theta$. In that case 
+Often we are interested in determining the distribution of $\theta$. In that case 
 
 * $f(\theta)$ is the *prior*
 * $x$ is the evidence
@@ -209,6 +209,8 @@ Sometimes the *prior* hyperparameter is written as $\beta$ and the *posterior* a
 In sequential Bayesian updating, one can write $\beta_0$, $\beta_1$, and so on.
 
 ### Bayes rule with discrete random variables
+
+$$ f(\theta|x) = \frac {p(x|\theta)}{} $$
 
 $$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
 
@@ -459,11 +461,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjk1Mzg0LC02NjUwMjY0NywtMTY2Mz
-Q4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwx
-NTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2Nj
-AxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIy
-OSwtNDcyNzQ0NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMD
-UyMDk1OTYzLDExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYx
-NjZdfQ==
+eyJoaXN0b3J5IjpbMTgwNjc5NzQ4MywtNjY1MDI2NDcsLTE2Nj
+M0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEs
+MTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNj
+YwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYy
+MjksLTQ3Mjc0NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMj
+A1MjA5NTk2MywxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2
+MTY2XX0=
 -->
