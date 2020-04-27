@@ -192,9 +192,13 @@ Another alternative is Kass & Raftery's interpretation of the natural logarithm 
 
 ### Bayes rule with random variables: Hyperparameters
 
+If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$, itself having *pmf* or *pdf* $f(\theta;\xi)$, then we call $\xi$ a *hyperparameter*
 
+### Bayes rule with discrete random variables
 
-If $X$ is a random variable with *pmf* or *pdf* $p(x;\theta)$, where $\theta$ is a parameter given by the random variable $\Theta$, itself having *pmf* or *pdf* $f(\theta;\xi)$
+$$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
+
+$$  $$
 
 $$ f(\theta|x)=\frac{f(x|\theta)f(\theta)}{\int_{-\infty}^{\infty}f(x|\theta)f(\theta)d\theta} $$
 
@@ -441,11 +445,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUyODQyNDYsLTE2NjM0ODA2MzUsLT
-I2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5
-MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNT
-AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
-NDU4MywtNDY4MzkyMTU1LDgwOTI3NDIzNiwtMjA1MjA5NTk2My
-wxMTI5NTY3NzM2LDkyOTIzOTM4OSwxNDIwNjQ2MTY2LC0xNDIx
-NjAzNTAzXX0=
+eyJoaXN0b3J5IjpbLTIzMDk4MzIwMSwtMTY2MzQ4MDYzNSwtMj
+Y0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkw
+LDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MD
+E3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUwNjIyOSwtNDcyNzQ0
+NTgzLC00NjgzOTIxNTUsODA5Mjc0MjM2LC0yMDUyMDk1OTYzLD
+ExMjk1Njc3MzYsOTI5MjM5Mzg5LDE0MjA2NDYxNjYsLTE0MjE2
+MDM1MDNdfQ==
 -->
