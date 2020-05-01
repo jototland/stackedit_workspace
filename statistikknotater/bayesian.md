@@ -81,7 +81,7 @@ The beta distribution is the conjugate prior probability distribution for Bernou
 
 The Gamma distribution has *pdf*
 
-$$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
+$$ \text{gamma}(x;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
 \text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
 
 but can also be written as
@@ -462,11 +462,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2Nz
-Q2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1NDAzNTk4
-MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAzNDEsLT
-Y2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0
-NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxND
-I5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4
-MTc5XX0=
+eyJoaXN0b3J5IjpbLTU1NDA0MTY5MywyNDk0NzY3NjMsMTI2OD
+UxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQx
+MzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMj
+EzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4
+MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNT
+E4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAx
+MjFdfQ==
 -->
