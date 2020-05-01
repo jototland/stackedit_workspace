@@ -442,7 +442,7 @@ $$ (\mu^*, \frac{1}{{\sigma^*}^2}) =
 
 with 
 
-* 
+* d
 
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 
@@ -518,11 +518,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3Nz
-EzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEz
-LDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOT
-kzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgz
-NSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLT
-Y2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUx
-NTYxXX0=
+eyJoaXN0b3J5IjpbMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNz
+IwODI0Nyw4NzcxMzk1MjgsLTU0MDA1NzIwNiwtNTQzMjgxMDk1
+LDE0NDU2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwtMTY3ND
+Y0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MDM1OTgy
+LC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNj
+YyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3
+MTk5XX0=
 -->
