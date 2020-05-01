@@ -359,7 +359,7 @@ If our prior is that
 
 then after we update our belief with new data ($k$ successes in $n$ trials), our posterior will be
 
-* $X\sim\text{Binomial}(p^*)$, and 
+* $X^*\sim\text{Binomial}(p^*)$, and 
 * $p^*\sim\text{Beta}(\alpha^*,\beta^*)$, 
 
 with
@@ -378,12 +378,12 @@ If our prior is that
 
 then after we update our belief with new data ($k_i$ successes in each of $n$ time periods), our posterior will be
 
-* $X\sim\text{Poisson}(\lambda^*)$, and 
-* $p^*\sim\text{Gamma}(\alpha^*,\beta^*)$, 
+* $X^*\sim\text{Poisson}(\lambda^*)$, and 
+* $p^*\sim\text{Gamma}(\alpha^*,\beta^*)$ or $\text{gamma}^*(p;k^*,θ^*)$
 
-with
+where
+ * $\text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*)$
 
-$$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 \text{with } α^*=α+\sum_{i=0}^{n}k_i \text{ and } β^*=β+n \\
 \text{or } k^*=k+\sum_{i=0}^{n}k_i \text{ and } θ^*=\frac{θ}{nθ+1} $$
 
@@ -462,7 +462,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk5MTg2NzcsMjQ5NDc2NzYzLDEyNj
+eyJoaXN0b3J5IjpbLTIwNjM2NDgyNjAsMjQ5NDc2NzYzLDEyNj
 g1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0
 MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLT
 IxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0
