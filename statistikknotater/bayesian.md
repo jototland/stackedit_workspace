@@ -397,7 +397,7 @@ If our prior is that
 * $\sigma$ is known
 * $\mu \sim \textrm{Normal}(\nu, \tau)$
 
-then after we update our believe with $n$ new observations with mean $\bar{x}$, our new posterior is
+then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 * $X^* \sim \textrm{Normal}(\mu^*, \sigma)$
 * $\sigma$ is known
@@ -423,9 +423,11 @@ If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma)$
 * $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)$
-* $1/\sigma=\phi \sim \textrm{Gamma}(\alpha=v_0/2, \beta=v_0 s_0/2)$
+* $1/\sigma=\phi \sim \textrm{Gamma}(v_0/2, v_0 s_0/2)$
 
-Note: we use the shape/rate ($
+(we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here)
+
+then after we update our belief with 
 
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 
@@ -501,7 +503,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNDY1NjA1LC01NDAwNTcyMDYsLTU0Mz
+eyJoaXN0b3J5IjpbODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0Mz
 I4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQs
 LTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1ND
 AzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAz
