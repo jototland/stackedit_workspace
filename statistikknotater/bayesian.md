@@ -417,11 +417,9 @@ $τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}$
 
 ### The product of the Normal and the Gamma distribution is a conjugate prior for the Normal distribution
 
-We define the *precision* $\phi$ of a normal distribution as
+We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
 
-$$ \phi = 1/\sigma^2 $$
-
-If our prior is that
+Our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$
 * $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)$
@@ -525,11 +523,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OT
-Y0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcs
-ODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1Nj
-IxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIs
-MTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1NDAzNTk4MiwtMjc1OD
-g0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3
-MF19
+eyJoaXN0b3J5IjpbLTI3ODgzNDE5MSwxOTE1NTA4NTM4LDk4NT
+Q1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1NjkwOTEzNjcs
+LTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MDA1NzIwNiwtNTQzMj
+gxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwt
+MTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MD
+M1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0
+MV19
 -->
