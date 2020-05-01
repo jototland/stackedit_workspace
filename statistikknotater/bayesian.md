@@ -91,7 +91,7 @@ $$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
 
 Which means that $k=α$ and $θ=\frac{1}{β}$.
 
-The gamma distribution is only defined for $x\in[0,+\infty\$
+The gamma distribution is only defined for $x\in\left[0,+\infty\right>$
 
 The parameters have names: 
  
@@ -462,11 +462,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzQzNDk1NCwxMjY4NTE5Njk0LC0xNj
-c0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5
-ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC
-02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQw
-NDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMT
-QyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcy
-ODE3OV19
+eyJoaXN0b3J5IjpbMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2Nz
+Q2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1NDAzNTk4
+MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAzNDEsLT
+Y2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0
+NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxND
+I5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4
+MTc5XX0=
 -->
