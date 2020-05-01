@@ -427,7 +427,9 @@ If our prior is that
 
 (we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here)
 
-Since $p(\mu, \sigma^2)=p(\mu|\sigma^2)p(\sigma^2)$ we can 
+Since $p(\mu, \sigma^2)=p(\mu|\sigma^2)p(\sigma^2)$ we can write that
+
+* $(\mu, \phi) \sim \textrm{Normal}(m_0,\sigma) $
 
 then after we update our belief with 
 
@@ -505,7 +507,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTA0MTE1NSw4NzcxMzk1MjgsLTU0MD
+eyJoaXN0b3J5IjpbMTE4ODI3NTU3NSw4NzcxMzk1MjgsLTU0MD
 A1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMs
 MTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01Nj
 ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
