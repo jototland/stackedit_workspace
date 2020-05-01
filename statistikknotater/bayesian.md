@@ -57,7 +57,7 @@ The variance is only defined if $\nu>2.$ For the standardized t-distrubution, th
 The *pdf* for the non-standardized t-distribution is
 
 $$ t(x; m, s, \nu) = 
-\frac {\Gamma(\frac{\nu+1}{2})} {\Gamma(\frac{\nu}{2})s\sqrt{π\nu}}
+\frac {\Gamma(\frac{\nu+1}{2})} {s\Gamma(\frac{\nu}{2})\sqrt{π\nu}}
 \left(1+\frac{1}{\nu} \left( \frac{x-m}{s}\right)^2 \right) ^ {-\frac{\nu+1}{2}}
 $$
 
@@ -518,11 +518,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MD
-kxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAwNTcyMDYs
-LTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MT
-k2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2
-LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMz
-U4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2
-MzVdfQ==
+eyJoaXN0b3J5IjpbLTkyNTIxMDE3LDQ0OTk2NDI4OSwxNTY2Mz
+Y0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwt
+NTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Nj
+c2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDks
+LTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMz
+c4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3
+XX0=
 -->
