@@ -448,7 +448,7 @@ We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
 Our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$
-* $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)$
+* $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)=\textrm{Normal}(\mu, n_0\phi)$
 * $1/\sigma^2=\phi \sim \textrm{Gamma}(v_0/2, v_0 s_0/2)$
 
 (we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here)
@@ -549,11 +549,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOT
-E1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1
-LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MD
-A1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMs
-MTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01Nj
-ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
-OV19
+eyJoaXN0b3J5IjpbLTc5MDA4MDEwNiwtMTU1OTI1MjU5MSwtMj
+c4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4
+OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3Nz
+EzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEz
+LDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOT
+kzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgz
+NV19
 -->
