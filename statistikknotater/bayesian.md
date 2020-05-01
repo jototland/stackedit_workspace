@@ -365,10 +365,7 @@ with
 If our prior is that 
 
 * $X\sim\text{Poisson}(\lambda)$, and 
-* $\lambda\sim\text{Beta}(\alpha,\beta)$, or
-* $\lambda\sim\text{Beta}(k,\theta)$ 
-
-(both ways of parametrising Gamma distribution are common, $k=\alpha$, $\theta=1/\beta$)
+* $\lambda\sim\text{Beta}(\alpha,\beta)$, or $\lambda\sim\text{Beta}(k,\theta)$ 
 
 then after we update our belief with new data ($k_i$ successes in each of $n$ time periods), our posterior will be
 
@@ -464,7 +461,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDkwNTE1OCwtMTY3NDY0NzQzMiwxMz
+eyJoaXN0b3J5IjpbMTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMz
 k5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4
 MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC
 02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1
