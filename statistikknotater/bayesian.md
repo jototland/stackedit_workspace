@@ -408,7 +408,7 @@ with
 $ν^* = \frac{νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}$
 $τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}$
 
-
+### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 ### Normal gamma conjugate pair
 
 For the normal distribution, we already know the normal normal normal conjugate pair with fixed $\sigma$ and conditional prior
@@ -471,11 +471,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0Mzk1NzM3LDI0OTQ3Njc2MywxMjY4NT
-E5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEz
-Niw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMT
-M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
-NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
-gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
-MV19
+eyJoaXN0b3J5IjpbLTIwNjkzODA1NiwyNDk0NzY3NjMsMTI2OD
+UxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQx
+MzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMj
+EzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4
+MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNT
+E4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAx
+MjFdfQ==
 -->
