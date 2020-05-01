@@ -382,8 +382,12 @@ then after we update our belief with new data ($k_i$ successes in each of $n$ ti
 * $p^*\sim\text{Gamma}(\alpha^*,\beta^*)$ or $\text{gamma}^*(p;k^*,θ^*)$
 
 where
-* $α^=α+\sum_{i=0}^{n}k_i $  and $β^*=β+n$
-$ \text{or } k^*=k+\sum_{i=0}^{n}k_i \text{ and } θ^*=\frac{θ}{nθ+1} $
+* $\alpha^{*} =\alpha+\sum_{i=0}^{n}k_i$
+* $β^*=β+n$
+
+or
+* $k^*=k+\sum_{i=0}^{n}k_i$$
+* $θ^*=\frac{θ}{nθ+1}$
 
 ### The normal distribution is a conjugate prior for the normal distribution, assuming constant $\sigma$
 
@@ -460,7 +464,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Njk3MTk2OCwyNDk0NzY3NjMsMTI2OD
+eyJoaXN0b3J5IjpbMTM5NjQzMjQxOCwyNDk0NzY3NjMsMTI2OD
 UxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQx
 MzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMj
 EzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4
