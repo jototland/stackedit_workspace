@@ -56,9 +56,9 @@ The variance is only defined if $\nu>2.$ For the standardized t-distrubution, th
 
 The *pdf* for the non-standardized t-distribution is
 
-$$ t(x; m, s, ν) = 
-\frac {\Gamma(\frac{\nu+1}{2})} {\Gamma(\frac{ν}{2})σ\sqrt{πν}}
-\left(1+\frac{1}{ν} \left( \frac{x-μ}{σ}\right)^2 \right) ^ {-\frac{ν+1}{2}}
+$$ t(x; m, s, \nu) = 
+\frac {\Gamma(\frac{\nu+1}{2})} {\Gamma(\frac{\nu}{2})s\sqrt{π\nu}}
+\left(1+\frac{1}{\nu} \left( \frac{x-m}{s}\right)^2 \right) ^ {-\frac{ν+1}{2}}
 $$
 
 
@@ -518,7 +518,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjM5MzU3NiwxNTY2MzY0MjUsMTU2OT
+eyJoaXN0b3J5IjpbLTE0NTI3MTMxOSwxNTY2MzY0MjUsMTU2OT
 A5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMDU3MjA2
 LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NT
 E5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEz
