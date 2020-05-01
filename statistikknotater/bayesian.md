@@ -26,6 +26,12 @@ The Poisson distribution has *pmf*
 $$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
 \text{with } \mu = λ \text{ and } σ=\sqrt{λ} $$
 
+### Normal distribution
+
+The normal distribution has *pdf*
+
+$$ \text{normal}(x;μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
+
 ### Cauchy distribution
 
 The Cauchy distribution hs *pdf*. 
@@ -385,9 +391,6 @@ $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 
 ### The normal distribution is a conjugate prior for the normal distribution, assuming constant $\sigma$
 
-The normal distribution has *pdf*
-
-$$ \text{normal}(x;μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
 
 The normal normal conjugate pair can only be used when $σ$ is known. $μ$ on the other hand is unknown, and is what we want to estimate. 
 
@@ -461,11 +464,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNT
-YxMTI0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4
-OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLT
-E2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1
-MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNj
-QyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1
-MDYyMjldfQ==
+eyJoaXN0b3J5IjpbLTQxMDkwNTE1OCwtMTY3NDY0NzQzMiwxMz
+k5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4
+MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC
+02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1
+MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNz
+k4NDI5NTI1LDE2NDI2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3
+NDcyMF19
 -->
