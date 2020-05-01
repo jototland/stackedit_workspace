@@ -428,10 +428,11 @@ then after we update our belief with $n$ new observations with mean $\bar{x}$, o
 
 with
 
-$ν^* = \frac{νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}$
+
+$$ν^* = \frac={νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}$
 $τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}$
 
-The *effective sample size* of the Normal distr
+The *effective sample size* of the Normal conjugate distribution is
 
 ### The product of the Normal and the Gamma distribution is a conjugate prior for the Normal distribution
 
@@ -541,7 +542,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTYxOTcyNywtMjc4ODM0MTkxLDE5MT
+eyJoaXN0b3J5IjpbMTUyNDI2Mjk1NCwtMjc4ODM0MTkxLDE5MT
 U1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUs
 MTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMD
 U3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2Mywx
