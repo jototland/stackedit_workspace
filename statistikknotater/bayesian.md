@@ -447,7 +447,7 @@ Since
 
 $$ p(\mu, \sigma^2)=p(\mu|\sigma^2)p(\sigma^2) $$ 
 
-we can try to find a conjugate for the normal distribution as the product of the conjugate for the conditional 
+we can try to find a conjugate for the normal distribution as the product of the conjugate for the conditional distribution of $\mu$ given $\sigma$, and the marginal distribution for  $\sigma^2$.
 
 We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
 
@@ -459,7 +459,7 @@ Our prior is that
 
 (Note: 
 * we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here
-* $n_0$ scales $\sigma^2$ so it doesn't depend upon scale)
+* $n_0$ scales $\sigma^2$ so it doesn't depend upon scale, $\tau=1\(n_0\phi)$)
 
 
 we can write our prior as
@@ -562,11 +562,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYxOTM5MTAsMTE4ODE5MjI1MSwtMT
-U1OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUw
-Mzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtOD
-M3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEw
-OTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNj
-c0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTgyODUwNzgxNywxMTg4MTkyMjUxLC0xNT
+U5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAz
+OTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04Mz
+cyMDgyNDcsODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5
+NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2Nz
+Q2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1NDAzNTk4
+Ml19
 -->
