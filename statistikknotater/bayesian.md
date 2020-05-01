@@ -424,7 +424,8 @@ If our prior is that
 * $X \sim \textrm{Normal}(\mu, \sigma)$
 * $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)$
 * $1/\sigma=\phi \sim \textrm{Gamma}(\alpha=v_0/2, \beta=v_0 s_0/2)$
-$\color{blue}{2}2$
+
+Note: we use the shape/rate ($
 
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 
@@ -500,11 +501,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTgxOTkyNiwtNTQwMDU3MjA2LC01ND
-MyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NTE5Njk0
-LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NT
-QwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkw
-MzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC
-0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5
-OTBdfQ==
+eyJoaXN0b3J5IjpbNDUyNDY1NjA1LC01NDAwNTcyMDYsLTU0Mz
+I4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQs
+LTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1ND
+AzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAz
+NDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLT
+I2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5
+MF19
 -->
