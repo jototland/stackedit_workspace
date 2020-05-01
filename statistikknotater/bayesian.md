@@ -422,6 +422,7 @@ $$ \phi = 1/\sigma^2 $$
 If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, 1/\phi)$
+* $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)$
 * $\phi \sim \textrm{Gamma}_{\alpha\beta}(v_0/2, v_0 s_0/2)$
 
 
@@ -499,7 +500,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDU1OTQyNSwtNTQwMDU3MjA2LC01ND
+eyJoaXN0b3J5IjpbMTQ5MTQ5ODEwOCwtNTQwMDU3MjA2LC01ND
 MyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NTE5Njk0
 LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NT
 QwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkw
