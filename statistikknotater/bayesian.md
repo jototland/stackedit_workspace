@@ -436,7 +436,7 @@ The posterior mean is
 
 $$v^* = 
 \frac {\sigma^2/\tau^2} {\sigma^2/\tau^2+n} \cdot v +
-\frac {n} {
+\frac {n} {\sigma^2/\tau^2+n} \cdot \frac{\sum x_i}{n}
 $$
 
 The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\tau^2$.
@@ -549,7 +549,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA3Mzk3MjIsLTI3ODgzNDE5MSwxOT
+eyJoaXN0b3J5IjpbLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOT
 E1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1
 LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MD
 A1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMs
