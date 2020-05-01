@@ -406,7 +406,11 @@ or
 * $k^*=k+\sum_{i=0}^{n}k_i$$
 * $θ^*=\frac{θ}{nθ+1}$
 
-The effective sample size of the Gamma distribution is 
+The posterior mean is 
+
+$$ E[\lambda^*] = \frac {\alpha $$
+
+The effective sample size of the Gamma distribution is $\beta$ (or $1/\theta$)
 
 ### The normal distribution is a conjugate prior for the normal distribution, assuming constant $\sigma$
 
@@ -535,11 +539,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyMjIzMTQ1LC0yNzg4MzQxOTEsMTkxNT
-UwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwx
-NTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAwNT
-cyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEy
-Njg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMT
-I0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTld
-fQ==
+eyJoaXN0b3J5IjpbLTE5MjgyMzk3MDIsLTI3ODgzNDE5MSwxOT
+E1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1
+LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MD
+A1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMs
+MTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01Nj
+ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
+OV19
 -->
