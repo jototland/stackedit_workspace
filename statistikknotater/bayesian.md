@@ -47,7 +47,9 @@ The Cauchy distribution is a special case of the t-distribution with degrees of 
 The *pdf* for the standardized t-distribution is
 
 $$ p(t;\nu)=
-\frac {Γ(\frac{ν+1}{2})}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{t^2}{ν}\right)^{-\frac{ν+1}{2}}
+\frac {\Gamme(\frac{\nu+1}{2})
+}{\Gamma(\frac{\nu}{2})\sqrt{\pi\nu}}
+\left(1+\frac{t^2}{\nu}\right)^{-\frac{\nu+1}{2}}
 $$
 
 The mean is only defined if $\nu>1$.
@@ -520,7 +522,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTczMzkwMDcsNDQ5OTY0Mjg5LDE1Nj
+eyJoaXN0b3J5IjpbLTE3ODg2OTI0ODMsNDQ5OTY0Mjg5LDE1Nj
 YzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4
 LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5ND
 c2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0
