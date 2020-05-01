@@ -418,7 +418,7 @@ If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$
 * $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)$
-* $1/\sigma=\phi \sim \textrm{Gamma}(v_0/2, v_0 s_0/2)$
+* $1/\sigma^2=\phi \sim \textrm{Gamma}(\frac{v_0}{2}, \frac{v_0 s_0}{2})$
 
 (we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here)
 
@@ -428,7 +428,7 @@ $$ p(\mu, \sigma^2)=p(\mu|\sigma^2)p(\sigma^2) $$
 
 we can write our prior as
 
-$$ (\mu, \frac{1}{\sigma^2}) = (\mu, \phi) \sim \textrm{Normal}(m_0,\sigma^2/n_0)\,\textrm{Gamma}(v_0/2, v_0 s_0/2) $$
+$$ (\mu, \frac{1}{\sigma^2}) = (\mu, \phi) \sim \textrm{Normal}(m_0,\sigma^2/n_0)\cdot\textrm{Gamma}(v_0/2, v_0 s_0/2) $$
 
 Then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
@@ -507,11 +507,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY1ODYwMzUsODc3MTM5NTI4LC01ND
-AwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYz
-LDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNT
-YxMTI0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4
-OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLT
-E2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1
-MzFdfQ==
+eyJoaXN0b3J5IjpbMzA1MDYwMzMzLDg3NzEzOTUyOCwtNTQwMD
+U3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2Mywx
+MjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MT
+EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
+LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNj
+YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
+XX0=
 -->
