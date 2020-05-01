@@ -58,7 +58,7 @@ The *pdf* for the non-standardized t-distribution is
 
 $$ t(x; m, s, \nu) = 
 \frac {\Gamma(\frac{\nu+1}{2})} {\Gamma(\frac{\nu}{2})s\sqrt{π\nu}}
-\left(1+\frac{1}{\nu} \left( \frac{x-m}{s}\right)^2 \right) ^ {-\frac{ν+1}{2}}
+\left(1+\frac{1}{\nu} \left( \frac{x-m}{s}\right)^2 \right) ^ {-\frac{\nu+1}{2}}
 $$
 
 
@@ -518,11 +518,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI3MTMxOSwxNTY2MzY0MjUsMTU2OT
-A5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMDU3MjA2
-LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NT
-E5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEz
-Niw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMT
-M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
-NjM1XX0=
+eyJoaXN0b3J5IjpbNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MD
+kxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAwNTcyMDYs
+LTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MT
+k2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2
+LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMz
+U4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2
+MzVdfQ==
 -->
