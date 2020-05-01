@@ -19,6 +19,11 @@ The binomial distribution has *pmf*
 
 $$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
 
+The Poisson distribution has *pmf*
+
+$$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
+\text{with } \mu = λ \text{ and } σ=\sqrt{λ} $$
+
 ### T-distribution
 
 The *pdf* for the t-distribution is
@@ -46,6 +51,20 @@ $$ \text{beta}(p;\alpha,\beta) =
 \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
+
+### Gamma distribution
+
+The Gamma distribution has *pdf*
+
+$$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
+\text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
+
+but can also be written as
+
+$$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
+\text{with } μ=kθ \text{ and } σ=θ\sqrt{k} $$
+
+Which means that $k=α$ and $θ=\frac{1}{β}$.
 
 
 ## Notation issues
@@ -336,22 +355,8 @@ with
 * $\alpha^*=\alpha+k$, and
 * $\beta^* = \beta + n - k$
 
-The Poisson distribution has *pmf*
 
-$$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
-\text{with } \mu = λ \text{ and } σ=\sqrt{λ} $$
 
-The Gamma distribution has *pdf*
-
-$$ \text{gamma}(p;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βp} \\
-\text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
-
-but can also be written as
-
-$$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
-\text{with } μ=kθ \text{ and } σ=θ\sqrt{k} $$
-
-Which means that $k=α$ and $θ=\frac{1}{β}$.
 
 If our prior belief is that $K \sim \text{Poisson}(λ)$, and we don't know $λ$ but assume  $λ \sim \text{Gamma}(α,β)$ then given $n$ time periods with $k_i$ successes in each period, our new posterior is
 
@@ -437,11 +442,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDM1OTg0NywxMzk5Mzc0MjQ5LC01Nj
-ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
-OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMT
-Y2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUz
-MSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2ND
-I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
-NjIyOV19
+eyJoaXN0b3J5IjpbMzc0MjQxMTMzLDEzOTkzNzQyNDksLTU2MT
+EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
+LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNj
+YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
+LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
+Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
+MjI5XX0=
 -->
