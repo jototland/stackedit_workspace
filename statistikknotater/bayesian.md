@@ -438,9 +438,11 @@ Then after we update our belief with $n$ new observations with mean $\bar{x}$, o
 $$ (\mu^*, \frac{1}{{\sigma^*}^2}) = 
 (\mu^*, \phi^*) \sim 
 \textrm{Normal}(m_n,\frac{1}{\phi^*\,n_n}) \cdot
-\textrm{Gamma}(\frac{v_0}{2}, \frac{v_0 s_0}{2}) $$
+\textrm{Gamma}(\frac{v_n}{2}, \frac{v_n s_n}{2}) $$
 
+with 
 
+* 
 
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 
@@ -516,7 +518,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzA4NTI3OSwtODM3MjA4MjQ3LDg3Nz
+eyJoaXN0b3J5IjpbMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3Nz
 EzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEz
 LDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOT
 kzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgz
