@@ -350,7 +350,7 @@ $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 \text{with } α^*=α+\sum_{i=0}^{n}k_i \text{ and } β^*=β+n \\
 \text{or } k^*=k+\sum_{i=0}^{n}k_i \text{ and } θ^*=\frac{θ}{nθ+1} $$
 
-### Normal normal conjugate pair
+### The normal distribution is a conjugate prior for the normal distribution, assuming constant $\sigma$
 
 The normal distribution has *pdf*
 
@@ -428,11 +428,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1ND
-AzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAz
-NDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLT
-I2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5
-MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNT
-AxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1MDYyMjksLTQ3Mjc0
-NDU4M119
+eyJoaXN0b3J5IjpbMTA4NTU5MTE5LDEzOTkzNzQyNDksLTU2MT
+EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
+LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNj
+YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
+LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
+Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
+MjI5XX0=
 -->
