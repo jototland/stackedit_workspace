@@ -106,7 +106,7 @@ The parameters have names:
 shape/scale
 : $k$ and $\theta$
 
-The Gamma distribution is the conjugate prioer probability distribution for the Poi
+The Gamma distribution is the conjugate prioer probability distribution for the Poisson distribution, and for the inverse of the marginal variance in the Normal distribution (see below).
 
 ## Notation issues
 
@@ -525,7 +525,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDM0OTUzMiw5ODU0NTAzOTksNDQ5OT
+eyJoaXN0b3J5IjpbMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OT
 Y0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcs
 ODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1Nj
 IxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIs
