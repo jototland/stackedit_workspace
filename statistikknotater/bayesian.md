@@ -408,6 +408,10 @@ with
 $ν^* = \frac{νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}$
 $τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}$
 
+An alternative notation would be:
+
+* $X \sim \textrm{Normal}(\mu, \sigma$
+
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 
 We define the *precision* $\phi$ of a normal distribution as
@@ -481,8 +485,8 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzI4MTA5NSwxNDQ1NjIxMTMsLTU0Mz
-I4MTA5NSwyNDk0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQz
+eyJoaXN0b3J5IjpbLTQxMTk2MDEwNCwtNTQzMjgxMDk1LDE0ND
+U2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQz
 MiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MDM1OTgyLC0yNz
 U4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1
 MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LD
