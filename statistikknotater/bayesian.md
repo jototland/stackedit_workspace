@@ -451,7 +451,9 @@ Our prior is that
 * $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)=\textrm{Normal}(\mu, 1/(n_0\phi))$
 * $1/\sigma^2=\phi \sim \textrm{Gamma}(v_0/2, v_0 s_0/2)$
 
-(we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here)
+(Note: 
+* we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here
+* $n_0$ scales $\sigma^2$ so it doesn't depend upon scale)
 
 Since 
 
@@ -549,11 +551,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMj
-c4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4
-OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3Nz
-EzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEz
-LDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOT
-kzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgz
-NV19
+eyJoaXN0b3J5IjpbLTE0ODgxMTc0MTMsMTE4ODE5MjI1MSwtMT
+U1OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUw
+Mzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtOD
+M3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEw
+OTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNj
+c0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5
+ODJdfQ==
 -->
