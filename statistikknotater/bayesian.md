@@ -436,6 +436,8 @@ $$ (\mu, \frac{1}{\sigma^2}) =
 Then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 
+
+
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 
 
@@ -510,11 +512,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTYwNTQ5ODYsODc3MTM5NTI4LC01ND
-AwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYz
-LDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNT
-YxMTI0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4
-OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLT
-E2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1
-MzFdfQ==
+eyJoaXN0b3J5IjpbMjA4ODY3NjgyNiw4NzcxMzk1MjgsLTU0MD
+A1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMs
+MTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01Nj
+ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
+OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMT
+Y2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUz
+MV19
 -->
