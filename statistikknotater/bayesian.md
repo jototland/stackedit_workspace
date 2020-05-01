@@ -80,7 +80,7 @@ The beta distribution is only defined for $p\in[0,1]$.
 
 An interesting special case: $\textrm{Beta}(1,1)$ is the same as the uniform distribution. Higher $\alpha$ will make it grow on the right side, and higher $\beta$ on the left sside
 
-The beta distribution is the conjugate prior probability distribution for Bernoulli, binomial, negative binomial and geometric distribution (see below). 
+The Beta distribution is the conjugate prior probability distribution for Bernoulli, binomial, negative binomial and geometric distribution (see below). 
 
 ### Gamma distribution
 
@@ -105,6 +105,8 @@ The parameters have names:
 
 shape/scale
 : $k$ and $\theta$
+
+The Gamma distribution is the conjugate prioer probability distribution for the Poi
 
 ## Notation issues
 
@@ -523,11 +525,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2Mz
-Y0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwt
-NTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Nj
-c2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDks
-LTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMz
-c4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3
-XX0=
+eyJoaXN0b3J5IjpbMjEyMDM0OTUzMiw5ODU0NTAzOTksNDQ5OT
+Y0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcs
+ODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1Nj
+IxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIs
+MTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1NDAzNTk4MiwtMjc1OD
+g0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3
+MF19
 -->
