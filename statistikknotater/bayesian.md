@@ -454,7 +454,7 @@ We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
 Our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$
-* $\mu|1/\sigma^2=\mu|\phi=\textrm{Normal}(m_0, \sigma^2/n_0)=\textrm{Normal}(\mu, 1/(n_0\phi))$
+* $\mu|\phi=\mu|1/\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)=\textrm{Normal}(\mu, 1/(n_0\phi))$
 * $1/\sigma^2=\phi \sim \textrm{Gamma}(v_0/2, v_0 s_0/2)$
 
 (Note: 
@@ -561,7 +561,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzUwOTUzMCwtOTk2MTY4NTIwLDExOD
+eyJoaXN0b3J5IjpbMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExOD
 gxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4
 NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1Nj
 kwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MDA1NzIw
