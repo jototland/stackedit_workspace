@@ -397,16 +397,16 @@ If our prior is that
 * $\sigma$ is known
 * $\mu \sim \textrm{Normal}(\nu, \tau)$
 
+then after we update our believe with $n$ new observations with mean $\bar{x}$, our new posterior is
 
-The normal normal conjugate pair can only be used when $σ$ is known. $μ$ on the other hand is unknown, and is what we want to estimate. 
+* $X^* \sim \text
+* 
 
-Our prior is that $μ \sim \text{Normal}(ν,τ)$. Given $n$ new observations with mean $\bar{x}$, our new posterior is
+with
 
-$$ \begin{aligned}
-ν^* &= \frac{νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}  \\
-τ^* &= \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}
-\end{aligned}
-$$
+$ν^* = \frac{νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}$
+$τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}$
+
 
 ### Normal gamma conjugate pair
 
@@ -470,11 +470,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMDM1NTM0LDI0OTQ3Njc2MywxMjY4NT
-E5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEz
-Niw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMT
-M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
-NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
-gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
-MV19
+eyJoaXN0b3J5IjpbLTk5NzM0MjczOSwyNDk0NzY3NjMsMTI2OD
+UxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQx
+MzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMj
+EzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4
+MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNT
+E4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2NDI2NjAx
+MjFdfQ==
 -->
