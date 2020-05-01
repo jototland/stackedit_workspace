@@ -435,6 +435,10 @@ $$ (\mu, \frac{1}{\sigma^2}) =
 
 Then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
+$$ (\mu^*, \frac{1}{{\sigma^*}^2}) = 
+(\mu^*, \phi^*) \sim 
+\textrm{Normal}(m_n,\frac{\sigma^2}{n_0}) \cdot
+\textrm{Gamma}(\frac{v_0}{2}, \frac{v_0 s_0}{2}) $$
 
 
 
@@ -512,7 +516,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODY3NjgyNiw4NzcxMzk1MjgsLTU0MD
+eyJoaXN0b3J5IjpbLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MD
 A1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMs
 MTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01Nj
 ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
