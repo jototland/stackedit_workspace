@@ -430,14 +430,14 @@ we can write our prior as
 
 $$ (\mu, \frac{1}{\sigma^2}) = 
 (\mu, \phi) \sim 
-\textrm{Normal}(m_0,\frac{\sigma^2}{n_0}) \cdot
+\textrm{Normal}(m_0,\frac{1}{\phi\,n_0}) \cdot
 \textrm{Gamma}(\frac{v_0}{2}, \frac{v_0 s_0}{2}) $$
 
 Then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 $$ (\mu^*, \frac{1}{{\sigma^*}^2}) = 
 (\mu^*, \phi^*) \sim 
-\textrm{Normal}(m_n,\frac{\sigma^2}{n_0}) \cdot
+\textrm{Normal}(m_n,\frac{1}{\phi^*\,n_n}) \cdot
 \textrm{Gamma}(\frac{v_0}{2}, \frac{v_0 s_0}{2}) $$
 
 
@@ -516,11 +516,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MD
-A1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMs
-MTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01Nj
-ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
-OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMT
-Y2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUz
-MV19
+eyJoaXN0b3J5IjpbMTE2NzA4NTI3OSwtODM3MjA4MjQ3LDg3Nz
+EzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEz
+LDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOT
+kzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgz
+NSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLT
+Y2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUx
+NTYxXX0=
 -->
