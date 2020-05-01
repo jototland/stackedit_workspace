@@ -32,6 +32,20 @@ The Cauchy distribution is the t-distribution with degrees of freedom $ν=1$
 
 $$  p(t) = \frac{1}{σπ \left( 1+\frac{x-μ}{σ} \right)}$$
 
+
+
+The binomial distribution has *pmf*
+
+$$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
+
+The Beta distribution has *pdf*
+
+$$ \text{beta}(p;\alpha,\beta) = 
+\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
+\text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
+\sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
+
+
 ## Notation issues
 
 Big letters
@@ -298,16 +312,7 @@ with
 * $\alpha^*=\alpha+k$, and
 * $\beta^* = \beta + n - k$
 
-The binomial distribution has *pmf*
 
-$$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
-
-The Beta distribution has *pdf*
-
-$$ \text{beta}(p;\alpha,\beta) = 
-\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
-\text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
-\sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
 ### The gamma distribution is a conjugate prior for the Poisson distribution
 
@@ -317,7 +322,7 @@ If our prior is that
 * $\lambda\sim\text{Beta}(\alpha,\beta)$, or
 * $\lambda\sim\text{Beta}(k,\theta)$ 
 
-(both ways of parametrising Gamma distribution are common, $k=\alpha$, $\theta=1$)
+(both ways of parametrising Gamma distribution are common, $k=\alpha$, $\theta=1/\beta$)
 
 then after we update our belief with new data ($k_i$ successes in each of $n$ time periods), our posterior will be
 
@@ -430,7 +435,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDkxODgwOSwxMzk5Mzc0MjQ5LC01Nj
+eyJoaXN0b3J5IjpbLTc5Mjc0NDE5NCwxMzk5Mzc0MjQ5LC01Nj
 ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
 OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMT
 Y2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUz
