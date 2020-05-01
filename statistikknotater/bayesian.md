@@ -376,11 +376,13 @@ with
 
 The posterior mean is
 
-$$ \mu^* = \frac {\alpha^*} {\alpha^*+\beta^*} = 
+$$ E[p^*] = \frac {\alpha^*} {\alpha^*+\beta^*} = 
 \frac {\alpha+\beta} {\alpha+\beta+n} \cdot 
 \frac {\alpha} {\alpha+\beta} +
 \frac {n} {\alpha+\beta+n} \cdot
 \frac k n $$
+
+In other words, the posterior mean is a weighted average between the prior mean and $k/n$, where the weights are proportional
 
 ### The gamma distribution is a conjugate prior for the Poisson distribution
 
@@ -529,11 +531,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzNTkwMjU1LC0yNzg4MzQxOTEsMTkxNT
-UwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwx
-NTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAwNT
-cyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEy
-Njg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMT
-I0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTld
-fQ==
+eyJoaXN0b3J5IjpbLTQ2NzM4MjQ1MSwtMjc4ODM0MTkxLDE5MT
+U1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUs
+MTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMD
+U3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2Mywx
+MjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MT
+EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
+XX0=
 -->
