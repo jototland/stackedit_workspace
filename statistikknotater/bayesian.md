@@ -424,6 +424,12 @@ If our prior is that
 * $X \sim \textrm{Normal}(\mu, 1/\phi)$
 * $\phi \sim \textrm{Gamma}_{\alpha\beta}(v_o/2, v_os_o/2)$
 
+then after we update our belief with $n$ new observations, our new posterior is
+
+* $X^* \sim \textrm{Normal}(\mu, 1/\phi^*)$
+* $\phi \sim \textrm{Gamma}_{\alpha\beta}(v_o/2, v_os_o/2)$
+ 
+
 ### Normal gamma conjugate pair
 
 For the normal distribution, we already know the normal normal normal conjugate pair with fixed $\sigma$ and conditional prior
@@ -486,11 +492,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDA1NzIwNiwtNTQzMjgxMDk1LDE0ND
-U2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQz
-MiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MDM1OTgyLC0yNz
-U4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1
-MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNSwtMjY0MDQ3MTk5LD
-EzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5OTkwLDE0Mjk4Nzgz
-MTBdfQ==
+eyJoaXN0b3J5IjpbMTYwMzU4NTYyMSwtNTQwMDU3MjA2LC01ND
+MyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NTE5Njk0
+LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NT
+QwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkw
+MzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC
+0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5
+OTBdfQ==
 -->
