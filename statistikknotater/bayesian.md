@@ -441,7 +441,7 @@ $$
 
 The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\tau^2$.
 
-### The product of the Normal and the Gamma distribution is a conjugate prior for the Normal distribution
+### The Normal-Gamma distribution is a conjugate prior for the Normal distribution
 
 We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
 
@@ -559,7 +559,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDY0NjIwMywxMTg4MTkyMjUxLC0xNT
+eyJoaXN0b3J5IjpbMTQwOTM1MjU2MSwxMTg4MTkyMjUxLC0xNT
 U5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAz
 OTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04Mz
 cyMDgyNDcsODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5
