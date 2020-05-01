@@ -93,10 +93,11 @@ Which means that $k=α$ and $θ=\frac{1}{β}$.
 
 The parameters have names: 
  
- shape:
-: $\alpha$ or $k$
-rate
+ shape/rate:
+: $\alpha$ and $\beta$
 
+shape/scale
+: $k$ and $\theta$
 
 ## Notation issues
 
@@ -459,7 +460,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzM4NTU4OSwxMjY4NTE5Njk0LC0xNj
+eyJoaXN0b3J5IjpbMjA5NjU3ODczMywxMjY4NTE5Njk0LC0xNj
 c0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5
 ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC
 02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQw
