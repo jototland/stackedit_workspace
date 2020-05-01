@@ -41,11 +41,13 @@ $$
 
 ### Cauchy distribution
 
-The Cauchy distribution is the t-distribution with degrees of freedom $ν=1$
+The Cauchy distribution hs *pdf*. 
 
 $$  p(t) = \frac{1}{σπ \left( 1+\frac{x-μ}{σ} \right)}$$
 
-The mean and the variance is undefined.
+The mean and the variance is undefined. 
+
+The cauchis the t-distribution with degrees of freedom $ν=1$
 
 ### Beta distribution
 
@@ -452,11 +454,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4NDU2MzQzLDEzOTkzNzQyNDksLTU2MT
-EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
-LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNj
-YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
-LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
-Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
-MjI5XX0=
+eyJoaXN0b3J5IjpbLTczODk2ODk1MSwxMzk5Mzc0MjQ5LC01Nj
+ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
+OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMT
+Y2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUz
+MSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2ND
+I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
+NjIyOV19
 -->
