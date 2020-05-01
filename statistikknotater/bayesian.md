@@ -410,7 +410,8 @@ $τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}$
 
 An alternative notation would be:
 
-* $X \sim \textrm{Normal}(\mu, \sigma$
+* $X|\sigma \sim \textrm{Normal}(\mu, \sigma/n_0)$
+* 
 
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
 
@@ -485,7 +486,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTk2MDEwNCwtNTQzMjgxMDk1LDE0ND
+eyJoaXN0b3J5IjpbLTM5NTAzNTk1MCwtNTQzMjgxMDk1LDE0ND
 U2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQz
 MiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MDM1OTgyLC0yNz
 U4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1
