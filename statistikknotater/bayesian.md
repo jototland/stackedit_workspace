@@ -365,14 +365,14 @@ with
 If our prior is that 
 
 * $X\sim\text{Poisson}(\lambda)$, and 
-* $\lambda\sim\text{Beta}(\alpha,\beta)$, or $\lambda\sim\text{Beta}(k,\theta)$ 
+* $\lambda\sim\text{Gamma}(\alpha,\beta)$, or $\lambda\sim\text{Gamma}(k,\theta)$ 
 
 then after we update our belief with new data ($k_i$ successes in each of $n$ time periods), our posterior will be
 
 * $X\sim\text{Poisson}(\lambda^*)$, and 
-* $p^*\sim\text{Beta}(\alpha^*,\beta^*)$, 
+* $p^*\sim\text{Gamma}(\alpha^*,\beta^*)$, 
 
-If our prior belief is that $K \sim \text{Poisson}(λ)$, and we don't know $λ$ but assume  $λ \sim \text{Gamma}(α,β)$ then given $n$ time periods with $k_i$ successes in each period, our new posterior is
+with
 
 $$ \text{gamma}^*(p;α^*,β^*) \text{ or } \text{gamma}^*(p;k^*,θ^*) \\
 \text{with } α^*=α+\sum_{i=0}^{n}k_i \text{ and } β^*=β+n \\
@@ -453,11 +453,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzQ4Njk5NCwxMjY4NTE5Njk0LC0xNj
-c0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5
-ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC
-02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQw
-NDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MTgyMjk5OTAsMT
-QyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEyMSwtMTUwMTcy
-ODE3OV19
+eyJoaXN0b3J5IjpbMjM0MDM4NTE5LDEyNjg1MTk2OTQsLTE2Nz
+Q2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1NDAzNTk4
+MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAzNDEsLT
+Y2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLTI2NDA0
+NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5MCwxND
+I5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYwMTIxLC0xNTAxNzI4
+MTc5XX0=
 -->
