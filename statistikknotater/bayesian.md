@@ -51,7 +51,7 @@ $$
 
 The mean is only defined if $\nu>1$.
 
-The variance is only defined if $\nu>2.$
+The variance is only defined if $\nu>2.$ For the standardized t-distrubution, the variance is $\frac{\nu}/{\nu-2}
 
 ### Beta distribution
 
@@ -458,11 +458,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDg2MDI2MCwxMzk5Mzc0MjQ5LC01Nj
-ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
-OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMT
-Y2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUz
-MSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2ND
-I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
-NjIyOV19
+eyJoaXN0b3J5IjpbODkyNzE5MDA0LDEzOTkzNzQyNDksLTU2MT
+EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
+LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNj
+YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
+LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
+Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
+MjI5XX0=
 -->
