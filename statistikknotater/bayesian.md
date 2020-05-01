@@ -66,14 +66,14 @@ $$
 
 The Beta distribution has *pdf*
 
-$$ \text{beta}(p;\alpha,\beta) = 
+$$ \text{Beta}(p;\alpha,\beta) = 
 \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p^{\alpha-1}(1-p)^{\beta-1} \\
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
 The beta distribution is only defined for $p\in[0,1]$.
 
-An interesting special case: $\textrm{beta}(1,1)$ is the same as the uniform distribution. Higher $\alpha$ will make it grow on the right side, and higher $\beta$ on the left sside
+An interesting special case: $\textrm{Beta}(1,1)$ is the same as the uniform distribution. Higher $\alpha$ will make it grow on the right side, and higher $\beta$ on the left sside
 
 The beta distribution is the conjugate prior probability distribution for Bernoulli, binomial, negative binomial and geometric distribution (see below). 
 
@@ -81,17 +81,17 @@ The beta distribution is the conjugate prior probability distribution for Bernou
 
 The Gamma distribution has *pdf*
 
-$$ \text{gamma}(x;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βx} \\
+$$ \text{Gamma}(x;α,β)=\frac{β^α}{Γ(α)}p^{α-1}e^{-βx} \\
 \text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
 
 but can also be written as
 
-$$ \text{gamma}(x;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{x}{θ}} \\
+$$ \text{Gamma}(x;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{x}{θ}} \\
 \text{with } μ=kθ \text{ and } σ=θ\sqrt{k} $$
 
 Which means that $k=α$ and $θ=\frac{1}{β}$.
 
-The gamma distribution is only defined for $x\in\left[0,+\infty\right>$
+The Gamma distribution is only defined for $x\in\left[0,+\infty\right>$
 
 The parameters have names: 
  
@@ -471,11 +471,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU0MTk3MTksMjQ5NDc2NzYzLDEyNj
-g1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0
-MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLT
-IxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0
-ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMT
-UxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNjQyNjYw
-MTIxXX0=
+eyJoaXN0b3J5IjpbNzg0Mzk1NzM3LDI0OTQ3Njc2MywxMjY4NT
+E5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEz
+Niw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMT
+M1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgw
+NjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMxLDE1MT
+gyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0MjY2MDEy
+MV19
 -->
