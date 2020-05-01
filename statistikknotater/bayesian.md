@@ -374,7 +374,9 @@ with
 * $\alpha^*=\alpha+k$, and
 * $\beta^* = \beta + n - k$
 
+The posterior mean is
 
+$$ \mu^* = \frac{\alpha^*}{\alpha^*+\beta^*} = \frac{ $$
 
 ### The gamma distribution is a conjugate prior for the Poisson distribution
 
@@ -523,11 +525,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODgzNDE5MSwxOTE1NTA4NTM4LDk4NT
-Q1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1NjkwOTEzNjcs
-LTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MDA1NzIwNiwtNTQzMj
-gxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwt
-MTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MD
-M1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0
-MV19
+eyJoaXN0b3J5IjpbLTk1ODg4NDA0LC0yNzg4MzQxOTEsMTkxNT
+UwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwx
+NTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAwNT
+cyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEy
+Njg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMT
+I0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTld
+fQ==
 -->
