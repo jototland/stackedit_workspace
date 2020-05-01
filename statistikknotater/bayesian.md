@@ -52,6 +52,10 @@ $$ \text{beta}(p;\alpha,\beta) =
 \text{with } \mu=\frac{\alpha}{\alpha+\beta} \text{ and } 
 \sigma=\sqrt{\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}}$$
 
+The beta distribution is only defined on $[0,1]$.
+
+
+
 ### Gamma distribution
 
 The Gamma distribution has *pdf*
@@ -442,11 +446,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MjQxMTMzLDEzOTkzNzQyNDksLTU2MT
-EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
-LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNj
-YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
-LDE1MTgyMjk5OTAsMTQyOTg3ODMxMCw3OTg0Mjk1MjUsMTY0Mj
-Y2MDEyMSwtMTUwMTcyODE3OSwtODA4ODc0NzIwLC0yMTM3NTA2
-MjI5XX0=
+eyJoaXN0b3J5IjpbLTEzMzc3NjQ4MDcsMTM5OTM3NDI0OSwtNT
+YxMTI0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4
+OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLT
+E2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1
+MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNj
+QyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1
+MDYyMjldfQ==
 -->
