@@ -421,11 +421,13 @@ $$ \phi = 1/\sigma^2 $$
 
 If our prior is that
 
-* $X \sim \textrm{Normal}(\mu, \sigma)$
+* $X \sim \textrm{Normal}(\mu, \sigma^2)$
 * $\mu|\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)$
 * $1/\sigma=\phi \sim \textrm{Gamma}(v_0/2, v_0 s_0/2)$
 
 (we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here)
+
+Since $p(\mu, \sigma)=
 
 then after we update our belief with 
 
@@ -503,11 +505,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0Mz
-I4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQs
-LTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1ND
-AzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAz
-NDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLT
-I2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5
-MF19
+eyJoaXN0b3J5IjpbLTEzNjAxMTAwMDcsODc3MTM5NTI4LC01ND
+AwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYz
+LDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNT
+YxMTI0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4
+OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLT
+E2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1
+MzFdfQ==
 -->
