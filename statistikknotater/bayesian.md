@@ -432,7 +432,11 @@ with
 * $ν^* = (\nu\sigma^2+n\bar{x}\tau^2)/(\sigma^2+n\tau^2)$
 * $τ^* = \sqrt{(\sigma^2\tau^2)/(\sigma^2+n\tau^2)}$
 
-The *effective sample size* of the Normal conjugate distribution is 
+The posterior mean is 
+
+$$v^* = $$
+
+The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\tau^2$.
 
 ### The product of the Normal and the Gamma distribution is a conjugate prior for the Normal distribution
 
@@ -542,7 +546,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDY5MDI4NywtMjc4ODM0MTkxLDE5MT
+eyJoaXN0b3J5IjpbMTQ4OTU4NzM0MywtMjc4ODM0MTkxLDE5MT
 U1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUs
 MTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMD
 U3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2Mywx
