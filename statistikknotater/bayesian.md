@@ -459,10 +459,9 @@ Our prior is that
 
 (Note: 
 * we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here
-* $n_0$ scales $\sigma^2$ so it doesn't depend upon scale, $\tau=1\(n_0\phi)$)
+* $n_0$ scales $\sigma^2$ so it doesn't depend upon scale, $\tau=\sigma^2/n_0=1/(n_0\phi)$)
 
-
-we can write our prior as
+We can write our prior as
 
 $$ (\mu, \frac{1}{\sigma^2}) = 
 (\mu, \phi) \sim 
@@ -562,7 +561,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODUwNzgxNywxMTg4MTkyMjUxLC0xNT
+eyJoaXN0b3J5IjpbLTgyOTE3Mjk2MCwxMTg4MTkyMjUxLC0xNT
 U5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAz
 OTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04Mz
 cyMDgyNDcsODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5
