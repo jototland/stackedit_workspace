@@ -422,7 +422,7 @@ $$ \phi = 1/\sigma^2 $$
 If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, 1/\phi)$
-* 
+* $\phi \sim \textrm{Gamma}_{\alpha\beta}(v_o/2, v_os_o/2)$
 
 ### Normal gamma conjugate pair
 
@@ -486,7 +486,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTAzNTk1MCwtNTQzMjgxMDk1LDE0ND
+eyJoaXN0b3J5IjpbLTU0MDA1NzIwNiwtNTQzMjgxMDk1LDE0ND
 U2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQz
 MiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNTU0MDM1OTgyLC0yNz
 U4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5MDM0MSwtNjYyODQ1
