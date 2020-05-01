@@ -413,7 +413,11 @@ An alternative notation would be:
 * $X|\sigma \sim \textrm{Normal}(\mu, \sigma/n_0)$
 * 
 
+The product of the Normal and the Gamma distribution is a conjugate prior for the Normal distribution
+
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
+
+If our prior is that
 
 We define the *precision* $\phi$ of a normal distribution as
 
@@ -430,7 +434,8 @@ then after we update our belief with $n$ new observations, our new posterior is
 * $\phi^* \sim \textrm{Gamma}_{\alpha\beta}(v_n/2, v_n s_n/2)$
  
  with
-* $n_n = n_0 + n$
+* $v_n = v_0+n $
+* $s_n^2 = 1/$
 
 ### Normal gamma conjugate pair
 
@@ -494,11 +499,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYzMjU3MDUsLTU0MDA1NzIwNiwtNT
-QzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5
-NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQxMzYsNT
-U0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMjEzNTg5
-MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4MDYzNS
-wtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUzMSwxNTE4MjI5
-OTkwXX0=
+eyJoaXN0b3J5IjpbMjE5NjM0MjIwLC01NDAwNTcyMDYsLTU0Mz
+I4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQs
+LTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNTYxMTI0MTM2LDU1ND
+AzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4OTksLTIxMzU4OTAz
+NDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLTE2NjM0ODA2MzUsLT
+I2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1MzEsMTUxODIyOTk5
+MF19
 -->
