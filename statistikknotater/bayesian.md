@@ -91,6 +91,8 @@ $$ \text{gamma}(p;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{p}{θ}} \\
 
 Which means that $k=α$ and $θ=\frac{1}{β}$.
 
+The gamma distribution is only defined for $x\in[0,+\infty\$
+
 The parameters have names: 
  
  shape/rate:
@@ -460,7 +462,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjU3ODczMywxMjY4NTE5Njk0LC0xNj
+eyJoaXN0b3J5IjpbLTcwNzQzNDk1NCwxMjY4NTE5Njk0LC0xNj
 c0NjQ3NDMyLDEzOTkzNzQyNDksLTU2MTEyNDEzNiw1NTQwMzU5
 ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5LC0yMTM1ODkwMzQxLC
 02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNjYzNDgwNjM1LC0yNjQw
