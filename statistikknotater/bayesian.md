@@ -19,6 +19,8 @@ The binomial distribution has *pmf*
 
 $$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
 
+### Poisson distribution
+
 The Poisson distribution has *pmf*
 
 $$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
@@ -36,9 +38,7 @@ The Cauchy distribution is a special case of the t-distribution with degrees of 
 
 ### T-distribution
 
-
-
-and the standardized t-distribution ($μ=0$, $σ=1$) is
+The *pdf* for the standardized t-distribution is
 
 $$ p(t;ν)=
 \frac{Γ(\frac{ν+1}{2})}{Γ(\frac{ν}{2})σ\sqrt{πν}}\left(1+\frac{t^2}{ν}\right)^{-\frac{ν+1}{2}}
@@ -461,11 +461,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODI0NDc2NCwxMzk5Mzc0MjQ5LC01Nj
-ExMjQxMzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5
-OSwtMjEzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMT
-Y2MzQ4MDYzNSwtMjY0MDQ3MTk5LDEzMDI1MTU2MSwyNDM1NDUz
-MSwxNTE4MjI5OTkwLDE0Mjk4NzgzMTAsNzk4NDI5NTI1LDE2ND
-I2NjAxMjEsLTE1MDE3MjgxNzksLTgwODg3NDcyMCwtMjEzNzUw
-NjIyOV19
+eyJoaXN0b3J5IjpbLTE2NzQ2NDc0MzIsMTM5OTM3NDI0OSwtNT
+YxMTI0MTM2LDU1NDAzNTk4MiwtMjc1ODg0ODM1LDE3NDAzNzg4
+OTksLTIxMzU4OTAzNDEsLTY2Mjg0NTA3MCwtNjY1MDI2NDcsLT
+E2NjM0ODA2MzUsLTI2NDA0NzE5OSwxMzAyNTE1NjEsMjQzNTQ1
+MzEsMTUxODIyOTk5MCwxNDI5ODc4MzEwLDc5ODQyOTUyNSwxNj
+QyNjYwMTIxLC0xNTAxNzI4MTc5LC04MDg4NzQ3MjAsLTIxMzc1
+MDYyMjldfQ==
 -->
