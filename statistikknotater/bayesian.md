@@ -45,6 +45,8 @@ The Cauchy distribution is the t-distribution with degrees of freedom $ν=1$
 
 $$  p(t) = \frac{1}{σπ \left( 1+\frac{x-μ}{σ} \right)}$$
 
+The mean and the variance is undefined.
+
 ### Beta distribution
 
 The Beta distribution has *pdf*
@@ -450,7 +452,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MTkzOTMwLDEzOTkzNzQyNDksLTU2MT
+eyJoaXN0b3J5IjpbNzg4NDU2MzQzLDEzOTkzNzQyNDksLTU2MT
 EyNDEzNiw1NTQwMzU5ODIsLTI3NTg4NDgzNSwxNzQwMzc4ODk5
 LC0yMTM1ODkwMzQxLC02NjI4NDUwNzAsLTY2NTAyNjQ3LC0xNj
 YzNDgwNjM1LC0yNjQwNDcxOTksMTMwMjUxNTYxLDI0MzU0NTMx
