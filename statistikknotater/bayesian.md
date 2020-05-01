@@ -406,6 +406,8 @@ or
 * $k^*=k+\sum_{i=0}^{n}k_i$$
 * $θ^*=\frac{θ}{nθ+1}$
 
+The effective sample size of the Gamma distribution is 
+
 ### The normal distribution is a conjugate prior for the normal distribution, assuming constant $\sigma$
 
 If our prior is that
@@ -533,7 +535,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NDM2MjYxLC0yNzg4MzQxOTEsMTkxNT
+eyJoaXN0b3J5IjpbNTQyMjIzMTQ1LC0yNzg4MzQxOTEsMTkxNT
 UwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwx
 NTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAwNT
 cyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5NDc2NzYzLDEy
