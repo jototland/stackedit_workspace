@@ -409,6 +409,16 @@ $ν^* = \frac{νσ^2+n\bar{x}τ^2}{σ^2+nτ^2}$
 $τ^* = \sqrt{\frac{σ^2τ^2}{σ^2+nτ^2}}$
 
 ### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
+
+We define the *precision* $\phi$ of a normal distribution as
+
+$$ \phi = 1/\sigma^2 $$
+
+If our prior is that
+
+* $X \sim \textrm{Normal}(\mu, 1/\phi)$
+* 
+
 ### Normal gamma conjugate pair
 
 For the normal distribution, we already know the normal normal normal conjugate pair with fixed $\sigma$ and conditional prior
@@ -471,7 +481,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkzODA1NiwyNDk0NzY3NjMsMTI2OD
+eyJoaXN0b3J5IjpbLTU0MzI4MTA5NSwyNDk0NzY3NjMsMTI2OD
 UxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0MjQ5LC01NjExMjQx
 MzYsNTU0MDM1OTgyLC0yNzU4ODQ4MzUsMTc0MDM3ODg5OSwtMj
 EzNTg5MDM0MSwtNjYyODQ1MDcwLC02NjUwMjY0NywtMTY2MzQ4
