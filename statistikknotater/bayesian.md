@@ -499,9 +499,13 @@ f_{\mu, \phi}(\mu, \phi|&m_0,n_0, s_0^2, v_0)=  \\
 {\Gamma(\frac {v_0} 2)}
 \end{aligned}$$
 
-We define the distrubution family given by the *pdf* above as the NormalGamma distribution. It turns out that this is a conjugate prior for the Normal distribution. 
+We define the distrubution family given by the *pdf* above as the $\textrm{NormalGamma}$ distribution. It turns out that this is a conjugate prior for the Normal distribution. 
 
-If $X \sim \textrm{Normal}(\mu, \sigma^2)$ and $\mu, \sigma \sim \textrm{NormalGamma}(m_0, n_0, s_0^2, n_0)$ then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
+If 
+* $X \sim \textrm{Normal}(\mu, \sigma^2)$ and 
+* $\mu, \sigma \sim \textrm{NormalGamma}(m_0, n_0, s_0^2, n_0)$ 
+
+then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 ## Predictive inference
 
@@ -551,7 +555,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU5OTE3MSwtMTc2MDQyODY3OCwtNz
+eyJoaXN0b3J5IjpbLTg5NzIxMTQ2MywtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
 NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
 wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
