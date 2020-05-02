@@ -39,7 +39,7 @@ f(x) &= \textrm{Normal}(x\,|\,\mu, \sigma) \end{aligned}$$
 
 More typically, we drop the variables, and simply write
 
-$$ X \sim Normal(\mu, \sigma) $$
+$$ X \sim \textrm{Normal}(\mu, \sigma) $$
 
 which means that X is distributed by $\textrm{Normal}(\mu,\sigma)$ 
 
@@ -586,11 +586,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2MjU5ODIwLDE0MjgyMzExMzUsLTc2OD
-gxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAz
-ODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLT
-E4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgx
-OTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NT
-M4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1Njkw
-OTEzNjddfQ==
+eyJoaXN0b3J5IjpbLTIwNTU4ODYxMjgsMTQyODIzMTEzNSwtNz
+Y4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0
+MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5Mi
+wtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4
+ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MD
+g1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2
+OTA5MTM2N119
 -->
