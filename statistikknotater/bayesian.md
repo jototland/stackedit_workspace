@@ -525,6 +525,7 @@ From the posterior $m_n$ we observe that the *effective sample size* of the Norm
 We can also see from the posterior $s_n^2$ that it combines three sources of information: 
 
 * the sample variance times the degrees of freedom
+* the prior variance times the prior degrees of freedom
 * 
 
 ## Predictive inference
@@ -575,11 +576,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI0ODk0ODcsLTc2ODgxMzc3MiwtMT
-c2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0
-NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNz
-ksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1
-NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MD
-M5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgz
-NzIwODI0N119
+eyJoaXN0b3J5IjpbNzE2NDg1NDU0LC03Njg4MTM3NzIsLTE3Nj
+A0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3
+NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LD
+IwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5
+MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOT
+ksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04Mzcy
+MDgyNDddfQ==
 -->
