@@ -469,7 +469,7 @@ $$ \mu|\sigma^2 \sim \textrm{Normal}(\nu, \tau^2) $$
 
 We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$, and write
 
-$$ \mu|\phi,
+$$ \mu|\phi, n_0 \sim \textrm{Normal}(m_0, \frac 1 {n_0\phi}) $$
 
 
 We furthermore define 
@@ -594,11 +594,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk0OTkxOTksLTE3NjA0Mjg2NzgsLT
-c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
-Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
-QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
-Nzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mj
-g5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3
-MTM5NTI4XX0=
+eyJoaXN0b3J5IjpbMTYzMDY4OTM5NCwtMTc2MDQyODY3OCwtNz
+YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
+NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
+wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
+ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyOD
+ksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4Nzcx
+Mzk1MjhdfQ==
 -->
