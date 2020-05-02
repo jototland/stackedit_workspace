@@ -467,9 +467,13 @@ We already know that
 
 $$ \mu|\sigma^2 \sim \textrm{Normal}(\nu, \tau^2) $$
 
-We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$, and write
+We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$, and instead write
 
-$$ \mu|\phi n_0 \sim \textrm{Normal}(m_0, \frac 1 {n_0\phi}) $$
+$$ \mu|\phi \sim \textrm{Normal}(m_0, \frac 1 {n_0\phi}) $$
+
+And 
+
+$$ \phi \sim \textrm{Gamma}(\frac {v_0} 2) $$
 
 
 
@@ -521,7 +525,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTgwNjg4MSwtMTc2MDQyODY3OCwtNz
+eyJoaXN0b3J5IjpbMTQ5MjY1NjQxNCwtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
 NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
 wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
