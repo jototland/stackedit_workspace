@@ -526,7 +526,7 @@ We can also see from the posterior $s_n^2$ that it combines three sources of inf
 
 * the sample variance times the degrees of freedom
 * the prior variance times the prior degrees of freedom
-* 
+* the squared difference between posterior and prior mean
 
 ## Predictive inference
 
@@ -576,11 +576,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2NDg1NDU0LC03Njg4MTM3NzIsLTE3Nj
-A0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3
-NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LD
-IwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5
-MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOT
-ksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04Mzcy
-MDgyNDddfQ==
+eyJoaXN0b3J5IjpbMTYzMTYwNzUzOCwtNzY4ODEzNzcyLC0xNz
+YwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1
+NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OS
+wyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1
+OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMz
+k5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3
+MjA4MjQ3XX0=
 -->
