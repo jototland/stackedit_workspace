@@ -514,13 +514,14 @@ then after we update our belief with $n$ new observations with mean $\bar{x}$ an
 with
 
 $$\begin{aligned}
-m_n &= \frac {n_0 m_0 + n \bar{x}} {n_0+1} \\
+m_n &= \frac {n_0 m_0 + n \bar{x}} {n_0+n} \\
 n_n &= n_0 + 1 \\
 v_n &= v_0 + n \\
 s_n^2 &= \frac 1 {v_n} \left( s_{\bar x}^2(n-1) + s_0^2v_0 + \frac{n_0 n}{n_n}(\bar{x}-m_0)^2 \right)
 \end{aligned}$$
 
-From this we observe that the *effective sample size#
+From the posterior $m_n$ we observe that the *effective sample size* of the NormalGamma conjugate distribution is $n_0$.
+
 
 ## Predictive inference
 
@@ -570,11 +571,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDAxNzczMDgsLTc2ODgxMzc3MiwtMT
-c2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0
-NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNz
-ksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1
-NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MD
-M5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgz
-NzIwODI0N119
+eyJoaXN0b3J5IjpbLTg0OTc4NTQ4NSwtNzY4ODEzNzcyLC0xNz
+YwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1
+NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OS
+wyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1
+OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMz
+k5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3
+MjA4MjQ3XX0=
 -->
