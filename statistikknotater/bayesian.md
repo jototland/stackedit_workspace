@@ -528,7 +528,8 @@ We can also see from the posterior $s_n^2$ that it combines three sources of inf
 * the prior variance times the prior degrees of freedom
 * the squared difference between posterior and prior mean
 
-### The marginal distribution for $/m
+### The marginal distribution for $\mu$ from the Normal distribution is the t-distribution
+
 
 ## Predictive inference
 
@@ -578,7 +579,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDQ2ODQzMSwxNDI4MjMxMTM1LC03Nj
+eyJoaXN0b3J5IjpbMTIwMDcwNzEwNSwxNDI4MjMxMTM1LC03Nj
 g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
 MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
 0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
