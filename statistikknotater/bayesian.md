@@ -434,7 +434,7 @@ If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$
 * $\sigma$ is known
-* $\mu \sim \textrm{Normal}(\nu, \tau^2)$
+* $\mu| \sim \textrm{Normal}(\nu, \tau^2)$
 
 then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
@@ -582,11 +582,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMTkxOT
-A5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYxNjg1
-MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0MTkxLD
-E5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0
-MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNT
-QwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2
-M119
+eyJoaXN0b3J5IjpbLTEzMzg0MzEzMDcsLTQxNzQ1NzU5Myw0Mj
+gwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQz
+NDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MS
+wtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2
+NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LD
+g3NzEzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYy
+MTEzXX0=
 -->
