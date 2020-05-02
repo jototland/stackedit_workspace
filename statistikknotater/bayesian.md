@@ -457,10 +457,12 @@ The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\t
 
 ### The Normal-Gamma distribution is a conjugate prior for the Normal distribution
 
-We define 
+We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
+
+We furthermore define 
 
 $$\textrm{NormalGamma}(\mu, \phi| m, s, \alpha, \beta) = 
-\textrm{Normal}(\mu|\phi$$
+\textrm{Normal}(\mu,\frac 1 \phi$$
 
 Since 
 
@@ -468,7 +470,6 @@ $$ p(\mu, \sigma^2)=p(\mu|\sigma^2)p(\sigma^2) $$
 
 we can try to find a conjugate for the normal distribution as the product of the conjugate for the conditional distribution of $\mu$ given $\sigma$, and the marginal distribution for  $\sigma^2$.
 
-We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
 
 Our prior is that
 
@@ -580,11 +581,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzOTk1MTMsLTQxNzQ1NzU5Myw0MjgwNz
-M3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0
-LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMj
-c4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4
-OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3Nz
-EzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEz
-XX0=
+eyJoaXN0b3J5IjpbLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0Mj
+gwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQz
+NDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MS
+wtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2
+NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LD
+g3NzEzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYy
+MTEzXX0=
 -->
