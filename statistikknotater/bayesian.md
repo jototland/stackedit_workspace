@@ -394,9 +394,9 @@ The posterior mean is
 
 $$ E[p^*] = \frac {\alpha^*} {\alpha^*+\beta^*} = 
 \frac {\alpha+\beta} {\alpha+\beta+n} \cdot 
-\frac {\alpha} {\alpha+\beta} +
+{\color{blue}\frac {\alpha} {\alpha+\beta}} +
 \frac {n} {\alpha+\beta+n} \cdot
-\frac k n $$
+{\color{blue}\frac k n} $$
 
 In other words, the posterior mean is a weighted average between the prior mean and the evidence ($k/n$), where the weights are proportional to $\alpha+\beta$ for the prior mean and $n$ for the evidence. 
 
@@ -452,7 +452,7 @@ The posterior mean is
 
 $$v^* = 
 \frac {\sigma^2/\tau^2} {\sigma^2/\tau^2+n} \cdot {\color{blue}v} +
-\frac {n} {\sigma^2/\tau^2+n} \cdot \frac{\sum x_i}{n}
+\frac {n} {\sigma^2/\tau^2+n} \cdot {\color{blue}\frac{\sum x_i}{n}}
 $$
 
 The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\tau^2$.
@@ -578,7 +578,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcwNTE3NTMsMTkxOTA5OTE5MiwtMT
+eyJoaXN0b3J5IjpbLTE3NDAxNDg3NzAsMTkxOTA5OTE5MiwtMT
 g1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5
 MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1Mz
 gsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5
