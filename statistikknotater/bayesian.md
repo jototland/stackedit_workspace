@@ -501,14 +501,15 @@ f_{\mu, \phi}(\mu, \phi|&m_0,n_0, s_0^2, v_0)=  \\
 
 We define the distrubution family given by the *pdf* above as the $\textrm{NormalGamma}$ distribution. It turns out that this is a conjugate prior for the Normal distribution. 
 
-If 
+If our prior is that
+
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$ and 
 * $\mu, \sigma^2 \sim \textrm{NormalGamma}(m_0, n_0, s_0^2, n_0)$ 
 
 then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 * $X \sim \textrm{Normal}(\mu^*, {\sigma^*}^2)$ and 
-* $\mu^*, {\sigma^*}^2 \sim \textrm{NormalGamma}(m_0^2, n_0^2, {s_0^2, n_0)$ 
+* $\mu^*, {\sigma^*}^2 \sim \textrm{NormalGamma}(m_0^2, n_0^2, {s_0^*}^2, n_0^*)$ 
 
 ## Predictive inference
 
@@ -558,11 +559,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTMxNDM3MjAsLTE3NjA0Mjg2NzgsLT
-c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
-Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
-QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
-Nzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mj
-g5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3
-MTM5NTI4XX0=
+eyJoaXN0b3J5IjpbLTk5NjA5MzIxOCwtMTc2MDQyODY3OCwtNz
+YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
+NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
+wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
+ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyOD
+ksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4Nzcx
+Mzk1MjhdfQ==
 -->
