@@ -504,16 +504,18 @@ We define the distrubution family given by the *pdf* above as the $\textrm{Norma
 If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$ and 
-* $\mu, \sigma^2 \sim \textrm{NormalGamma}(m_0, n_0, s_0^2, n_0)$ 
+* $\mu, \sigma^2 \sim \textrm{NormalGamma}(m_0, n_0, s_0^2, v_0)$ 
 
 then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 * $X \sim \textrm{Normal}(\mu^*, {\sigma^*}^2)$ and 
-* $\mu^*, {\sigma^*}^2 \sim \textrm{NormalGamma}(m_n^2, n_n^2, s_n^2, n_n)$
+* $\mu^*, {\sigma^*}^2 \sim \textrm{NormalGamma}(m_n, n_n, s_n^2, v_n)$
 
 with
 
-* m_n
+$$\begin{aligned}
+m_n ^= 
+\end{aligned}$$
 
 ## Predictive inference
 
@@ -563,11 +565,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4OTY0NjA2LC0xNzYwNDI4Njc4LC03Nj
-AwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3
-NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC
-05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4
-ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OS
-wxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEz
-OTUyOF19
+eyJoaXN0b3J5IjpbLTE0Mjg0NTY3NDksLTE3NjA0Mjg2NzgsLT
+c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
+Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
+QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
+Nzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mj
+g5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3
+MTM5NTI4XX0=
 -->
