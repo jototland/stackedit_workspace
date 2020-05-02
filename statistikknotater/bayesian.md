@@ -481,7 +481,9 @@ $$ \phi \sim \textrm{Gamma}(\frac {v_0} 2, \frac {s_0^2v_0} 2) $$
 
 with *pdf*
 
-$$ f_{\phi}(\sigma^2|v_0,s_0) $$
+$$ f_{\phi}(\sigma^2|v_0,s_0) =
+\frac {{\frac {s_0^2 v_0} 2} ^}
+{} $$
 
 We define the NormalGamma distribution as
 
@@ -536,11 +538,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwODM2OTQ0LC0xNzYwNDI4Njc4LC03Nj
-AwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3
-NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC
-05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4
-ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OS
-wxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEz
-OTUyOF19
+eyJoaXN0b3J5IjpbMTM5OTAyNzg4MCwtMTc2MDQyODY3OCwtNz
+YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
+NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
+wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
+ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyOD
+ksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4Nzcx
+Mzk1MjhdfQ==
 -->
