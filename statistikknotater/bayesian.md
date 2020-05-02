@@ -59,20 +59,20 @@ $$ Γ(n) = (n-1)! $$
 
 The binomial distribution has *pmf*
 
-$$ \text{binom}(x;p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
+$$ \text{binom}(x|n,p)= \binom{n}{x}p^{x}(1-p)^{n-x} \\\text{with } \mu=np \text{ and } \sigma=\sqrt{np(1-p)} $$
 
 ### Poisson distribution
 
 The Poisson distribution has *pmf*
 
-$$ \text{poisson}(k;λ) = \frac{λ^k}{k!}e^{-λ} \\
+$$ \text{poisson}(k|λ) = \frac{λ^k}{k!}e^{-λ} \\
 \text{with } \mu = λ \text{ and } σ=\sqrt{λ} $$
 
 ### Normal distribution
 
 The normal distribution has *pdf*
 
-$$ \text{normal}(x;μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
+$$ \text{normal}(x|μ,σ) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
 
 ### Cauchy distribution
 
@@ -578,11 +578,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3ODEyNDU4LDIwNDczNDM0OTQsLTk5Nj
-E2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQx
-OTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1Nj
-YzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4
-LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5ND
-c2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0
-OV19
+eyJoaXN0b3J5IjpbLTE4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOT
+k2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgz
+NDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMT
+U2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1
+MjgsLTU0MDA1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyND
+k0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0
+MjQ5XX0=
 -->
