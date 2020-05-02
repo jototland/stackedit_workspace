@@ -474,7 +474,7 @@ $$ \mu|\phi \sim \textrm{Normal}(m_0, \frac 1 {n_0\phi}) $$
 with *pdf*
 
 $$ f_{\mu|\phi}(\mu|\phi, m_0,n_0) = 
-\sqrt {\frac {n_0}$$
+\sqrt {\frac {n_0 \phi} {2 \pi}} e^{(-\frac 1 2 n_0 \phi (\mu -m_0)} $$
 
 And 
 
@@ -533,7 +533,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzkxMTY0NSwtMTc2MDQyODY3OCwtNz
+eyJoaXN0b3J5IjpbLTMyODIzMDc1MSwtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
 NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
 wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
