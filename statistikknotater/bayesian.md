@@ -583,13 +583,13 @@ Monte Carlo methods are algorithms that rely on repeated sampling from distribut
 
 ### Monte Carlo sampling 
 
-Say you want to estimate $g(\phi)$. Generate lots of samples from
+Say you want to estimate $g(\phi)$. Generate lots of samples from whatever distribution $\phi$ has, such as $\phi_1, \ldots, \phi_N$. Our estimate is then $\hat{g(\phi\frac {} {}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDgyNzQwNywxMTk1MzQ5NzE2LDEwNj
-EyMzA5MDcsMTQyODIzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4
-Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5My
-w0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3
-MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1Mj
-U5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0
-OTk2NDI4OV19
+eyJoaXN0b3J5IjpbODI4NTA1Mzk3LDExOTUzNDk3MTYsMTA2MT
+IzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2
+NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLD
+QyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDcz
+NDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNT
+kxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5
+OTY0Mjg5XX0=
 -->
