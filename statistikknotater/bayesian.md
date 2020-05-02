@@ -581,9 +581,9 @@ Then we can try to minimize the expected loss.
 
 Monte Carlo methods are algorithms that rely on repeated sampling from distributions for making inferences.
 
-Monte Ca
+Monte Carlo 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3ODg3MzI0LDEwNjEyMzA5MDcsMTQyOD
+eyJoaXN0b3J5IjpbNDkzMzEyMzY5LDEwNjEyMzA5MDcsMTQyOD
 IzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4
 MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMT
 kxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYx
