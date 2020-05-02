@@ -593,10 +593,13 @@ $$\hat{g(\phi)} = \frac {\sum_{i=1}^{N} g(\phi_i)} {N}$$
 
 ## Predictive distributions
 
-T
+The predictive distribution is the expected distribution of data. There is a prior predictive distribution and a posterior predictive distribution.
+
+If $X$ is a random variable with *pdf* $f(x, \Theta)$, then 
+
 To select model parameters, use Monte Carlo sampling
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODU3NDkxNiw5MTcxNjk2NTAsMTE5NT
+eyJoaXN0b3J5IjpbMTQ2NDc5NzY3Nyw5MTcxNjk2NTAsMTE5NT
 M0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3
 MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC
 00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0
