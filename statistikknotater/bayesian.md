@@ -139,19 +139,15 @@ P(x\le X\le x+\delta\,|\,y\le Y\le y+\epsilon)
 
 Typically, any given probability distribution function will be a member of a family, such as the Normal distribution or the Binomial distribution. An actual probability distribution will be a parametrization of a probability distribution family.
 
-If $f$ is a probability distribution, describing the possible values of the random variable $X$
+If $f$ is a probability distribution from the Normal family, describing the possible values of the random variable $X$, we write
 
 $$ f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
 
-We typically write distributions without variables
+More typically, we drop the variables
 
 $$ X \sim Normal(\mu, \sigma) $$
 
-means that the probability distribution function $f$ describing the possible values of $X$ is
-
-$$ f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
-
-In this notation, the combination of the parameters $\mu$ and $\sigma$ together give a distribution. $\textrm{Normal}$ is just a family of distributions, and does not become a real distribution before parameters are put in. 
+which means that X is distributed by $\textrm{Normal}(\mu,\sigma)$ 
 
 ## The law of total probability, joint an marginal distributions
 
@@ -580,7 +576,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTk2MDQ1NiwyMDQ3MzQzNDk0LC05OT
+eyJoaXN0b3J5IjpbMTk3NTQ2OTMzOSwyMDQ3MzQzNDk0LC05OT
 YxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0
 MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNT
 Y2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUy
