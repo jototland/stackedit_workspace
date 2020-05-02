@@ -536,7 +536,7 @@ If
 
 then
 
-* $\mu \sim \textrm{StudentT}($
+* $\mu \sim \textrm{StudentT}(m, s^2/n, v)$
 
 ## Predictive inference
 
@@ -586,7 +586,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTA3OTg0MiwxNDI4MjMxMTM1LC03Nj
+eyJoaXN0b3J5IjpbMTcwNjU5MDIzMCwxNDI4MjMxMTM1LC03Nj
 g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
 MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
 0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
