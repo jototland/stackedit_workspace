@@ -432,15 +432,15 @@ The *effective sample size* of the Gamma distribution is $\beta$ (or $1/\theta$)
 
 If our prior is that
 
-* $X \sim \textrm{Normal}(\mu, \sigma)$
+* $X \sim \textrm{Normal}(\mu, \sigma^2)$
 * $\sigma$ is known
-* $\mu \sim \textrm{Normal}(\nu, \tau)$
+* $\mu \sim \textrm{Normal}(\nu, \tau^2)$
 
 then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
-* $X^* \sim \textrm{Normal}(\mu^*, \sigma)$
+* $X^* \sim \textrm{Normal}(\mu^*, \sigma^2)$
 * $\sigma$ is known
-* $\mu^* \sim \textrm{Normal}(\nu^*, \tau^*)$
+* $\mu^* \sim \textrm{Normal}(\nu^*, {\tau^*}^2)$
 
 with
 
@@ -582,11 +582,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NT
-Y0ODMzNzksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgxOTIy
-NTEsLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NTM4LD
-k4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1NjkwOTEz
-NjcsLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MDA1NzIwNiwtNT
-QzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5
-NF19
+eyJoaXN0b3J5IjpbLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMTkxOT
+A5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYxNjg1
+MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0MTkxLD
+E5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0
+MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNT
+QwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2
+M119
 -->
