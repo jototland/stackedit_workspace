@@ -475,7 +475,7 @@ with *pdf*
 $$ f_{\mu|\phi}(\mu|\phi, m_0,n_0) = 
 \sqrt {\frac {n_0 \phi} {2 \pi}} e^{\left(-\frac 1 2 n_0 \phi (\mu -m_0)\right)} $$
 
-It turns out that the conjugate prior for the inverse of the variance (the precision) is a Gamma distribution
+The inverse of the variance (the precision) can be modelled by a Gamma distribution
 
 $$ \phi \sim \textrm{Gamma}(\frac {v_0} 2, \frac {s_0^2v_0} 2) $$
 
@@ -499,9 +499,9 @@ f_{\mu, \phi}(\mu, \phi|&m_0,n_0, s_0^2, v_0)=  \\
 {\Gamma(\frac {v_0} 2)}
 \end{aligned}$$
 
-We define the distrubution family given by the *pdf* above as the $\textrm{NormalGamma}$ distribution. It turns out that this is a conjugate prior for the Normal distribution. 
+We define the distrubution family given by the *pdf* above as the $\textrm{NormalGamma}(m,n,s^2,v)$ distribution. 
 
-If our prior is that
+It turns out that this is a conjugate prior for the Normal distribution. If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$ and 
 * $\mu, \sigma^2 \sim \textrm{NormalGamma}(m_0, n_0, s_0^2, v_0)$ 
@@ -576,7 +576,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTYwNzUzOCwtNzY4ODEzNzcyLC0xNz
+eyJoaXN0b3J5IjpbMTQyODIzMTEzNSwtNzY4ODEzNzcyLC0xNz
 YwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1
 NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OS
 wyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1
