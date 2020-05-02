@@ -490,7 +490,9 @@ $$
 
 The joint *pdf* for $\mu, \phi$ is 
 
-$$ f_{\mu, \phi}(\mu, \phi|m_0,n_0, v_0, s_0 $$
+$$ f_{\mu, \phi}(\mu, \phi|m_0,n_0, s_0^2, v_0) = 
+e ^ {{-\frac \phi 2} n_0(\mu-m_0)^2 }
+ $$
 
 We define the NormalGamma distribution as
 
@@ -545,7 +547,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE1MjU3MjEsLTE3NjA0Mjg2NzgsLT
+eyJoaXN0b3J5IjpbLTEyOTMyNTUyMjksLTE3NjA0Mjg2NzgsLT
 c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
 Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
 QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
