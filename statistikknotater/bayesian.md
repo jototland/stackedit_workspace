@@ -461,6 +461,12 @@ The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\t
 
 We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
 
+The law of total probability states that
+
+$$ p(\mu,\sigma)=p(\mu|\sigma)p(\sigma)$$
+
+
+
 We furthermore define 
 
 $$\textrm{NormalGamma}(\mu, \phi| m, s, \alpha, \beta) = 
@@ -583,11 +589,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMj
-A2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5
-MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMC
-wxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkx
-NTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNS
-wxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAw
-NTcyMDZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTkwMTAwODksLTE3NjA0Mjg2NzgsLT
+c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
+Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
+QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
+Nzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mj
+g5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3
+MTM5NTI4XX0=
 -->
