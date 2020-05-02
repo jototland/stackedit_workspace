@@ -462,7 +462,7 @@ The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\t
 We define 
 
 $$\textrm{NormalGamma}(\mu, \phi| m, s, \alpha, \beta) = 
-\textrm{Normal}($$
+\textrm{Normal}(\mu|\phi$$
 
 Since 
 
@@ -582,11 +582,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTEzNDQyMzYsMTkxOTA5OTE5MiwtMT
-g1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5
-MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1Mz
-gsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5
-MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUyOCwtNTQwMDU3MjA2LC
-01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NTE5
-Njk0XX0=
+eyJoaXN0b3J5IjpbNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NT
+Y0ODMzNzksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgxOTIy
+NTEsLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NTM4LD
+k4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1NjkwOTEz
+NjcsLTgzNzIwODI0Nyw4NzcxMzk1MjgsLTU0MDA1NzIwNiwtNT
+QzMjgxMDk1LDE0NDU2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5
+NF19
 -->
