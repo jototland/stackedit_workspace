@@ -581,13 +581,15 @@ Then we can try to minimize the expected loss.
 
 Monte Carlo methods are algorithms that rely on repeated sampling from distributions for making inferences.
 
-Monte Carlo 
+### Monte Carlo sampling 
+
+Say you want to estimate $g(\phi)$. Generate lots of samples from
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0Mj
-gyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMw
-ODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLD
-E5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOTk2
-MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgzND
-E5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2
-NjM2NDI1XX0=
+eyJoaXN0b3J5IjpbMjAxMDgyNzQwNywxMTk1MzQ5NzE2LDEwNj
+EyMzA5MDcsMTQyODIzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4
+Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5My
+w0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3
+MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1Mj
+U5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0
+OTk2NDI4OV19
 -->
