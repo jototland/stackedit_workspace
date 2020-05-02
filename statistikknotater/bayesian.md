@@ -545,7 +545,7 @@ A credible interval is the Bayesian counterpart to a confidence interval. As opp
 If we want to find a 95% credible interval for the parameter $p$, that is any interval $[L,U]$ 
 where $P(L ≤ p ≤ U)=0.95$. 
 
-But we can do better. The *highest posterior density* (HPD) interval is the shortest credible interval.
+But we can do better. The *highest posterior density* (HPD) interval is the shortest credible interval. For analytical expressions, it is usually possible to find analytically, otherwise one must use simulation, 
 
 ## Loss functions
 
@@ -581,11 +581,11 @@ Then we can try to minimize the expected loss.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzMxNjA2NCwxMDYxMjMwOTA3LDE0Mj
-gyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMw
-ODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLD
-E5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOTk2
-MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgzND
-E5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2
-NjM2NDI1XX0=
+eyJoaXN0b3J5IjpbLTE3NDY5MTg5NjMsMTA2MTIzMDkwNywxND
+I4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAz
+MDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MS
+wxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5
+NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4Mz
+QxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1
+NjYzNjQyNV19
 -->
