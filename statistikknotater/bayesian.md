@@ -474,7 +474,7 @@ $$ \mu|\phi \sim \textrm{Normal}(m_0, \frac 1 {n_0\phi}) $$
 with *pdf*
 
 $$ f_{\mu|\phi}(\mu|\phi, m_0,n_0) = 
-\sqrt {\frac {n_0 \phi} {2 \pi}} e^{(-\frac 1 2 n_0 \phi (\mu -m_0)} $$
+\sqrt {\frac {n_0 \phi} {2 \pi}} e^{\left(-\frac 1 2 n_0 \phi (\mu -m_0)\right)} $$
 
 And 
 
@@ -533,11 +533,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODIzMDc1MSwtMTc2MDQyODY3OCwtNz
-YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
-NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
-wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
-ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyOD
-ksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4Nzcx
-Mzk1MjhdfQ==
+eyJoaXN0b3J5IjpbODg0NTE5Nzk3LC0xNzYwNDI4Njc4LC03Nj
+AwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3
+NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC
+05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4
+ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OS
+wxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEz
+OTUyOF19
 -->
