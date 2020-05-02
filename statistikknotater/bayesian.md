@@ -135,6 +135,12 @@ p(x\,|\,y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{ar
 P(x\le X\le x+\delta\,|\,y\le Y\le y+\epsilon)
 \end{aligned}$$
 
+### Distribution
+
+We typicall write distributions without variables
+
+$$ X \sim Normal(\mu, '$$
+
 ## The law of total probability, joint an marginal distributions
 
 ### Law of total probability with events
@@ -562,7 +568,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODY4OTM3NSwyMDQ3MzQzNDk0LC05OT
+eyJoaXN0b3J5IjpbLTYwMDk1Njc2MiwyMDQ3MzQzNDk0LC05OT
 YxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0
 MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNT
 Y2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUy
