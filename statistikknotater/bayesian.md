@@ -475,7 +475,7 @@ with *pdf*
 $$ f_{\mu|\phi}(\mu|\phi, m_0,n_0) = 
 \sqrt {\frac {n_0 \phi} {2 \pi}} e^{\left(-\frac 1 2 n_0 \phi (\mu -m_0)\right)} $$
 
-It turns out that  the marginal distribution of the inverse of the variance, the precision, is 
+It turns out that the conjugate prior for the inverse of the variance (the precision) is a Gamma distribution
 
 $$ \phi \sim \textrm{Gamma}(\frac {v_0} 2, \frac {s_0^2v_0} 2) $$
 
@@ -532,11 +532,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTEzNTg3OSwtMTc2MDQyODY3OCwtNz
-YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
-NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
-wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
-ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyOD
-ksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4Nzcx
-Mzk1MjhdfQ==
+eyJoaXN0b3J5IjpbLTE2OTAzMDE3NTMsLTE3NjA0Mjg2NzgsLT
+c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
+Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
+QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
+Nzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mj
+g5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3
+MTM5NTI4XX0=
 -->
