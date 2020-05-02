@@ -601,17 +601,17 @@ $$ \int f(x, \Theta)\,d\Theta $$
 
 An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is $X \sim \textrm{StudentT}(m, s^2/n, v)$
 
-It is possible to use Monte Carlo sampling to select model parameters for a prior distribution. The example in the book assumed a normal distribution with a NormalGamma conjugate. We estimated the mean and sample variance from the data, and tried to estimate the prior sample size (and prior degrees of freedom which is one less than the sample size). Then we ran several simulations were we chose a prior sample size, Monte Carlo sampled new data, and saw if it fit what we expected. We chose the prior sample size with best fit to our expectations. 
+It is possible to use Monte Carlo sampling to select model parameters for a prior distribution. The example in the book assumed a normal distribution with a NormalGamma conjugate. The range of the data was given, and they estimated the mean as the middle of the range, and varianceThen estimated the mean and sample variance from the information given about range, and tried to estimate the prior sample size (and prior degrees of freedom which is one less than the sample size). Then ran several simulations were we chose a prior sample size, Monte Carlo sampled new data, and saw if it fit what we expected. We chose the prior sample size with best fit to our expectations. 
 
 ## Reference priors
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NjcwMjM2LDQzMzg3Mjg0MCwxODM3Mj
-I3NjY1LDkxNzE2OTY1MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcs
-MTQyODIzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC03Nj
-AwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3
-NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC
-05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4
-ODM0MTkxXX0=
+eyJoaXN0b3J5IjpbLTk3OTIyNjM4NCw5MTY2NzAyMzYsNDMzOD
+cyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYs
+MTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3Nj
+A0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3
+NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LD
+IwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5
+MjUyNTkxXX0=
 -->
