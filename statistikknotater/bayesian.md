@@ -1,6 +1,48 @@
 
 # Bayesian statistics
 
+## Notation issues
+
+Big letters
+: Event $A$, probability function $P(A)$
+
+Small Letters
+: Value $x$, pmf or pdf $f(x)$
+
+For discrete random variables
+
+$$\begin{aligned}
+p(x) &= P(X=x) \\
+p(x,y) &= P(X=x\land Y=y) \\
+p(x\,|\,y) &= P(X=x\,|\,Y=y)
+\end{aligned}$$
+
+And for continuous random variables
+
+$$\begin{aligned}
+p(x) &= \lim_{\delta\to o}
+P(x\le X\le x+\delta) \\
+p(x,y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
+P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) \\
+p(x\,|\,y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
+P(x\le X\le x+\delta\,|\,y\le Y\le y+\epsilon)
+\end{aligned}$$
+
+### Notation for probability distributions
+
+Typically, any given probability distribution function will be a member of a family, such as the Normal distribution or the Binomial distribution. An actual probability distribution will be a parametrization of a probability distribution family.
+
+If $X$ is a random variable distributed with a probabilty distribution function $f$, which is a member of the Normal family, with parameters $\mu$ and $\sigma$, we write
+
+$$\begin{aligned} P(a \le X \le b) &= \int_a^b f(x)\,dx\\
+f(x) &= \textrm{Normal}(x\,|\,\mu, \sigma) \end{aligned}$$
+
+More typically, we drop the variables, and simply write
+
+$$ X \sim Normal(\mu, \sigma) $$
+
+which means that X is distributed by $\textrm{Normal}(\mu,\sigma)$ 
+
 ## Some math
 
 ### The gamma function
@@ -108,47 +150,6 @@ shape/scale
 
 The Gamma distribution is the conjugate prioer probability distribution for the Poisson distribution, and for the inverse of the marginal variance in the Normal distribution (see below).
 
-## Notation issues
-
-Big letters
-: Event $A$, probability function $P(A)$
-
-Small Letters
-: Value $x$, pmf or pdf $f(x)$
-
-For discrete random variables
-
-$$\begin{aligned}
-p(x) &= P(X=x) \\
-p(x,y) &= P(X=x\land Y=y) \\
-p(x\,|\,y) &= P(X=x\,|\,Y=y)
-\end{aligned}$$
-
-And for continuous random variables
-
-$$\begin{aligned}
-p(x) &= \lim_{\delta\to o}
-P(x\le X\le x+\delta) \\
-p(x,y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
-P(x\le X\le x+\delta\land y\le Y\le y+\epsilon) \\
-p(x\,|\,y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{array}}
-P(x\le X\le x+\delta\,|\,y\le Y\le y+\epsilon)
-\end{aligned}$$
-
-### Notation for probability distributions
-
-Typically, any given probability distribution function will be a member of a family, such as the Normal distribution or the Binomial distribution. An actual probability distribution will be a parametrization of a probability distribution family.
-
-If $X$ is a random variable distributed with a probabilty distribution function $f$, which is a member of the Normal family, with parameters $\mu$ and $\sigma$, we write
-
-$$/be P(a \le X \le b) = \int_a^b f(x)\,dx\\
-f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
-
-More typically, we drop the variables, and simply write
-
-$$ X \sim Normal(\mu, \sigma) $$
-
-which means that X is distributed by $\textrm{Normal}(\mu,\sigma)$ 
 
 ## The law of total probability, joint an marginal distributions
 
@@ -577,11 +578,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk1MTE0ODIsMjA0NzM0MzQ5NCwtOT
-k2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgz
-NDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMT
-U2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1
-MjgsLTU0MDA1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyND
-k0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0
-MjQ5XX0=
+eyJoaXN0b3J5IjpbNzE3ODEyNDU4LDIwNDczNDM0OTQsLTk5Nj
+E2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQx
+OTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1Nj
+YzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4
+LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5ND
+c2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0
+OV19
 -->
