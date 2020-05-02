@@ -595,15 +595,19 @@ $$\hat{g(\phi)} = \frac {\sum_{i=1}^{N} g(\phi_i)} {N}$$
 
 The predictive distribution is the expected distribution of data. There is a prior predictive distribution and a posterior predictive distribution.
 
-If $X$ is a random variable with *pdf* $f(x, \Theta)$, then 
+We can obtain the predictive distribu
+
+If $X$ is a random variable with *pdf* $f(x, \Theta)$, then the predictive distribution is
+
+$$ \int f(x, \Theta)\,d\Theta $$
 
 To select model parameters, use Monte Carlo sampling
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDc5NzY3Nyw5MTcxNjk2NTAsMTE5NT
-M0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3
-MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC
-00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0
-ODMzNzksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgxOTIyNT
-EsLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NTM4LDk4
-NTQ1MDM5OV19
+eyJoaXN0b3J5IjpbNzgwNjI4OTI4LDkxNzE2OTY1MCwxMTk1Mz
+Q5NzE2LDEwNjEyMzA5MDcsMTQyODIzMTEzNSwtNzY4ODEzNzcy
+LC0xNzYwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLT
+QxNzQ1NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4
+MzM3OSwyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MS
+wtMTU1OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1
+NDUwMzk5XX0=
 -->
