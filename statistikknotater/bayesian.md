@@ -482,8 +482,8 @@ $$ \phi \sim \textrm{Gamma}(\frac {v_0} 2, \frac {s_0^2v_0} 2) $$
 with *pdf*
 
 $$ f_{\phi}(\sigma^2|v_0,s_0) =
-\frac {{\frac {s_0^2 v_0} 2} ^}
-{} $$
+\frac {{\frac {s_0^2 v_0} 2} ^ {\frac {v_0} 2}}
+{\Gamma(\frac {v_0} 2)} $$
 
 We define the NormalGamma distribution as
 
@@ -538,7 +538,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTAyNzg4MCwtMTc2MDQyODY3OCwtNz
+eyJoaXN0b3J5IjpbMTMxMjQ4MzI1NCwtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
 NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
 wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
