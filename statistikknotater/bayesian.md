@@ -528,6 +528,8 @@ We can also see from the posterior $s_n^2$ that it combines three sources of inf
 * the prior variance times the prior degrees of freedom
 * the squared difference between posterior and prior mean
 
+### The marginal distribution for $/m
+
 ## Predictive inference
 
 We want to make an inference on random variable $X$ with *pdf* $f(x,θ)$. 
@@ -576,11 +578,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODIzMTEzNSwtNzY4ODEzNzcyLC0xNz
-YwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1
-NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OS
-wyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1
-OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMz
-k5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3
-MjA4MjQ3XX0=
+eyJoaXN0b3J5IjpbMTU0MDQ2ODQzMSwxNDI4MjMxMTM1LC03Nj
+g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
+MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
+0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
+MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwOD
+UzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5
+MDkxMzY3XX0=
 -->
