@@ -601,9 +601,9 @@ $$ \int f(x, \Theta)\,d\Theta $$
 
 An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is $X \sim \textrm{StudentT}(m, s^2/n, v)$
 
-It is possible to use Monte Carlo sampling to select model parameters for a prior distribution. The example in the book assumed a nor
+It is possible to use Monte Carlo sampling to select model parameters for a prior distribution. The example in the book assumed a normal distribution with a NormalGamma conjugate. We estimated the mean and sample variance from the data, and tried to estimate the prior sample size (and prior degrees of freedom which is one less than the sample size). Then we ran simulations 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTA4NTgwOCw0MzM4NzI4NDAsMTgzNz
+eyJoaXN0b3J5IjpbMTIwMTYwODg5Nyw0MzM4NzI4NDAsMTgzNz
 IyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3
 LDE0MjgyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
