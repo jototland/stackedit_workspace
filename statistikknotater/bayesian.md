@@ -601,13 +601,13 @@ $$ \int f(x, \Theta)\,d\Theta $$
 
 An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is $X \sim \textrm{StudentT}(m, s^2/n, v)$
 
-It is possible to use Monte Carlo sampling to select model parameters for a prior distribution.
+It is possible to use Monte Carlo sampling to select model parameters for a prior distribution. The example in the book assumed a nor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MT
-Y5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1
-LC03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMj
-A2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5
-MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMC
-wxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkx
-NTUwODUzOF19
+eyJoaXN0b3J5IjpbLTUwOTA4NTgwOCw0MzM4NzI4NDAsMTgzNz
+IyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3
+LDE0MjgyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNz
+YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
+NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
+wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
+ODgzNDE5MV19
 -->
