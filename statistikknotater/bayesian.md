@@ -586,9 +586,11 @@ $$
 
 Then we can try to minimize the expected loss.
 
-## Monte
+## Monte Carlo inference
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODY2NTc3NSwxNDI4MjMxMTM1LC03Nj
+eyJoaXN0b3J5IjpbMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Nj
 g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
 MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
 0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
