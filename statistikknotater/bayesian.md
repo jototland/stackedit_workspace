@@ -491,6 +491,7 @@ $$
 The joint *pdf* for $\mu, \phi$ is 
 
 $$ f_{\mu, \phi}(\mu, \phi|m_0,n_0, s_0^2, v_0) = 
+f_{\mu
 e ^ {{-\frac \phi 2} \left( n_0(\mu-m_0)^2 + s_0^2 v_0 \right)}
 \phi ^ {\frac {v_0-1} 2}
 \frac { \sqrt{\frac{n_0}{2 \pi}} {\frac {s_0^2 v_0} 2} ^ {\frac {v_0} 2} }
@@ -550,7 +551,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTg5MDczMiwtMTc2MDQyODY3OCwtNz
+eyJoaXN0b3J5IjpbMTk5NjQ4MjgzNiwtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
 NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
 wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
