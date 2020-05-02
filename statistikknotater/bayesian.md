@@ -462,7 +462,7 @@ The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\t
 By the definition of connditional probabilty
 $$ p(\mu,\sigma^2)=p(\mu|\sigma^2)p(\sigma^2)$$
 
-We already know that for normally distributed data with fixed variance, the mean is normally distri
+We already know that for normally distributed data with fixed variance, the conjugate prior for the mean is also normally distributed
 
 $$ \mu|\sigma^2 \sim \textrm{Normal}(\nu, \tau^2) $$
 
@@ -475,7 +475,7 @@ with *pdf*
 $$ f_{\mu|\phi}(\mu|\phi, m_0,n_0) = 
 \sqrt {\frac {n_0 \phi} {2 \pi}} e^{\left(-\frac 1 2 n_0 \phi (\mu -m_0)\right)} $$
 
-And 
+It turns out that  the marginal distribution of the inverse of the variance, the precision, is 
 
 $$ \phi \sim \textrm{Gamma}(\frac {v_0} 2, \frac {s_0^2v_0} 2) $$
 
@@ -532,7 +532,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODI4MDE5OSwtMTc2MDQyODY3OCwtNz
+eyJoaXN0b3J5IjpbLTY5NTEzNTg3OSwtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
 NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
 wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
