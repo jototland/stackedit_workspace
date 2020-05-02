@@ -501,8 +501,7 @@ f_{\mu, \phi}(\mu, \phi|&m_0,n_0, s_0^2, v_0)=  \\
 
 We define the distrubution family given by the *pdf* above as the NormalGamma distribution. It turns out that this is a conjugate prior for the Normal distribution. 
 
-$$ \textrm{NormalGamma}(\mu, \sigma^2|m_0, n_0, v_0, s_0) = 
-$$
+If $X \sim \textrm{Normal} 
 
 ## Predictive inference
 
@@ -552,11 +551,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNzQ5OTcwLC0xNzYwNDI4Njc4LC03Nj
-AwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3
-NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC
-05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4
-ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OS
-wxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEz
-OTUyOF19
+eyJoaXN0b3J5IjpbLTExNDg4NDc5MjAsLTE3NjA0Mjg2NzgsLT
+c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
+Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
+QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
+Nzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mj
+g5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3
+MTM5NTI4XX0=
 -->
