@@ -141,9 +141,10 @@ Typically, any given probability distribution function will be a member of a fam
 
 If $X$ is a random variable distributed with a probabilty distribution function $f$, which is a member of the Normal family, with parameters $\mu$ and $\sigma$, we write
 
-$$ P(f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
+$$/be P(a \le X \le b) = \int_a^b f(x)\,dx\\
+f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
 
-More typically, we drop the variables
+More typically, we drop the variables, and simply write
 
 $$ X \sim Normal(\mu, \sigma) $$
 
@@ -576,11 +577,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NTc0NjEzLDIwNDczNDM0OTQsLTk5Nj
-E2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQx
-OTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1Nj
-YzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4
-LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5ND
-c2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0
-OV19
+eyJoaXN0b3J5IjpbLTEyMzk1MTE0ODIsMjA0NzM0MzQ5NCwtOT
+k2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgz
+NDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMT
+U2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1
+MjgsLTU0MDA1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyND
+k0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0
+MjQ5XX0=
 -->
