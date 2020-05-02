@@ -517,7 +517,7 @@ $$\begin{aligned}
 m_n &= \frac {n_0 m_0 + n \bar{x}} {n_0+1} \\
 n_n &= n_0 + 1 \\
 v_n &= v_0 + n \\
-s_n^2 = \frac 1 [v_n} \left( s_0^2 (n-1) + \right)
+s_n^2 &= \frac 1 [v_n} 
 \end{aligned}$$
 
 ## Predictive inference
@@ -568,7 +568,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDA1NDg2MSwtNzY4ODEzNzcyLC0xNz
+eyJoaXN0b3J5IjpbMTc1MjkxNDgyNywtNzY4ODEzNzcyLC0xNz
 YwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1
 NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OS
 wyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1
