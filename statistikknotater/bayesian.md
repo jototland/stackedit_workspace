@@ -469,82 +469,9 @@ $$ \mu|\sigma^2 \sim \textrm{Normal}(\nu, \tau^2) $$
 
 We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$, and write
 
-$$ \mu|\phi, n_0 \sim \textrm{Normal}(m_0, \frac 1 {n_0\phi}) $$
+$$ \mu|\phi n_0 \sim \textrm{Normal}(m_0, \frac 1 {n_0\phi}) $$
 
 
-We furthermore define 
-
-$$\textrm{NormalGamma}(\mu, \phi| m, s, \alpha, \beta) = 
-\textrm{Normal}(\mu,\frac 1 \phi$$
-
-Since 
-
-$$ p(\mu, \sigma^2)=p(\mu|\sigma^2)p(\sigma^2) $$ 
-
-we can try to find a conjugate for the normal distribution as the product of the conjugate for the conditional distribution of $\mu$ given $\sigma$, and the marginal distribution for  $\sigma^2$.
-
-
-Our prior is that
-
-* $X \sim \textrm{Normal}(\mu, \sigma^2)$
-* $\mu|\phi=\mu|1/\sigma^2=\textrm{Normal}(m_0, \sigma^2/n_0)=\textrm{Normal}(\mu, 1/(n_0\phi))$
-* $1/\sigma^2=\phi \sim \textrm{Gamma}(v_0/2, v_0 s_0/2)$
-
-(Note: 
-* we use the shape/rate ($\alpha$/$\beta$) parametrization of Gamma here
-* $n_0$ scales $\sigma^2$ so it doesn't depend upon scale, $\tau=\sigma^2/n_0=1/(n_0\phi)$)
-
-We can write our prior as
-
-$$ (\mu, \frac{1}{\sigma^2}) = 
-(\mu, \phi) \sim 
-\textrm{Normal}(m_0,\frac{1}{\phi\,n_0}) \cdot
-\textrm{Gamma}(\frac{v_0}{2}, \frac{v_0 s_0}{2}) $$
-
-or as
-
-$$ (\mu, \frac{1}{\sigma^2}) = 
-(\mu, \phi) \sim 
-\textrm{NormalGamma}(m_0,\frac{1}{\phi\,n_0},\frac{v_0}{2}, \frac{v_0 s_0}{2}) $$
-
-$$  $$
-
-Then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
-
-$$ (\mu^*, \frac{1}{{\sigma^*}^2}) = 
-(\mu^*, \phi) \sim 
-\textrm{Normal}(m_n,\frac{1}{\phi\,n_n}) \cdot
-\textrm{Gamma}(\frac{v_n}{2}, \frac{v_n s_n}{2}) $$
-
-with 
-
-* d
-
-### The gamma distribution is a conjugate prior for the inverse of the standard deviation of the normal distribution
-
-
-then after we update our belief with $n$ new observations, our new posterior is
-
-* $X^* \sim \textrm{Normal}(\mu^*, 1/\phi^*)$
-* $\phi^* \sim \textrm{Gamma}_{\alpha\beta}(v_n/2, v_n s_n/2)$
- 
- with
-* $v_n = v_0+n $
-* $s_n^2 = 1/$
-
-### Normal gamma conjugate pair
-
-For the normal distribution, we already know the normal normal normal conjugate pair with fixed $\sigma$ and conditional prior
-
-$$ \mu | \sigma^2 \sim N(m_0, \sigma^2/n_0) $$
-
-We introduce *precision* $\phi$ as
-
-$$ \phi = 1/\sigma^2 $$
-
-A conjugate prior for $\phi$ is a Gamma distribution
-
-$$ \phi \sim \text{Gamma}(v_0/2, s_0^2v_0/2) $$
 
 ## Predictive inference
 
@@ -594,7 +521,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDY4OTM5NCwtMTc2MDQyODY3OCwtNz
+eyJoaXN0b3J5IjpbMTM3MTgwNjg4MSwtMTc2MDQyODY3OCwtNz
 YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
 NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
 wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
