@@ -139,9 +139,9 @@ P(x\le X\le x+\delta\,|\,y\le Y\le y+\epsilon)
 
 Typically, any given probability distribution function will be a member of a family, such as the Normal distribution or the Binomial distribution. An actual probability distribution will be a parametrization of a probability distribution family.
 
-If $f$ is a probability distribution from the Normal family, describing the possible values of the random variable $X$, we write
+If $X$ is a random variable distributed with a probabilty distribution function $f$, which is a member of the Normal family, with parameters $\mu$ and $\sigma$, we write
 
-$$ f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
+$$ P(f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
 
 More typically, we drop the variables
 
@@ -576,11 +576,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTQ2OTMzOSwyMDQ3MzQzNDk0LC05OT
-YxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0
-MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNT
-Y2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUy
-OCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OT
-Q3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQy
-NDldfQ==
+eyJoaXN0b3J5IjpbNDQ0NTc0NjEzLDIwNDczNDM0OTQsLTk5Nj
+E2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQx
+OTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1Nj
+YzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4
+LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxNDQ1NjIxMTMsMjQ5ND
+c2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0MzIsMTM5OTM3NDI0
+OV19
 -->
