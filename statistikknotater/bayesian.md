@@ -450,7 +450,7 @@ with
 
 The posterior mean is 
 
-$$v^* = 
+$$\nu^* = 
 \frac {\sigma^2/\tau^2} {\sigma^2/\tau^2+n} \cdot {\color{blue}v} +
 \frac {n} {\sigma^2/\tau^2+n} \cdot {\color{blue}\frac{\sum x_i}{n}}
 $$
@@ -568,11 +568,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNz
-YwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDcz
-NzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NC
-wtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3
-ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyOD
-ksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4Nzcx
-Mzk1MjhdfQ==
+eyJoaXN0b3J5IjpbLTgwNjA3Nzc2NywtNzY4ODEzNzcyLC0xNz
+YwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1
+NzU5Myw0MjgwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OS
+wyMDQ3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1
+OTI1MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMz
+k5LDQ0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3
+MjA4MjQ3XX0=
 -->
