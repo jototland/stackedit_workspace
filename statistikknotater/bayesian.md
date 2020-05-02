@@ -78,7 +78,7 @@ $$ \text{Normal}(x|\mu,\sigma^2) = \frac{e^{-{\frac{(x-\mu)^2}{2\sigma^2}}}}{\si
 
 The Cauchy distribution hs *pdf*. 
 
-$$  \textrm{Cauchy}(x|m,s) = \frac{1}{s\pi \left( 1+\frac{x-m}{s} \right)}$$
+$$  \textrm{Cauchy}(x|m,s^2) = \frac{1}{s\pi \left( 1+\frac{x-m}{s} \right)}$$
 
 The mean and the variance is undefined. 
 
@@ -88,7 +88,7 @@ The Cauchy distribution is a special case of the t-distribution with degrees of 
 
 The *pdf* for the standardized t-distribution is
 
-$$ p(t;\nu)=
+$$ \textrm{StudentT}(t|\nu)=
 \frac {\Gamma(\frac{\nu+1}{2})
 }{\Gamma(\frac{\nu}{2})\sqrt{\pi\nu}}
 \left(1+\frac{t^2}{\nu}\right)^{-(\nu+1)/2}
@@ -102,7 +102,7 @@ For the standardized t-distrubution, the variance is $\frac{\nu}{\nu-2}$.
 
 The *pdf* for the non-standardized t-distribution is
 
-$$ t(x; m, s, \nu) = 
+$$ \textrm{StudentT}(x| m, s^2, \nu) = 
 \frac {\Gamma(\frac{\nu+1}{2})} 
 {s\Gamma(\frac{\nu}{2})\sqrt{π\nu}}
 \left(1+\frac{1}{\nu} \left( \frac{x-m}{s}\right)^2 \right) ^ {-(\nu+1)/2}
@@ -578,11 +578,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MDcwNDc3LC0xODU2NDgzMzc5LDIwND
-czNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUy
-NTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksND
-Q5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgy
-NDcsODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxND
-Q1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0
-MzJdfQ==
+eyJoaXN0b3J5IjpbMTYxODMwNDk4OSwtMTg1NjQ4MzM3OSwyMD
+Q3MzQzNDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1
+MjU5MSwtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LD
+Q0OTk2NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4
+MjQ3LDg3NzEzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMT
+Q0NTYyMTEzLDI0OTQ3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3
+NDMyXX0=
 -->
