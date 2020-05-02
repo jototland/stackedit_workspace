@@ -538,15 +538,6 @@ then the marginal distribution of $\mu$ is
 
 * $\mu \sim \textrm{StudentT}(m, s^2/n, v)$
 
-## Predictive inference
-
-We want to make an inference on random variable $X$ with *pdf* $f(x,θ)$. 
-
-The prior distribution of $θ$ is $π(θ)$. To solve
-
-$$ P(X \le x)  = \int_{-\infty}^{\infty}P(X \le x|θ)\,π(θ)\,dθ 
-= \int_{-∞}^∞\int_{-∞}^x f(s|θ)\,ds\,p(θ)\,θ$$
-
 ## Credible interval
 
 A credible interval is the Bayesian counterpart to a confidence interval. As opposed to frequentist confidence intervals, with credible intervals we can actually say that the probability that a parameter is within the interval is 95%. 
@@ -590,11 +581,11 @@ Then we can try to minimize the expected loss.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Nj
-g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
-MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
-0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
-MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwOD
-UzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5
-MDkxMzY3XX0=
+eyJoaXN0b3J5IjpbLTQ4NzMxNjA2NCwxMDYxMjMwOTA3LDE0Mj
+gyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMw
+ODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLD
+E5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOTk2
+MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgzND
+E5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2
+NjM2NDI1XX0=
 -->
