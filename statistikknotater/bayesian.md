@@ -530,11 +530,11 @@ We can also see from the posterior $s_n^2$ that it combines three sources of inf
 
 ### The marginal distribution for $\mu$ from the Normal distribution is the t-distribution
 
-If 
+If the joint distribution of $\mu, \sigma$ is
 
 * $\mu, \phi \sim \textrm{NormalGamma}(m, n, s^2, v)$
 
-then
+then the marginal distribution of $\mu$ is
 
 * $\mu \sim \textrm{StudentT}(m, s^2/n, v)$
 
@@ -586,11 +586,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjU5MDIzMCwxNDI4MjMxMTM1LC03Nj
-g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
-MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
-0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
-MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwOD
-UzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5
-MDkxMzY3XX0=
+eyJoaXN0b3J5IjpbMjg2MjU5ODIwLDE0MjgyMzExMzUsLTc2OD
+gxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAz
+ODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLT
+E4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgx
+OTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NT
+M4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2NjM2NDI1LDE1Njkw
+OTEzNjddfQ==
 -->
