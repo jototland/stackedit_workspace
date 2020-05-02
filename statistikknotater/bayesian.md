@@ -133,10 +133,10 @@ $$ \text{Gamma}(x;\alpha,\beta)=\frac{\beta^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e
 
 but can also be written as
 
-$$ \text{Gamma}(x;k,θ)=\frac{1}{Γ(k)θ^k}p^{k-1}e^{-\frac{x}{θ}} \\
-\text{with } μ=kθ \text{ and } σ=θ\sqrt{k} $$
+$$ \text{Gamma}(x;k,\theta)=\frac{1}{\Gamma(k)\theta^k}x^{k-1}e^{-\frac{x}{\theta}} \\
+\text{with } \mu=k\theta \text{ and } \sigma=\theta\sqrt{k} $$
 
-Which means that $k=α$ and $θ=\frac{1}{β}$.
+Which means that $k=\alpha$ and $\theta=\frac{1}{\beta}$.
 
 The Gamma distribution is only defined for $x\in\left[0,+\infty\right>$
 
@@ -581,7 +581,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTM2MDQwOSwtMjA2MTQwMzgxOSwtND
+eyJoaXN0b3J5IjpbLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtND
 E3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgz
 Mzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC
 0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0
