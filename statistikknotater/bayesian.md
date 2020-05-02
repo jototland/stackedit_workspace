@@ -128,12 +128,14 @@ The Beta distribution is the conjugate prior probability distribution for Bernou
 
 The Gamma distribution has *pdf*
 
-$$ \text{Gamma}(x;\alpha,\beta)=\frac{\beta^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e^{-\beta x} \\
+$$ \text{Gamma}(x;\alpha,\beta)=
+\frac {\beta^\alpha} {\Gamma(\alpha)}x^{\alpha-1}e^{-\beta x} \\
 \text{with } μ=\frac{α}{β} \text{ and } σ=\frac{\sqrt{α}}{β} $$
 
 but can also be written as
 
-$$ \text{Gamma}(x;k,\theta)=\frac{1}{\Gamma(k)\theta^k}x^{k-1}e^{-\frac{x}{\theta}} \\
+$$ \text{Gamma}(x;k,\theta)=
+\frac {1} {\Gamma(k)\theta^k}x^{k-1}e^{-\frac{x}{\theta}} \\
 \text{with } \mu=k\theta \text{ and } \sigma=\theta\sqrt{k} $$
 
 Which means that $k=\alpha$ and $\theta=\frac{1}{\beta}$.
@@ -581,11 +583,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtND
-E3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgz
-Mzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC
-0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0
-NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC
-04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4
-MTA5NV19
+eyJoaXN0b3J5IjpbLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMj
+A2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5
+MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMC
+wxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkx
+NTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LDE1NjYzNjQyNS
+wxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5NTI4LC01NDAw
+NTcyMDZdfQ==
 -->
