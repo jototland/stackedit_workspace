@@ -515,7 +515,7 @@ with
 
 $$\begin{aligned}
 m_n &= \frac {n_0 m_0 + n \bar{x}} {n_0+n} \\
-n_n &= n_0 + 1 \\
+n_n &= n_0 + n \\
 v_n &= v_0 + n \\
 s_n^2 &= \frac 1 {v_n} \left( s_{\bar x}^2(n-1) + s_0^2v_0 + \frac{n_0 n}{n_n}(\bar{x}-m_0)^2 \right)
 \end{aligned}$$
@@ -583,11 +583,11 @@ Monte Carlo methods are algorithms that rely on repeated sampling from distribut
 
 Monte Carlo 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzMzEyMzY5LDEwNjEyMzA5MDcsMTQyOD
-IzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4
-MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMT
-kxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYx
-Njg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0MT
-kxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNTY2
-MzY0MjVdfQ==
+eyJoaXN0b3J5IjpbMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0Mj
+gyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMw
+ODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLD
+E5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOTk2
+MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgzND
+E5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMTU2
+NjM2NDI1XX0=
 -->
