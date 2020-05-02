@@ -137,7 +137,11 @@ P(x\le X\le x+\delta\,|\,y\le Y\le y+\epsilon)
 
 ### Notation for probability distributions
 
-Typically, any given probability distribution function will be a member of a family, such as the Normal distribution or the Binomial distribution. Ther
+Typically, any given probability distribution function will be a member of a family, such as the Normal distribution or the Binomial distribution. An actual probability distribution will be a parametrization of a probability distribution family.
+
+If $f$ is a probability distribution, describing the possible values of the random variable $X$
+
+$$ f(x) = \textrm{Normal}(x\,|\,\mu, \sigma) $$
 
 We typically write distributions without variables
 
@@ -576,7 +580,7 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzU2OTA0MSwyMDQ3MzQzNDk0LC05OT
+eyJoaXN0b3J5IjpbMTMwOTk2MDQ1NiwyMDQ3MzQzNDk0LC05OT
 YxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0
 MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNT
 Y2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUy
