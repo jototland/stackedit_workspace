@@ -135,11 +135,15 @@ p(x\,|\,y) &= \lim_{\scriptsize\begin{array}{c}\delta\to 0\\\epsilon\to 0\end{ar
 P(x\le X\le x+\delta\,|\,y\le Y\le y+\epsilon)
 \end{aligned}$$
 
-### Distribution
+### Notation for probability distributions
 
-We typicall write distributions without variables
+We typically write distributions without variables
 
-$$ X \sim Normal(\mu, '$$
+$$ X \sim Normal(\mu, \sigma) $$
+
+means that the probability distribution function $f$ describing the possible values of $X$ is
+
+$$ f(x) =  $$
 
 ## The law of total probability, joint an marginal distributions
 
@@ -568,11 +572,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDk1Njc2MiwyMDQ3MzQzNDk0LC05OT
-YxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMjc4ODM0
-MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4OSwxNT
-Y2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3NzEzOTUy
-OCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEzLDI0OT
-Q3Njc2MywxMjY4NTE5Njk0LC0xNjc0NjQ3NDMyLDEzOTkzNzQy
-NDldfQ==
+eyJoaXN0b3J5IjpbLTE4MjkzNDE1MjEsMjA0NzM0MzQ5NCwtOT
+k2MTY4NTIwLDExODgxOTIyNTEsLTE1NTkyNTI1OTEsLTI3ODgz
+NDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OSw0NDk5NjQyODksMT
+U2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIwODI0Nyw4NzcxMzk1
+MjgsLTU0MDA1NzIwNiwtNTQzMjgxMDk1LDE0NDU2MjExMywyND
+k0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0NzQzMiwxMzk5Mzc0
+MjQ5XX0=
 -->
