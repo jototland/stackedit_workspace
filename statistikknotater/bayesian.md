@@ -599,13 +599,15 @@ We can obtain the predictive distribution from the joint distribution of the dat
 
 $$ \int f(x, \Theta)\,d\Theta $$
 
+An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is $X \sim \textrm{StudentT}(m, n
+
 To select model parameters, use Monte Carlo sampling
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI2MTE0NDQsOTE3MTY5NjUwLDExOT
-UzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3
-NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOS
-wtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2
-NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMj
-UxLC0xNTU5MjUyNTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5
-ODU0NTAzOTldfQ==
+eyJoaXN0b3J5IjpbMTAwNjE3NjQzOCw5MTcxNjk2NTAsMTE5NT
+M0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3
+MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC
+00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0
+ODMzNzksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgxOTIyNT
+EsLTE1NTkyNTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NTM4LDk4
+NTQ1MDM5OV19
 -->
