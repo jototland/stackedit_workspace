@@ -435,12 +435,12 @@ The *effective sample size* of the Gamma distribution is $\beta$ (or $1/\theta$)
 Assume $\sigma$ is known. If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$
-* $\mu|\sigma \sim \textrm{Normal}(\nu, \tau^2)$
+* $\mu|\sigma^2 \sim \textrm{Normal}(\nu, \tau^2)$
 
 then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 * $X^* \sim \textrm{Normal}(\mu^*, \sigma^2)$
-* $\mu^*|\sigma \sim \textrm{Normal}(\nu^*, {\tau^*}^2)$
+* $\mu^*|\sigma^2 \sim \textrm{Normal}(\nu^*, {\tau^*}^2)$
 
 with
 
@@ -461,13 +461,15 @@ The *effective sample size* of the Normal conjugate distribution is $\sigma^2/\t
 
 The law of total probability states that
 
-$$ p(\mu,\sigma)=p(\mu|\sigma)p(\sigma)$$
+$$ p(\mu,\sigma^2)=p(\mu|\sigma^2)p(\sigma^2)$$
 
 We already know that
 
-$$ \mu|\sigma \sim \textrm{Normal}(\nu, \tau) $$
+$$ \mu|\sigma^2 \sim \textrm{Normal}(\nu, \tau^2) $$
 
-We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$
+We define the *precision* $\phi$ of a normal distribution as $\phi = 1/\sigma^2$, and write
+
+$$ \mu|\phi,
 
 
 We furthermore define 
@@ -592,11 +594,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMjExMDYsLTE3NjA0Mjg2NzgsLTc2MD
-AzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1
-MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLT
-k5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0yNzg4
-MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mjg5LD
-E1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3MTM5
-NTI4XX0=
+eyJoaXN0b3J5IjpbLTE5Mjk0OTkxOTksLTE3NjA0Mjg2NzgsLT
+c2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3
+Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OT
+QsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUyNTkxLC0y
+Nzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksNDQ5OTY0Mj
+g5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgyNDcsODc3
+MTM5NTI4XX0=
 -->
