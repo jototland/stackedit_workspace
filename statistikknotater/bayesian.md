@@ -430,17 +430,15 @@ The *effective sample size* of the Gamma distribution is $\beta$ (or $1/\theta$)
 
 ### The normal distribution is a conjugate prior for the normal distribution, assuming constant $\sigma$
 
-If our prior is that
+Assume $\sigma$ is known. If our prior is that
 
 * $X \sim \textrm{Normal}(\mu, \sigma^2)$
-* $\sigma$ is known
-* $\mu| \sim \textrm{Normal}(\nu, \tau^2)$
+* $\mu|\sigma \sim \textrm{Normal}(\nu, \tau^2)$
 
 then after we update our belief with $n$ new observations with mean $\bar{x}$, our new posterior is
 
 * $X^* \sim \textrm{Normal}(\mu^*, \sigma^2)$
-* $\sigma$ is known
-* $\mu^* \sim \textrm{Normal}(\nu^*, {\tau^*}^2)$
+* $\mu^*|\sigma \sim \textrm{Normal}(\nu^*, {\tau^*}^2)$
 
 with
 
@@ -582,11 +580,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg0MzEzMDcsLTQxNzQ1NzU5Myw0Mj
-gwNzM3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQz
-NDk0LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MS
-wtMjc4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2
-NDI4OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LD
-g3NzEzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYy
-MTEzXX0=
+eyJoaXN0b3J5IjpbNzYzOTk1MTMsLTQxNzQ1NzU5Myw0MjgwNz
+M3NTEsMTkxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0
+LC05OTYxNjg1MjAsMTE4ODE5MjI1MSwtMTU1OTI1MjU5MSwtMj
+c4ODM0MTkxLDE5MTU1MDg1MzgsOTg1NDUwMzk5LDQ0OTk2NDI4
+OSwxNTY2MzY0MjUsMTU2OTA5MTM2NywtODM3MjA4MjQ3LDg3Nz
+EzOTUyOCwtNTQwMDU3MjA2LC01NDMyODEwOTUsMTQ0NTYyMTEz
+XX0=
 -->
