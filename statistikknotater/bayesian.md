@@ -72,7 +72,7 @@ $$ \text{poisson}(k|λ) = \frac{λ^k}{k!}e^{-λ} \\
 
 The normal distribution has *pdf*
 
-$$ \text{normal}(x|\mu,\sigma^2) = \frac{e^{-{\frac{(x-θ)^2}{2σ^2}}}}{σ\sqrt{2π}} $$
+$$ \text{Normal}(x|\mu,\sigma^2) = \frac{e^{-{\frac{(x-\mu)^2}{2\sigma^2}}}}{\sigma\sqrt{2\pi}} $$
 
 ### Cauchy distribution
 
@@ -578,11 +578,11 @@ $$
 
 Then we can try to minimize the expected loss.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ1NDcwMjIsLTE4NTY0ODMzNzksMj
-A0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgxOTIyNTEsLTE1NTky
-NTI1OTEsLTI3ODgzNDE5MSwxOTE1NTA4NTM4LDk4NTQ1MDM5OS
-w0NDk5NjQyODksMTU2NjM2NDI1LDE1NjkwOTEzNjcsLTgzNzIw
-ODI0Nyw4NzcxMzk1MjgsLTU0MDA1NzIwNiwtNTQzMjgxMDk1LD
-E0NDU2MjExMywyNDk0NzY3NjMsMTI2ODUxOTY5NCwtMTY3NDY0
-NzQzMl19
+eyJoaXN0b3J5IjpbMjI1MDcwNDc3LC0xODU2NDgzMzc5LDIwND
+czNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTkyMjUxLC0xNTU5MjUy
+NTkxLC0yNzg4MzQxOTEsMTkxNTUwODUzOCw5ODU0NTAzOTksND
+Q5OTY0Mjg5LDE1NjYzNjQyNSwxNTY5MDkxMzY3LC04MzcyMDgy
+NDcsODc3MTM5NTI4LC01NDAwNTcyMDYsLTU0MzI4MTA5NSwxND
+Q1NjIxMTMsMjQ5NDc2NzYzLDEyNjg1MTk2OTQsLTE2NzQ2NDc0
+MzJdfQ==
 -->
