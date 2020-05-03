@@ -536,10 +536,10 @@ If the joint distribution of $\mu, \sigma$ is
 
 then the marginal distribution of $\mu$ is
 
-$$ \mu \sim \int_{0}^{\infty}\textrm{NormalGamma}(\mu,\phi|m, n,s^2, v)d\phi \\
-=\mu \sim \textrm{StudentT}(m, s^2/n, v)$$
-
-* $\mu \sim \textrm{StudentT}(m, s^2/n, v)$
+$$\begin{aligned}
+ \mu \sim & \int_{0}^{\infty}\textrm{NormalGamma}(\mu,\phi|m, n,s^2, v)d\phi \\
+= & \textrm{StudentT}(m, s^2/n, v)
+\end{aligned}$$
 
 ## Credible interval
 
@@ -636,7 +636,7 @@ s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\b
 
 which is kind of what we wanted anyway. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTM5NzAzNiwxODQxNzQyODk5LDgzNz
+eyJoaXN0b3J5IjpbMTAzMTI4NjE0MSwxODQxNzQyODk5LDgzNz
 EwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIz
 Niw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NT
 M0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3
