@@ -727,10 +727,11 @@ and use as our prior
 
 $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
+We can choose $n_0$ depending upon the effect size we want to see. For example, if we want an effect size of 0.03, we choose $n_0$ such that
 
-T
+$$ n_0 = (1.96\sigma/ $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTA5ODY2OSw5MDkzOTkwNywtMTU3Mj
+eyJoaXN0b3J5IjpbMTY0MDkyMjMzOSw5MDkzOTkwNywtMTU3Mj
 IyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3
 OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC
 02MDQ1MzM1ODYsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0
