@@ -536,7 +536,8 @@ If the joint distribution of $\mu, \sigma$ is
 
 then the marginal distribution of $\mu$ is
 
-$$ \int_{-\infty}^{\infty}\textrm{NormalGamma} $$
+$$ \mu \sim \int_{0}^{\infty}\textrm{NormalGamma}(\mu,\phi|m, n,s^2, v)d\phi \\
+=\mu \sim \textrm{StudentT}(m, s^2/n, v)$$
 
 * $\mu \sim \textrm{StudentT}(m, s^2/n, v)$
 
@@ -635,11 +636,11 @@ s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\b
 
 which is kind of what we wanted anyway. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ5NjgxNjIsMTg0MTc0Mjg5OSw4Mz
-cxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAy
-MzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOT
-UzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3
-NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOS
-wtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2
-NDgzMzc5XX0=
+eyJoaXN0b3J5IjpbMTMwMTM5NzAzNiwxODQxNzQyODk5LDgzNz
+EwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIz
+Niw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NT
+M0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3
+MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC
+00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0
+ODMzNzldfQ==
 -->
