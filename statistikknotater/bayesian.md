@@ -727,15 +727,15 @@ and use as our prior
 
 $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
-We can choose $n_0$ depending upon the effect size we want to see. For example, if we want an effect size of 0.03, we choose $n_0$ such that
+We can choose $n_0$ depending upon the effect size we want to see. A sane default is $1$, but if we expect small effects, we can choose a larger $n_0$. For example, if we want an effect size of 0.03, we choose $n_0$ such that
 
 $$ n_0 = (1.96\sigma/0.03)^2 = 32.7^2 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1Nz
-IyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgy
-Nzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNy
-wtNjA0NTMzNTg2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1
-NDA5MzIsLTE5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMz
-k0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwx
-OTEzNzY1NzUxXX0=
+eyJoaXN0b3J5IjpbLTE3Mzk3Njg5MDIsLTExNzM1NjU1OTQsOT
+A5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1
+OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5Ny
+wtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5NDQsLTYx
+MDM2Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0MDQ4MT
+YzMTQsMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwt
+MTQ1MjkyMDIwMV19
 -->
