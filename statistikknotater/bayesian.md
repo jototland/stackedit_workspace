@@ -688,12 +688,20 @@ Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note
 ### Jeffreys  Zellner-Siow Cauchy prior
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
+
+## Use of the `statsr`  package
+
+Tap water example with Cauchy prior
+
+`bayes_inference(y=tthm, data=tapwater, statistic="mean",
+mu_0=35, rscale=1, prior="JZS",
+type="ci"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMT
-g3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEz
-MDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5ND
-QsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0
-MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNT
-A5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0
-MzM4NzI4NDBdfQ==
+eyJoaXN0b3J5IjpbMjY1OTgzNjYyLC0xNTcyMjI0MDMyLC0xOD
+QwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0
+NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4Ni
+wxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcx
+MTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mj
+g5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5
+MTY2NzAyMzZdfQ==
 -->
