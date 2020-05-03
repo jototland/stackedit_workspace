@@ -673,15 +673,16 @@ If we are able to generate samples from several conditional distributions in ord
 
 ### Jeffreys  Zellner-Siow Cauchy prior
 
+The textbook really doesn't explain this well. 
 If we use a 
 A Cauchy prior 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDUzMzU4NiwxNjA3MjExOTQ0LC02MT
-AzNjc5ODEsNzM2NTQwOTMyLC0xOTcxMTk3OTkzLC0xNDA0ODE2
-MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLT
-E0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcy
-ODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMT
-A2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0
-Mjg2NzhdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzg4OTcwMzcsLTYwNDUzMzU4NiwxNj
+A3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcxMTk3
+OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OS
+w4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2
+NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLD
+ExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4
+MTM3NzJdfQ==
 -->
