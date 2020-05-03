@@ -757,19 +757,20 @@ Using the `statsr`  package:
 	## P(H1|data) = 0.0193  P(H2|data) = 0.9807 
 
 
-### Hypothesis testing two independent means
+### Hypothesis testing two independent means, equal variance both groups
 
 	bayes_inference(y=gained, x=mature, data=nc, type="ht",
 					statistic="mean", alternative="twosided", null=0,
 					prior="JZS", r=1, method="theo", show_summ=FALSE)
 
+	## Priors: P(H1) = 0.5  P(H2) = 0.5 
 	## Results:
 	## BF[H1:H2] = 5.7162
 	## P(H1|data) = 0.8511 
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1MTcwNDc4LC0xODUyNzM1ODY2LC0xNz
+eyJoaXN0b3J5IjpbMTQyNTUzOTEwLC0xODUyNzM1ODY2LC0xNz
 UyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0
 OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNT
 cyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4
