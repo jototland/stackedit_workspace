@@ -691,19 +691,21 @@ Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook re
 
 ## Use of the `statsr`  package
 
-Tap water example with Cauchy prior (find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
+Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
 
 	bayes_inference(y=tthm, data=tapwater, statistic="mean",
 					mu_0=35, rscale=1, prior="JZS",
 					type="ci", method="sim")
 
+Hypothesis testing for $\mu \stackrel{?}{=}m_0$
 
+* H1: $\mu=m_0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQ5NTQwMjIsLTE1NzIyMjQwMzIsLT
-E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
-MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNT
-g2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5
-NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNz
-QyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUx
-LDkxNjY3MDIzNl19
+eyJoaXN0b3J5IjpbMzM3OTE2MzQ3LC0xNTcyMjI0MDMyLC0xOD
+QwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0
+NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4Ni
+wxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcx
+MTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mj
+g5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5
+MTY2NzAyMzZdfQ==
 -->
