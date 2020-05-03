@@ -747,18 +747,20 @@ Using the `statsr`  package:
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
+			
+		
 
 ### Hypothesis testing two independent means
 
 	 bayes_inference(y=gained, x=mature, data=nc, type="ht",
 					 statistic="mean", alternative="twosided", null=0,
-					 prior="JZS", r=
+					 prior="JZS", r=1, method="theo", show_summ=FALSE)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwNTY0Mjk1LC0xODUyNzM1ODY2LC0xNz
-UyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0
-OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNT
-cyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4
-Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMz
-csLTYwNDUzMzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2
-NTQwOTMyXX0=
+eyJoaXN0b3J5IjpbLTUyODAwNzk3NywtMTg1MjczNTg2NiwtMT
+c1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1
+NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMT
+U3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2
+ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MD
+M3LC02MDQ1MzM1ODYsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDcz
+NjU0MDkzMl19
 -->
