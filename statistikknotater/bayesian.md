@@ -698,7 +698,7 @@ Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffrey
 					mu_0=35, rscale=1, prior="JZS",
 					type="ci", method="sim")
 
-### Hypothesis testing for $\mu \stackrel{?}{=}m_0$
+### Hypothesis testing for $\mu \stackrel{?}{=}m_0$, known variance
 
 * $H_1$: $\mu=m_0$
 * $H_2$: $\mu \ne m_0$
@@ -729,11 +729,11 @@ $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
 We can choose $n_0$ depending upon the effect size we want to see. A sane default is $1$, but if we expect small effects, we can choose a larger $n_0$. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mz
-k5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEy
-MSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMT
-kzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5NDQsLTYxMDM2
-Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0MDQ4MTYzMT
-QsMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1
-MjkyMDIwMV19
+eyJoaXN0b3J5IjpbMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3Mz
+U2NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1
+MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMT
+YxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1ODYsMTYwNzIx
+MTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3MTE5Nzk5My
+wtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3NDI4OTksODM3
+MTA1MDk4XX0=
 -->
