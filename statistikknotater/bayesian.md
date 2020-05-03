@@ -536,6 +536,8 @@ If the joint distribution of $\mu, \sigma$ is
 
 then the marginal distribution of $\mu$ is
 
+$$ \int_{-\infty}^{\infty}\textrm{NormalGamma} $$
+
 * $\mu \sim \textrm{StudentT}(m, s^2/n, v)$
 
 ## Credible interval
@@ -633,11 +635,11 @@ s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\b
 
 which is kind of what we wanted anyway. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLTE0NT
-I5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQw
-LDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MT
-IzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2
-NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLD
-QyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDcz
-NDM0OTRdfQ==
+eyJoaXN0b3J5IjpbLTE1NTQ5NjgxNjIsMTg0MTc0Mjg5OSw4Mz
+cxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAy
+MzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOT
+UzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3
+NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOS
+wtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2
+NDgzMzc5XX0=
 -->
