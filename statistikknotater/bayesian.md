@@ -689,18 +689,7 @@ Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 
-## Examples
-
-### Find a credible interval for $\mu$
-Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
-
-Using the `statsr`  package:
-
-	bayes_inference(y=tthm, data=tapwater, statistic="mean",
-					mu_0=35, rscale=1, prior="JZS",
-					type="ci", method="sim")
-
-### Hypothesis testing for $\mu \stackrel{?}{=}m_0$, known variance
+### Bartlett's or Jeffreys-Lindleys paradox
 
 Say we're doing hypothesis testing for $\mu \stackrel{?}{=}m_0$, known variance
 
@@ -726,6 +715,7 @@ BF[H_1:H_2]
 
 Note that $\lim_{n_0\to 0}\textrm{BF}[H_1:H_2]\to\infty$. Low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot just an improper prior such as Jeffreys prior (Bartlett's or Jeffreys-Lindleys paradox). Nor can we use vague priors.
 
+### Standardized effect size
 
 We define standardized effect size
 
@@ -741,16 +731,28 @@ If we want to, say, have a 95% chance of detecting $0.03\sigma$ deviation from $
 
 $$ n_0 = (1.96/0.03)^2$$
 
+## Examples
+
+### Find a credible interval for $\mu$
+Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
+
+Using the `statsr`  package:
+
+	bayes_inference(y=tthm, data=tapwater, statistic="mean",
+					mu_0=35, rscale=1, prior="JZS",
+					type="ci", method="sim")
+
+
 ### Hypothesis testing two paired means
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MjgyMjIzLC0xNzUyODM5NjUxLDIwND
-QyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2
-LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC0xOD
-QwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0
-NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4Ni
-wxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcx
-MTk3OTkzXX0=
+eyJoaXN0b3J5IjpbLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMj
+A0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1
+ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLT
+E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
+MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNT
+g2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5
+NzExOTc5OTNdfQ==
 -->
