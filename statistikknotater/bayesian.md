@@ -663,13 +663,15 @@ $$\begin{aligned}
 &=\textrm{Cauchy}(m_0, \sigma^2r^2)
  \end{aligned}$$
 
-Sir Harold Jeffreys
+Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note that Cauchy priors are not conjugate priors.
+
+### Gibbs sampler
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5MjExOTE2LDczNjU0MDkzMiwtMTk3MT
-E5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3NDI4
-OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEsOT
-E2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3NjY1LDkxNzE2OTY1
-MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcsMTQyODIzMTEzNSwtNz
-Y4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0
-MDM4MTldfQ==
+eyJoaXN0b3J5IjpbLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5Nz
+ExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQy
+ODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLD
+kxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2
+NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLT
+c2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYx
+NDAzODE5XX0=
 -->
