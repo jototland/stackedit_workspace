@@ -609,21 +609,22 @@ Sometimes we want a neutral prior, instead of an informed one.
 
 For the NormalGamma prior, the most uninformative distribution one can think of is:
 
-$$
-\lim_{\scriptsize\begin{array}{c}
-s_0 \to 0
+$$\begin{aligned}
+\lim_{\scriptsize\begin{array}{l}
+n_0 \to 0 \\
+v_0 \to -1
 \end{array}}
 e ^ {{-\frac \phi 2} \left( n_0(\mu-m_0)^2 + s_0^2 v_0 \right)}
 \phi ^ {\frac {v_0-1} 2}
 \frac { \sqrt{\frac{n_0}{2 \pi}} {\frac {s_0^2 v_0} 2} ^ {\frac {v_0} 2} }
 {\Gamma(\frac {v_0} 2)}
-$$
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODIwNTIwNSwxOTEzNzY1NzUxLDkxNj
-Y3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAs
-MTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2OD
-gxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAz
-ODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLT
-E4NTY0ODMzNzksMjA0NzM0MzQ5NCwtOTk2MTY4NTIwLDExODgx
-OTIyNTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MT
+Y2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUw
+LDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Nj
+g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
+MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
+0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
+MTkyMjUxXX0=
 -->
