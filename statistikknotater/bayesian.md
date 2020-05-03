@@ -618,7 +618,7 @@ s_0 \to 0
 \textrm{NormalGamma}(m_0, n_0, s_0^2, v_0) = 0
 \end{aligned}$$
 
-However, this is no longer a valid distribution for $\mu, \sigma$. 
+Being zero everywhere, this is no longer a valid distribution for $\mu, \sigma$. 
 
 If we still try to use this as a noninformative prior, then after we update our belief with $n$ new observations with mean $\bar{x}$ and variance $s_{\bar x}^2$, our new posterior is
 
@@ -626,14 +626,16 @@ $$\begin{aligned}
 m_n &= \frac {n\bar x + n_0 m_0} {n+n_0} &=&\, \bar x \\
 n_n &= n_0 + n &=&\, n \\
 v_n &= v_0 + n &=&\, n-1 \\
-s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}(n-1) \frac{n_0 n}{n_n}(\bar{x}-m_0)^2 \right) &=&\, s^2
+s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\bar{x}-m_0)^2 \right) &=&\, s^2
 \end{aligned}$$
+
+which is kind of what we wanted anyway. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NzQxMjU5LDgzNzEwNTA5OCwtMTQ1Mj
-kyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAs
-MTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMj
-MwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3
-OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsND
-I4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0ODMzNzksMjA0NzM0
-MzQ5NF19
+eyJoaXN0b3J5IjpbLTYwNTExNzEzMyw4MzcxMDUwOTgsLTE0NT
+I5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQw
+LDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MT
+IzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2
+NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLD
+QyODA3Mzc1MSwxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDcz
+NDM0OTRdfQ==
 -->
