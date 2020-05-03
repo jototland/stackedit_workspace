@@ -691,13 +691,14 @@ Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook re
 
 ## Use of the `statsr`  package
 
+### Find a credible intervale for $\mu$
 Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
 
 	bayes_inference(y=tthm, data=tapwater, statistic="mean",
 					mu_0=35, rscale=1, prior="JZS",
 					type="ci", method="sim")
 
-Hypothesis testing for $\mu \stackrel{?}{=}m_0$
+### Hypothesis testing for $\mu \stackrel{?}{=}m_0$
 
 * H1: $\mu=m_0$
 * H2: $mu \ne m_0$, $\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$
@@ -712,11 +713,11 @@ BF[H_1:H_2]
 \hspace{2em}, Z=\frac {\bar x - m_0} {\frac {\sigma} {\sqrt{n}}}
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc1MDg2NDEsLTE1NzIyMjQwMzIsLT
-E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
-MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNT
-g2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5
-NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNz
-QyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUx
-LDkxNjY3MDIzNl19
+eyJoaXN0b3J5IjpbMTgxMTAzOTk1NiwtMTU3MjIyNDAzMiwtMT
+g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
+NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
+YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
+MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3ND
+I4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEs
+OTE2NjcwMjM2XX0=
 -->
