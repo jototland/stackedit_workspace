@@ -615,7 +615,9 @@ n_0 \to 0 \\
 v_0 \to n_0-1 \\
 s_0 \to 0
 \end{array}}
-\textrm{NormalGamma}(m_0, n_0, s_0^2, v_0) = 0
+\textrm{NormalGamma}(m_0, n_0, s_0^2, v_0) \\
+= \textrm{NormalGamma}(0, 0, 0, -1) \\
+= 0
 \end{aligned}$$
 
 Being zero everywhere, this is no longer a valid distribution for $\mu, \sigma$. 
@@ -631,7 +633,7 @@ s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\b
 
 which is kind of what we wanted anyway. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTExNzEzMyw4MzcxMDUwOTgsLTE0NT
+eyJoaXN0b3J5IjpbMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLTE0NT
 I5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQw
 LDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MT
 IzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2
