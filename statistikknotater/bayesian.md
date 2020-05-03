@@ -541,6 +541,10 @@ $$\begin{aligned}
 = & \textrm{StudentT}(v,m, s^2/n)
 \end{aligned}$$
 
+### NormalGamma as a hierarchical prior
+
+Another way to look at the NormalGamma conjugate prior, is to keep the expressions separated. We c
+
 ## Credible interval
 
 A credible interval is the Bayesian counterpart to a confidence interval. As opposed to frequentist confidence intervals, with credible intervals we can actually say that the probability that a parameter is within the interval is 95%. 
@@ -637,7 +641,7 @@ which is kind of what we wanted anyway.
 
 This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ4Njk0NjUsLTE0MDQ4MTYzMTQsMj
+eyJoaXN0b3J5IjpbLTE3OTc0Njg1ODYsLTE0MDQ4MTYzMTQsMj
 AzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1Mjky
 MDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMT
 gzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMw
