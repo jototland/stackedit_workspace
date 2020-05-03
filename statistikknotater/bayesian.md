@@ -669,9 +669,11 @@ Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note
 
 Gibbs sampler is a special case of Markov Chain Monte Carlo sampling.
 
-We alternate between sampling from 
+When we alternate between sampling from two conditional distributions with the same variables, the resulting sequence of samples converge to samples from the joint distribution. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODQwNjQ2MCwtNjEwMzY3OTgxLDczNj
+eyJoaXN0b3J5IjpbMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNj
 U0MDkzMiwtMTk3MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMz
 OTQ2LDE4NDE3NDI4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLD
 E5MTM3NjU3NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3
