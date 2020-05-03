@@ -538,7 +538,7 @@ then the marginal distribution of $\mu$ is
 
 $$\begin{aligned}
  \mu \sim & \int_{0}^{\infty}\textrm{NormalGamma}(\mu,\phi|m, n,s^2, v)d\phi \\
-= & \textrm{StudentT}(m, s^2/n, v)
+= & \textrm{StudentT}(v,m, s^2/n)
 \end{aligned}$$
 
 ## Credible interval
@@ -602,7 +602,7 @@ We can obtain the predictive distribution from the joint distribution of the dat
 
 $$ \int f(x, \Theta)\,d\Theta $$
 
-An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is $X \sim \textrm{StudentT}(m, s^2/n, v)$
+An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is $X \sim \textrm{StudentT}(v, m, s^2/n)$
 
 It is possible to use Monte Carlo sampling to select model parameters for a prior distribution. The example in the book assumed a normal distribution with a NormalGamma conjugate. The range of the data was given, and they estimated the mean as the middle of the range, and assumed the range was equal to $4\sigma$ from the mean. Then they estimated the prior sample size (and prior degrees of freedom which is one less than the sample size) by running several simulations with different choices for sample size, Monte Carlo sampled new data from the predictive distribution, and saw if it fitted the given range. The sample size with best fit to our expectations was chosen.
 
@@ -637,7 +637,7 @@ which is kind of what we wanted anyway.
 
 This is known as *Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQzMTM0MzgsMjAzMjUzMzk0NiwxOD
+eyJoaXN0b3J5IjpbLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxOD
 QxNzQyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1
 NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MT
 cxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzEx
