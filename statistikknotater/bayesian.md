@@ -708,14 +708,14 @@ $$\begin{aligned}
 BF[H_1:H_2]
 &= \frac {p(data|\mu=m_0, \sigma^2)} 
 {\int p(data|\mu, \sigma^2)p(\mu|m_0, n_0, \sigma^2)d\mu} \\
-&=
+&=\sqrt{\frac {n+n_0} {n_0}} e ^ {-\frac 1 2\left(\frac n {n+n_0} Z^2 \right)}
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTUzMTM0NywtMTU3MjIyNDAzMiwtMT
-g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
-NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
-YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
-MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3ND
-I4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEs
-OTE2NjcwMjM2XX0=
+eyJoaXN0b3J5IjpbODE1NTkyNzMzLC0xNTcyMjI0MDMyLC0xOD
+QwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0
+NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4Ni
+wxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcx
+MTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mj
+g5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5
+MTY2NzAyMzZdfQ==
 -->
