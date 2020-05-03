@@ -528,14 +528,16 @@ We can also see from the posterior $s_n^2$ that it combines three sources of inf
 * the prior variance times the prior degrees of freedom
 * the squared difference between posterior and prior mean
 
-### NormalGamma as a hierarchical prior
+### NormalGamma as a hierarchical model
 
-Another way to look at the NormalGamma conjugate prior, is to keep the expressions separated.  This is known as a hierarchical prior
+Another way to look at the NormalGamma conjugate prior, is to keep the expressions separated.  This is known as a hierarchical model, our prior is
 
 $$\begin{aligned}
 \mu|\sigma^2 &\sim \textrm{Normal}(m_0, \sigma^2/n_0) \\
 1/\sigma^2 &\sim \textrm{Gamma}(v_0/2, s_0^2 v_0 / 2)
 \end{aligned}$$
+
+and the posterior is exactly what you would guess.
 
 ### The marginal distribution for $\mu$ from the Normal distribution is the t-distribution
 
@@ -675,11 +677,11 @@ If we are able to generate samples from several conditional distributions in ord
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLT
-YwNDUzMzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQw
-OTMyLC0xOTcxMTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5ND
-YsMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkx
-Mzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2Nj
-UsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4
-MjMxMTM1XX0=
+eyJoaXN0b3J5IjpbOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOT
+M4ODk3MDM3LC02MDQ1MzM1ODYsMTYwNzIxMTk0NCwtNjEwMzY3
+OTgxLDczNjU0MDkzMiwtMTk3MTE5Nzk5MywtMTQwNDgxNjMxNC
+wyMDMyNTMzOTQ2LDE4NDE3NDI4OTksODM3MTA1MDk4LC0xNDUy
+OTIwMjAxLDE5MTM3NjU3NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MC
+wxODM3MjI3NjY1LDkxNzE2OTY1MCwxMTk1MzQ5NzE2LDEwNjEy
+MzA5MDddfQ==
 -->
