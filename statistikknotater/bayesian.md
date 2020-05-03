@@ -734,13 +734,15 @@ $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
 We can choose $n_0$ depending upon the effect size we want to see. A sane default is $1$, but if we expect small effects, we can choose a larger $n_0$. 
 
-If we want to detect, say have a 95% chan$0.03\sigma$ with 95% certa
+If we want to detect, say have a 95% chance of detecting $0.03\sigma$ deviation from $m_0$, then 
+
+$$ n_0 = (1.96/0.03)^2$$
 
 ### Hypothesis testing two paired means
 
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzE2NzY5MiwxNTY2MjIyMDM1LDEwMj
+eyJoaXN0b3J5IjpbMTYyMzExMjE2NywxNTY2MjIyMDM1LDEwMj
 kxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcs
 LTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEyMSwtOD
 AwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5
