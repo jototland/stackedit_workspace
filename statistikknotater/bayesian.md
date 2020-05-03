@@ -606,12 +606,14 @@ It is possible to use Monte Carlo sampling to select model parameters for a prio
 ## Reference priors
 
 Sometimes we want a neutral prior, instead of an informed one. 
+
+For the NormalGamma prior, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1OTEzMjMsMTkxMzc2NTc1MSw5MTY2Nz
-AyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDEx
-OTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MT
-M3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgx
-OSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC0xOD
-U2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4MTky
-MjUxXX0=
+eyJoaXN0b3J5IjpbLTE4MjM2NjA2OTksMTkxMzc2NTc1MSw5MT
+Y2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUw
+LDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Nj
+g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
+MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
+0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
+MTkyMjUxXX0=
 -->
