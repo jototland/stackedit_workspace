@@ -612,19 +612,21 @@ For the NormalGamma prior, the most uninformative distribution one can think of 
 $$\begin{aligned}
 \lim_{\scriptsize\begin{array}{l}
 n_0 \to 0 \\
-v_0 \to -1
+v_0 \to n_0-1 \\
+s_0 \to 0
 \end{array}}
+\textrm{NormalGamma}(m_0, n_0, s_
 e ^ {{-\frac \phi 2} \left( n_0(\mu-m_0)^2 + s_0^2 v_0 \right)}
 \phi ^ {\frac {v_0-1} 2}
 \frac { \sqrt{\frac{n_0}{2 \pi}} {\frac {s_0^2 v_0} 2} ^ {\frac {v_0} 2} }
 {\Gamma(\frac {v_0} 2)}
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MT
-Y2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUw
-LDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Nj
-g4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQw
-MzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5MTkyLC
-0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2ODUyMCwxMTg4
-MTkyMjUxXX0=
+eyJoaXN0b3J5IjpbOTQzNjk1NjQsLTE0NTI5MjAyMDEsMTkxMz
+c2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUs
+OTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4Mj
+MxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgw
+OCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOT
+E5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2
+ODUyMF19
 -->
