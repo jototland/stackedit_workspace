@@ -655,13 +655,15 @@ $$\begin{aligned}
 n_0|\sigma^2 &\sim \textrm{Gamma}(1/2, r^2/2)
 \end{aligned}$$
 
-where $r$ is chosen to give $n_0|\sigma$ an expected value of our best guess for $n_0$. If $r$ = 1, it 
+where $r$ is chosen to give $n_0|\sigma$ an expected value of our best guess for $n_0$. If $r$ = 1, it gives a distribution with expected value 1, corresponding to the guess that $n_0=1$. 
+
+$$ \int_0^\infty Gamma(\frac 1 2, \frac {r^2} 2)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NTQwOTMyLC0xOTcxMTk3OTkzLC0xND
-A0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4MzcxMDUw
-OTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsND
-MzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3
-MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLT
-E3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3
-NDU3NTkzXX0=
+eyJoaXN0b3J5IjpbLTIwNDgwNjY1OTQsNzM2NTQwOTMyLC0xOT
+cxMTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0
+Mjg5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MS
+w5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5
+NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC
+03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2
+MTQwMzgxOV19
 -->
