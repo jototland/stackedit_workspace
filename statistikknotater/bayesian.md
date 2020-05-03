@@ -650,9 +650,12 @@ This is special case of a reference prior known as the *independent Jeffreys pri
 
 If we know $\mu$ to some degree, but are uncertain about prior sample size, we can use a hierarchical model with sample size given by another distribution...
 
-$$ \mu
+$$\begin{aligned}
+\mu|\sigma^2, n_0 &\sim \textrm{Normal}(m_0, \sigma^2/n_0) \\
+n_0|\sigma^2 &\sim \textrm{Gamma}(1/2, r^2/2
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MDcxMTA1LC0xOTcxMTk3OTkzLC0xND
+eyJoaXN0b3J5IjpbMTgxNjg4NDQ4LC0xOTcxMTk3OTkzLC0xND
 A0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4MzcxMDUw
 OTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsND
 MzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3
