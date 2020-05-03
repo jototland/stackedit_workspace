@@ -748,7 +748,8 @@ Using the `statsr`  package:
 ### Hypothesis testing two paired means
 
 $$ BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}} 
-\left(\frac\right)$$
+\left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
+\frac {\nu+1}{2}$$
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
@@ -773,7 +774,7 @@ $$ BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}}
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTA2NTc1NywxNDI1NTM5MTAsLTE4NT
+eyJoaXN0b3J5IjpbMTExMjExNjQyOSwxNDI1NTM5MTAsLTE4NT
 I3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIy
 MDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOT
 A5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1
