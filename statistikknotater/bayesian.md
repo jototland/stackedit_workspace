@@ -717,7 +717,7 @@ BF[H_1:H_2]
 \hspace{2em}, Z=\frac {\bar x - m_0} {\frac {\sigma} {\sqrt{n}}}
 \end{aligned}$$
 
-In this case, low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot just an improper prior such as Jeffreys prior (Bartlett's or Jeffreys-Lindleys paradox). 
+As $n_0In this case, low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot just an improper prior such as Jeffreys prior (Bartlett's or Jeffreys-Lindleys paradox). 
 
 We define standardized effect size
 
@@ -727,11 +727,11 @@ and use as our prior
 
 $$ \delta|H_2 \sim \textrm{Normal}(0, 1/n_0)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTU3Mzk5NiwtMTU3MjIyNDAzMiwtMT
-g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
-NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
-YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
-MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3ND
-I4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEs
-OTE2NjcwMjM2XX0=
+eyJoaXN0b3J5IjpbLTE2MjA4MzQ4MzksLTE1NzIyMjQwMzIsLT
+E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
+MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNT
+g2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5
+NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNz
+QyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUx
+LDkxNjY3MDIzNl19
 -->
