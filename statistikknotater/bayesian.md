@@ -702,6 +702,8 @@ Using the `statsr`  package:
 
 ### Hypothesis testing for $\mu \stackrel{?}{=}m_0$, known variance
 
+Say we're doing hypothesis testing for $\mu \stackrel{?}{=}m_0$, known variance
+
 * $H_1$: $\mu=m_0$
 * $H_2$: $\mu \ne m_0$
 
@@ -724,6 +726,7 @@ BF[H_1:H_2]
 
 Note that $\lim_{n_0\to 0}\textrm{BF}[H_1:H_2]\to\infty$. Low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot just an improper prior such as Jeffreys prior (Bartlett's or Jeffreys-Lindleys paradox). Nor can we use vague priors.
 
+
 We define standardized effect size
 
 $$\delta=\frac {\mu-m_0} {\sigma}$$
@@ -743,11 +746,11 @@ $$ n_0 = (1.96/0.03)^2$$
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNT
-Y2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1
-OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMT
-g3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEz
-MDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5ND
-QsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0
-MDQ4MTYzMTRdfQ==
+eyJoaXN0b3J5IjpbODU4MjgyMjIzLC0xNzUyODM5NjUxLDIwND
+QyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2
+LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC0xOD
+QwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0
+NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4Ni
+wxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcx
+MTk3OTkzXX0=
 -->
