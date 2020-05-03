@@ -622,7 +622,7 @@ $$ \int f(x, \Theta)\,d\Theta $$
 An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is 
 
 $$\begin{aligned}
-p(x) &= \iint p(X|\mu,\sigma^2)p(\mu|\sigma^2)p(\sigma^2)d\mu d\sigma^2
+p(x) &= \iint p(x|\mu,\sigma^2)p(\mu|\sigma^2)p(\sigma^2)d\mu d\sigma^2
 \\
  &= \textrm{StudentT}(x| v, m, s+s^2/n)
 \end{aligned}$$
@@ -689,7 +689,7 @@ If we are able to generate samples from several conditional distributions in ord
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0OTk1MjA0LDE4NzgwNTkxMjEsLTgwMD
+eyJoaXN0b3J5IjpbMjYwMzMxODc2LDE4NzgwNTkxMjEsLTgwMD
 Y4Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcw
 MzcsLTYwNDUzMzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNz
 M2NTQwOTMyLC0xOTcxMTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1
