@@ -609,7 +609,7 @@ $$\hat{g(\phi)} = \frac {\sum_{i=1}^{N} g(\phi_i)} {N}$$
 
 which converges to the expected value
 
-$$\lim_{N\to\infty} \frac {\sum_{i=1}^{N} g(\phi_i)} {N} = E[$$
+$$\lim_{N\to\infty} \frac {\sum_{i=1}^{N} g(\phi_i)} {N} = E[g(\phi)]$$
 
 ## Predictive distributions
 
@@ -683,7 +683,7 @@ If we are able to generate samples from several conditional distributions in ord
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA4MDcyNywtODAwNjgyNzk2LDk1Nj
+eyJoaXN0b3J5IjpbMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Nj
 c1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMz
 NTg2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLT
 E5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQx
