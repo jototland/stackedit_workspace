@@ -729,13 +729,13 @@ $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
 We can choose $n_0$ depending upon the effect size we want to see. For example, if we want an effect size of 0.03, we choose $n_0$ such that
 
-$$ n_0 = (1.96\sigma/ $$
+$$ n_0 = (1.96\sigma/0.03)^2 = 32.7^2 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDkyMjMzOSw5MDkzOTkwNywtMTU3Mj
-IyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3
-OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC
-02MDQ1MzM1ODYsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0
-MDkzMiwtMTk3MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOT
-Q2LDE4NDE3NDI4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5
-MTM3NjU3NTFdfQ==
+eyJoaXN0b3J5IjpbLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1Nz
+IyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgy
+Nzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNy
+wtNjA0NTMzNTg2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1
+NDA5MzIsLTE5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMz
+k0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwx
+OTEzNzY1NzUxXX0=
 -->
