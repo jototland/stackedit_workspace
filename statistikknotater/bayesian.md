@@ -635,9 +635,9 @@ v_n &= v_0 + n &=&\, n-1 \\
 s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\bar{x}-m_0)^2 \right) &=&\, s^2
 \end{aligned}$$
 
-which is kind of what we wanted anyway. This is known as *Jeffreys prior*. 
+which is kind of what we wanted anyway. This is known as *Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDA2MzExMSwxODQxNzQyODk5LDgzNz
+eyJoaXN0b3J5IjpbMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNz
 EwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIz
 Niw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NT
 M0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3
