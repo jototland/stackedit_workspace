@@ -706,8 +706,9 @@ Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffrey
 But we need to be a bit more precise, and specify our priors. We use this formulation for our prior
 
 $$\begin{aligned}
-\mu|H_2 \sim \textrm{Normal}(m_0, \sigma^2/n_0)
-\end[aligned}$$
+\mu|H_1 &= m_0 \\
+\mu|H_2 &\sim \textrm{Normal}(m_0, \sigma^2/n_0)
+\end{aligned}$$
 
 In this case 
 
@@ -731,7 +732,7 @@ $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
 We can choose $n_0$ depending upon the effect size we want to see. A sane default is $1$, but if we expect small effects, we can choose a larger $n_0$. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTgyNjU0NiwxMDI5MTU0OTg4LC0yOT
+eyJoaXN0b3J5IjpbMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOT
 A1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMy
 LC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NT
 Y3NTA0NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUz
