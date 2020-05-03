@@ -635,13 +635,13 @@ s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\b
 
 which is kind of what we wanted anyway. 
 
-This is known as *Jeffreys prior* (after Sir Harold Jeffreys). 
+This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxOD
-QxNzQyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1
-NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MT
-cxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzEx
-MzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC
-0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkw
-OTkxOTJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjQ4Njk0NjUsLTE0MDQ4MTYzMTQsMj
+AzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1Mjky
+MDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMT
+gzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMw
+OTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OC
+wtNzYwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4
+MDczNzUxXX0=
 -->
