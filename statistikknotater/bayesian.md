@@ -742,6 +742,8 @@ Using the `statsr`  package:
 					mu_0=35, rscale=1, prior="JZS",
 					type="ci", method="sim")
 
+	## 95% CI for mu: (45.5714, 64.2048)
+
 
 ### Hypothesis testing two paired means
 
@@ -757,17 +759,17 @@ Using the `statsr`  package:
 
 ### Hypothesis testing two independent means
 
-	 bayes_inference(y=gained, x=mature, data=nc, type="ht",
-					 statistic="mean", alternative="twosided", null=0,
-					 prior="JZS", r=1, method="theo", show_summ=FALSE)
+	bayes_inference(y=gained, x=mature, data=nc, type="ht",
+					statistic="mean", alternative="twosided", null=0,
+					prior="JZS", r=1, method="theo", show_summ=FALSE)
 
-## Results:
-## BF[H1:H2] = 5.7162
-## P(H1|data) = 0.8511 
-## P(H2|data) = 0.1489 
-```
+	## Results:
+	## BF[H1:H2] = 5.7162
+	## P(H1|data) = 0.8511 
+	## P(H2|data) = 0.1489 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MTc3NzQ5LC0xODUyNzM1ODY2LC0xNz
+eyJoaXN0b3J5IjpbMjU1MTcwNDc4LC0xODUyNzM1ODY2LC0xNz
 UyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0
 OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNT
 cyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4
