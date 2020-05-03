@@ -703,9 +703,11 @@ Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffrey
 * $H_1$: $\mu=m_0$
 * $H_2$: $\mu \ne m_0$
 
-But we need to be a bit more precise, and specify our priors. First we try this formulation for $H_2$
+But we need to be a bit more precise, and specify our priors. We use this formulation for our prior
 
-$$\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$$
+$$\begin{aligned}
+\mu|H_2 \sim \textrm{Normal}(m_0, \sigma^2/n_0)
+\end[aligned}$$
 
 In this case 
 
@@ -729,11 +731,11 @@ $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
 We can choose $n_0$ depending upon the effect size we want to see. A sane default is $1$, but if we expect small effects, we can choose a larger $n_0$. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3Mz
-U2NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1
-MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMT
-YxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1ODYsMTYwNzIx
-MTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3MTE5Nzk5My
-wtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3NDI4OTksODM3
-MTA1MDk4XX0=
+eyJoaXN0b3J5IjpbLTQ1MTgyNjU0NiwxMDI5MTU0OTg4LC0yOT
+A1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMy
+LC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NT
+Y3NTA0NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUz
+MzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC
+0xOTcxMTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0
+MTc0Mjg5OV19
 -->
