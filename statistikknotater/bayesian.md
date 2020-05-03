@@ -657,12 +657,15 @@ n_0|\sigma^2 &\sim \textrm{Gamma}(1/2, r^2/2)
 
 where $r$ is chosen to give $n_0|\sigma$ an expected value of our best guess for $n_0$. If $r$ = 1, it gives a distribution with expected value 1, corresponding to the guess that $n_0=1$. 
 
-$$
-\mu|\sigma^2 = \int_0^\infty \textrm{Normal}(m_0, \sigma^2/n_0)\textrm{Gamma}(\frac 1 2, \frac 
+$$\begin{aligned}
+\mu|\sigma^2 
+&= \int_0^\infty \textrm{Normal}(m_0, \sigma^2/n_0)\textrm{Gamma}(\frac 1 2, \frac {r^2} 2)dn_0 \\
+&=\textrm{Cauchy}(m_0, 
 \\
- \int_0^\infty Gamma(\frac 1 2, \frac {r^2} 2)d\sigma^2$$
+ \int_0^\infty Gamma(\frac 1 2, \frac {r^2} 2)d\sigma^2
+ \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDY4MDQ1Niw3MzY1NDA5MzIsLTE5Nz
+eyJoaXN0b3J5IjpbMTUzNjUxMDMyOCw3MzY1NDA5MzIsLTE5Nz
 ExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQy
 ODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLD
 kxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2
