@@ -691,7 +691,7 @@ Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook re
 
 ## Use of the `statsr`  package
 
-### Find a credible intervale for $\mu$
+### Find a credible interval for $\mu$
 Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
 
 	bayes_inference(y=tthm, data=tapwater, statistic="mean",
@@ -713,9 +713,9 @@ BF[H_1:H_2]
 \hspace{2em}, Z=\frac {\bar x - m_0} {\frac {\sigma} {\sqrt{n}}}
 \end{aligned}$$
 
-In this case, low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot just an improper prior such as Jeffreys prior. 
+In this case, low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot just an improper prior such as Jeffreys prior (Bartlett's or Jeffreys-Lindleys paradox). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTEzNTQ1MiwtMTU3MjIyNDAzMiwtMT
+eyJoaXN0b3J5IjpbLTcyNjg4NDE0MSwtMTU3MjIyNDAzMiwtMT
 g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
 NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
 YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
