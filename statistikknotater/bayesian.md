@@ -673,16 +673,13 @@ If we are able to generate samples from several conditional distributions in ord
 
 ### Jeffreys  Zellner-Siow Cauchy prior
 
-The textbook really doesn't explain this well. 
-If we use a 
-A Cauchy prior 
-
+Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg4OTcwMzcsLTYwNDUzMzU4NiwxNj
-A3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcxMTk3
-OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OS
-w4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2
-NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLD
-ExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4
-MTM3NzJdfQ==
+eyJoaXN0b3J5IjpbLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLT
+YwNDUzMzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQw
+OTMyLC0xOTcxMTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5ND
+YsMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkx
+Mzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2Nj
+UsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4
+MjMxMTM1XX0=
 -->
