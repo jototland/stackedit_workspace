@@ -623,10 +623,12 @@ However, this is no longer a valid distribution for $\mu, \sigma$.
 If we still try to use this as a noninformative prior, then after we update our belief with $n$ new observations with mean $\bar{x}$ and variance $s_{\bar x}^2$, our new posterior is
 
 $$\begin{aligned}
-m_n &= \frac {n\bar x } {}
+m_n &= \frac {n\bar x + n_0 m_0} {n+n_0} &= \bar x \\
+n_n &= n_0 + n &= n \\
+v_n &= v_0 + n &= n-1 \\
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjc5NjczNSw4MzcxMDUwOTgsLTE0NT
+eyJoaXN0b3J5IjpbLTE3NzAzNjE1Nyw4MzcxMDUwOTgsLTE0NT
 I5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQw
 LDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MT
 IzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2
