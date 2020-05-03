@@ -611,6 +611,12 @@ which converges to the expected value
 
 $$\lim_{N\to\infty} \frac {\sum_{i=1}^{N} g(\phi_i)} {N} = E[g(\phi)]$$
 
+### Gibbs sampler
+
+Gibbs sampler is a special case of Markov Chain Monte Carlo sampling.
+
+If we are able to generate samples from several conditional distributions in order, using either the values generated earlier in this round, or if not available yet, from the previous round, the resulting sequence of samples converge to samples from the joint distribution. 
+
 ## Predictive distributions
 
 The predictive distribution is the expected distribution of data. There is a prior predictive distribution and a posterior predictive distribution.
@@ -679,21 +685,15 @@ $$\begin{aligned}
 
 Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note that Cauchy priors are not conjugate priors.
 
-### Gibbs sampler
-
-Gibbs sampler is a special case of Markov Chain Monte Carlo sampling.
-
-If we are able to generate samples from several conditional distributions in order, using either the values generated earlier in this round, or if not available yet, from the previous round, the resulting sequence of samples converge to samples from the joint distribution. 
-
 ### Jeffreys  Zellner-Siow Cauchy prior
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDA0NjI3NTAsMTg3ODA1OTEyMSwtOD
-AwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5
-NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MS
-w3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAz
-MjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMD
-IwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMTgz
-NzIyNzY2NV19
+eyJoaXN0b3J5IjpbLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMT
+g3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEz
+MDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5ND
+QsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0
+MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNT
+A5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0
+MzM4NzI4NDBdfQ==
 -->
