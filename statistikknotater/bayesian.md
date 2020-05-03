@@ -559,7 +559,9 @@ A credible interval is the Bayesian counterpart to a confidence interval. As opp
 If we want to find a 95% credible interval for the parameter $p$, that is any interval $[L,U]$ 
 where $P(L ≤ p ≤ U)=0.95$. 
 
-But we can do better. The *highest posterior density* (HPD) interval is the shortest credible interval. For analytical expressions, it is usually possible to find analytically, otherwise one must use simulation, 
+But we can do better. The *highest posterior density* (HPD) interval is the shortest credible interval. For analytical expressions, it is usually possible to find analytically, otherwise one must use simulation.
+
+In particular, if the posterior is NormalGamma, then the StudentT-distribution can be used to find the credible interval for $\mu$. 
 
 ## Loss functions
 
@@ -677,11 +679,11 @@ If we are able to generate samples from several conditional distributions in ord
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOT
-M4ODk3MDM3LC02MDQ1MzM1ODYsMTYwNzIxMTk0NCwtNjEwMzY3
-OTgxLDczNjU0MDkzMiwtMTk3MTE5Nzk5MywtMTQwNDgxNjMxNC
-wyMDMyNTMzOTQ2LDE4NDE3NDI4OTksODM3MTA1MDk4LC0xNDUy
-OTIwMjAxLDE5MTM3NjU3NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MC
-wxODM3MjI3NjY1LDkxNzE2OTY1MCwxMTk1MzQ5NzE2LDEwNjEy
-MzA5MDddfQ==
+eyJoaXN0b3J5IjpbMzAxMjE5NzIxLDk1Njc1MDQ1MSwtMTE2MT
+EzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5
+NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLT
+E0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEw
+NTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNi
+w0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0
+OTcxNl19
 -->
