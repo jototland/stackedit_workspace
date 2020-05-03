@@ -659,17 +659,15 @@ where $r$ is chosen to give $n_0|\sigma$ an expected value of our best guess for
 
 $$\begin{aligned}
 \mu|\sigma^2 
-&= \int_0^\infty \textrm{Normal}(m_0, \sigma^2/n_0)\textrm{Gamma}(\frac 1 2, \frac {r^2} 2)dn_0 \\
-&=\textrm{Cauchy}(m_0, 
-\\
- \int_0^\infty Gamma(\frac 1 2, \frac {r^2} 2)d\sigma^2
+&\sim \int_0^\infty \textrm{Normal}(m_0, \sigma^2/n_0)\textrm{Gamma}(\frac 1 2, \frac {r^2} 2)dn_0 \\
+&=\textrm{Cauchy}(m_0, \sigma^2r^2)
  \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjUxMDMyOCw3MzY1NDA5MzIsLTE5Nz
-ExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQy
-ODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLD
-kxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2
-NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLT
-c2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYx
-NDAzODE5XX0=
+eyJoaXN0b3J5IjpbMTI2MTA1MzY2LDczNjU0MDkzMiwtMTk3MT
+E5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3NDI4
+OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEsOT
+E2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3NjY1LDkxNzE2OTY1
+MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcsMTQyODIzMTEzNSwtNz
+Y4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0
+MDM4MTldfQ==
 -->
