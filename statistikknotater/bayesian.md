@@ -750,7 +750,8 @@ Using the `statsr`  package:
 $$ BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}} 
 \left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
 \frac {\nu+1}{2} \\
-t=\frac{|\bar Y|}{s/\sqrt{n}}$$
+t=\frac{|\bar Y|}{s/\sqrt{n}}\\
+\nu=n-1$$
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
@@ -775,11 +776,11 @@ t=\frac{|\bar Y|}{s/\sqrt{n}}$$
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0xOD
-UyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIy
-MjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LD
-kwOTM5OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLDE4Nzgw
-NTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OT
-csLTE5Mzg4OTcwMzcsLTYwNDUzMzU4NiwxNjA3MjExOTQ0LC02
-MTAzNjc5ODFdfQ==
+eyJoaXN0b3J5IjpbLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxND
+I1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1
+MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLT
+ExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0
+NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MS
+wtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2
+MDcyMTE5NDRdfQ==
 -->
