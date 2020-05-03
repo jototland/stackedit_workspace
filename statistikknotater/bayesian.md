@@ -741,9 +741,9 @@ $$ n_0 = (1.96/0.03)^2$$
 ### Hypothesis testing two paired means
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
-	
+					prior="JZS", mu_0=0, method="theo", alt="twosided")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA4MDM5MzEsMjA0NDI1MDk1MCwxNT
+eyJoaXN0b3J5IjpbLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNT
 Y2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1
 OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMT
 g3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEz
