@@ -691,7 +691,7 @@ Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook re
 
 ## Use of the `statsr`  package
 
-Tap water example with Cauchy prior
+Tap water example with Cauchy prior (find $\mu$ for tthm
 
 	bayes_inference(y=tthm, data=tapwater, statistic="mean",
 					mu_0=35, rscale=1, prior="JZS",
@@ -699,11 +699,11 @@ Tap water example with Cauchy prior
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzg5NjQzMCwtMTU3MjIyNDAzMiwtMT
-g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
-NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
-YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
-MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3ND
-I4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEs
-OTE2NjcwMjM2XX0=
+eyJoaXN0b3J5IjpbNTIxMjkwODcxLC0xNTcyMjI0MDMyLC0xOD
+QwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0
+NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4Ni
+wxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcx
+MTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mj
+g5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5
+MTY2NzAyMzZdfQ==
 -->
