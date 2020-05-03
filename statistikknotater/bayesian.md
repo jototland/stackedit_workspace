@@ -671,9 +671,10 @@ Gibbs sampler is a special case of Markov Chain Monte Carlo sampling.
 
 If we are able to generate samples from several conditional distributions in order, using either the values generated earlier in this round, or if not available yet, from the previous round, the resulting sequence of samples converge to samples from the joint distribution. 
 
+### Jeffreys  Zellner-Siow Cauch
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzQyNzMxOCwxNjA3MjExOTQ0LC02MT
+eyJoaXN0b3J5IjpbLTU0ODc2NDYzMiwxNjA3MjExOTQ0LC02MT
 AzNjc5ODEsNzM2NTQwOTMyLC0xOTcxMTk3OTkzLC0xNDA0ODE2
 MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLT
 E0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcy
