@@ -747,6 +747,9 @@ Using the `statsr`  package:
 
 ### Hypothesis testing two paired means
 
+$$ BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}} 
+\left(\frac\right)$$
+
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
 
@@ -770,11 +773,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTUzOTEwLC0xODUyNzM1ODY2LC0xNz
-UyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0
-OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNT
-cyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4
-Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMz
-csLTYwNDUzMzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2
-NTQwOTMyXX0=
+eyJoaXN0b3J5IjpbMTg0OTA2NTc1NywxNDI1NTM5MTAsLTE4NT
+I3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIy
+MDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOT
+A5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1
+OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5Ny
+wtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5NDQsLTYx
+MDM2Nzk4MV19
 -->
