@@ -648,13 +648,15 @@ This is special case of a reference prior known as the *independent Jeffreys pri
 
 ### Cauchy priors
 
+If we know $\mu$ to some degree, but are uncertain about prior sample size, we can use a hierarchical model with sample size given by another distribution...
 
+$$ \mu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODU2MTY3OCwtMTk3MTE5Nzk5MywtMT
-QwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3NDI4OTksODM3MTA1
-MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEsOTE2NjcwMjM2LD
-QzMzg3Mjg0MCwxODM3MjI3NjY1LDkxNzE2OTY1MCwxMTk1MzQ5
-NzE2LDEwNjEyMzA5MDcsMTQyODIzMTEzNSwtNzY4ODEzNzcyLC
-0xNzYwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQx
-NzQ1NzU5M119
+eyJoaXN0b3J5IjpbOTM4MDcxMTA1LC0xOTcxMTk3OTkzLC0xND
+A0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4MzcxMDUw
+OTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsND
+MzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3
+MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLT
+E3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMjA2MTQwMzgxOSwtNDE3
+NDU3NTkzXX0=
 -->
