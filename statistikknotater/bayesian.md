@@ -734,15 +734,17 @@ $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
 We can choose $n_0$ depending upon the effect size we want to see. A sane default is $1$, but if we expect small effects, we can choose a larger $n_0$. 
 
+If we want to detect, say have a 95% chan$0.03\sigma$ with 95% certa
+
 ### Hypothesis testing two paired means
 
-$$k
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyOTU4NTIxLDE1NjYyMjIwMzUsMTAyOT
-E1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywt
-MTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MD
-A2ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3
-MDM3LC02MDQ1MzM1ODYsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLD
-czNjU0MDkzMiwtMTk3MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMy
-NTMzOTQ2XX0=
+eyJoaXN0b3J5IjpbLTg0MzE2NzY5MiwxNTY2MjIyMDM1LDEwMj
+kxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcs
+LTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEyMSwtOD
+AwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5
+NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MS
+w3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAz
+MjUzMzk0Nl19
 -->
