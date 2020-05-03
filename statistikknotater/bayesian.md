@@ -615,18 +615,16 @@ n_0 \to 0 \\
 v_0 \to n_0-1 \\
 s_0 \to 0
 \end{array}}
-\textrm{NormalGamma}(m_0, n_0, s_
-e ^ {{-\frac \phi 2} \left( n_0(\mu-m_0)^2 + s_0^2 v_0 \right)}
-\phi ^ {\frac {v_0-1} 2}
-\frac { \sqrt{\frac{n_0}{2 \pi}} {\frac {s_0^2 v_0} 2} ^ {\frac {v_0} 2} }
-{\Gamma(\frac {v_0} 2)}
+\textrm{NormalGamma}(m_0, n_0, s_0^2, v_0) = 0
 \end{aligned}$$
+
+However, this is not a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNjk1NjQsLTE0NTI5MjAyMDEsMTkxMz
-c2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUs
-OTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4Mj
-MxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgw
-OCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOT
-E5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5NjE2
-ODUyMF19
+eyJoaXN0b3J5IjpbMzIxMjkyNDgyLC0xNDUyOTIwMjAxLDE5MT
+M3NjU3NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3NjY1
+LDkxNzE2OTY1MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcsMTQyOD
+IzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4
+MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMT
+kxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYx
+Njg1MjBdfQ==
 -->
