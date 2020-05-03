@@ -703,7 +703,7 @@ Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffrey
 * $H_1$: $\mu=m_0$
 * $H_2$: $\mu \ne m_0$
 
-But we need to be a bit more precise. First we try this formulation for $H_2$
+But we need to be a bit more precise, and specify our priors. First we try this formulation for $H_2$
 
 $\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$
 
@@ -727,7 +727,7 @@ and use as our prior
 
 $$ \delta|H_2 \sim \textrm{Normal}(0, 1/n_0)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjM1NTIyNywtMTU3MjIyNDAzMiwtMT
+eyJoaXN0b3J5IjpbLTk2OTU3Mzk5NiwtMTU3MjIyNDAzMiwtMT
 g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
 NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
 YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
