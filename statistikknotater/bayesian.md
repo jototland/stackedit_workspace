@@ -618,13 +618,19 @@ s_0 \to 0
 \textrm{NormalGamma}(m_0, n_0, s_0^2, v_0) = 0
 \end{aligned}$$
 
-However, this is not a 
+However, this is no longer a valid distribution for $\mu, \sigma$. 
+
+If we still try to use th
+
+$$\begin{aligned}
+m_n &= \frac {} {}
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxMjkyNDgyLC0xNDUyOTIwMjAxLDE5MT
-M3NjU3NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3NjY1
-LDkxNzE2OTY1MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcsMTQyOD
-IzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4
-MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMT
-kxOTA5OTE5MiwtMTg1NjQ4MzM3OSwyMDQ3MzQzNDk0LC05OTYx
-Njg1MjBdfQ==
+eyJoaXN0b3J5IjpbLTEwMDU5NjIxODIsLTE0NTI5MjAyMDEsMT
+kxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2
+NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxND
+I4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAz
+MDgwOCwtMjA2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MS
+wxOTE5MDk5MTkyLC0xODU2NDgzMzc5LDIwNDczNDM0OTQsLTk5
+NjE2ODUyMF19
 -->
