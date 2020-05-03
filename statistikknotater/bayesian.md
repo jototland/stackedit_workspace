@@ -700,20 +700,22 @@ Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffrey
 
 ### Hypothesis testing for $\mu \stackrel{?}{=}m_0$
 
-* H1: $\mu=m_0$
-* H2: $mu \ne m_0$, $\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$
+* $H_1$: $\mu=m_0$
+* $H_2$: $mu \ne m_0$, $\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$
 
 In this case 
 
 $$\begin{aligned}
 BF[H_1:H_2]
 &= \frac {p(data|\mu=m_0, \sigma^2)} 
-{\int p(data|\mu, \sigma^2)p(\mu|m_0, n_0, \sigma^2)d\mu} \\
+{\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0, n_0, \sigma^2)d\mu} \\
 &=\sqrt{\frac {n+n_0} {n_0}} e ^ {-\frac 1 2\left(\frac n {n+n_0} Z^2 \right)}
 \hspace{2em}, Z=\frac {\bar x - m_0} {\frac {\sigma} {\sqrt{n}}}
 \end{aligned}$$
+
+In this case, low values of $n_0$ will bias the hypothesis test towards $H_1$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTAzOTk1NiwtMTU3MjIyNDAzMiwtMT
+eyJoaXN0b3J5IjpbMjAzNDk5MDQ1MywtMTU3MjIyNDAzMiwtMT
 g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
 NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
 YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
