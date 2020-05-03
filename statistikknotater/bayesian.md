@@ -619,7 +619,12 @@ We can obtain the predictive distribution from the joint distribution of the dat
 
 $$ \int f(x, \Theta)\,d\Theta $$
 
-An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is $X \sim \textrm{StudentT}(v, m, s^2/n)$
+An interesting special case is that if $\mu,\phi \sim \textrm{NormalGamma}(m,n,s^2,v)$, then the predictive distribution for $X$ is 
+
+$$\begin{aligned}
+X 
+\sim \textrm{StudentT}(v, m, s^2/n)
+\end{aligned}$$
 
 It is possible to use Monte Carlo sampling to select model parameters for a prior distribution. The example in the book assumed a normal distribution with a NormalGamma conjugate. The range of the data was given, and they estimated the mean as the middle of the range, and assumed the range was equal to $4\sigma$ from the mean. Then they estimated the prior sample size (and prior degrees of freedom which is one less than the sample size) by running several simulations with different choices for sample size, Monte Carlo sampled new data from the predictive distribution, and saw if it fitted the given range. The sample size with best fit to our expectations was chosen.
 
@@ -683,11 +688,11 @@ If we are able to generate samples from several conditional distributions in ord
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Nj
-c1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMz
-NTg2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLT
-E5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQx
-NzQyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1Nz
-UxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcx
-Njk2NTBdfQ==
+eyJoaXN0b3J5IjpbNjI5NjI4NDQ5LDE4NzgwNTkxMjEsLTgwMD
+Y4Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcw
+MzcsLTYwNDUzMzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNz
+M2NTQwOTMyLC0xOTcxMTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1
+MzM5NDYsMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMD
+EsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4Mzcy
+Mjc2NjVdfQ==
 -->
