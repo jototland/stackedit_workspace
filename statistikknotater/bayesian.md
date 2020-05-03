@@ -622,7 +622,7 @@ s_0 \to 0
 \textrm{NormalGamma}(m_0, n_0, s_0^2, v_0)
 \end{aligned}$$
 
-Unfortunately, this is no longer a valid distribution for $\mu, \sigma$. 
+Unfortunately, this is no longer a valid distribution for $\mu, \sigma$. Such priors can be referred to as *improper distributions* or *non-generative priors*. 
 
 If we still try to use this as a noninformative prior, then after we update our belief with $n$ new observations with mean $\bar{x}$ and variance $s_{\bar x}^2$, our new posterior is
 
@@ -635,11 +635,11 @@ s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\b
 
 which is kind of what we wanted anyway. This is known as *Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5MjE0NjI4LDIwMzI1MzM5NDYsMTg0MT
-c0Mjg5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1
-MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MT
-Y5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1
-LC03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMj
-A2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5
-MTkyXX0=
+eyJoaXN0b3J5IjpbLTczMzgxMzA5NiwyMDMyNTMzOTQ2LDE4ND
+E3NDI4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3
+NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3NjY1LDkxNz
+E2OTY1MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcsMTQyODIzMTEz
+NSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4MDgsLT
+IwNjE0MDM4MTksLTQxNzQ1NzU5Myw0MjgwNzM3NTEsMTkxOTA5
+OTE5Ml19
 -->
