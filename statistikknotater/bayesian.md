@@ -666,12 +666,16 @@ $$\begin{aligned}
 Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note that Cauchy priors are not conjugate priors.
 
 ### Gibbs sampler
+
+Gibbs sampler is a special case of Markov Chain Monte Carlo sampling.
+
+We alternate between sampling from 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5Nz
-ExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQy
-ODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLD
-kxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2
-NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLT
-c2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYx
-NDAzODE5XX0=
+eyJoaXN0b3J5IjpbLTU3ODQwNjQ2MCwtNjEwMzY3OTgxLDczNj
+U0MDkzMiwtMTk3MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMz
+OTQ2LDE4NDE3NDI4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLD
+E5MTM3NjU3NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3
+NjY1LDkxNzE2OTY1MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcsMT
+QyODIzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAw
+MzA4MDhdfQ==
 -->
