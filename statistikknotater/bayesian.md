@@ -689,10 +689,12 @@ Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 
-## Use of the `statsr`  package
+## Examples
 
 ### Find a credible interval for $\mu$
 Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
+
+Using the `statsr`  package:
 
 	bayes_inference(y=tthm, data=tapwater, statistic="mean",
 					mu_0=35, rscale=1, prior="JZS",
@@ -731,12 +733,16 @@ and use as our prior
 $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 
 We can choose $n_0$ depending upon the effect size we want to see. A sane default is $1$, but if we expect small effects, we can choose a larger $n_0$. 
+
+### Hypothesis testing two paired means
+
+$$k
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOT
-A1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMy
-LC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NT
-Y3NTA0NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUz
-MzU4NiwxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC
-0xOTcxMTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0
-MTc0Mjg5OV19
+eyJoaXN0b3J5IjpbMzUyOTU4NTIxLDE1NjYyMjIwMzUsMTAyOT
+E1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywt
+MTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MD
+A2ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3
+MDM3LC02MDQ1MzM1ODYsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLD
+czNjU0MDkzMiwtMTk3MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMy
+NTMzOTQ2XX0=
 -->
