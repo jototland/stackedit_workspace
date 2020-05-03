@@ -528,6 +528,15 @@ We can also see from the posterior $s_n^2$ that it combines three sources of inf
 * the prior variance times the prior degrees of freedom
 * the squared difference between posterior and prior mean
 
+### NormalGamma as a hierarchical prior
+
+Another way to look at the NormalGamma conjugate prior, is to keep the expressions separated.  This is known as a hierarchical prior
+
+$$\begin{aligned}
+\mu|\sigma^2 &\sim \textrm{Normal}(m_0, \sigma^2/n_0) \\
+1/\sigma^2 &\sim \textrm{Gamma}(v_0/2, s_0^2 v_0 / 2)
+\end{aligned}$$
+
 ### The marginal distribution for $\mu$ from the Normal distribution is the t-distribution
 
 If the joint distribution of $\mu, \sigma$ is
@@ -539,15 +548,6 @@ then the marginal distribution of $\mu$ is
 $$\begin{aligned}
  \mu \sim & \int_{0}^{\infty}\textrm{NormalGamma}(\mu,\phi|m, n,s^2, v)d\phi \\
 = & \textrm{StudentT}(v,m, s^2/n)
-\end{aligned}$$
-
-### NormalGamma as a hierarchical prior
-
-Another way to look at the NormalGamma conjugate prior, is to keep the expressions separated.  This is known as a hierarchical prior
-
-$$\begin{aligned}
-\mu|\sigma^2 &\sim \textrm{Normal}(m_0, \sigma^2/n_0) \\
-1/\sigma^2 &\sim \textrm{Gamma}(v_0/2, s_0^2 v_0 / 2)
 \end{aligned}$$
 
 ## Credible interval
@@ -646,7 +646,7 @@ which is kind of what we wanted anyway.
 
 This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg0ODc2MjUsLTE0MDQ4MTYzMTQsMj
+eyJoaXN0b3J5IjpbLTE5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMj
 AzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1Mjky
 MDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMT
 gzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMw
