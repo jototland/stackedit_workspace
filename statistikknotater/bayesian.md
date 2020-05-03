@@ -658,15 +658,15 @@ n_0|\sigma^2 &\sim \textrm{Gamma}(1/2, r^2/2)
 where $r$ is chosen to give $n_0|\sigma$ an expected value of our best guess for $n_0$. If $r$ = 1, it gives a distribution with expected value 1, corresponding to the guess that $n_0=1$. 
 
 $$
-
+\mu|\sigma^2 = \int_0^\infty \textrm{Normal}(m_0, \sigma^2/n_0)\textrm{Gamma}(\frac 1 2, \frac 
 \\
  \int_0^\infty Gamma(\frac 1 2, \frac {r^2} 2)d\sigma^2$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0MzM1NzMxLDczNjU0MDkzMiwtMTk3MT
-E5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3NDI4
-OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEsOT
-E2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3NjY1LDkxNzE2OTY1
-MCwxMTk1MzQ5NzE2LDEwNjEyMzA5MDcsMTQyODIzMTEzNSwtNz
-Y4ODEzNzcyLC0xNzYwNDI4Njc4LC03NjAwMzA4MDgsLTIwNjE0
-MDM4MTldfQ==
+eyJoaXN0b3J5IjpbMjA4MDY4MDQ1Niw3MzY1NDA5MzIsLTE5Nz
+ExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQy
+ODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLD
+kxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2
+NTAsMTE5NTM0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLT
+c2ODgxMzc3MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYx
+NDAzODE5XX0=
 -->
