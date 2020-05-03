@@ -669,17 +669,15 @@ Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note
 
 Gibbs sampler is a special case of Markov Chain Monte Carlo sampling.
 
-If we are able to generate samples from several conditional distributions in order, using the values from the previous round (or this round for later
-
-When we alternate between sampling from two conditional distributions with the same variables, the resulting sequence of samples converge to samples from the joint distribution. 
+If we are able to generate samples from several conditional distributions in order, using either the values generated earlier in this round, or if not available yet, from the previous round, the resulting sequence of samples converge to samples from the joint distribution. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyOTczNDYzLDE2MDcyMTE5NDQsLTYxMD
-M2Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLTE0MDQ4MTYz
-MTQsMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMT
-Q1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0MzM4NzI4
-NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMD
-YxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQy
-ODY3OF19
+eyJoaXN0b3J5IjpbMjEzNzQyNzMxOCwxNjA3MjExOTQ0LC02MT
+AzNjc5ODEsNzM2NTQwOTMyLC0xOTcxMTk3OTkzLC0xNDA0ODE2
+MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4MzcxMDUwOTgsLT
+E0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcy
+ODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMT
+A2MTIzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0
+Mjg2NzhdfQ==
 -->
