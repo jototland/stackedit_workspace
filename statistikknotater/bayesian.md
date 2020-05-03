@@ -662,8 +662,10 @@ $$\begin{aligned}
 &\sim \int_0^\infty \textrm{Normal}(m_0, \sigma^2/n_0)\textrm{Gamma}(\frac 1 2, \frac {r^2} 2)dn_0 \\
 &=\textrm{Cauchy}(m_0, \sigma^2r^2)
  \end{aligned}$$
+
+Sir Harold Jeffreys
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTA1MzY2LDczNjU0MDkzMiwtMTk3MT
+eyJoaXN0b3J5IjpbMjM5MjExOTE2LDczNjU0MDkzMiwtMTk3MT
 E5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3NDI4
 OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEsOT
 E2NjcwMjM2LDQzMzg3Mjg0MCwxODM3MjI3NjY1LDkxNzE2OTY1
