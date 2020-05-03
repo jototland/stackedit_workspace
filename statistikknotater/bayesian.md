@@ -607,6 +607,10 @@ Our estimate is
 
 $$\hat{g(\phi)} = \frac {\sum_{i=1}^{N} g(\phi_i)} {N}$$
 
+which converges to the expected value
+
+$$\lim_{N\to\infty} \frac {\sum_{i=1}^{N} g(\phi_i)} {N} = E[$$
+
 ## Predictive distributions
 
 The predictive distribution is the expected distribution of data. There is a prior predictive distribution and a posterior predictive distribution.
@@ -679,11 +683,11 @@ If we are able to generate samples from several conditional distributions in ord
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNj
-ExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4NiwxNjA3MjEx
-OTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcxMTk3OTkzLC
-0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4Mzcx
-MDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMz
-YsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUz
-NDk3MTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMzA4MDcyNywtODAwNjgyNzk2LDk1Nj
+c1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMz
+NTg2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLT
+E5NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQx
+NzQyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1Nz
+UxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcx
+Njk2NTBdfQ==
 -->
