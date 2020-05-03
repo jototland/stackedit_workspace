@@ -626,9 +626,10 @@ $$\begin{aligned}
 m_n &= \frac {n\bar x + n_0 m_0} {n+n_0} &= \bar x \\
 n_n &= n_0 + n &= n \\
 v_n &= v_0 + n &= n-1 \\
+s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}(n-1) \frac{n_0 n}{n_n}(\bar{x}-m_0)^2 \right)
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAzNjE1Nyw4MzcxMDUwOTgsLTE0NT
+eyJoaXN0b3J5IjpbMTQ4OTA4MTUzMyw4MzcxMDUwOTgsLTE0NT
 I5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMzYsNDMzODcyODQw
 LDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUzNDk3MTYsMTA2MT
 IzMDkwNywxNDI4MjMxMTM1LC03Njg4MTM3NzIsLTE3NjA0Mjg2
