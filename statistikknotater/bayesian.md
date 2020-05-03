@@ -704,14 +704,18 @@ Hypothesis testing for $\mu \stackrel{?}{=}m_0$
 
 In this case 
 
-$$BF[H_1:H_2]=\frac {p(data|\mu=m_0, \sigma^2)} 
-{\int p(}$$
+$$\begin{aligned}
+BF[H_1:H_2]
+&= \frac {p(data|\mu=m_0, \sigma^2)} 
+{\int p(data|\mu, \sigma^2)p(\mu|m_0, n_0, \sigma^2)d\mu} \\
+&=
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg5MDE2MTMsLTE1NzIyMjQwMzIsLT
-E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
-MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNT
-g2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5
-NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNz
-QyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUx
-LDkxNjY3MDIzNl19
+eyJoaXN0b3J5IjpbMTk4NTUzMTM0NywtMTU3MjIyNDAzMiwtMT
+g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
+NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
+YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
+MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3ND
+I4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEs
+OTE2NjcwMjM2XX0=
 -->
