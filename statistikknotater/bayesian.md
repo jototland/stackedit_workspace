@@ -694,10 +694,12 @@ Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook re
 Tap water example with Cauchy prior
 
 	bayes_inference(y=tthm, data=tapwater, statistic="mean",
-				 mu_0=35, rscale=1, prior="JZS",
-					 type="ci", method="sim")`
+					mu_0=35, rscale=1, prior="JZS",
+					type="ci", method="sim")
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzQzNzE0MiwtMTU3MjIyNDAzMiwtMT
+eyJoaXN0b3J5IjpbLTYxNzg5NjQzMCwtMTU3MjIyNDAzMiwtMT
 g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
 NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
 YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
