@@ -707,15 +707,15 @@ In this case
 
 $$\begin{aligned}
 BF[H_1:H_2]
-&= \frac {p(data|\mu=m_0, \sigma^2)} 
+&= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
 {\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0, n_0, \sigma^2)d\mu} \\
 &=\sqrt{\frac {n+n_0} {n_0}} e ^ {-\frac 1 2\left(\frac n {n+n_0} Z^2 \right)}
 \hspace{2em}, Z=\frac {\bar x - m_0} {\frac {\sigma} {\sqrt{n}}}
 \end{aligned}$$
 
-In this case, low values of $n_0$ will bias the hypothesis test towards $H_1$.
+In this case, low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot just an improper prior such as Jeffreys prior. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDk5MDQ1MywtMTU3MjIyNDAzMiwtMT
+eyJoaXN0b3J5IjpbMjEyOTEzNTQ1MiwtMTU3MjIyNDAzMiwtMT
 g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
 NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
 YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
