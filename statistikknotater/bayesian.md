@@ -701,7 +701,11 @@ Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffrey
 ### Hypothesis testing for $\mu \stackrel{?}{=}m_0$
 
 * $H_1$: $\mu=m_0$
-* $H_2$: $mu \ne m_0$, $\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$
+* $H_2$: $mu \ne m_0$
+
+First we try this formulation for $H_2$
+
+$\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$
 
 In this case 
 
@@ -721,13 +725,13 @@ $$\delta=\frac {\mu-m_0} {\sigma}$$
 
 and use as our prior
 
-$$ 
+$$ \delta|H_2 \sim \textrm{Normal}(0, 1/n_0)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDMxMjY1NzAsLTE1NzIyMjQwMzIsLT
-E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
-MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNT
-g2LDE2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5
-NzExOTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNz
-QyODk5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUx
-LDkxNjY3MDIzNl19
+eyJoaXN0b3J5IjpbMTk0ODg2MDI0OCwtMTU3MjIyNDAzMiwtMT
+g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
+NDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02MDQ1MzM1OD
+YsMTYwNzIxMTk0NCwtNjEwMzY3OTgxLDczNjU0MDkzMiwtMTk3
+MTE5Nzk5MywtMTQwNDgxNjMxNCwyMDMyNTMzOTQ2LDE4NDE3ND
+I4OTksODM3MTA1MDk4LC0xNDUyOTIwMjAxLDE5MTM3NjU3NTEs
+OTE2NjcwMjM2XX0=
 -->
