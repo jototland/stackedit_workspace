@@ -705,7 +705,7 @@ Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffrey
 
 But we need to be a bit more precise, and specify our priors. First we try this formulation for $H_2$
 
-$\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$
+$$\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)$$
 
 In this case 
 
@@ -727,11 +727,11 @@ and use as our prior
 
 $$ \delta|H_2 \sim \textrm{Normal}(0, \frac 1 {n_0})$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4NTk1MTgzLC0xNTcyMjI0MDMyLC0xOD
-QwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0
-NTEsLTExNjExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4Ni
-wxNjA3MjExOTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcx
-MTk3OTkzLC0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mj
-g5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5
-MTY2NzAyMzZdfQ==
+eyJoaXN0b3J5IjpbOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4ND
+A0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1
+MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LD
+E2MDcyMTE5NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5NzEx
+OTc5OTMsLTE0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQyOD
+k5LDgzNzEwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkx
+NjY3MDIzNl19
 -->
