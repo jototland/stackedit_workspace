@@ -546,8 +546,8 @@ $$\begin{aligned}
 Another way to look at the NormalGamma conjugate prior, is to keep the expressions separated.  This is known as a hierarchical prior
 
 $$\begin{aligned}
-\mu|\sigma^2 \sim \textrm{Normal}(m_0, \sigma^2/n_0) \\
-1/\s
+\mu|\sigma^2 &\sim \textrm{Normal}(m_0, \sigma^2/n_0) \\
+1/\sigma^2 &\sim \textrm{Gamma}(v_0/2, s_0^2 v_0 / 2)
 \end{aligned}$$
 
 ## Credible interval
@@ -646,11 +646,11 @@ which is kind of what we wanted anyway.
 
 This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTU3NDc2NiwtMTQwNDgxNjMxNCwyMD
-MyNTMzOTQ2LDE4NDE3NDI4OTksODM3MTA1MDk4LC0xNDUyOTIw
-MjAxLDE5MTM3NjU3NTEsOTE2NjcwMjM2LDQzMzg3Mjg0MCwxOD
-M3MjI3NjY1LDkxNzE2OTY1MCwxMTk1MzQ5NzE2LDEwNjEyMzA5
-MDcsMTQyODIzMTEzNSwtNzY4ODEzNzcyLC0xNzYwNDI4Njc4LC
-03NjAwMzA4MDgsLTIwNjE0MDM4MTksLTQxNzQ1NzU5Myw0Mjgw
-NzM3NTFdfQ==
+eyJoaXN0b3J5IjpbLTE1ODg0ODc2MjUsLTE0MDQ4MTYzMTQsMj
+AzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEwNTA5OCwtMTQ1Mjky
+MDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNiw0MzM4NzI4NDAsMT
+gzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0OTcxNiwxMDYxMjMw
+OTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3MiwtMTc2MDQyODY3OC
+wtNzYwMDMwODA4LC0yMDYxNDAzODE5LC00MTc0NTc1OTMsNDI4
+MDczNzUxXX0=
 -->
