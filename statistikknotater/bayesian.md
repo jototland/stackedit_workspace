@@ -619,12 +619,10 @@ n_0 \to 0 \\
 v_0 \to n_0-1 \\
 s_0 \to 0
 \end{array}}
-\textrm{NormalGamma}(m_0, n_0, s_0^2, v_0) \\
-= \textrm{NormalGamma}(0, 0, 0, -1) \\
-= 0
+\textrm{NormalGamma}(m_0, n_0, s_0^2, v_0)
 \end{aligned}$$
 
-Being zero everywhere, this is no longer a valid distribution for $\mu, \sigma$. 
+Unfortunately, this is no longer a valid distribution for $\mu, \sigma$. 
 
 If we still try to use this as a noninformative prior, then after we update our belief with $n$ new observations with mean $\bar{x}$ and variance $s_{\bar x}^2$, our new posterior is
 
@@ -637,11 +635,11 @@ s_n^2 &= \frac{1}{v_n}\left(s_0^2 v_0 + s_{\bar x}^2(n-1) + \frac{n_0 n}{n_n}(\b
 
 which is kind of what we wanted anyway. This is known as *Jeffreys prior* (after Sir Harold Jeffreys). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNz
-EwNTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIz
-Niw0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NT
-M0OTcxNiwxMDYxMjMwOTA3LDE0MjgyMzExMzUsLTc2ODgxMzc3
-MiwtMTc2MDQyODY3OCwtNzYwMDMwODA4LC0yMDYxNDAzODE5LC
-00MTc0NTc1OTMsNDI4MDczNzUxLDE5MTkwOTkxOTIsLTE4NTY0
-ODMzNzldfQ==
+eyJoaXN0b3J5IjpbMzY5MjE0NjI4LDIwMzI1MzM5NDYsMTg0MT
+c0Mjg5OSw4MzcxMDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1
+MSw5MTY2NzAyMzYsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MT
+Y5NjUwLDExOTUzNDk3MTYsMTA2MTIzMDkwNywxNDI4MjMxMTM1
+LC03Njg4MTM3NzIsLTE3NjA0Mjg2NzgsLTc2MDAzMDgwOCwtMj
+A2MTQwMzgxOSwtNDE3NDU3NTkzLDQyODA3Mzc1MSwxOTE5MDk5
+MTkyXX0=
 -->
