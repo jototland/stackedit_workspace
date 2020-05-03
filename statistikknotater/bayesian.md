@@ -561,7 +561,7 @@ where $P(L ≤ p ≤ U)=0.95$.
 
 But we can do better. The *highest posterior density* (HPD) interval is the shortest credible interval. For analytical expressions, it is usually possible to find analytically, otherwise one must use simulation.
 
-In particular, if the posterior is NormalGamma, then the StudentT-distribution can be used to find the credible interval for $\mu$. 
+In particular, if the posterior is NormalGamma, then the StudentT-distribution can be used to find the highest posterior density credible interval for $\mu$. 
 
 ## Loss functions
 
@@ -679,11 +679,11 @@ If we are able to generate samples from several conditional distributions in ord
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxMjE5NzIxLDk1Njc1MDQ1MSwtMTE2MT
-EzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2MDcyMTE5
-NDQsLTYxMDM2Nzk4MSw3MzY1NDA5MzIsLTE5NzExOTc5OTMsLT
-E0MDQ4MTYzMTQsMjAzMjUzMzk0NiwxODQxNzQyODk5LDgzNzEw
-NTA5OCwtMTQ1MjkyMDIwMSwxOTEzNzY1NzUxLDkxNjY3MDIzNi
-w0MzM4NzI4NDAsMTgzNzIyNzY2NSw5MTcxNjk2NTAsMTE5NTM0
-OTcxNl19
+eyJoaXN0b3J5IjpbLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNj
+ExMzA0OTcsLTE5Mzg4OTcwMzcsLTYwNDUzMzU4NiwxNjA3MjEx
+OTQ0LC02MTAzNjc5ODEsNzM2NTQwOTMyLC0xOTcxMTk3OTkzLC
+0xNDA0ODE2MzE0LDIwMzI1MzM5NDYsMTg0MTc0Mjg5OSw4Mzcx
+MDUwOTgsLTE0NTI5MjAyMDEsMTkxMzc2NTc1MSw5MTY2NzAyMz
+YsNDMzODcyODQwLDE4MzcyMjc2NjUsOTE3MTY5NjUwLDExOTUz
+NDk3MTZdfQ==
 -->
