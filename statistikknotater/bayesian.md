@@ -747,6 +747,12 @@ Using the `statsr`  package:
 
 ### Hypothesis testing two paired means
 
+Known mean
+
+$$ \textrm $$
+
+Unknown mean
+
 $$ BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}} 
 \left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
 \frac {\nu+1}{2} \\
@@ -776,11 +782,11 @@ t=\frac{|\bar Y|}{s/\sqrt{n}}\\
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxND
-I1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1
-MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLT
-ExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0
-NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MS
-wtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywtNjA0NTMzNTg2LDE2
-MDcyMTE5NDRdfQ==
+eyJoaXN0b3J5IjpbLTUyODc4Nzk5MywtNDkzMTcyMzQ2LC0xOD
+A4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1Mjgz
+OTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OC
+wtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIy
+NDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OT
+YsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02
+MDQ1MzM1ODZdfQ==
 -->
