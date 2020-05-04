@@ -768,7 +768,9 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 ### Hypothesis testing for two independent means
 
 $$\begin{aligned}
-X_{A,i} \st
+X_{A,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2)\\
+X_{B,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2)
+
 \end{aligned}$$
 
 ##  Examples using `bayes_inference()` from `statsr`
@@ -811,7 +813,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY4ODk4MTgsLTE1ODY5NTk3MzQsLT
+eyJoaXN0b3J5IjpbLTIwOTM2NjQzNzEsLTE1ODY5NTk3MzQsLT
 EzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1
 NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MD
 QsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4
