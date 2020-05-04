@@ -829,7 +829,7 @@ BF[H_1:H_2] =
 {\iiint p(\textrm{data}|\alpha,\mu, \sigma^2)p(\alpha|\sigma^2)p(\mu,\sigma^2|H_2)d\mu\,d\sigma^2d\alpha} \\
 \end{aligned}$$
 
-This can only be solved numerically.
+BThis can only be solved numerically.
 
 ##  Examples using `bayes_inference()` from `statsr`
 
@@ -871,11 +871,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDIzMzE2Myw4NzQyOTM2MjksLTI4ND
-E3MDk3NSwxNjM3ODk3MTQzLC0xNjQyMDczMjAxLC0yMzk4NzY4
-NTIsMTk3NTQ4NDUzLDQzNjc4OTQ0MSwtMzI2NTU4MTY5LC0xMj
-kxMzczMTAwLC0xNTEwOTI5NDM4LC0xNTg2OTU5NzM0LC0xMzMx
-MzkzMDY5LC0yOTY3NDExOTcsLTEzMjAyODY2MDAsLTEwNTQ5MT
-A0MzIsMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4NjQ2NDA0LC00
-OTMxNzIzNDZdfQ==
+eyJoaXN0b3J5IjpbMzU3MzE0MzAxLDE3NzQyMzMxNjMsODc0Mj
+kzNjI5LC0yODQxNzA5NzUsMTYzNzg5NzE0MywtMTY0MjA3MzIw
+MSwtMjM5ODc2ODUyLDE5NzU0ODQ1Myw0MzY3ODk0NDEsLTMyNj
+U1ODE2OSwtMTI5MTM3MzEwMCwtMTUxMDkyOTQzOCwtMTU4Njk1
+OTczNCwtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2Nj
+AwLC0xMDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAx
+ODY0NjQwNF19
 -->
