@@ -767,6 +767,8 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 ### Hypothesis testing for two independent means
 
+To test if two independent means are equal (or if the difference between them is a constant $a_0$, assume
+
 $$\begin{aligned}
 X_{A,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2) \\
 X_{B,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
@@ -819,11 +821,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA5Mjk0MzgsLTE1ODY5NTk3MzQsLT
-EzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1
-NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MD
-QsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4
-NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2Mj
-IyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQs
-OTA5Mzk5MDddfQ==
+eyJoaXN0b3J5IjpbLTE5NTkzMDkyNTMsLTE1MTA5Mjk0MzgsLT
+E1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMy
+MDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MT
+c3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwx
+NDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0ND
+I1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYs
+LTExNzM1NjU1OTRdfQ==
 -->
