@@ -771,7 +771,10 @@ $$\begin{aligned}
 X_{A,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2) \\
 X_{B,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
 H_1: \alpha=0 \\
-H_2: \alpha \ne 0
+H_2: \alpha \ne 0 \\
+BF[H_1:H_2] = 
+\frac {\int p(\textrm{data}|\mu=m_0, \sigma^2)p(\sigma^2|H_1)d\sigma^2} 
+{\iint p(\textrm{data}|\mu, \sigma^2)p(\mu|\sigma^2,H_2)p(\sigma^2|H_2)d\mu\,d\sigma^2} \\
 \end{aligned}$$
 
 ##  Examples using `bayes_inference()` from `statsr`
@@ -814,7 +817,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjcyMzIxMCwtMTU4Njk1OTczNCwtMT
+eyJoaXN0b3J5IjpbLTMzNzQ1MjM4NCwtMTU4Njk1OTczNCwtMT
 MzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0
 OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNC
 wtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1
