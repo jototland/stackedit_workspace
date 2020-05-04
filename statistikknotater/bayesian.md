@@ -742,7 +742,7 @@ $$\begin{aligned}
 BF[H_1:H_2] 
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
 {\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
-&= \sqrt{\frac {n+n_0} {n_0}} 
+&=\color{blue} \sqrt{\frac {n+n_0} {n_0}} 
 \left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
 \frac {\nu+1}{2} 
 \end{aligned}$$
@@ -789,7 +789,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDA4MTYxMCw4MjI0NzE3NywyMDE4Nj
+eyJoaXN0b3J5IjpbLTUwNDY5MTk4NSw4MjI0NzE3NywyMDE4Nj
 Q2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEw
 LC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMT
 U2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1
