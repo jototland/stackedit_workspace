@@ -778,7 +778,7 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 If you use normal prior on the mean of the normal distribution, and fix $n$ and $n_0$, then
 
-$$ \lim_{|t|\to\infty} BF[H_1:H_2] = \sqrt $$
+$$ \lim_{|t|\to\infty} BF[H_1:H_2] = (\frac{n_0}{n+n_0})^ $$
 
 if you use a huge deviation in the mean for the data and prior ($t \to \infty$), then the Bayes factor goes to a constant (instead of going to infinity or zero). 
 
@@ -860,11 +860,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTYzNjQ1NCwtMTY0MjA3MzIwMSwtMj
-M5ODc2ODUyLDE5NzU0ODQ1Myw0MzY3ODk0NDEsLTMyNjU1ODE2
-OSwtMTI5MTM3MzEwMCwtMTUxMDkyOTQzOCwtMTU4Njk1OTczNC
-wtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0x
-MDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0Nj
-QwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwt
-MTg1MjczNTg2Nl19
+eyJoaXN0b3J5IjpbLTc4ODk4NjEyLC0xNjQyMDczMjAxLC0yMz
+k4NzY4NTIsMTk3NTQ4NDUzLDQzNjc4OTQ0MSwtMzI2NTU4MTY5
+LC0xMjkxMzczMTAwLC0xNTEwOTI5NDM4LC0xNTg2OTU5NzM0LC
+0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEzMjAyODY2MDAsLTEw
+NTQ5MTA0MzIsMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4NjQ2ND
+A0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0x
+ODUyNzM1ODY2XX0=
 -->
