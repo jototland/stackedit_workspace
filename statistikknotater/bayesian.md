@@ -765,6 +765,12 @@ BF[H_1:H_2]
 
 $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
+### Hypothesis testing for two independent means
+
+$$\begin{aligned}
+X_{A,i} \st
+\end{aligned}$$
+
 ##  Examples using `bayes_inference()` from `statsr`
 
 ### Find a credible interval for $\mu$
@@ -805,11 +811,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODY5NTk3MzQsLTEzMzEzOTMwNjksLT
-I5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0
-NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0Ni
-wtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3
-NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNT
-Q5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1
-NzIyMjQwMzJdfQ==
+eyJoaXN0b3J5IjpbLTExMzY4ODk4MTgsLTE1ODY5NTk3MzQsLT
+EzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1
+NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MD
+QsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4
+NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2Mj
+IyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQs
+OTA5Mzk5MDddfQ==
 -->
