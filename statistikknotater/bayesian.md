@@ -666,7 +666,7 @@ which is kind of what we wanted anyway.
 
 $$\frac{\mu-\bar x}{\sqrt{s^2/n}}|\textrm{data} \sim \textrm{StudentT}(n-1)$$
 
-This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys, who ). 
+This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys, which pretty much figured most of this stuff out for himself). 
 
 According to the lecturer (which I did not in the least understand), with this prior
 
@@ -805,11 +805,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTQxNjM0NCwtMTMzMTM5MzA2OSwtMj
-k2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1
-MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC
-0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1
-MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1ND
-k4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3
-MjIyNDAzMl19
+eyJoaXN0b3J5IjpbNjA0NTQ5MjAxLC0xMzMxMzkzMDY5LC0yOT
+Y3NDExOTcsLTEzMjAyODY2MDAsLTEwNTQ5MTA0MzIsMTcwNDUy
+NTYyNSw4MjI0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLT
+E4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1ODY2LC0xNzUy
+ODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0OT
+g4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcy
+MjI0MDMyXX0=
 -->
