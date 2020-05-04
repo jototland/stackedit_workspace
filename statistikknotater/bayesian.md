@@ -733,9 +733,9 @@ $$ n_0 = (1.96/0.03)^2$$
 ### Hypothesis testing for mean with unknown variance
 
 $$\begin{array}{rcl}
-H_1 &:& \mu|=m_0 \\
+H_1 &:& \mu|\sigma^2=m_0 \\
 H_2 &:& \mu|\sigma^2 \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
-&&1/\sigma^2 \sim \textrm{Gamma}(\frac{v_0}2,\frac{v_0 s_0^2}2)\\
+\text{both}&& p(\sigma^2) \propto 1/\sigma^2
 \end{array}$$
 
 $$\begin{aligned}
@@ -789,11 +789,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMDUxNTMwLDgyMjQ3MTc3LDIwMTg2ND
-Y0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAs
-LTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNT
-Y2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1
-OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMT
-g3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEz
-MDQ5N119
+eyJoaXN0b3J5IjpbMTY0NDA4MTYxMCw4MjI0NzE3NywyMDE4Nj
+Q2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEw
+LC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMT
+U2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1
+NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLD
+E4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjEx
+MzA0OTddfQ==
 -->
