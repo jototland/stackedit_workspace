@@ -705,7 +705,7 @@ Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook re
 
 ### Hypothesis testing for mean with known variance
 
-Assume $X_1\ldots X_n \stackrel{iid}{\sim} \textrm{Normal}(\mu, \sigma^2)$
+Assume $X_1\ldots X_n \stackrel{iid}{\sim} \textrm{Normal}(\mu, \sigma^2)$, with known $\sigma^2$
 
 $$\begin{array}{rcl}
 H_1 &:& \mu=m_0 \\
@@ -747,6 +747,8 @@ If we want to, say, have a 95% chance of detecting $0.03\sigma$ deviation from $
 $$ n_0 = (1.96/0.03)^2$$
 
 ### Hypothesis testing for mean with unknown variance
+
+Assume $X_1\ldots X_n \stackrel{iid}{\sim} \textrm{Normal}(\mu, \sigma^2)$
 
 $$\begin{array}{rcl}
 H_1 &:& \mu|\sigma^2=m_0 \\
@@ -843,11 +845,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUwMTg3MjMsNDM2Nzg5NDQxLC0zMj
-Y1NTgxNjksLTEyOTEzNzMxMDAsLTE1MTA5Mjk0MzgsLTE1ODY5
-NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMyMDI4Nj
-YwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIw
-MTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NT
-M5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1
-MCwxNTY2MjIyMDM1XX0=
+eyJoaXN0b3J5IjpbMTk3NTQ4NDUzLDQzNjc4OTQ0MSwtMzI2NT
+U4MTY5LC0xMjkxMzczMTAwLC0xNTEwOTI5NDM4LC0xNTg2OTU5
+NzM0LC0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEzMjAyODY2MD
+AsLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4
+NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOT
+EwLC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAs
+MTU2NjIyMjAzNV19
 -->
