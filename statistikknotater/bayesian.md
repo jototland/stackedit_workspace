@@ -676,6 +676,8 @@ p(\sigma^2) &\propto 1/\sigma^2 \\
 p(\mu, \sigma^2) &\propto 1/\sigma^2
 \end{aligned}$$
 
+so one of the two last lines is sometimes used as a cryptic way of saying that you use this reference prior. 
+
 ### Cauchy priors
 
 If we know $\mu$ to some degree, but are uncertain about prior sample size, we can use a hierarchical model with sample size given by another distribution...
@@ -803,11 +805,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgyMDc0MDcsLTEzMzEzOTMwNjksLT
-I5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0
-NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0Ni
-wtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3
-NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNT
-Q5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1
-NzIyMjQwMzJdfQ==
+eyJoaXN0b3J5IjpbMzc2OTUzMzcsLTEzMzEzOTMwNjksLTI5Nj
+c0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1
+NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMT
+gwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4
+Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5OD
+gsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIy
+MjQwMzJdfQ==
 -->
