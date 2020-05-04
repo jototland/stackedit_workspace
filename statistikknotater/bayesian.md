@@ -779,11 +779,13 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 If you use normal prior on the mean of the normal distribution, and fix $n$ and $n_0$, then
 
-$$ \lim_{|t|\to\infty} BF[H_1:H_2] 
+$$\begin{array}{l}
+\lim_{|t|\to\infty} BF[H_1:H_2] \\
 = \lim_{|t|\to\infty}\sqrt{\frac {n+n_0} {n_0}} 
 	\left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
-	\frac {\nu+1}{2}
-= (\frac{n_0}{n+n_0})^{\frac{n-1}{2}} $$
+	\frac {\nu+1}{2} \\
+= (\frac{n_0}{n+n_0})^{\frac{n-1}{2}} 
+\end{array}$$
 
 That is, even with infinitely large difference between the mean of the observed data, and the prior mean, the Bayes factor doesn't go to zero, but towards a constant. 
 
@@ -867,11 +869,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY5MDAyNzcsLTI4NDE3MDk3NSwxNj
-M3ODk3MTQzLC0xNjQyMDczMjAxLC0yMzk4NzY4NTIsMTk3NTQ4
-NDUzLDQzNjc4OTQ0MSwtMzI2NTU4MTY5LC0xMjkxMzczMTAwLC
-0xNTEwOTI5NDM4LC0xNTg2OTU5NzM0LC0xMzMxMzkzMDY5LC0y
-OTY3NDExOTcsLTEzMjAyODY2MDAsLTEwNTQ5MTA0MzIsMTcwND
-UyNTYyNSw4MjI0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIzNDYs
-LTE4MDg2MDA2MjBdfQ==
+eyJoaXN0b3J5IjpbMTY5NTEzMDYyNSwtMjg0MTcwOTc1LDE2Mz
+c4OTcxNDMsLTE2NDIwNzMyMDEsLTIzOTg3Njg1MiwxOTc1NDg0
+NTMsNDM2Nzg5NDQxLC0zMjY1NTgxNjksLTEyOTEzNzMxMDAsLT
+E1MTA5Mjk0MzgsLTE1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5
+Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NT
+I1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0Niwt
+MTgwODYwMDYyMF19
 -->
