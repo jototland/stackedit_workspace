@@ -752,16 +752,16 @@ Known mean
 $$\begin{array}{rcl}
 H_1 &:& \mu=m_0 \\
 H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
-&&1/\sigma^2 \sim \textrm{Gamma}(\frac{v_0}2,\frac{v_0 s_0^2}2)\\
-\end{array} \\
-\begin{aligned}
+\end{array}$$
+
+$$\begin{aligned}
 \textrm{BF}[H_1:H_2] 
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
 {\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
 &=\color{blue}\sqrt{\frac{n+n_0}{n_0}}e^{-\frac 1 2 \frac{n}{n+n_0}Z^2}
-\end{aligned} \\
-\text{where } Z=\frac{x -m_0}{\frac{\sigma}{\sqrt{n}}}
-$$
+\end{aligned}$$
+
+$$\text{where } Z=\frac{x -m_0}{\frac{\sigma}{\sqrt{n}}}$$
 
 Unknown mean
 
@@ -804,11 +804,11 @@ $$
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMT
-cyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2
-NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMT
-AyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkw
-NywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC
-04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4
-ODk3MDM3XX0=
+eyJoaXN0b3J5IjpbNzYwOTA2MDksODIyNDcxNzcsMjAxODY0Nj
+QwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwt
+MTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1Nj
+YyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5
+NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxOD
+c4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMw
+NDk3XX0=
 -->
