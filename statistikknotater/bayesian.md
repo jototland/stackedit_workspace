@@ -765,7 +765,7 @@ BF[H_1:H_2]
 
 $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
-## Examples
+##  Examples using `bayes_inference()`
 
 ### Find a credible interval for $\mu$
 Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
@@ -805,11 +805,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDk3ODAzOCwtMTMzMTM5MzA2OSwtMj
-k2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1
-MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC
-0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1
-MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1ND
-k4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3
-MjIyNDAzMl19
+eyJoaXN0b3J5IjpbLTExNTI1MzYwMzEsLTEzMzEzOTMwNjksLT
+I5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0
+NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0Ni
+wtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3
+NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNT
+Q5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1
+NzIyMjQwMzJdfQ==
 -->
