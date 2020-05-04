@@ -770,8 +770,12 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 To test if two independent means are equal (or if the difference between them is a constant $a_0$, assume
 
 $$\begin{aligned}
-X_{A,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2) \\
-X_{B,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
+X_{A,i} &\stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2) \\
+X_{B,i} &\stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
+\end{aligned}$$
+
+If the means are equal, $\alpha=0$. If the means differ by a fixed 
+$$\begin{aligned}
 H_1: \alpha=a_0 \\
 H_2: \alpha \ne a_0 \\
 \textrm{both}: p(\mu,\sigma^2) \propto 1/\sigma^2 \\
@@ -821,11 +825,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkzMDkyNTMsLTE1MTA5Mjk0MzgsLT
-E1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMy
-MDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MT
-c3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwx
-NDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0ND
-I1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYs
-LTExNzM1NjU1OTRdfQ==
+eyJoaXN0b3J5IjpbNjI4NzUyNTg4LC0xNTEwOTI5NDM4LC0xNT
+g2OTU5NzM0LC0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEzMjAy
+ODY2MDAsLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4MjI0NzE3Ny
+wyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQy
+NTUzOTEwLC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNT
+A5NTAsMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0x
+MTczNTY1NTk0XX0=
 -->
