@@ -666,6 +666,8 @@ which is kind of what we wanted anyway.
 
 This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys). 
 
+According to the lecturer which I 
+
 ### Cauchy priors
 
 If we know $\mu$ to some degree, but are uncertain about prior sample size, we can use a hierarchical model with sample size given by another distribution...
@@ -793,11 +795,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE5NzU3NjIsODIyNDcxNzcsMjAxOD
-Y0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1Mzkx
-MCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLD
-E1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2
-NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MC
-wxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYx
-MTMwNDk3XX0=
+eyJoaXN0b3J5IjpbLTE3MjgxMTE0Miw4MjI0NzE3NywyMDE4Nj
+Q2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEw
+LC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMT
+U2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1
+NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLD
+E4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjEx
+MzA0OTddfQ==
 -->
