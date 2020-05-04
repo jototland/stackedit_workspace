@@ -793,6 +793,8 @@ This is a consequence of using a normal prior.
 
 Conclusion: don't use a normal prior, use a Cauchy prior!
 
+On the other hand, to find the Bayes factor using a Cauchy prior, one must use numerical simulation (Markov Chain Monte Carlo)
+
 ### Hypothesis testing for two independent means
 
 To test if two independent means are equal (or if the difference between them is a constant $a_0$, assume
@@ -869,11 +871,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0MjkzNjI5LC0yODQxNzA5NzUsMTYzNz
-g5NzE0MywtMTY0MjA3MzIwMSwtMjM5ODc2ODUyLDE5NzU0ODQ1
-Myw0MzY3ODk0NDEsLTMyNjU1ODE2OSwtMTI5MTM3MzEwMCwtMT
-UxMDkyOTQzOCwtMTU4Njk1OTczNCwtMTMzMTM5MzA2OSwtMjk2
-NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1Mj
-U2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0x
-ODA4NjAwNjIwXX0=
+eyJoaXN0b3J5IjpbMTc3NDIzMzE2Myw4NzQyOTM2MjksLTI4ND
+E3MDk3NSwxNjM3ODk3MTQzLC0xNjQyMDczMjAxLC0yMzk4NzY4
+NTIsMTk3NTQ4NDUzLDQzNjc4OTQ0MSwtMzI2NTU4MTY5LC0xMj
+kxMzczMTAwLC0xNTEwOTI5NDM4LC0xNTg2OTU5NzM0LC0xMzMx
+MzkzMDY5LC0yOTY3NDExOTcsLTEzMjAyODY2MDAsLTEwNTQ5MT
+A0MzIsMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4NjQ2NDA0LC00
+OTMxNzIzNDZdfQ==
 -->
