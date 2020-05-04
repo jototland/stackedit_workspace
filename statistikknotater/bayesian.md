@@ -774,6 +774,10 @@ BF[H_1:H_2]
 
 $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
+### The information paradox
+
+A normal prior on the normal distribution, 
+
 ### Hypothesis testing for two independent means
 
 To test if two independent means are equal (or if the difference between them is a constant $a_0$, assume
@@ -850,11 +854,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTg3Njg1MiwxOTc1NDg0NTMsNDM2Nz
-g5NDQxLC0zMjY1NTgxNjksLTEyOTEzNzMxMDAsLTE1MTA5Mjk0
-MzgsLTE1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5Ny
-wtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgy
-MjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMD
-YyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEs
-MjA0NDI1MDk1MF19
+eyJoaXN0b3J5IjpbLTk4MDg3OTg2NCwtMjM5ODc2ODUyLDE5Nz
+U0ODQ1Myw0MzY3ODk0NDEsLTMyNjU1ODE2OSwtMTI5MTM3MzEw
+MCwtMTUxMDkyOTQzOCwtMTU4Njk1OTczNCwtMTMzMTM5MzA2OS
+wtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3
+MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMTcyMz
+Q2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2Niwt
+MTc1MjgzOTY1MV19
 -->
