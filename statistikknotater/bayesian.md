@@ -768,9 +768,10 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 ### Hypothesis testing for two independent means
 
 $$\begin{aligned}
-X_{A,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2)\\
-X_{B,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2)
-
+X_{A,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2) \\
+X_{B,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
+H_1: \alpha=0 \\
+H_2: \alpha \ne 0
 \end{aligned}$$
 
 ##  Examples using `bayes_inference()` from `statsr`
@@ -813,11 +814,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTM2NjQzNzEsLTE1ODY5NTk3MzQsLT
-EzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1
-NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MD
-QsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4
-NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2Mj
-IyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQs
-OTA5Mzk5MDddfQ==
+eyJoaXN0b3J5IjpbMjEyNjcyMzIxMCwtMTU4Njk1OTczNCwtMT
+MzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0
+OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNC
+wtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1
+MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMj
+IwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5
+MDkzOTkwN119
 -->
