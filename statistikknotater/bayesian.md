@@ -666,7 +666,7 @@ which is kind of what we wanted anyway.
 
 $$\frac{\mu-\bar x}{\sqrt{s^2/n}}|\textrm{data} \sim \textrm{StudentT}(n-1)$$
 
-This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys, which pretty much figured most of this stuff out for himself). 
+This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys, wh). 
 
 According to the lecturer (which I did not in the least understand), with this prior
 
@@ -805,7 +805,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0NTQ5MjAxLC0xMzMxMzkzMDY5LC0yOT
+eyJoaXN0b3J5IjpbNTQ2NjA1ODQ5LC0xMzMxMzkzMDY5LC0yOT
 Y3NDExOTcsLTEzMjAyODY2MDAsLTEwNTQ5MTA0MzIsMTcwNDUy
 NTYyNSw4MjI0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLT
 E4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1ODY2LC0xNzUy
