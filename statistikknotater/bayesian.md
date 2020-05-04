@@ -799,6 +799,8 @@ BF[H_1:H_2] =
 {\iiint p(\textrm{data}|\alpha,\mu, \sigma^2)p(\alpha|\sigma^2)p(\mu,\sigma^2|H_2)d\mu\,d\sigma^2d\alpha} \\
 \end{aligned}$$
 
+This can only be solved numerically.
+
 ##  Examples using `bayes_inference()` from `statsr`
 
 ### Find a credible interval for $\mu$
@@ -839,11 +841,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTEzNzMxMDAsLTE1MTA5Mjk0MzgsLT
-E1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMy
-MDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MT
-c3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwx
-NDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0ND
-I1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYs
-LTExNzM1NjU1OTRdfQ==
+eyJoaXN0b3J5IjpbLTMyNjU1ODE2OSwtMTI5MTM3MzEwMCwtMT
+UxMDkyOTQzOCwtMTU4Njk1OTczNCwtMTMzMTM5MzA2OSwtMjk2
+NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1Mj
+U2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0x
+ODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1Mj
+gzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4
+OCwtMjkwNTU4Nl19
 -->
