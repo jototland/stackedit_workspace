@@ -674,7 +674,9 @@ p(\sigma^2) &\propto 1/\sigma^2 \\
 p(\mu, \sigma^2) &\propto 1/\sigma^2
 \end{aligned}$$
 
-Under the reference prior(
+Under the reference prior $p(\mu,\sigma^2) \propto 1/\sigma^2$
+
+$$\frac{mu-\bar x}{\sqrt{s^2/n}}|\textrm{data} \si$$
 
 ### Cauchy priors
 
@@ -803,11 +805,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3MDExODUxLDE3MDQ1MjU2MjUsODIyND
-cxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIw
-LDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMD
-Q0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4
-NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMT
-g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
-NDUxXX0=
+eyJoaXN0b3J5IjpbMTI4OTcyODAzNiwxNzA0NTI1NjI1LDgyMj
+Q3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYy
+MCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMj
+A0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1
+ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLT
+E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
+MDQ1MV19
 -->
