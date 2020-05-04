@@ -774,6 +774,8 @@ X_{A,i} &\stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2) \\
 X_{B,i} &\stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
 \end{aligned}$$
 
+The variance
+
 If the means are equal, $\alpha=0$. 
 
 If the means differ by a fixed constant, $\alpha=a_0$ is the difference between the mean for the A group and the B group. We set up the two hypotheses
@@ -788,6 +790,9 @@ We cannot use an improper prior if we want to avoid Bartlett’s or Jeffreys-Lin
 $$\begin{aligned}
 \textrm{both}: p(\mu,\sigma^2) \propto 1/\sigma^2 \\
 H_2: \delta = \alpha/\sigma^2 \sim \textrm{Cauchy}(0, r^2) \\
+\end{aligned}$$
+
+$$\begin{aligned}
 BF[H_1:H_2] = 
 \frac {\iint p(\textrm{data}|\alpha=a_0, \mu,\sigma^2)p(\mu,\sigma|H_1)d\mu\,d\sigma^2} 
 {\iiint p(\textrm{data}|\alpha,\mu, \sigma^2)p(\alpha|\sigma^2)p(\mu,\sigma^2|H_2)d\mu\,d\sigma^2d\alpha} \\
@@ -833,7 +838,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDU2MzEzNSwtMTUxMDkyOTQzOCwtMT
+eyJoaXN0b3J5IjpbMTIwNjM3NTcyMywtMTUxMDkyOTQzOCwtMT
 U4Njk1OTczNCwtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIw
 Mjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNz
 csMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0
