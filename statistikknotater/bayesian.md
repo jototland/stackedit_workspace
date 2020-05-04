@@ -674,6 +674,8 @@ p(\sigma^2) &\propto 1/\sigma^2 \\
 p(\mu, \sigma^2) &\propto 1/\sigma^2
 \end{aligned}$$
 
+Under the reference prior(
+
 ### Cauchy priors
 
 If we know $\mu$ to some degree, but are uncertain about prior sample size, we can use a hierarchical model with sample size given by another distribution...
@@ -801,11 +803,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4Nj
-Q2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEw
-LC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMT
-U2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1
-NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLD
-E4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjEx
-MzA0OTddfQ==
+eyJoaXN0b3J5IjpbODE3MDExODUxLDE3MDQ1MjU2MjUsODIyND
+cxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIw
+LDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMD
+Q0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4
+NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMT
+g0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUw
+NDUxXX0=
 -->
