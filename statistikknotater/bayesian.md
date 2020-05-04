@@ -678,6 +678,10 @@ Under the reference prior $p(\mu,\sigma^2) \propto 1/\sigma^2$
 
 $$\frac{\mu-\bar x}{\sqrt{s^2/n}}|\textrm{data} \sim \textrm{StudentT}(n-1)$$
 
+Prior to seeing the data
+
+$$\frac{\mu-\bar x}{\sqrt{s^2/n}}|\mu, \sigma^2 \sim \textrm{StudentT}(n-1)$$
+
 ### Cauchy priors
 
 If we know $\mu$ to some degree, but are uncertain about prior sample size, we can use a hierarchical model with sample size given by another distribution...
@@ -805,11 +809,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTE4OTUyOSwxNzA0NTI1NjI1LDgyMj
-Q3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYy
-MCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMj
-A0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1
-ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLT
-E4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1
-MDQ1MV19
+eyJoaXN0b3J5IjpbLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4Mj
+I0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2
+MjAsMTQyNTUzOTEwLC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLD
+IwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1
+NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC
+0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3
+NTA0NTFdfQ==
 -->
