@@ -699,7 +699,7 @@ Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note
 
 ### Jeffreys  Zellner-Siow Cauchy prior
 
-Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`, and seems to be how they prefer to do inference unless using just Jeffreys prior works (
+Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`, and seems to be how they prefer to do inference unless using just Jeffreys prior works (see Bartlett's or Jeffreys-Lindleys paradox below)
 
 ## Hypothesis testing
 
@@ -805,7 +805,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzY2MTI1NCwtMTMzMTM5MzA2OSwtMj
+eyJoaXN0b3J5IjpbLTk2MDk3ODAzOCwtMTMzMTM5MzA2OSwtMj
 k2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1
 MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC
 0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1
