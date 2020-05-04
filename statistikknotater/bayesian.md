@@ -762,11 +762,13 @@ $$
 
 Unknown mean
 
-$$\begin{aligned} BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}} 
+$$\begin{aligned}
+BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}} 
 \left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
+\frac {\nu+1}{2} 
 \end{aligned} \\
-\frac {\nu+1}{2} \\
-\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
+\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1
+$$
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
@@ -791,11 +793,11 @@ $$\begin{aligned} BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}}
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2MDQ1NTc0LDIwMTg2NDY0MDQsLTQ5Mz
-E3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4
-NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LD
-EwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5
-MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEyMS
-wtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkz
-ODg5NzAzN119
+eyJoaXN0b3J5IjpbLTc4ODY3NzQ4OCwyMDE4NjQ2NDA0LC00OT
+MxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1
+ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNS
+wxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5
+OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMj
+EsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OTcsLTE5
+Mzg4OTcwMzddfQ==
 -->
