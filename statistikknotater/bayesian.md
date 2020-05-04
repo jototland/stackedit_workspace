@@ -776,7 +776,11 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 ### The information paradox
 
-If you use normal prior on the mean of the normal distribution, if you use a huge deviation in the mean for the data and prior ($t \to \infty$), then the Bayes factor goes to a constant (instead of going to infinity or zero). 
+If you use normal prior on the mean of the normal distribution, and fix $n$ and $n_0$, then
+
+$$ \lim_{|t|\to\infty} BF[H_1:H_2] = \sqrt $$
+
+if you use a huge deviation in the mean for the data and prior ($t \to \infty$), then the Bayes factor goes to a constant (instead of going to infinity or zero). 
 
 Conclusion: don't use a normal prior, use a Cauchy prior. 
 
@@ -856,11 +860,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIwNzMyMDEsLTIzOTg3Njg1MiwxOT
-c1NDg0NTMsNDM2Nzg5NDQxLC0zMjY1NTgxNjksLTEyOTEzNzMx
-MDAsLTE1MTA5Mjk0MzgsLTE1ODY5NTk3MzQsLTEzMzEzOTMwNj
-ksLTI5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwx
-NzA0NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3Mj
-M0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYs
-LTE3NTI4Mzk2NTFdfQ==
+eyJoaXN0b3J5IjpbMjA1MTYzNjQ1NCwtMTY0MjA3MzIwMSwtMj
+M5ODc2ODUyLDE5NzU0ODQ1Myw0MzY3ODk0NDEsLTMyNjU1ODE2
+OSwtMTI5MTM3MzEwMCwtMTUxMDkyOTQzOCwtMTU4Njk1OTczNC
+wtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0x
+MDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0Nj
+QwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwt
+MTg1MjczNTg2Nl19
 -->
