@@ -753,7 +753,7 @@ $$\begin{array}{rcl}
 H_1 &:& \mu=m_0 \\
 H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
 &&1/\sigma^2 \sim \textrm{Gamma}(\frac{v_0}2,\frac{v_0 s_0^2}2)\\
-\end{array} \\ \\
+\end{array} \\
 \begin{aligned}
 \textrm{BF}[H_1:H_2] 
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
@@ -771,7 +771,10 @@ H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
 &&1/\sigma^2 \sim \textrm{Gamma}(\frac{v_0}2,\frac{v_0 s_0^2}2)\\
 \end{array} \\
 \begin{aligned}
-BF[H_1:H_2] &= \sqrt{\frac {n+n_0} {n_0}} 
+BF[H_1:H_2] 
+&= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
+{\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
+&= \sqrt{\frac {n+n_0} {n_0}} 
 \left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
 \frac {\nu+1}{2} 
 \end{aligned} \\
@@ -801,11 +804,11 @@ $$
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3ODE5NjA3LDIwMTg2NDY0MDQsLTQ5Mz
-E3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4
-NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LD
-EwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5
-MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEyMS
-wtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkz
-ODg5NzAzN119
+eyJoaXN0b3J5IjpbODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMT
+cyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2
+NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMT
+AyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkw
+NywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC
+04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4
+ODk3MDM3XX0=
 -->
