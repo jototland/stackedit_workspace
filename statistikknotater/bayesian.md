@@ -779,9 +779,9 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 If you use normal prior on the mean of the normal distribution, and fix $n$ and $n_0$, then
 
-$$\begin{array}{l}
+$$&\begin{array}{ll}
 \lim_{|t|\to\infty} BF[H_1:H_2] \\
-= \lim_{|t|\to\infty}\sqrt{\frac {n+n_0} {n_0}} 
+= &\lim_{|t|\to\infty}\sqrt{\frac {n+n_0} {n_0}} 
 	\left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
 	\frac {\nu+1}{2} \\
 = (\frac{n_0}{n+n_0})^{\frac{n-1}{2}} 
@@ -869,7 +869,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTEzMDYyNSwtMjg0MTcwOTc1LDE2Mz
+eyJoaXN0b3J5IjpbLTY3MDI0MTU4NywtMjg0MTcwOTc1LDE2Mz
 c4OTcxNDMsLTE2NDIwNzMyMDEsLTIzOTg3Njg1MiwxOTc1NDg0
 NTMsNDM2Nzg5NDQxLC0zMjY1NTgxNjksLTEyOTEzNzMxMDAsLT
 E1MTA5Mjk0MzgsLTE1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5
