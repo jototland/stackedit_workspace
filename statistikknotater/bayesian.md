@@ -674,13 +674,9 @@ p(\sigma^2) &\propto 1/\sigma^2 \\
 p(\mu, \sigma^2) &\propto 1/\sigma^2
 \end{aligned}$$
 
-Under the reference prior $p(\mu,\sigma^2) \propto 1/\sigma^2$
+Finally, observe that under the reference prior $p(\mu,\sigma^2) \propto 1/\sigma^2$:
 
 $$\frac{\mu-\bar x}{\sqrt{s^2/n}}|\textrm{data} \sim \textrm{StudentT}(n-1)$$
-
-Prior to seeing the data
-
-$$\frac{\mu-\bar x}{\sqrt{s^2/n}}|\mu, \sigma^2 \sim \textrm{StudentT}(n-1)$$
 
 ### Cauchy priors
 
@@ -809,11 +805,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMT
-MyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3
-MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMC
-wxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0
-NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1OD
-YsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4
-NDA0NjI3NTBdfQ==
+eyJoaXN0b3J5IjpbLTIwODk4OTgzMDIsLTEzMzEzOTMwNjksLT
+I5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0
+NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0Ni
+wtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3
+NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNT
+Q5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1
+NzIyMjQwMzJdfQ==
 -->
