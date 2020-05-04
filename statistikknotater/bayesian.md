@@ -728,39 +728,7 @@ If we want to, say, have a 95% chance of detecting $0.03\sigma$ deviation from $
 
 $$ n_0 = (1.96/0.03)^2$$
 
-## Examples
-
-### Find a credible interval for $\mu$
-Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
-
-Using the `statsr`  package:
-
-	bayes_inference(y=tthm, data=tapwater, statistic="mean",
-					mu_0=35, rscale=1, prior="JZS",
-					type="ci", method="sim")
-
-	## 95% CI for mu: (45.5714, 64.2048)
-
-
-### Hypothesis testing two paired means
-
-Known mean
-
-$$\begin{array}{rcl}
-H_1 &:& \mu=m_0 \\
-H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
-\end{array}$$
-
-$$\begin{aligned}
-\textrm{BF}[H_1:H_2] 
-&= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
-{\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
-&=\color{blue}\sqrt{\frac{n+n_0}{n_0}}e^{-\frac 1 2 \frac{n}{n+n_0}Z^2}
-\end{aligned}$$
-
-$$\text{where } Z=\frac{x -m_0}{\frac{\sigma}{\sqrt{n}}}$$
-
-Unknown mean
+### Hypothesis testing for mean with unknown variance
 
 $$\begin{array}{rcl}
 H_1 &:& \mu=m_0 \\
@@ -778,6 +746,24 @@ BF[H_1:H_2]
 \end{aligned}$$
 
 $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$$$
+
+
+## Examples
+
+### Find a credible interval for $\mu$
+Find $\mu$ for tthm, with a Cauchy prior for the mean of 0.35 (r=1), and Jeffreys non-generative reference prior for the variance)
+
+Using the `statsr`  package:
+
+	bayes_inference(y=tthm, data=tapwater, statistic="mean",
+					mu_0=35, rscale=1, prior="JZS",
+					type="ci", method="sim")
+
+	## 95% CI for mu: (45.5714, 64.2048)
+
+
+### Hypothesis testing two paired means
+
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
@@ -802,11 +788,11 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$$$
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTcxMDk4NSw4MjI0NzE3NywyMDE4Nj
-Q2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEw
-LC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMT
-U2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1
-NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLD
-E4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjEx
-MzA0OTddfQ==
+eyJoaXN0b3J5IjpbLTEyODkwNjk1MzksODIyNDcxNzcsMjAxOD
+Y0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1Mzkx
+MCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLD
+E1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2
+NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MC
+wxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYx
+MTMwNDk3XX0=
 -->
