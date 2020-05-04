@@ -718,7 +718,7 @@ $$\begin{aligned}
 \textrm{BF}[H_1:H_2] 
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
 {\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
-&={\color{blue}
+&=\boxed{
 	\sqrt{\frac{n+n_0}{n_0}}e^{(-\frac 1 2 \frac{n}{n+n_0}Z^2)}
 }
 \end{aligned}$$
@@ -809,11 +809,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMzOTg1MiwtMjk2NzQxMTk3LC0xMz
-IwMjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcx
-NzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLD
-E0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0
-MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4Ni
-wtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0
-MDQ2Mjc1MF19
+eyJoaXN0b3J5IjpbLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMT
+MyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3
+MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMC
+wxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0
+NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1OD
+YsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4
+NDA0NjI3NTBdfQ==
 -->
