@@ -750,6 +750,8 @@ Using the `statsr`  package:
 Known mean
 
 $$\begin{aligned}
+H_1 &: \mu=m_0 \\
+H_2 &= \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
 \textrm{BF}[H_1:H_2] 
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
 {\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
@@ -788,11 +790,11 @@ $$ BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}}
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xOD
-A4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1Mjgz
-OTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OC
-wtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIy
-NDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OT
-YsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02
-MDQ1MzM1ODZdfQ==
+eyJoaXN0b3J5IjpbLTgxODc3NTc3MSwyMDE4NjQ2NDA0LC00OT
+MxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1
+ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNS
+wxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5
+OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMj
+EsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OTcsLTE5
+Mzg4OTcwMzddfQ==
 -->
