@@ -829,7 +829,7 @@ BF[H_1:H_2] =
 {\iiint p(\textrm{data}|\alpha,\mu, \sigma^2)p(\alpha|\sigma^2)p(\mu,\sigma^2|H_2)d\mu\,d\sigma^2d\alpha} \\
 \end{aligned}$$
 
-BThis can only be solved numerically.
+Because we use a Cauchy prior, this can only be solved numerically.
 
 ##  Examples using `bayes_inference()` from `statsr`
 
@@ -871,11 +871,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3MzE0MzAxLDE3NzQyMzMxNjMsODc0Mj
-kzNjI5LC0yODQxNzA5NzUsMTYzNzg5NzE0MywtMTY0MjA3MzIw
-MSwtMjM5ODc2ODUyLDE5NzU0ODQ1Myw0MzY3ODk0NDEsLTMyNj
-U1ODE2OSwtMTI5MTM3MzEwMCwtMTUxMDkyOTQzOCwtMTU4Njk1
-OTczNCwtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2Nj
-AwLC0xMDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAx
-ODY0NjQwNF19
+eyJoaXN0b3J5IjpbMTMwOTAwNjM1NiwxNzc0MjMzMTYzLDg3ND
+I5MzYyOSwtMjg0MTcwOTc1LDE2Mzc4OTcxNDMsLTE2NDIwNzMy
+MDEsLTIzOTg3Njg1MiwxOTc1NDg0NTMsNDM2Nzg5NDQxLC0zMj
+Y1NTgxNjksLTEyOTEzNzMxMDAsLTE1MTA5Mjk0MzgsLTE1ODY5
+NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMyMDI4Nj
+YwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIw
+MTg2NDY0MDRdfQ==
 -->
