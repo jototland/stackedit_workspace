@@ -666,11 +666,12 @@ which is kind of what we wanted anyway.
 
 This is special case of a reference prior known as the *independent Jeffreys prior* (after Sir Harold Jeffreys). 
 
-According to the lecturer which I did not in the least understand, with this prior
+According to the lecturer (which I did not in the least understand), with this prior
 
 $$\begin{aligned}
 p(\mu|\sigma^2) &\propto 1\\
-p(\sigma^2) &\propto 1/\sigma^2
+p(\sigma^2) &\propto 1/\sigma^2 \\
+p(\mu, sigma^2) &\propto 1/\sigma^2
 \end{aligned}$$
 
 ### Cauchy priors
@@ -800,11 +801,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NTk5MDksODIyNDcxNzcsMjAxODY0Nj
-QwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwt
-MTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1Nj
-YyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5
-NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxOD
-c4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMw
-NDk3XX0=
+eyJoaXN0b3J5IjpbMTkxNDA4ODEyMSw4MjI0NzE3NywyMDE4Nj
+Q2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEw
+LC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMT
+U2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1
+NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLD
+E4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjEx
+MzA0OTddfQ==
 -->
