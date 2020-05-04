@@ -778,9 +778,9 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 If you use normal prior on the mean of the normal distribution, and fix $n$ and $n_0$, then
 
-$$ \lim_{|t|\to\infty} BF[H_1:H_2] = (\frac{n_0}{n+n_0})^ $$
+$$ \lim_{|t|\to\infty} BF[H_1:H_2] = (\frac{n_0}{n+n_0})^{\frac{n-1}{2}} $$
 
-if you use a huge deviation in the mean for the data and prior ($t \to \infty$), then the Bayes factor goes to a constant (instead of going to infinity or zero). 
+That is, even with infinitely large difference between the mean of the observed data, and the prior mean
 
 Conclusion: don't use a normal prior, use a Cauchy prior. 
 
@@ -860,7 +860,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODk4NjEyLC0xNjQyMDczMjAxLC0yMz
+eyJoaXN0b3J5IjpbMTAzMzE1MjEwLC0xNjQyMDczMjAxLC0yMz
 k4NzY4NTIsMTk3NTQ4NDUzLDQzNjc4OTQ0MSwtMzI2NTU4MTY5
 LC0xMjkxMzczMTAwLC0xNTEwOTI5NDM4LC0xNTg2OTU5NzM0LC
 0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEzMjAyODY2MDAsLTEw
