@@ -753,17 +753,17 @@ $$\begin{aligned}
 \textrm{BF}[H_1:H_2] 
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
 {\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
-&=\sqrt{\frac{n+n_0}{n_0}}e^{-\frac 1 2 \frac{n}{n+n_0}Z^2} \\
-Z&=\frac{x -m_0}{\frac{\sigma}{\sqrt{n}}}
-\end{aligned}$$
+&=\sqrt{\frac{n+n_0}{n_0}}e^{-\frac 1 2 \frac{n}{n+n_0}Z^2}
+\end{aligned} \\
+\text{where } Z=\frac{x -m_0}{\frac{\sigma}{\sqrt{n}}}
+$$
 
 Unknown mean
 
 $$ BF[H_1:H_2] = \sqrt{\frac {n+n_0} {n_0}} 
 \left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
 \frac {\nu+1}{2} \\
-t=\frac{|\bar Y|}{s/\sqrt{n}}\\
-\nu=n-1$$
+\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 	bayes_inference(difference, data=zinc, statistic="mean", type="ht",
 					prior="JZS", mu_0=0, method="theo", alt="twosided")
@@ -788,7 +788,7 @@ t=\frac{|\bar Y|}{s/\sqrt{n}}\\
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTAxMDYwMiwtNDkzMTcyMzQ2LC0xOD
+eyJoaXN0b3J5IjpbMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xOD
 A4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1Mjgz
 OTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OC
 wtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIy
