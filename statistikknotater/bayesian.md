@@ -758,8 +758,8 @@ H_2 &:& \mu|\sigma^2 \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
 
 $$\begin{aligned}
 BF[H_1:H_2] 
-&= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
-{\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
+&= \frac {\int p(\textrm{data}|\mu=m_0, \sigma^2)p(\sigma^2|H_1)d\sigma^2} 
+{\iint p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
 &={\color{blue}
 	 \sqrt{\frac {n+n_0} {n_0}} 
 	\left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
@@ -809,11 +809,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAyODY2MDAsLTEwNTQ5MTA0MzIsMT
-cwNDUyNTYyNSw4MjI0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIz
-NDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1ODY2LC
-0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5
-MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC
-0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgw
-MDY4Mjc5Nl19
+eyJoaXN0b3J5IjpbMjMyMzgyMDkxLC0xMzIwMjg2NjAwLC0xMD
+U0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0NjQw
+NCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMT
+g1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYy
+MjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NC
+w5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4
+MDU5MTIxXX0=
 -->
