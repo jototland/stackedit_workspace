@@ -752,8 +752,8 @@ Known mean
 $$\begin{aligned}
 \textrm{BF}[H_1:H_2] 
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
-{\int } \\
-a&b
+{\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
+&=\left(\frac{n+n_0}{n_0} \right)
 \end{aligned}$$
 
 Unknown mean
@@ -787,7 +787,7 @@ t=\frac{|\bar Y|}{s/\sqrt{n}}\\
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTgzNzQ0MzAsLTQ5MzE3MjM0NiwtMT
+eyJoaXN0b3J5IjpbLTE2NDk5MzI2MjAsLTQ5MzE3MjM0NiwtMT
 gwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4
 Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5OD
 gsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIy
