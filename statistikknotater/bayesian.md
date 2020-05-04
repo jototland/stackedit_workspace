@@ -689,6 +689,8 @@ Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note
 
 Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`. 
 
+## Hypothesis testing
+
 ### Hypothesis testing for mean with known variance
 
 $$\begin{array}{rcl}
@@ -731,8 +733,8 @@ $$ n_0 = (1.96/0.03)^2$$
 ### Hypothesis testing for mean with unknown variance
 
 $$\begin{array}{rcl}
-H_1 &:& \mu=m_0 \\
-H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
+H_1 &:& \mu|=m_0 \\
+H_2 &:& \mu|\sigma^2 \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
 &&1/\sigma^2 \sim \textrm{Gamma}(\frac{v_0}2,\frac{v_0 s_0^2}2)\\
 \end{array}$$
 
@@ -746,7 +748,6 @@ BF[H_1:H_2]
 \end{aligned}$$
 
 $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$$$
-
 
 ## Examples
 
@@ -788,11 +789,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODkwNjk1MzksODIyNDcxNzcsMjAxOD
-Y0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1Mzkx
-MCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLD
-E1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2
-NTU5NCw5MDkzOTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MC
-wxODc4MDU5MTIxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYx
-MTMwNDk3XX0=
+eyJoaXN0b3J5IjpbMjYxMDUxNTMwLDgyMjQ3MTc3LDIwMTg2ND
+Y0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAs
+LTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNT
+Y2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1
+OTQsOTA5Mzk5MDcsLTE1NzIyMjQwMzIsLTE4NDA0NjI3NTAsMT
+g3ODA1OTEyMSwtODAwNjgyNzk2LDk1Njc1MDQ1MSwtMTE2MTEz
+MDQ5N119
 -->
