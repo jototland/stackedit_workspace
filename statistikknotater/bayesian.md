@@ -701,8 +701,8 @@ Note that Cauchy priors are not conjugate priors, and typically Markov Chain Mon
 
 ### Jeffreys  Zellner-Siow Cauchy prior
 
-* Jeffreys reference prior on $\sigma^2$. 
 * A Cauchy prior on $\mu$. 
+* Jeffreys reference prior on $\sigma^2$. 
 
 The textbook really doesn't explain this well. But it is built into the R package `statsr` under the name`"JZS"`, and seems to be how they prefer to do inference unless using just Jeffreys prior works (see Bartlett's or Jeffreys-Lindleys paradox below)
 
@@ -850,11 +850,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMwNTcxODYsMTk3NTQ4NDUzLDQzNj
-c4OTQ0MSwtMzI2NTU4MTY5LC0xMjkxMzczMTAwLC0xNTEwOTI5
-NDM4LC0xNTg2OTU5NzM0LC0xMzMxMzkzMDY5LC0yOTY3NDExOT
-csLTEzMjAyODY2MDAsLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4
-MjI0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MD
-A2MjAsMTQyNTUzOTEwLC0xODUyNzM1ODY2LC0xNzUyODM5NjUx
-LDIwNDQyNTA5NTBdfQ==
+eyJoaXN0b3J5IjpbLTIzOTg3Njg1MiwxOTc1NDg0NTMsNDM2Nz
+g5NDQxLC0zMjY1NTgxNjksLTEyOTEzNzMxMDAsLTE1MTA5Mjk0
+MzgsLTE1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5Ny
+wtMTMyMDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgy
+MjQ3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMD
+YyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEs
+MjA0NDI1MDk1MF19
 -->
