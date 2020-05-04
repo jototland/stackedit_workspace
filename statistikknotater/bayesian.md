@@ -695,9 +695,9 @@ $$\begin{aligned}
 &=\textrm{Cauchy}(m_0, \sigma^2r^2)
  \end{aligned}$$
 
-Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. See Bartlett’s or Jeffreys-Lindleys paradox below for the reason why. 
+Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. See Bartlett’s or Jeffreys-Lindleys paradox, and the Information paradox, both below for the reason why. 
 
-Note that Cauchy priors are not conjugate priors, and typically Markov Chain Monte Carlo simulation is needed to get a result. 
+Note that Cauchy priors are not conjugate priors, and typically Markov Chain Monte Carlo simulation is needed to get a posterior. 
 
 ### Jeffreys  Zellner-Siow Cauchy prior
 
@@ -731,7 +731,6 @@ $$\text{where } Z=\frac{x -m_0}{\frac{\sigma}{\sqrt{n}}}$$
 ### Bartlett's or Jeffreys-Lindleys paradox
 
 Say we're doing hypothesis testing for $\mu \stackrel{?}{=}m_0$, known variance
-
 
 Note that $\lim_{n_0\to 0}\textrm{BF}[H_1:H_2]\to\infty$. Low values of $n_0$ will bias the hypothesis test towards $H_1$. So we cannot use an improper prior such as Jeffreys prior (Bartlett's or Jeffreys-Lindleys paradox). Nor can we use vague priors less than 1.
 
@@ -784,7 +783,9 @@ $$ \lim_{|t|\to\infty} BF[H_1:H_2] = (\frac{n_0}{n+n_0})^{\frac{n-1}{2}} $$
 
 That is, even with infinitely large difference between the mean of the observed data, and the prior mean, the Bayes factor doesn't go to zero, but towards a constant. 
 
-Conclusion: don't use a normal prior, use a Cauchy prior. 
+This is a consequence of using a normal prior. 
+
+Conclusion: don't use a normal prior, use a Cauchy prior!
 
 ### Hypothesis testing for two independent means
 
@@ -862,11 +863,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzg5NzE0MywtMTY0MjA3MzIwMSwtMj
-M5ODc2ODUyLDE5NzU0ODQ1Myw0MzY3ODk0NDEsLTMyNjU1ODE2
-OSwtMTI5MTM3MzEwMCwtMTUxMDkyOTQzOCwtMTU4Njk1OTczNC
-wtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0x
-MDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0Nj
-QwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwt
-MTg1MjczNTg2Nl19
+eyJoaXN0b3J5IjpbLTI4NDE3MDk3NSwxNjM3ODk3MTQzLC0xNj
+QyMDczMjAxLC0yMzk4NzY4NTIsMTk3NTQ4NDUzLDQzNjc4OTQ0
+MSwtMzI2NTU4MTY5LC0xMjkxMzczMTAwLC0xNTEwOTI5NDM4LC
+0xNTg2OTU5NzM0LC0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEz
+MjAyODY2MDAsLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4MjI0Nz
+E3NywyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAs
+MTQyNTUzOTEwXX0=
 -->
