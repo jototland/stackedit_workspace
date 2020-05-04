@@ -773,8 +773,8 @@ X_{B,i} \stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
 H_1: \alpha=a_0 \\
 H_2: \alpha \ne a_0 \\
 BF[H_1:H_2] = 
-\frac {\iint p(\textrm{data}|\alpha=a_0, \mu,\sigma^2)p(\sigma^2|H_1)d\mu\,d\sigma^2} 
-{\iint p(\textrm{data}|\mu, \sigma^2)p(\mu|\sigma^2,H_2)p(\sigma^2|H_2)d\mu\,d\sigma^2} \\
+\frac {\iint p(\textrm{data}|\alpha=a_0, \mu,\sigma^2)p(\mu,\sigma|H_1)d\mu\,d\sigma^2} 
+{\iiint p(\textrm{data}|\alpha,\mu, \sigma^2)p(\alpha|\sigma^2)p(\sigma^2|H_2)d\mu\,d\sigma^2} \\
 \end{aligned}$$
 
 ##  Examples using `bayes_inference()` from `statsr`
@@ -817,11 +817,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTA1ODYwOSwtMTU4Njk1OTczNCwtMT
-MzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0
-OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNC
-wtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1
-MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMj
-IwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5
-MDkzOTkwN119
+eyJoaXN0b3J5IjpbLTIxMjE1MDkwNTcsLTE1ODY5NTk3MzQsLT
+EzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1
+NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MD
+QsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4
+NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2Mj
+IyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYsLTExNzM1NjU1OTQs
+OTA5Mzk5MDddfQ==
 -->
