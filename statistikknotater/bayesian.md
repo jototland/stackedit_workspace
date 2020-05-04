@@ -755,6 +755,8 @@ $$ n_0 = (1.96/0.03)^2$$
 
 Assume $X_1\ldots X_n \stackrel{iid}{\sim} \textrm{Normal}(\mu, \sigma^2)$
 
+With a normal prior for $H_2$, we get:
+
 $$\begin{array}{rcl}
 H_1 &:& \mu|\sigma^2=m_0 \\
 H_2 &:& \mu|\sigma^2 \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
@@ -780,7 +782,7 @@ If you use normal prior on the mean of the normal distribution, and fix $n$ and 
 
 $$ \lim_{|t|\to\infty} BF[H_1:H_2] = (\frac{n_0}{n+n_0})^{\frac{n-1}{2}} $$
 
-That is, even with infinitely large difference between the mean of the observed data, and the prior mean
+That is, even with infinitely large difference between the mean of the observed data, and the prior mean, the Bayes factor doesn't go to zero, but towards a constant. 
 
 Conclusion: don't use a normal prior, use a Cauchy prior. 
 
@@ -860,11 +862,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzE1MjEwLC0xNjQyMDczMjAxLC0yMz
-k4NzY4NTIsMTk3NTQ4NDUzLDQzNjc4OTQ0MSwtMzI2NTU4MTY5
-LC0xMjkxMzczMTAwLC0xNTEwOTI5NDM4LC0xNTg2OTU5NzM0LC
-0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEzMjAyODY2MDAsLTEw
-NTQ5MTA0MzIsMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4NjQ2ND
-A0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0x
-ODUyNzM1ODY2XX0=
+eyJoaXN0b3J5IjpbMTYzNzg5NzE0MywtMTY0MjA3MzIwMSwtMj
+M5ODc2ODUyLDE5NzU0ODQ1Myw0MzY3ODk0NDEsLTMyNjU1ODE2
+OSwtMTI5MTM3MzEwMCwtMTUxMDkyOTQzOCwtMTU4Njk1OTczNC
+wtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0x
+MDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0Nj
+QwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwt
+MTg1MjczNTg2Nl19
 -->
