@@ -762,11 +762,11 @@ $$
 
 Unknown mean
 
-$$\begin{array}
+$$\begin{array}{rcl}
 H_1 &:& \mu=m_0 \\
 H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
-&&1/\sigma^2 \\
-\end{aligned}
+&&1/\sigma^2 \sim \textrm{Gamma}\\
+\end{array}
 \\
 \begin{aligned}
 BF[H_1:H_2] &= \sqrt{\frac {n+n_0} {n_0}} 
@@ -799,11 +799,11 @@ $$
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzQxMDM4NSwyMDE4NjQ2NDA0LC00OT
-MxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1
-ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNS
-wxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5
-OTA3LC0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMj
-EsLTgwMDY4Mjc5Niw5NTY3NTA0NTEsLTExNjExMzA0OTcsLTE5
-Mzg4OTcwMzddfQ==
+eyJoaXN0b3J5IjpbLTExNDA2MDQzNTEsMjAxODY0NjQwNCwtND
+kzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1Mjcz
+NTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMz
+UsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkz
+OTkwNywtMTU3MjIyNDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MT
+IxLC04MDA2ODI3OTYsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0x
+OTM4ODk3MDM3XX0=
 -->
