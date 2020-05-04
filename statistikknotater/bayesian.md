@@ -676,7 +676,7 @@ p(\mu, \sigma^2) &\propto 1/\sigma^2
 
 Under the reference prior $p(\mu,\sigma^2) \propto 1/\sigma^2$
 
-$$\frac{mu-\bar x}{\sqrt{s^2/n}}|\textrm{data} \si$$
+$$\frac{\mu-\bar x}{\sqrt{s^2/n}}|\textrm{data} \sim \textrm{StudentT}(n-1)$$
 
 ### Cauchy priors
 
@@ -805,7 +805,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTcyODAzNiwxNzA0NTI1NjI1LDgyMj
+eyJoaXN0b3J5IjpbLTg1MTE4OTUyOSwxNzA0NTI1NjI1LDgyMj
 Q3MTc3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYy
 MCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMj
 A0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1
