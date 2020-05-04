@@ -776,7 +776,7 @@ X_{B,i} &\stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
 
 The variance must be assumed equal in both groups (otherwise: Behren-Fisher problem, which is more advanced)
 
-The expected difference between group A and B is $a_0$. If the expectation is that the means are equal, $\alpha=0$. 
+The expected difference between group A and B is $a_0$. If the expectation is that the means are equal, $\a=0$. 
 
 We set up the two hypotheses
 
@@ -841,11 +841,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjU1ODE2OSwtMTI5MTM3MzEwMCwtMT
-UxMDkyOTQzOCwtMTU4Njk1OTczNCwtMTMzMTM5MzA2OSwtMjk2
-NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1Mj
-U2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0x
-ODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1Mj
-gzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4
-OCwtMjkwNTU4Nl19
+eyJoaXN0b3J5IjpbLTExNTQ5NjIxOTgsLTMyNjU1ODE2OSwtMT
+I5MTM3MzEwMCwtMTUxMDkyOTQzOCwtMTU4Njk1OTczNCwtMTMz
+MTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OT
+EwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0NjQwNCwt
+NDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMTg1Mj
+czNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIw
+MzUsMTAyOTE1NDk4OF19
 -->
