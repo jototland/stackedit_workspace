@@ -703,7 +703,7 @@ $$\begin{aligned}
 &= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
 {\int p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
 &={\color{blue}
-	\sqrt{\frac{n+n_0}{n_0}}e^{-\frac 1 2 \frac{n}{n+n_0}Z^2}
+	\sqrt{\frac{n+n_0}{n_0}}e^{(-\frac 1 2 \frac{n}{n+n_0}Z^2)}
 }
 \end{aligned}$$
 
@@ -793,7 +793,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM4NjYzMDMsODIyNDcxNzcsMjAxOD
+eyJoaXN0b3J5IjpbLTE5ODE5NzU3NjIsODIyNDcxNzcsMjAxOD
 Y0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1Mzkx
 MCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLD
 E1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4NiwtMTE3MzU2
