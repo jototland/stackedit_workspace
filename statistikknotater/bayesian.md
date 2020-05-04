@@ -705,6 +705,8 @@ Jeffreys reference prior on $\sigma^2$. A Cauchy prior on $\mu$. The textbook re
 
 ### Hypothesis testing for mean with known variance
 
+Assume $X_1\ldotsX_n \
+
 $$\begin{array}{rcl}
 H_1 &:& \mu=m_0 \\
 H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
@@ -841,11 +843,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2Nzg5NDQxLC0zMjY1NTgxNjksLTEyOT
-EzNzMxMDAsLTE1MTA5Mjk0MzgsLTE1ODY5NTk3MzQsLTEzMzEz
-OTMwNjksLTI5Njc0MTE5NywtMTMyMDI4NjYwMCwtMTA1NDkxMD
-QzMiwxNzA0NTI1NjI1LDgyMjQ3MTc3LDIwMTg2NDY0MDQsLTQ5
-MzE3MjM0NiwtMTgwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3Mz
-U4NjYsLTE3NTI4Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1
-LDEwMjkxNTQ5ODhdfQ==
+eyJoaXN0b3J5IjpbMzIxNjYzMjU4LDQzNjc4OTQ0MSwtMzI2NT
+U4MTY5LC0xMjkxMzczMTAwLC0xNTEwOTI5NDM4LC0xNTg2OTU5
+NzM0LC0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEzMjAyODY2MD
+AsLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4
+NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOT
+EwLC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAs
+MTU2NjIyMjAzNV19
 -->
