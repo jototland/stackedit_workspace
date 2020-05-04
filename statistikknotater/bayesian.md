@@ -671,7 +671,7 @@ According to the lecturer (which I did not in the least understand), with this p
 $$\begin{aligned}
 p(\mu|\sigma^2) &\propto 1\\
 p(\sigma^2) &\propto 1/\sigma^2 \\
-p(\mu, sigma^2) &\propto 1/\sigma^2
+p(\mu, \sigma^2) &\propto 1/\sigma^2
 \end{aligned}$$
 
 ### Cauchy priors
@@ -801,7 +801,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDA4ODEyMSw4MjI0NzE3NywyMDE4Nj
+eyJoaXN0b3J5IjpbMTcwNDUyNTYyNSw4MjI0NzE3NywyMDE4Nj
 Q2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEw
 LC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMT
 U2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1
