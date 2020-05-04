@@ -749,7 +749,10 @@ Using the `statsr`  package:
 
 Known mean
 
-$$ \textrm $$
+$$/begin{aligned}
+\textrm{BF}[H_1:H_2] 
+&= \frac {p(\textrm{data}|\mu=m_0, \sigma^2} {}
+\end{aligned}$$
 
 Unknown mean
 
@@ -782,7 +785,7 @@ t=\frac{|\bar Y|}{s/\sqrt{n}}\\
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODc4Nzk5MywtNDkzMTcyMzQ2LC0xOD
+eyJoaXN0b3J5IjpbLTUzOTUxNzk1MCwtNDkzMTcyMzQ2LC0xOD
 A4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1Mjgz
 OTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OC
 wtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIy
