@@ -699,7 +699,7 @@ $$\begin{aligned}
 &=\textrm{Cauchy}(m_0, \sigma^2r^2)
  \end{aligned}$$
 
-Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note that Cauchy priors are not conjugate priors.
+Sir Harold Jeffreys recommended Cauchy priors as a default objective prior. Note that Cauchy priors are not conjugate priors, and typically Markov Chain Monte Carlo simulation is needed to get a result. 
 
 ### Jeffreys  Zellner-Siow Cauchy prior
 
@@ -809,11 +809,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4Mj
-I0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2
-MjAsMTQyNTUzOTEwLC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLD
-IwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1
-NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC0xNTcyMjI0MDMyLC
-0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgwMDY4Mjc5Niw5NTY3
-NTA0NTFdfQ==
+eyJoaXN0b3J5IjpbLTEzMjAyODY2MDAsLTEwNTQ5MTA0MzIsMT
+cwNDUyNTYyNSw4MjI0NzE3NywyMDE4NjQ2NDA0LC00OTMxNzIz
+NDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1ODY2LC
+0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNSwxMDI5
+MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5OTA3LC
+0xNTcyMjI0MDMyLC0xODQwNDYyNzUwLDE4NzgwNTkxMjEsLTgw
+MDY4Mjc5Nl19
 -->
