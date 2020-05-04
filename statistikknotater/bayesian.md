@@ -783,6 +783,8 @@ H_1: \alpha=a_0 \\
 H_2: \alpha \ne a_0 \\
 \end{aligned}$$
 
+We cannot use an improper prior if we want to avoid Bartlett’s or Jeffreys-Lindleys paradox. Therefore, we sett
+
 $$\begin{aligned}
 \textrm{both}: p(\mu,\sigma^2) \propto 1/\sigma^2 \\
 H_2: \delta = \alpha/\sigma^2 \sim \textrm{Cauchy}(0, r^2) \\
@@ -831,11 +833,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE5ODMzNjIsLTE1MTA5Mjk0MzgsLT
-E1ODY5NTk3MzQsLTEzMzEzOTMwNjksLTI5Njc0MTE5NywtMTMy
-MDI4NjYwMCwtMTA1NDkxMDQzMiwxNzA0NTI1NjI1LDgyMjQ3MT
-c3LDIwMTg2NDY0MDQsLTQ5MzE3MjM0NiwtMTgwODYwMDYyMCwx
-NDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4Mzk2NTEsMjA0ND
-I1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5ODgsLTI5MDU1ODYs
-LTExNzM1NjU1OTRdfQ==
+eyJoaXN0b3J5IjpbLTY0NDU2MzEzNSwtMTUxMDkyOTQzOCwtMT
+U4Njk1OTczNCwtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIw
+Mjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNz
+csMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0
+MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0Mj
+UwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4Niwt
+MTE3MzU2NTU5NF19
 -->
