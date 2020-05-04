@@ -774,11 +774,11 @@ X_{A,i} &\stackrel{iid}{\sim} \textrm{Normal}(\mu+\alpha/2, \sigma^2) \\
 X_{B,i} &\stackrel{iid}{\sim} \textrm{Normal}(\mu-\alpha/2, \sigma^2) \\
 \end{aligned}$$
 
-The variance
+The variance must be assumed equal in both groups (otherwise: Behren-Fisher problem, which is more advanced)
 
-If the means are equal, $\alpha=0$. 
+$\alpha=a_0$ is the difference between the mean for the A group and the B group. If the means are equal, $\alpha=0$. 
 
-If the means differ by a fixed constant, $\alpha=a_0$ is the difference between the mean for the A group and the B group. We set up the two hypotheses
+We set up the two hypotheses
 
 $$\begin{aligned}
 H_1: \alpha=a_0 \\
@@ -838,11 +838,11 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjM3NTcyMywtMTUxMDkyOTQzOCwtMT
-U4Njk1OTczNCwtMTMzMTM5MzA2OSwtMjk2NzQxMTk3LC0xMzIw
-Mjg2NjAwLC0xMDU0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNz
-csMjAxODY0NjQwNCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0
-MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0Mj
-UwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OCwtMjkwNTU4Niwt
-MTE3MzU2NTU5NF19
+eyJoaXN0b3J5IjpbNjk2NTA4MTg3LC0xNTEwOTI5NDM4LC0xNT
+g2OTU5NzM0LC0xMzMxMzkzMDY5LC0yOTY3NDExOTcsLTEzMjAy
+ODY2MDAsLTEwNTQ5MTA0MzIsMTcwNDUyNTYyNSw4MjI0NzE3Ny
+wyMDE4NjQ2NDA0LC00OTMxNzIzNDYsLTE4MDg2MDA2MjAsMTQy
+NTUzOTEwLC0xODUyNzM1ODY2LC0xNzUyODM5NjUxLDIwNDQyNT
+A5NTAsMTU2NjIyMjAzNSwxMDI5MTU0OTg4LC0yOTA1NTg2LC0x
+MTczNTY1NTk0XX0=
 -->
