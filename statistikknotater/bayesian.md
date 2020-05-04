@@ -759,7 +759,7 @@ H_2 &:& \mu|\sigma^2 \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
 $$\begin{aligned}
 BF[H_1:H_2] 
 &= \frac {\int p(\textrm{data}|\mu=m_0, \sigma^2)p(\sigma^2|H_1)d\sigma^2} 
-{\iint p(\textrm{data}|\mu, \sigma^2)p(\mu|m_0,n_0, \sigma^2)d\mu} \\
+{\iint p(\textrm{data}|\mu, \sigma^2)p(\mu|\sigma^2,H_2)p('d\mu d\sigma^2} \\
 &={\color{blue}
 	 \sqrt{\frac {n+n_0} {n_0}} 
 	\left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
@@ -809,7 +809,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMzgyMDkxLC0xMzIwMjg2NjAwLC0xMD
+eyJoaXN0b3J5IjpbNDQxNTA5NDE1LC0xMzIwMjg2NjAwLC0xMD
 U0OTEwNDMyLDE3MDQ1MjU2MjUsODIyNDcxNzcsMjAxODY0NjQw
 NCwtNDkzMTcyMzQ2LC0xODA4NjAwNjIwLDE0MjU1MzkxMCwtMT
 g1MjczNTg2NiwtMTc1MjgzOTY1MSwyMDQ0MjUwOTUwLDE1NjYy
