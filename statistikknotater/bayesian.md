@@ -749,9 +749,11 @@ Using the `statsr`  package:
 
 Known mean
 
-$$/begin{aligned}
+$$\begin{aligned}
 \textrm{BF}[H_1:H_2] 
-&= \frac {p(\textrm{data}|\mu=m_0, \sigma^2} {}
+&= \frac {p(\textrm{data}|\mu=m_0, \sigma^2)} 
+{\int } \\
+a&b
 \end{aligned}$$
 
 Unknown mean
@@ -785,11 +787,11 @@ t=\frac{|\bar Y|}{s/\sqrt{n}}\\
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTUxNzk1MCwtNDkzMTcyMzQ2LC0xOD
-A4NjAwNjIwLDE0MjU1MzkxMCwtMTg1MjczNTg2NiwtMTc1Mjgz
-OTY1MSwyMDQ0MjUwOTUwLDE1NjYyMjIwMzUsMTAyOTE1NDk4OC
-wtMjkwNTU4NiwtMTE3MzU2NTU5NCw5MDkzOTkwNywtMTU3MjIy
-NDAzMiwtMTg0MDQ2Mjc1MCwxODc4MDU5MTIxLC04MDA2ODI3OT
-YsOTU2NzUwNDUxLC0xMTYxMTMwNDk3LC0xOTM4ODk3MDM3LC02
-MDQ1MzM1ODZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTgzNzQ0MzAsLTQ5MzE3MjM0NiwtMT
+gwODYwMDYyMCwxNDI1NTM5MTAsLTE4NTI3MzU4NjYsLTE3NTI4
+Mzk2NTEsMjA0NDI1MDk1MCwxNTY2MjIyMDM1LDEwMjkxNTQ5OD
+gsLTI5MDU1ODYsLTExNzM1NjU1OTQsOTA5Mzk5MDcsLTE1NzIy
+MjQwMzIsLTE4NDA0NjI3NTAsMTg3ODA1OTEyMSwtODAwNjgyNz
+k2LDk1Njc1MDQ1MSwtMTE2MTEzMDQ5NywtMTkzODg5NzAzNywt
+NjA0NTMzNTg2XX0=
 -->
