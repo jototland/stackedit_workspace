@@ -776,7 +776,7 @@ $$\text{where } t=\frac{|\bar Y|}{s/\sqrt{n}} \text{ and }\nu=n-1$$
 
 ### The information paradox
 
-A normal prior on the normal distribution, 
+If you use normal prior on the mean of the normal distribution, if you use a huge deviation in the mean for the data and prior ($t \to \infty$), then the Bayes factor goes to a co
 
 ### Hypothesis testing for two independent means
 
@@ -854,7 +854,7 @@ Using the `statsr`  package:
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDg3OTg2NCwtMjM5ODc2ODUyLDE5Nz
+eyJoaXN0b3J5IjpbMTk3NjExNzcyMiwtMjM5ODc2ODUyLDE5Nz
 U0ODQ1Myw0MzY3ODk0NDEsLTMyNjU1ODE2OSwtMTI5MTM3MzEw
 MCwtMTUxMDkyOTQzOCwtMTU4Njk1OTczNCwtMTMzMTM5MzA2OS
 wtMjk2NzQxMTk3LC0xMzIwMjg2NjAwLC0xMDU0OTEwNDMyLDE3
