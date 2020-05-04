@@ -762,11 +762,13 @@ $$
 
 Unknown mean
 
-$$\begin{aligned}
-H_1 : &\mu=m_0 \\
-H_2 : &\mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
-&\, 1/\sigma^2 \\
-\end{aligned}\begin{aligned}
+$$\begin{array}
+H_1 &:& \mu=m_0 \\
+H_2 &:& \mu \sim \textrm{Normal}(m_0, \sigma^2/n_0)\\
+&&1/\sigma^2 \\
+\end{aligned}
+\\
+\begin{aligned}
 BF[H_1:H_2] &= \sqrt{\frac {n+n_0} {n_0}} 
 \left(\frac {t^2\frac{n_0}{n+n_0}+\nu} {t^2+\nu}\right) ^ 
 \frac {\nu+1}{2} 
@@ -797,7 +799,7 @@ $$
 	## P(H2|data) = 0.1489 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDgwMTgwMCwyMDE4NjQ2NDA0LC00OT
+eyJoaXN0b3J5IjpbMTY1MzQxMDM4NSwyMDE4NjQ2NDA0LC00OT
 MxNzIzNDYsLTE4MDg2MDA2MjAsMTQyNTUzOTEwLC0xODUyNzM1
 ODY2LC0xNzUyODM5NjUxLDIwNDQyNTA5NTAsMTU2NjIyMjAzNS
 wxMDI5MTU0OTg4LC0yOTA1NTg2LC0xMTczNTY1NTk0LDkwOTM5
