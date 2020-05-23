@@ -13,6 +13,9 @@ List only directories/containers/buckets
 List files and directories: only names
 : `rclone lsf foo:/bar/`
 
+List everything in JSON
+: `rclone lsjson --max-depth=1
+
 Test what would happen without doing it
 : `--dry-run`
 
@@ -38,8 +41,8 @@ mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjU1MzgwMSwtMTc3MTc3MTU4MSwtNj
-M4NjQ4MzkxLDE3MTg2MTc0NCwtMTIxOTQ4NzUyNCwtNTA4NDg5
-OTI0LDg3MDkxNzUzMiwxNjQ4MTcwMzM4LDM5NzA2NDQ5MSwtMT
-EyNjYxMTE5Ml19
+eyJoaXN0b3J5IjpbMjE1NDIwNTg1LC0xNzcxNzcxNTgxLC02Mz
+g2NDgzOTEsMTcxODYxNzQ0LC0xMjE5NDg3NTI0LC01MDg0ODk5
+MjQsODcwOTE3NTMyLDE2NDgxNzAzMzgsMzk3MDY0NDkxLC0xMT
+I2NjExMTkyXX0=
 -->
