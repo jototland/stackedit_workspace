@@ -17,8 +17,10 @@ Copy files
 Google drive duplicated files fix
 : `rclone dedupe`
 
-
+mount as local directory
+: `rclone mount foo:/bar/ ~/mydir/ &`
+fusermount -u ~/mydir/ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwOTE3NTMyLDE2NDgxNzAzMzgsMzk3MD
-Y0NDkxLC0xMTI2NjExMTkyXX0=
+eyJoaXN0b3J5IjpbLTE4NzQzNTk5MTAsODcwOTE3NTMyLDE2ND
+gxNzAzMzgsMzk3MDY0NDkxLC0xMTI2NjExMTkyXX0=
 -->
