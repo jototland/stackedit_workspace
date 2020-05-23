@@ -1,14 +1,17 @@
 Set up a new `remote` (google drive, onedrive, etc...)
 : `rclone config`
 
-List size and path of files
+List only files: size and path
 : `rclone ls -max-depth=1 foo:/bar/`
 
-List size, modification time and path of files
+List only files: size, modification time and path
 : `rclone lsl -max-depth=1 foo:/bar/`
 
-List directories/containers/buckets
+List only directories/containers/buckets
 : `rclone lsd foo:/bar/`
+
+List files and directories: only names
+: `rclone lsf foo:/bar/`
 
 Test what would happen without doing it
 : `--dry-run`
@@ -35,7 +38,7 @@ mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mjk2NTcyNywtMTc3MTc3MTU4MSwtNj
+eyJoaXN0b3J5IjpbMTU5MjU1MzgwMSwtMTc3MTc3MTU4MSwtNj
 M4NjQ4MzkxLDE3MTg2MTc0NCwtMTIxOTQ4NzUyNCwtNTA4NDg5
 OTI0LDg3MDkxNzUzMiwxNjQ4MTcwMzM4LDM5NzA2NDQ5MSwtMT
 EyNjYxMTE5Ml19
