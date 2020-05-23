@@ -2,7 +2,10 @@ Set up a new `remote` (google drive, onedrive, etc...)
 : `rclone config`
 
 List size and path of files
-: rclone ls -max-depth=1 foo:/bar
+: `rclone ls -max-depth=1 foo:/bar`
+
+List size, modification time and path of files
+: `rclone lsl -max-de`
 
 List all objects (with size and pat h) in remote `foo` under  path `/bar/`
 : `rclone ls foo:/bar/
@@ -35,8 +38,8 @@ mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjEyNzgzNjksLTE3NzE3NzE1ODEsLT
-YzODY0ODM5MSwxNzE4NjE3NDQsLTEyMTk0ODc1MjQsLTUwODQ4
-OTkyNCw4NzA5MTc1MzIsMTY0ODE3MDMzOCwzOTcwNjQ0OTEsLT
-ExMjY2MTExOTJdfQ==
+eyJoaXN0b3J5IjpbLTY4ODQzNTAzMiwtMTc3MTc3MTU4MSwtNj
+M4NjQ4MzkxLDE3MTg2MTc0NCwtMTIxOTQ4NzUyNCwtNTA4NDg5
+OTI0LDg3MDkxNzUzMiwxNjQ4MTcwMzM4LDM5NzA2NDQ5MSwtMT
+EyNjYxMTE5Ml19
 -->
