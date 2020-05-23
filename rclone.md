@@ -19,8 +19,8 @@ Google drive duplicated files fix
 
 mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
-fusermount -u ~/mydir/ 
+`fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQzNTk5MTAsODcwOTE3NTMyLDE2ND
-gxNzAzMzgsMzk3MDY0NDkxLC0xMTI2NjExMTkyXX0=
+eyJoaXN0b3J5IjpbLTUwODQ4OTkyNCw4NzA5MTc1MzIsMTY0OD
+E3MDMzOCwzOTcwNjQ0OTEsLTExMjY2MTExOTJdfQ==
 -->
