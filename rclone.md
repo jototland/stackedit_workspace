@@ -23,12 +23,13 @@ Google drive duplicated files fix
 
 serve as other protocol
 : `rclone serve ftp foo:/bar/`
-Protocols: `http`, `ftp`, `
+Protocols: `http`, `ftp`, `sftp`, `dlna`, `restic`, `webdav`, possibly others...
+
 mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjU2MTM5NywtMTIxOTQ4NzUyNCwtNT
-A4NDg5OTI0LDg3MDkxNzUzMiwxNjQ4MTcwMzM4LDM5NzA2NDQ5
-MSwtMTEyNjYxMTE5Ml19
+eyJoaXN0b3J5IjpbMTcxODYxNzQ0LC0xMjE5NDg3NTI0LC01MD
+g0ODk5MjQsODcwOTE3NTMyLDE2NDgxNzAzMzgsMzk3MDY0NDkx
+LC0xMTI2NjExMTkyXX0=
 -->
