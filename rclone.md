@@ -2,15 +2,12 @@ Set up a new `remote` (google drive, onedrive, etc...)
 : `rclone config`
 
 List size and path of files
-: `rclone ls -max-depth=1 foo:/bar`
+: `rclone ls -max-depth=1 foo:/bar/`
 
 List size, modification time and path of files
-: `rclone lsl -max-de`
+: `rclone lsl -max-depth=1 foo:/bar/`
 
-List all objects (with size and pat h) in remote `foo` under  path `/bar/`
-: `rclone ls foo:/bar/
-
-List all directories/containers/buckets in remote `foo` under path `bar`
+List directories/containers/buckets
 : `rclone lsd foo:/bar/`
 
 Test what would happen without doing it
@@ -38,7 +35,7 @@ mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODQzNTAzMiwtMTc3MTc3MTU4MSwtNj
+eyJoaXN0b3J5IjpbMTI1Mjk2NTcyNywtMTc3MTc3MTU4MSwtNj
 M4NjQ4MzkxLDE3MTg2MTc0NCwtMTIxOTQ4NzUyNCwtNTA4NDg5
 OTI0LDg3MDkxNzUzMiwxNjQ4MTcwMzM4LDM5NzA2NDQ5MSwtMT
 EyNjYxMTE5Ml19
