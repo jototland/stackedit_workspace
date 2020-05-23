@@ -1,4 +1,4 @@
- Set up a new `remote` (google drive, onedrive, etc...)
+Set up a new `remote` (google drive, onedrive, etc...)
 : `rclone config`
 
 List files and directories: only names
@@ -44,8 +44,8 @@ mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDI5NjgxOSwtMTczNzg1NzEzNywtMT
-c3MTc3MTU4MSwtNjM4NjQ4MzkxLDE3MTg2MTc0NCwtMTIxOTQ4
-NzUyNCwtNTA4NDg5OTI0LDg3MDkxNzUzMiwxNjQ4MTcwMzM4LD
-M5NzA2NDQ5MSwtMTEyNjYxMTE5Ml19
+eyJoaXN0b3J5IjpbLTE3Mzc4NTcxMzcsLTE3Mzc4NTcxMzcsLT
+E3NzE3NzE1ODEsLTYzODY0ODM5MSwxNzE4NjE3NDQsLTEyMTk0
+ODc1MjQsLTUwODQ4OTkyNCw4NzA5MTc1MzIsMTY0ODE3MDMzOC
+wzOTcwNjQ0OTEsLTExMjY2MTExOTJdfQ==
 -->
