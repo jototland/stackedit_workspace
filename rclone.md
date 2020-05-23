@@ -21,11 +21,14 @@ Sync files
 Google drive duplicated files fix
 : `rclone dedupe`
 
+serve as other protocol
+: `rclone serve ftp foo:/bar/`
+Protocols: `http`, `ftp`, `
 mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk0ODc1MjQsLTUwODQ4OTkyNCw4Nz
-A5MTc1MzIsMTY0ODE3MDMzOCwzOTcwNjQ0OTEsLTExMjY2MTEx
-OTJdfQ==
+eyJoaXN0b3J5IjpbLTQ0NjU2MTM5NywtMTIxOTQ4NzUyNCwtNT
+A4NDg5OTI0LDg3MDkxNzUzMiwxNjQ4MTcwMzM4LDM5NzA2NDQ5
+MSwtMTEyNjYxMTE5Ml19
 -->
