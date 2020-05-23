@@ -1,6 +1,9 @@
 Set up a new `remote` (google drive, onedrive, etc...)
 : `rclone config`
 
+List files and directories: only names
+: `rclone lsf -max-depth=1 foo:/bar/`
+
 List only files: size and path
 : `rclone ls -max-depth=1 foo:/bar/`
 
@@ -9,9 +12,6 @@ List only files: size, modification time and path
 
 List only directories/containers/buckets
 : `rclone lsd -max-depth=1 foo:/bar/`
-
-List files and directories: only names
-: `rclone lsf -max-depth=1 foo:/bar/`
 
 List everything in JSON
 : `rclone lsjson --max-depth=1 foo:/bar/`
@@ -44,8 +44,8 @@ mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4NTAyMjMxLC0xNzcxNzcxNTgxLC02Mz
-g2NDgzOTEsMTcxODYxNzQ0LC0xMjE5NDg3NTI0LC01MDg0ODk5
-MjQsODcwOTE3NTMyLDE2NDgxNzAzMzgsMzk3MDY0NDkxLC0xMT
-I2NjExMTkyXX0=
+eyJoaXN0b3J5IjpbLTE3Mzc4NTcxMzcsLTE3NzE3NzE1ODEsLT
+YzODY0ODM5MSwxNzE4NjE3NDQsLTEyMTk0ODc1MjQsLTUwODQ4
+OTkyNCw4NzA5MTc1MzIsMTY0ODE3MDMzOCwzOTcwNjQ0OTEsLT
+ExMjY2MTExOTJdfQ==
 -->
