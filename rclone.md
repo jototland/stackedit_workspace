@@ -6,6 +6,12 @@ List all objects (with size and path) in remote `foo` under  path `/bar/`
 
 List all directories/containers/buckets in remote `foo` under path `bar`
 : `rclone lsd foo:/bar/`
+
+Copy files
+: `rclone copy ~/mydir/ foo:/bar`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MDY0NDkxLC0xMTI2NjExMTkyXX0=
+eyJoaXN0b3J5IjpbLTEyMTI0MDgwMTYsMzk3MDY0NDkxLC0xMT
+I2NjExMTkyXX0=
 -->
