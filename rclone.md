@@ -4,8 +4,8 @@ Set up a new `remote` (google drive, onedrive, etc...)
 List all objects (with size and path) in remote `foo` under  path `/bar/`
 : `rclone ls foo:/bar/
 
-List contents of a directory on remote `foo`
+List all directories/containers/buckets in remote `foo` under path `bar`
 : `rclone lsd foo:/bar/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjAzODc5OSwtMTEyNjYxMTE5Ml19
+eyJoaXN0b3J5IjpbMzk3MDY0NDkxLC0xMTI2NjExMTkyXX0=
 -->
