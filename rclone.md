@@ -18,6 +18,9 @@ Sync files
 : file syncing is one-way, from source to destination. Unlike `copy`, `sync` will delete any file in destination, not in source.
 `rclone sync ~/source/ foo:/dest/`
 
+delete/move/etc
+: see manual
+
 Google drive duplicated files fix
 : `rclone dedupe`
 
@@ -29,7 +32,7 @@ mount as local directory
 : `rclone mount foo:/bar/ ~/mydir/ &`
 `fusermount -u ~/mydir/` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODYxNzQ0LC0xMjE5NDg3NTI0LC01MD
-g0ODk5MjQsODcwOTE3NTMyLDE2NDgxNzAzMzgsMzk3MDY0NDkx
-LC0xMTI2NjExMTkyXX0=
+eyJoaXN0b3J5IjpbLTYzODY0ODM5MSwxNzE4NjE3NDQsLTEyMT
+k0ODc1MjQsLTUwODQ4OTkyNCw4NzA5MTc1MzIsMTY0ODE3MDMz
+OCwzOTcwNjQ0OTEsLTExMjY2MTExOTJdfQ==
 -->
