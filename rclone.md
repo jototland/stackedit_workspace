@@ -11,10 +11,11 @@ Copy files
 : `rclone copy ~/source/ foo:/dest`
 `rclone copy foo:/source ~/dest`
 
-Google drive duplicated
+Google drive duplicated files fix
+: `rclone dedupe`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyMzM3MjUwLDE2NDgxNzAzMzgsMzk3MD
-Y0NDkxLC0xMTI2NjExMTkyXX0=
+eyJoaXN0b3J5IjpbLTExODA4NjA2NjIsMTY0ODE3MDMzOCwzOT
+cwNjQ0OTEsLTExMjY2MTExOTJdfQ==
 -->
