@@ -9,9 +9,11 @@ whatweb
 nmap
 nessus
 metasplot (msfconsole)
+nikto
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjA1NDkyMiwxNTkzMzEyMTcwLC04MD
-k1NTc3MzgsNjQyMjAxODAzLDI4NzY2NjM5OF19
+eyJoaXN0b3J5IjpbLTQwMzgyNDQyMywtMzQyMDU0OTIyLDE1OT
+MzMTIxNzAsLTgwOTU1NzczOCw2NDIyMDE4MDMsMjg3NjY2Mzk4
+XX0=
 -->
