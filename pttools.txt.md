@@ -12,9 +12,9 @@ metasplot (msfconsole)
 nikto
 burpsuite
 dirbuster
-
+exploit-db.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE5MjE2MTAsLTQwMzgyNDQyMywtMz
-QyMDU0OTIyLDE1OTMzMTIxNzAsLTgwOTU1NzczOCw2NDIyMDE4
-MDMsMjg3NjY2Mzk4XX0=
+eyJoaXN0b3J5IjpbMzc3NzI2ODUxLC0xNTcxOTIxNjEwLC00MD
+M4MjQ0MjMsLTM0MjA1NDkyMiwxNTkzMzEyMTcwLC04MDk1NTc3
+MzgsNjQyMjAxODAzLDI4NzY2NjM5OF19
 -->
