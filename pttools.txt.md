@@ -13,8 +13,10 @@ nikto
 burpsuite
 dirbuster
 exploit-db.com
+searchsploit
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3NzI2ODUxLC0xNTcxOTIxNjEwLC00MD
-M4MjQ0MjMsLTM0MjA1NDkyMiwxNTkzMzEyMTcwLC04MDk1NTc3
-MzgsNjQyMjAxODAzLDI4NzY2NjM5OF19
+eyJoaXN0b3J5IjpbMTg5MjY5NTQzNiwzNzc3MjY4NTEsLTE1Nz
+E5MjE2MTAsLTQwMzgyNDQyMywtMzQyMDU0OTIyLDE1OTMzMTIx
+NzAsLTgwOTU1NzczOCw2NDIyMDE4MDMsMjg3NjY2Mzk4XX0=
 -->
