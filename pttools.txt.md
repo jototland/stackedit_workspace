@@ -10,10 +10,11 @@ nmap
 nessus
 metasplot (msfconsole)
 nikto
+burpsuite
+dirbuster
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzgyNDQyMywtMzQyMDU0OTIyLDE1OT
-MzMTIxNzAsLTgwOTU1NzczOCw2NDIyMDE4MDMsMjg3NjY2Mzk4
-XX0=
+eyJoaXN0b3J5IjpbLTE1NzE5MjE2MTAsLTQwMzgyNDQyMywtMz
+QyMDU0OTIyLDE1OTMzMTIxNzAsLTgwOTU1NzczOCw2NDIyMDE4
+MDMsMjg3NjY2Mzk4XX0=
 -->
