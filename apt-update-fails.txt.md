@@ -24,8 +24,6 @@ A partial fix is at hand though. And I say"partial" because it involves disablin
     
 
 4.When you see"The operation completed succesfully", reboot your windows. After reboot, boot your VM and update/upgrade.
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzgyNzc5MF19
+eyJoaXN0b3J5IjpbMTI2NDQ5ODk1Ml19
 -->
