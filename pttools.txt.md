@@ -15,10 +15,11 @@ dirbuster
 exploit-db.com
 searchsploit
 
-
+for å leke med:
+vulnhub.coms
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjIzMzc5OCwxODkyNjk1NDM2LDM3Nz
-cyNjg1MSwtMTU3MTkyMTYxMCwtNDAzODI0NDIzLC0zNDIwNTQ5
-MjIsMTU5MzMxMjE3MCwtODA5NTU3NzM4LDY0MjIwMTgwMywyOD
-c2NjYzOThdfQ==
+eyJoaXN0b3J5IjpbLTIwMzI2MzE0MzcsMTg5MjY5NTQzNiwzNz
+c3MjY4NTEsLTE1NzE5MjE2MTAsLTQwMzgyNDQyMywtMzQyMDU0
+OTIyLDE1OTMzMTIxNzAsLTgwOTU1NzczOCw2NDIyMDE4MDMsMj
+g3NjY2Mzk4XX0=
 -->
